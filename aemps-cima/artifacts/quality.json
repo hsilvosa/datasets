@@ -1,0 +1,41 @@
+{
+  "status": "pass",
+  "tables": {
+    "active_ingredients": {
+      "duplicate_primary_keys": 0,
+      "row_count": 33126
+    },
+    "administration_routes": {
+      "duplicate_primary_keys": 0,
+      "row_count": 26685
+    },
+    "atc_codes": {
+      "duplicate_primary_keys": 0,
+      "row_count": 75830
+    },
+    "document_links": {
+      "duplicate_primary_keys": 0,
+      "row_count": 55434
+    },
+    "documents": {
+      "duplicate_primary_keys": 0,
+      "row_count": 846744
+    },
+    "excipients": {
+      "duplicate_primary_keys": 0,
+      "row_count": 54228
+    },
+    "medications": {
+      "duplicate_primary_keys": 0,
+      "row_count": 25447
+    },
+    "photos": {
+      "duplicate_primary_keys": 0,
+      "row_count": 11905
+    },
+    "presentations": {
+      "duplicate_primary_keys": 0,
+      "row_count": 41996
+    }
+  }
+}

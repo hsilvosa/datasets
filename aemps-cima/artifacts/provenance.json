@@ -1,0 +1,19 @@
+{
+  "api_base_url": "https://cima.aemps.es/cima/rest",
+  "api_documentation": "https://cima.aemps.es/cima/resources/docs/CIMA_REST_API.pdf",
+  "api_documentation_version": "1.23",
+  "dataset": "AEMPS CIMA",
+  "historical_change_events_included": false,
+  "normalization": {
+    "compression": "zstd",
+    "document_text": "HTML retained and plain text derived with HTML tags removed",
+    "format": "Parquet",
+    "split_policy": "All rows are in train; no artificial benchmark split"
+  },
+  "open_data_statement": "https://sede.aemps.gob.es/datos-abiertos/",
+  "publisher": "Agencia Espanola de Medicamentos y Productos Sanitarios (AEMPS)",
+  "raw_api_responses_published": false,
+  "research_only": true,
+  "retrieved_at": null,
+  "source_homepage": "https://cima.aemps.es/cima/publico/home.html"
+}

@@ -1,0 +1,28 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+.pytest_cache/
+.pytest_tmp/
+.pytest-tmp/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Reproducible dataset payloads must stay outside Git.
+data/
+hf_staging/
+
+# Local state, credentials, logs, and editor files.
+.env
+.env.*
+!.env.example
+*.log
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

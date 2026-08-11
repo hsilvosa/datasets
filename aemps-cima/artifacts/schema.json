@@ -1,0 +1,442 @@
+{
+  "tables": {
+    "active_ingredients": [
+      {
+        "name": "registration_number",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "position",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "ingredient_id",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "ingredient_code",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "ingredient_name",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "quantity",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "unit",
+        "nullable": true,
+        "type": "string"
+      }
+    ],
+    "administration_routes": [
+      {
+        "name": "registration_number",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "position",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "route_id",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "route_code",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "route_name",
+        "nullable": true,
+        "type": "string"
+      }
+    ],
+    "atc_codes": [
+      {
+        "name": "registration_number",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "position",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "atc_code",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "atc_name",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "atc_level",
+        "nullable": true,
+        "type": "int64"
+      }
+    ],
+    "document_links": [
+      {
+        "name": "registration_number",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "position",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "document_type",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "url",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "html_url",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "source_updated_at",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "segmented_content_available",
+        "nullable": true,
+        "type": "bool"
+      }
+    ],
+    "documents": [
+      {
+        "name": "registration_number",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "document_type",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "section",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "title",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "source_order",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "content_html",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "content_text",
+        "nullable": true,
+        "type": "string"
+      }
+    ],
+    "excipients": [
+      {
+        "name": "registration_number",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "position",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "excipient_id",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "excipient_name",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "quantity",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "unit",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "source_order",
+        "nullable": true,
+        "type": "int64"
+      }
+    ],
+    "medications": [
+      {
+        "name": "registration_number",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "name",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "holder_laboratory",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "marketing_laboratory",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "prescription_conditions",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "dose",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "marketed",
+        "nullable": true,
+        "type": "bool"
+      },
+      {
+        "name": "prescription_required",
+        "nullable": true,
+        "type": "bool"
+      },
+      {
+        "name": "generic",
+        "nullable": true,
+        "type": "bool"
+      },
+      {
+        "name": "affects_driving",
+        "nullable": true,
+        "type": "bool"
+      },
+      {
+        "name": "black_triangle",
+        "nullable": true,
+        "type": "bool"
+      },
+      {
+        "name": "orphan_drug",
+        "nullable": true,
+        "type": "bool"
+      },
+      {
+        "name": "biosimilar",
+        "nullable": true,
+        "type": "bool"
+      },
+      {
+        "name": "ema_authorized",
+        "nullable": true,
+        "type": "bool"
+      },
+      {
+        "name": "supply_problem",
+        "nullable": true,
+        "type": "bool"
+      },
+      {
+        "name": "has_safety_notes",
+        "nullable": true,
+        "type": "bool"
+      },
+      {
+        "name": "has_information_materials",
+        "nullable": true,
+        "type": "bool"
+      },
+      {
+        "name": "authorized_at",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "suspended_at",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "withdrawn_at",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "pharmaceutical_form_id",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "pharmaceutical_form_code",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "pharmaceutical_form_name",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "simplified_pharmaceutical_form_id",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "simplified_pharmaceutical_form_code",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "simplified_pharmaceutical_form_name",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "non_substitutable_id",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "non_substitutable_code",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "non_substitutable_name",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "virtual_therapeutic_moiety_id",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "virtual_therapeutic_moiety_code",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "virtual_therapeutic_moiety_name",
+        "nullable": true,
+        "type": "string"
+      }
+    ],
+    "photos": [
+      {
+        "name": "registration_number",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "position",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "photo_type",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "url",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "source_updated_at",
+        "nullable": true,
+        "type": "int64"
+      }
+    ],
+    "presentations": [
+      {
+        "name": "registration_number",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "national_code",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "name",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "marketed",
+        "nullable": true,
+        "type": "bool"
+      },
+      {
+        "name": "supply_problem",
+        "nullable": true,
+        "type": "bool"
+      },
+      {
+        "name": "position",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "authorized_at",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "suspended_at",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "withdrawn_at",
+        "nullable": true,
+        "type": "int64"
+      }
+    ]
+  }
+}

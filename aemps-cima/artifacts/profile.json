@@ -1,0 +1,6321 @@
+{
+  "dataset": "AEMPS CIMA",
+  "generated_at": "2026-08-11T17:07:52.748816+00:00",
+  "tables": {
+    "active_ingredients": {
+      "column_count": 7,
+      "columns": {
+        "ingredient_code": {
+          "distinct_count": 2947,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "176A",
+            "176A",
+            "1111A",
+            "7371A",
+            "1111CH"
+          ],
+          "string_length": {
+            "max": 7,
+            "mean": 5.193262090201051,
+            "min": 2
+          },
+          "top_values": [
+            {
+              "count": 872,
+              "value": "1343A"
+            },
+            {
+              "count": 521,
+              "value": "2503KB"
+            },
+            {
+              "count": 490,
+              "value": "9696ÑQ"
+            },
+            {
+              "count": 416,
+              "value": "12A"
+            },
+            {
+              "count": 379,
+              "value": "7423A"
+            },
+            {
+              "count": 361,
+              "value": "7432A"
+            },
+            {
+              "count": 313,
+              "value": "7400LV"
+            },
+            {
+              "count": 305,
+              "value": "8215CO"
+            },
+            {
+              "count": 304,
+              "value": "1359CH"
+            },
+            {
+              "count": 272,
+              "value": "898A"
+            },
+            {
+              "count": 260,
+              "value": "3897A"
+            },
+            {
+              "count": 257,
+              "value": "2770A"
+            },
+            {
+              "count": 242,
+              "value": "1136FF"
+            },
+            {
+              "count": 230,
+              "value": "2933A"
+            },
+            {
+              "count": 229,
+              "value": "1769A"
+            },
+            {
+              "count": 220,
+              "value": "8281A"
+            },
+            {
+              "count": 208,
+              "value": "125CL"
+            },
+            {
+              "count": 189,
+              "value": "1167A"
+            },
+            {
+              "count": 181,
+              "value": "1099A"
+            },
+            {
+              "count": 176,
+              "value": "2389CH"
+            }
+          ],
+          "type": "string"
+        },
+        "ingredient_id": {
+          "distinct_count": 2173,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "numeric": {
+            "max": 99945,
+            "mean": 4104.358630682847,
+            "min": 2
+          },
+          "sample_values": [
+            176,
+            176,
+            1111,
+            7371,
+            1111
+          ],
+          "top_values": [
+            {
+              "count": 875,
+              "value": 1343
+            },
+            {
+              "count": 533,
+              "value": 2503
+            },
+            {
+              "count": 490,
+              "value": 9696
+            },
+            {
+              "count": 467,
+              "value": 7400
+            },
+            {
+              "count": 418,
+              "value": 7423
+            },
+            {
+              "count": 416,
+              "value": 12
+            },
+            {
+              "count": 361,
+              "value": 7432
+            },
+            {
+              "count": 357,
+              "value": 125
+            },
+            {
+              "count": 330,
+              "value": 8215
+            },
+            {
+              "count": 305,
+              "value": 1359
+            },
+            {
+              "count": 288,
+              "value": 1136
+            },
+            {
+              "count": 272,
+              "value": 898
+            },
+            {
+              "count": 260,
+              "value": 3897
+            },
+            {
+              "count": 259,
+              "value": 8075
+            },
+            {
+              "count": 257,
+              "value": 2770
+            },
+            {
+              "count": 253,
+              "value": 1769
+            },
+            {
+              "count": 234,
+              "value": 2933
+            },
+            {
+              "count": 220,
+              "value": 8281
+            },
+            {
+              "count": 198,
+              "value": 119
+            },
+            {
+              "count": 189,
+              "value": 1167
+            }
+          ],
+          "type": "int64"
+        },
+        "ingredient_name": {
+          "distinct_count": 2950,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "ACETILSALICILICO ACIDO",
+            "ACETILSALICILICO ACIDO",
+            "ABACAVIR",
+            "LAMIVUDINA",
+            "ABACAVIR CLORHIDRATO"
+          ],
+          "string_length": {
+            "max": 248,
+            "mean": 16.93654531183964,
+            "min": 4
+          },
+          "top_values": [
+            {
+              "count": 872,
+              "value": "HIDROCLOROTIAZIDA"
+            },
+            {
+              "count": 521,
+              "value": "AMLODIPINO BESILATO"
+            },
+            {
+              "count": 490,
+              "value": "OLMESARTAN MEDOXOMILO"
+            },
+            {
+              "count": 416,
+              "value": "PARACETAMOL"
+            },
+            {
+              "count": 379,
+              "value": "VALSARTAN"
+            },
+            {
+              "count": 361,
+              "value": "EZETIMIBA"
+            },
+            {
+              "count": 313,
+              "value": "ATORVASTATINA CALCICA TRIHIDRATO"
+            },
+            {
+              "count": 305,
+              "value": "ROSUVASTATINA  CALCICA"
+            },
+            {
+              "count": 304,
+              "value": "METFORMINA HIDROCLORURO"
+            },
+            {
+              "count": 272,
+              "value": "ETINILESTRADIOL"
+            },
+            {
+              "count": 260,
+              "value": "PREGABALINA"
+            },
+            {
+              "count": 257,
+              "value": "OLANZAPINA"
+            },
+            {
+              "count": 242,
+              "value": "QUETIAPINA FUMARATO"
+            },
+            {
+              "count": 230,
+              "value": "ARIPIPRAZOL"
+            },
+            {
+              "count": 229,
+              "value": "IBUPROFENO"
+            },
+            {
+              "count": 220,
+              "value": "RIVAROXABAN"
+            },
+            {
+              "count": 208,
+              "value": "SODIO CLORURO"
+            },
+            {
+              "count": 189,
+              "value": "LEVETIRACETAM"
+            },
+            {
+              "count": 181,
+              "value": "TELMISARTAN"
+            },
+            {
+              "count": 176,
+              "value": "TRAMADOL HIDROCLORURO"
+            }
+          ],
+          "type": "string"
+        },
+        "position": {
+          "distinct_count": 57,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "numeric": {
+            "max": 56,
+            "mean": 0.9100706393769245,
+            "min": 0
+          },
+          "sample_values": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "top_values": [
+            {
+              "count": 25447,
+              "value": 0
+            },
+            {
+              "count": 4384,
+              "value": 1
+            },
+            {
+              "count": 1014,
+              "value": 2
+            },
+            {
+              "count": 389,
+              "value": 3
+            },
+            {
+              "count": 257,
+              "value": 4
+            },
+            {
+              "count": 196,
+              "value": 5
+            },
+            {
+              "count": 129,
+              "value": 6
+            },
+            {
+              "count": 116,
+              "value": 7
+            },
+            {
+              "count": 109,
+              "value": 8
+            },
+            {
+              "count": 92,
+              "value": 9
+            },
+            {
+              "count": 85,
+              "value": 10
+            },
+            {
+              "count": 82,
+              "value": 11
+            },
+            {
+              "count": 79,
+              "value": 12
+            },
+            {
+              "count": 75,
+              "value": 13
+            },
+            {
+              "count": 75,
+              "value": 14
+            },
+            {
+              "count": 70,
+              "value": 15
+            },
+            {
+              "count": 65,
+              "value": 16
+            },
+            {
+              "count": 64,
+              "value": 17
+            },
+            {
+              "count": 59,
+              "value": 18
+            },
+            {
+              "count": 49,
+              "value": 19
+            }
+          ],
+          "type": "int64"
+        },
+        "quantity": {
+          "distinct_count": 4435,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "100",
+            "500",
+            "600",
+            "300",
+            "676.401"
+          ],
+          "string_length": {
+            "max": 36,
+            "mean": 3.3816941375354705,
+            "min": 1
+          },
+          "top_values": [
+            {
+              "count": 1818,
+              "value": "10"
+            },
+            {
+              "count": 1376,
+              "value": "20"
+            },
+            {
+              "count": 1110,
+              "value": "100"
+            },
+            {
+              "count": 1097,
+              "value": "5"
+            },
+            {
+              "count": 1019,
+              "value": "50"
+            },
+            {
+              "count": 849,
+              "value": "25"
+            },
+            {
+              "count": 790,
+              "value": "40"
+            },
+            {
+              "count": 651,
+              "value": "200"
+            },
+            {
+              "count": 624,
+              "value": "500"
+            },
+            {
+              "count": 605,
+              "value": "1"
+            },
+            {
+              "count": 502,
+              "value": "2"
+            },
+            {
+              "count": 423,
+              "value": "150"
+            },
+            {
+              "count": 422,
+              "value": "300"
+            },
+            {
+              "count": 419,
+              "value": "15"
+            },
+            {
+              "count": 418,
+              "value": "12,5"
+            },
+            {
+              "count": 416,
+              "value": "30"
+            },
+            {
+              "count": 394,
+              "value": "2,5"
+            },
+            {
+              "count": 349,
+              "value": "1000"
+            },
+            {
+              "count": 313,
+              "value": "250"
+            },
+            {
+              "count": 305,
+              "value": "0,5"
+            }
+          ],
+          "type": "string"
+        },
+        "registration_number": {
+          "distinct_count": 25447,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "42991",
+            "42956",
+            "81012",
+            "81012",
+            "82591"
+          ],
+          "string_length": {
+            "max": 21,
+            "mean": 6.037281893376804,
+            "min": 4
+          },
+          "top_values": [
+            {
+              "count": 25,
+              "value": "27454"
+            },
+            {
+              "count": 23,
+              "value": "79952"
+            },
+            {
+              "count": 23,
+              "value": "63828"
+            },
+            {
+              "count": 22,
+              "value": "85115"
+            },
+            {
+              "count": 22,
+              "value": "67054"
+            },
+            {
+              "count": 21,
+              "value": "1251913001"
+            },
+            {
+              "count": 21,
+              "value": "61215"
+            },
+            {
+              "count": 21,
+              "value": "61218"
+            },
+            {
+              "count": 21,
+              "value": "61211"
+            },
+            {
+              "count": 20,
+              "value": "59755"
+            },
+            {
+              "count": 20,
+              "value": "59964"
+            },
+            {
+              "count": 19,
+              "value": "67267"
+            },
+            {
+              "count": 19,
+              "value": "78871"
+            },
+            {
+              "count": 18,
+              "value": "44019"
+            },
+            {
+              "count": 18,
+              "value": "67057"
+            },
+            {
+              "count": 18,
+              "value": "78892"
+            },
+            {
+              "count": 18,
+              "value": "67055"
+            },
+            {
+              "count": 18,
+              "value": "59628"
+            },
+            {
+              "count": 16,
+              "value": "59669"
+            },
+            {
+              "count": 16,
+              "value": "62981"
+            }
+          ],
+          "type": "string"
+        },
+        "unit": {
+          "distinct_count": 87,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "mg",
+            "mg",
+            "mg",
+            "mg",
+            "mg"
+          ],
+          "string_length": {
+            "max": 47,
+            "mean": 2.2045523154017994,
+            "min": 1
+          },
+          "top_values": [
+            {
+              "count": 27070,
+              "value": "mg"
+            },
+            {
+              "count": 2602,
+              "value": "g"
+            },
+            {
+              "count": 922,
+              "value": "µg"
+            },
+            {
+              "count": 649,
+              "value": "mg/ml"
+            },
+            {
+              "count": 607,
+              "value": "UI"
+            },
+            {
+              "count": 144,
+              "value": "g/l"
+            },
+            {
+              "count": 114,
+              "value": "ml"
+            },
+            {
+              "count": 112,
+              "value": "U"
+            },
+            {
+              "count": 66,
+              "value": "mg/g"
+            },
+            {
+              "count": 62,
+              "value": "microgramos/ml"
+            },
+            {
+              "count": 50,
+              "value": "% V/V"
+            },
+            {
+              "count": 45,
+              "value": "MILLONES UI"
+            },
+            {
+              "count": 42,
+              "value": "kilo UI"
+            },
+            {
+              "count": 42,
+              "value": "U.D. (UNIDADES ANTIGENICAS D)"
+            },
+            {
+              "count": 42,
+              "value": "µg/dosis"
+            },
+            {
+              "count": 42,
+              "value": "MBq"
+            },
+            {
+              "count": 32,
+              "value": "µg/pulsación"
+            },
+            {
+              "count": 32,
+              "value": "GIGABECQUERELIOS"
+            },
+            {
+              "count": 30,
+              "value": "%"
+            },
+            {
+              "count": 29,
+              "value": "IP"
+            }
+          ],
+          "type": "string"
+        }
+      },
+      "compressed_bytes": 339394,
+      "row_count": 33126
+    },
+    "administration_routes": {
+      "column_count": 5,
+      "columns": {
+        "position": {
+          "distinct_count": 8,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "numeric": {
+            "max": 7,
+            "mean": 0.06779089376053962,
+            "min": 0
+          },
+          "sample_values": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "top_values": [
+            {
+              "count": 25447,
+              "value": 0
+            },
+            {
+              "count": 892,
+              "value": 1
+            },
+            {
+              "count": 218,
+              "value": 2
+            },
+            {
+              "count": 71,
+              "value": 3
+            },
+            {
+              "count": 30,
+              "value": 4
+            },
+            {
+              "count": 16,
+              "value": 5
+            },
+            {
+              "count": 9,
+              "value": 6
+            },
+            {
+              "count": 2,
+              "value": 7
+            }
+          ],
+          "type": "int64"
+        },
+        "registration_number": {
+          "distinct_count": 25447,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "42991",
+            "42956",
+            "81012",
+            "82591",
+            "84182"
+          ],
+          "string_length": {
+            "max": 21,
+            "mean": 6.045381300356005,
+            "min": 4
+          },
+          "top_values": [
+            {
+              "count": 8,
+              "value": "57110"
+            },
+            {
+              "count": 8,
+              "value": "45669"
+            },
+            {
+              "count": 7,
+              "value": "57109"
+            },
+            {
+              "count": 7,
+              "value": "45668"
+            },
+            {
+              "count": 7,
+              "value": "23817"
+            },
+            {
+              "count": 7,
+              "value": "62411"
+            },
+            {
+              "count": 6,
+              "value": "81969"
+            },
+            {
+              "count": 6,
+              "value": "49313"
+            },
+            {
+              "count": 6,
+              "value": "62412"
+            },
+            {
+              "count": 5,
+              "value": "59613"
+            },
+            {
+              "count": 5,
+              "value": "81695"
+            },
+            {
+              "count": 4,
+              "value": "63171"
+            },
+            {
+              "count": 4,
+              "value": "63172"
+            },
+            {
+              "count": 4,
+              "value": "63173"
+            },
+            {
+              "count": 4,
+              "value": "39710"
+            },
+            {
+              "count": 4,
+              "value": "41474"
+            },
+            {
+              "count": 4,
+              "value": "78286"
+            },
+            {
+              "count": 4,
+              "value": "78287"
+            },
+            {
+              "count": 4,
+              "value": "78288"
+            },
+            {
+              "count": 4,
+              "value": "48877"
+            }
+          ],
+          "type": "string"
+        },
+        "route_code": {
+          "distinct_count": 0,
+          "distinct_count_lower_bound": null,
+          "null_count": 26685,
+          "null_fraction": 1.0,
+          "type": "string"
+        },
+        "route_id": {
+          "distinct_count": 65,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "numeric": {
+            "max": 142000,
+            "mean": 606.372531384673,
+            "min": 1
+          },
+          "sample_values": [
+            48,
+            48,
+            48,
+            48,
+            48
+          ],
+          "top_values": [
+            {
+              "count": 18408,
+              "value": 48
+            },
+            {
+              "count": 2993,
+              "value": 42
+            },
+            {
+              "count": 1407,
+              "value": 58
+            },
+            {
+              "count": 782,
+              "value": 30
+            },
+            {
+              "count": 679,
+              "value": 3
+            },
+            {
+              "count": 411,
+              "value": 47
+            },
+            {
+              "count": 408,
+              "value": 78
+            },
+            {
+              "count": 252,
+              "value": 62
+            },
+            {
+              "count": 150,
+              "value": 45
+            },
+            {
+              "count": 134,
+              "value": 2
+            },
+            {
+              "count": 122,
+              "value": 54
+            },
+            {
+              "count": 88,
+              "value": 67
+            },
+            {
+              "count": 82,
+              "value": 60
+            },
+            {
+              "count": 80,
+              "value": 8
+            },
+            {
+              "count": 71,
+              "value": 49
+            },
+            {
+              "count": 64,
+              "value": 37
+            },
+            {
+              "count": 60,
+              "value": 53
+            },
+            {
+              "count": 45,
+              "value": 127000
+            },
+            {
+              "count": 43,
+              "value": 85
+            },
+            {
+              "count": 43,
+              "value": 33
+            }
+          ],
+          "type": "int64"
+        },
+        "route_name": {
+          "distinct_count": 65,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "VÍA ORAL",
+            "VÍA ORAL",
+            "VÍA ORAL",
+            "VÍA ORAL",
+            "VÍA ORAL"
+          ],
+          "string_length": {
+            "max": 28,
+            "mean": 10.00925613640622,
+            "min": 8
+          },
+          "top_values": [
+            {
+              "count": 18408,
+              "value": "VÍA ORAL"
+            },
+            {
+              "count": 2993,
+              "value": "VÍA INTRAVENOSA"
+            },
+            {
+              "count": 1407,
+              "value": "VÍA SUBCUTÁNEA"
+            },
+            {
+              "count": 782,
+              "value": "VÍA INTRAMUSCULAR"
+            },
+            {
+              "count": 679,
+              "value": "USO CUTÁNEO"
+            },
+            {
+              "count": 411,
+              "value": "VÍA OFTÁLMICA"
+            },
+            {
+              "count": 408,
+              "value": "VÍA INHALATORIA"
+            },
+            {
+              "count": 252,
+              "value": "VÍA TRANSDÉRMICA"
+            },
+            {
+              "count": 150,
+              "value": "VÍA NASAL"
+            },
+            {
+              "count": 134,
+              "value": "Vía bucal (buccal use)"
+            },
+            {
+              "count": 122,
+              "value": "VÍA RECTAL"
+            },
+            {
+              "count": 88,
+              "value": "VÍA VAGINAL"
+            },
+            {
+              "count": 82,
+              "value": "VÍA SUBLINGUAL"
+            },
+            {
+              "count": 80,
+              "value": "VÍA EPIDURAL"
+            },
+            {
+              "count": 71,
+              "value": "USO BUCOFARÍNGEO"
+            },
+            {
+              "count": 64,
+              "value": "VÍA INTRATECAL"
+            },
+            {
+              "count": 60,
+              "value": "VÍA PERINEURAL"
+            },
+            {
+              "count": 45,
+              "value": "INFILTRACIÓN"
+            },
+            {
+              "count": 43,
+              "value": "VÍA INTRAVÍTREA"
+            },
+            {
+              "count": 43,
+              "value": "VÍA INTRAPERITONEAL"
+            }
+          ],
+          "type": "string"
+        }
+      },
+      "compressed_bytes": 151972,
+      "row_count": 26685
+    },
+    "atc_codes": {
+      "column_count": 5,
+      "columns": {
+        "atc_code": {
+          "distinct_count": 3146,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "B01A",
+            "B01AC",
+            "B01AC06",
+            "N02B",
+            "N02BA"
+          ],
+          "string_length": {
+            "max": 7,
+            "mean": 5.323077937491758,
+            "min": 3
+          },
+          "top_values": [
+            {
+              "count": 1150,
+              "value": "N05A"
+            },
+            {
+              "count": 1002,
+              "value": "C09D"
+            },
+            {
+              "count": 919,
+              "value": "L04A"
+            },
+            {
+              "count": 885,
+              "value": "C10A"
+            },
+            {
+              "count": 872,
+              "value": "B01A"
+            },
+            {
+              "count": 857,
+              "value": "N06A"
+            },
+            {
+              "count": 851,
+              "value": "A10B"
+            },
+            {
+              "count": 837,
+              "value": "N03A"
+            },
+            {
+              "count": 770,
+              "value": "C10AA"
+            },
+            {
+              "count": 721,
+              "value": "N03AX"
+            },
+            {
+              "count": 701,
+              "value": "N02B"
+            },
+            {
+              "count": 621,
+              "value": "M01A"
+            },
+            {
+              "count": 611,
+              "value": "A02B"
+            },
+            {
+              "count": 601,
+              "value": "G04B"
+            },
+            {
+              "count": 582,
+              "value": "N05AH"
+            },
+            {
+              "count": 566,
+              "value": "N02A"
+            },
+            {
+              "count": 550,
+              "value": "C09C"
+            },
+            {
+              "count": 550,
+              "value": "C09CA"
+            },
+            {
+              "count": 546,
+              "value": "A02BC"
+            },
+            {
+              "count": 542,
+              "value": "C09DA"
+            }
+          ],
+          "type": "string"
+        },
+        "atc_level": {
+          "distinct_count": 4,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "numeric": {
+            "max": 5,
+            "mean": 3.993722801002242,
+            "min": 2
+          },
+          "sample_values": [
+            3,
+            4,
+            5,
+            3,
+            4
+          ],
+          "top_values": [
+            {
+              "count": 25443,
+              "value": 3
+            },
+            {
+              "count": 25408,
+              "value": 4
+            },
+            {
+              "count": 24975,
+              "value": 5
+            },
+            {
+              "count": 4,
+              "value": 2
+            }
+          ],
+          "type": "int64"
+        },
+        "atc_name": {
+          "distinct_count": 2919,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "AGENTES ANTITROMBOTICOS",
+            "Inhibidores de la agregacion plaquetaria, heparina excl.",
+            "Acido acetilsalicilico",
+            "OTROS ANALGESICOS Y ANTIPIRETICOS",
+            "Acido salicilico y derivados"
+          ],
+          "string_length": {
+            "max": 130,
+            "mean": 29.191230383753133,
+            "min": 4
+          },
+          "top_values": [
+            {
+              "count": 1150,
+              "value": "ANTIPSICOTICOS"
+            },
+            {
+              "count": 1002,
+              "value": "ANTAGONISTAS DE LOS RECEPTORES DE ANGIOTENSINA II, COMBINACIONES"
+            },
+            {
+              "count": 919,
+              "value": "INMUNOSUPRESORES"
+            },
+            {
+              "count": 885,
+              "value": "AGENTES MODIFICADORES DE LOS LIPIDOS, MONOFARMACOS"
+            },
+            {
+              "count": 872,
+              "value": "AGENTES ANTITROMBOTICOS"
+            },
+            {
+              "count": 857,
+              "value": "ANTIDEPRESIVOS"
+            },
+            {
+              "count": 851,
+              "value": "FARMACOS HIPOGLUCEMIANTES EXCLUYENDO INSULINAS"
+            },
+            {
+              "count": 837,
+              "value": "ANTIEPILEPTICOS"
+            },
+            {
+              "count": 770,
+              "value": "Inhibidores de la HMG CoA reductasa"
+            },
+            {
+              "count": 721,
+              "value": "Otros antiepilepticos"
+            },
+            {
+              "count": 701,
+              "value": "OTROS ANALGESICOS Y ANTIPIRETICOS"
+            },
+            {
+              "count": 621,
+              "value": "PRODUCTOS ANTIINFLAMATORIOS Y ANTIRREUMATICOS NO ESTEROIDEOS"
+            },
+            {
+              "count": 611,
+              "value": "AGENTES CONTRA LA ULCERA PEPTICA Y EL REFLUJO GASTROESOFAGICO (RGE/GORD)"
+            },
+            {
+              "count": 601,
+              "value": "OTROS PRODUCTOS DE USO UROLOGICO, INCLUYENDO ANTIESPASMODICOS"
+            },
+            {
+              "count": 582,
+              "value": "Diazepinas, oxazepinas, tiazepinas y oxepinas"
+            },
+            {
+              "count": 566,
+              "value": "OPIOIDES"
+            },
+            {
+              "count": 550,
+              "value": "ANTAGONISTAS DE LOS RECEPTORES DE ANGIOTENSINA II, MONOTERAPIA"
+            },
+            {
+              "count": 550,
+              "value": "Antagonistas de los receptores de angiotensina II, monoterapia"
+            },
+            {
+              "count": 546,
+              "value": "Inhibidores de la bomba de protones"
+            },
+            {
+              "count": 542,
+              "value": "Antagonistas de los receptores de angiotensina II y diureticos"
+            }
+          ],
+          "type": "string"
+        },
+        "position": {
+          "distinct_count": 3,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "numeric": {
+            "max": 2,
+            "mean": 0.9937755505736516,
+            "min": 0
+          },
+          "sample_values": [
+            0,
+            1,
+            2,
+            0,
+            1
+          ],
+          "top_values": [
+            {
+              "count": 25447,
+              "value": 0
+            },
+            {
+              "count": 25408,
+              "value": 1
+            },
+            {
+              "count": 24975,
+              "value": 2
+            }
+          ],
+          "type": "int64"
+        },
+        "registration_number": {
+          "distinct_count": 25447,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "42991",
+            "42991",
+            "42991",
+            "42956",
+            "42956"
+          ],
+          "string_length": {
+            "max": 21,
+            "mean": 6.065449030726626,
+            "min": 4
+          },
+          "top_values": [
+            {
+              "count": 3,
+              "value": "42991"
+            },
+            {
+              "count": 3,
+              "value": "42956"
+            },
+            {
+              "count": 3,
+              "value": "81012"
+            },
+            {
+              "count": 3,
+              "value": "82591"
+            },
+            {
+              "count": 3,
+              "value": "84182"
+            },
+            {
+              "count": 3,
+              "value": "80803"
+            },
+            {
+              "count": 3,
+              "value": "82913"
+            },
+            {
+              "count": 3,
+              "value": "86190"
+            },
+            {
+              "count": 3,
+              "value": "87969"
+            },
+            {
+              "count": 3,
+              "value": "86024"
+            },
+            {
+              "count": 3,
+              "value": "86037"
+            },
+            {
+              "count": 3,
+              "value": "07428001"
+            },
+            {
+              "count": 3,
+              "value": "85180"
+            },
+            {
+              "count": 3,
+              "value": "1231752001"
+            },
+            {
+              "count": 3,
+              "value": "65382"
+            },
+            {
+              "count": 3,
+              "value": "65059"
+            },
+            {
+              "count": 3,
+              "value": "61836"
+            },
+            {
+              "count": 3,
+              "value": "61837"
+            },
+            {
+              "count": 3,
+              "value": "60014"
+            },
+            {
+              "count": 3,
+              "value": "70452"
+            }
+          ],
+          "type": "string"
+        }
+      },
+      "compressed_bytes": 345191,
+      "row_count": 75830
+    },
+    "document_links": {
+      "column_count": 7,
+      "columns": {
+        "document_type": {
+          "distinct_count": 3,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "numeric": {
+            "max": 3,
+            "mean": 1.6743154020997943,
+            "min": 1
+          },
+          "sample_values": [
+            1,
+            2,
+            1,
+            2,
+            1
+          ],
+          "top_values": [
+            {
+              "count": 25048,
+              "value": 2
+            },
+            {
+              "count": 24220,
+              "value": 1
+            },
+            {
+              "count": 6166,
+              "value": 3
+            }
+          ],
+          "type": "int64"
+        },
+        "html_url": {
+          "distinct_count": 45904,
+          "distinct_count_lower_bound": null,
+          "null_count": 9530,
+          "null_fraction": 0.17191615,
+          "sample_values": [
+            "https://cima.aemps.es/cima/dochtml/ft/42991/FT_42991.html",
+            "https://cima.aemps.es/cima/dochtml/p/42991/P_42991.html",
+            "https://cima.aemps.es/cima/dochtml/ft/42956/FT_42956.html",
+            "https://cima.aemps.es/cima/dochtml/p/42956/P_42956.html",
+            "https://cima.aemps.es/cima/dochtml/ft/81012/FT_81012.html"
+          ],
+          "string_length": {
+            "max": 67,
+            "mean": 57.280106308818404,
+            "min": 53
+          },
+          "top_values": [
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/dochtml/ft/42991/FT_42991.html"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/dochtml/p/42991/P_42991.html"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/dochtml/ft/42956/FT_42956.html"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/dochtml/p/42956/P_42956.html"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/dochtml/ft/81012/FT_81012.html"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/dochtml/p/81012/P_81012.html"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/dochtml/ft/82591/FT_82591.html"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/dochtml/p/82591/P_82591.html"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/dochtml/ft/84182/FT_84182.html"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/dochtml/p/84182/P_84182.html"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/dochtml/ft/80803/FT_80803.html"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/dochtml/p/80803/P_80803.html"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/dochtml/ft/82913/FT_82913.html"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/dochtml/p/82913/P_82913.html"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/dochtml/ft/86190/FT_86190.html"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/dochtml/p/86190/P_86190.html"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/dochtml/ft/87969/FT_87969.html"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/dochtml/p/87969/P_87969.html"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/dochtml/ft/86024/FT_86024.html"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/dochtml/p/86024/P_86024.html"
+            }
+          ],
+          "type": "string"
+        },
+        "position": {
+          "distinct_count": 3,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "numeric": {
+            "max": 2,
+            "mean": 0.6593606811704008,
+            "min": 0
+          },
+          "sample_values": [
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "top_values": [
+            {
+              "count": 25049,
+              "value": 0
+            },
+            {
+              "count": 24219,
+              "value": 1
+            },
+            {
+              "count": 6166,
+              "value": 2
+            }
+          ],
+          "type": "int64"
+        },
+        "registration_number": {
+          "distinct_count": 25049,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "42991",
+            "42991",
+            "42956",
+            "42956",
+            "81012"
+          ],
+          "string_length": {
+            "max": 21,
+            "mean": 6.193040372334668,
+            "min": 4
+          },
+          "top_values": [
+            {
+              "count": 3,
+              "value": "07428001"
+            },
+            {
+              "count": 3,
+              "value": "1231752001"
+            },
+            {
+              "count": 3,
+              "value": "81214"
+            },
+            {
+              "count": 3,
+              "value": "79535"
+            },
+            {
+              "count": 3,
+              "value": "79536"
+            },
+            {
+              "count": 3,
+              "value": "02230011"
+            },
+            {
+              "count": 3,
+              "value": "02230003"
+            },
+            {
+              "count": 3,
+              "value": "1251983001"
+            },
+            {
+              "count": 3,
+              "value": "113823002"
+            },
+            {
+              "count": 3,
+              "value": "112794001"
+            },
+            {
+              "count": 3,
+              "value": "113907004"
+            },
+            {
+              "count": 3,
+              "value": "113907007"
+            },
+            {
+              "count": 3,
+              "value": "113907010"
+            },
+            {
+              "count": 3,
+              "value": "113907013"
+            },
+            {
+              "count": 3,
+              "value": "08447003"
+            },
+            {
+              "count": 3,
+              "value": "08447001"
+            },
+            {
+              "count": 3,
+              "value": "06364002"
+            },
+            {
+              "count": 3,
+              "value": "06364007"
+            },
+            {
+              "count": 3,
+              "value": "07387014"
+            },
+            {
+              "count": 3,
+              "value": "07387017"
+            }
+          ],
+          "type": "string"
+        },
+        "segmented_content_available": {
+          "distinct_count": 2,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "top_values": [
+            {
+              "count": 45904,
+              "value": true
+            },
+            {
+              "count": 9530,
+              "value": false
+            }
+          ],
+          "type": "bool"
+        },
+        "source_updated_at": {
+          "distinct_count": 39836,
+          "distinct_count_lower_bound": null,
+          "null_count": 15524,
+          "null_fraction": 0.28004474,
+          "numeric": {
+            "max": 1786401813000,
+            "mean": 1704358616350.4885,
+            "min": 1272791923000
+          },
+          "sample_values": [
+            1785968827000,
+            1785968843000,
+            1785968783000,
+            1785968801000,
+            1707955883000
+          ],
+          "top_values": [
+            {
+              "count": 3,
+              "value": 1430954595000
+            },
+            {
+              "count": 2,
+              "value": 1448415591000
+            },
+            {
+              "count": 2,
+              "value": 1448415590000
+            },
+            {
+              "count": 2,
+              "value": 1529394308000
+            },
+            {
+              "count": 2,
+              "value": 1435016375000
+            },
+            {
+              "count": 2,
+              "value": 1434585130000
+            },
+            {
+              "count": 1,
+              "value": 1785968827000
+            },
+            {
+              "count": 1,
+              "value": 1785968843000
+            },
+            {
+              "count": 1,
+              "value": 1785968783000
+            },
+            {
+              "count": 1,
+              "value": 1785968801000
+            },
+            {
+              "count": 1,
+              "value": 1707955883000
+            },
+            {
+              "count": 1,
+              "value": 1707955895000
+            },
+            {
+              "count": 1,
+              "value": 1711066576000
+            },
+            {
+              "count": 1,
+              "value": 1751324466000
+            },
+            {
+              "count": 1,
+              "value": 1701736302000
+            },
+            {
+              "count": 1,
+              "value": 1701736314000
+            },
+            {
+              "count": 1,
+              "value": 1683934701000
+            },
+            {
+              "count": 1,
+              "value": 1683934715000
+            },
+            {
+              "count": 1,
+              "value": 1607133030000
+            },
+            {
+              "count": 1,
+              "value": 1607133047000
+            }
+          ],
+          "type": "int64"
+        },
+        "url": {
+          "distinct_count": 55422,
+          "distinct_count_lower_bound": null,
+          "null_count": 12,
+          "null_fraction": 0.00021647,
+          "sample_values": [
+            "https://cima.aemps.es/cima/pdfs/ft/42991/FT_42991.pdf",
+            "https://cima.aemps.es/cima/pdfs/p/42991/P_42991.pdf",
+            "https://cima.aemps.es/cima/pdfs/ft/42956/FT_42956.pdf",
+            "https://cima.aemps.es/cima/pdfs/p/42956/P_42956.pdf",
+            "https://cima.aemps.es/cima/pdfs/ft/81012/FT_81012.pdf"
+          ],
+          "string_length": {
+            "max": 83,
+            "mean": 54.705423838908736,
+            "min": 49
+          },
+          "top_values": [
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/pdfs/ft/42991/FT_42991.pdf"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/pdfs/p/42991/P_42991.pdf"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/pdfs/ft/42956/FT_42956.pdf"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/pdfs/p/42956/P_42956.pdf"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/pdfs/ft/81012/FT_81012.pdf"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/pdfs/p/81012/P_81012.pdf"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/pdfs/ft/82591/FT_82591.pdf"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/pdfs/p/82591/P_82591.pdf"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/pdfs/ft/84182/FT_84182.pdf"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/pdfs/p/84182/P_84182.pdf"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/pdfs/ft/80803/FT_80803.pdf"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/pdfs/p/80803/P_80803.pdf"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/pdfs/ft/82913/FT_82913.pdf"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/pdfs/p/82913/P_82913.pdf"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/pdfs/ft/86190/FT_86190.pdf"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/pdfs/p/86190/P_86190.pdf"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/pdfs/ft/87969/FT_87969.pdf"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/pdfs/p/87969/P_87969.pdf"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/pdfs/ft/86024/FT_86024.pdf"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/pdfs/p/86024/P_86024.pdf"
+            }
+          ],
+          "type": "string"
+        }
+      },
+      "compressed_bytes": 1107377,
+      "row_count": 55434
+    },
+    "documents": {
+      "column_count": 7,
+      "columns": {
+        "content_html": {
+          "distinct_count": null,
+          "distinct_count_lower_bound": 100001,
+          "null_count": 73588,
+          "null_fraction": 0.08690702,
+          "sample_values": [
+            "<div>\r\n    <p style=\"margin:0pt; line-height:115%; font-size:11pt\"><span style=\"font-family:Times New Roman; font-size:11pt\">A.A.S. 100 mg comprimidos.</span></p>\r\n  </div>",
+            "<div>\r\n    <p style=\"margin:0pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-size:11pt\"><span style=\"font-family:Times New Roman; font-size:11pt\">Cada comprimido de A.A.S. 100 mg c... [truncated; 1166 characters]",
+            "<div>\r\n    <p style=\"margin:0pt; line-height:115%; font-size:11pt\"><span style=\"font-family:Times New Roman; font-size:11pt\">Comprimidos redondos, biconvexos, ranurados, de color amarillo a naranja.</... [truncated; 219 characters]",
+            "<div>\r\n    <p style=\"margin:0pt 0pt 0pt 14.2pt; text-align:justify; line-height:115%; font-size:11pt\"><span style=\"font-family:Times New Roman; font-size:11pt\">En base a su efecto antiagregante plaque... [truncated; 2343 characters]",
+            "<div>\r\n    <p style=\"margin:0pt; text-align:justify; line-height:115%; font-size:11pt\"><u><span style=\"font-family:Times New Roman; font-size:11pt;\">Posolog&#237;a:</span></u></p>\r\n\r\n    <p style=\"mar... [truncated; 2997 characters]"
+          ],
+          "string_length": {
+            "max": 4438886,
+            "mean": 10065.988408548857,
+            "min": 21
+          },
+          "top_values": [
+            {
+              "count": 6902,
+              "value": "<div>\r\n    <p style=\"margin:0pt; line-height:115%; font-size:11pt\"><span style=\"font-family:Times New Roman; font-size:11pt\">No procede.</span></p>\r\n  </div>"
+            },
+            {
+              "count": 5626,
+              "value": "<div>\r\n    <p style=\"margin:0pt; line-height:115%; font-size:11pt\"><span style=\"font-family:Times New Roman; font-size:11pt\">&#xa0;</span></p>\r\n  </div>"
+            },
+            {
+              "count": 4171,
+              "value": "<div>\r\n    <p style=\"margin:0pt\"><span style=\"font-family:Times New Roman; font-size:11pt\">&#xa0;</span></p>\r\n  </div>"
+            },
+            {
+              "count": 3668,
+              "value": "<div>\r\n    <p style=\"margin:0pt\"><span style=\"font-family:Times New Roman; font-size:11pt\">No procede.</span></p>\r\n  </div>"
+            },
+            {
+              "count": 1982,
+              "value": "<div>\r\n    <p style=\"margin:0pt; line-height:115%; font-size:11pt\"><span style=\"font-family:Times New Roman; font-size:11pt\">Ninguna especial.</span></p>\r\n  </div>"
+            },
+            {
+              "count": 1620,
+              "value": "<div>\r\n    <p style=\"margin:0pt; line-height:115%; font-size:11pt\"><span style=\"font-family:Times New Roman; font-size:11pt\">No requiere condiciones especiales de conservaci&#243;n.</span></p>\r\n  </div>"
+            },
+            {
+              "count": 1589,
+              "value": "<div>\r\n    <p style=\"margin:0pt; line-height:115%; font-size:11pt\"><span style=\"font-family:Times New Roman; font-size:11pt\">3 a&#241;os.</span></p>\r\n  </div>"
+            },
+            {
+              "count": 1335,
+              "value": "<div>\r\n    <p style=\"margin:0pt; line-height:115%; font-size:11pt\"><span style=\"font-family:Times New Roman; font-size:11pt\">La eliminaci&#243;n del medicamento no utilizado y de todos los materiales que hayan estado en contacto con &#233;l, se realizar&#225; de acuerdo con la normativa local.</span></p>\r\n  </div>"
+            },
+            {
+              "count": 990,
+              "value": "<div>\r\n    <p style=\"margin:0pt\"><span style=\"font-family:Times New Roman; font-size:11pt\">Ninguna especial.</span></p>\r\n  </div>"
+            },
+            {
+              "count": 965,
+              "value": "<div>\r\n    <p style=\"margin:0pt; line-height:115%; font-size:11pt\"><span style=\"font-family:Times New Roman; font-size:11pt\">La eliminaci&#243;n del medicamento no utilizado y de todos los materiales que hayan estado en contacto con &#233;l se realizar&#225; de acuerdo con la normativa local.</span></p>\r\n  </div>"
+            },
+            {
+              "count": 905,
+              "value": "<div>\r\n    <p style=\"margin:0pt; line-height:115%; font-size:11pt\"><span style=\"font-family:Times New Roman; font-size:11pt\">Este medicamento no requiere condiciones especiales de conservaci&#243;n.</span></p>\r\n  </div>"
+            },
+            {
+              "count": 849,
+              "value": "<div>\r\n    <p style=\"margin:0pt; line-height:115%; font-size:11pt\"><span style=\"font-family:Times New Roman; font-size:11pt\">3 a&#241;os</span></p>\r\n  </div>"
+            },
+            {
+              "count": 763,
+              "value": "<div>\r\n    <p style=\"margin:0pt; line-height:115%; font-size:11pt\"><span style=\"font-family:Times New Roman; font-size:11pt\">2 a&#241;os.</span></p>\r\n  </div>"
+            },
+            {
+              "count": 733,
+              "value": "<div>\r\n    <p style=\"margin:0pt; line-height:115%; font-size:11pt\"><span style=\"font-family:Times New Roman; font-size:11pt\">Hipersensibilidad al principio activo o a alguno de los excipientes incluidos en la secci&#243;n 6.1.</span></p>\r\n  </div>"
+            },
+            {
+              "count": 730,
+              "value": "<div>\r\n    <p style=\"margin:0pt\"><span style=\"font-family:Times New Roman; font-size:11pt\">No procede</span></p>\r\n  </div>"
+            },
+            {
+              "count": 719,
+              "value": "<div>\r\n    <p style=\"margin:0pt; line-height:115%; font-size:11pt\"><span style=\"font-family:Times New Roman; font-size:11pt\">No procede</span></p>\r\n  </div>"
+            },
+            {
+              "count": 674,
+              "value": "<div>\r\n    <p style=\"margin:0pt; line-height:115%; font-size:11pt\"><span style=\"font-family:Times New Roman; font-size:11pt\">3 años.</span></p>\r\n  </div>"
+            },
+            {
+              "count": 669,
+              "value": "<div>\r\n    <p style=\"margin:0pt; line-height:115%; font-size:11pt\"><span style=\"font-family:Times New Roman; font-size:11pt\">No requiere condiciones especiales de conservación.</span></p>\r\n  </div>"
+            },
+            {
+              "count": 649,
+              "value": "<div>\r\n    <p style=\"margin:0pt\"><span style=\"font-family:Times New Roman; font-size:11pt\">3 a&#241;os.</span></p>\r\n  </div>"
+            },
+            {
+              "count": 590,
+              "value": "<div>\r\n    <p style=\"margin:0pt\"><span style=\"font-family:Times New Roman; font-size:11pt\">No requiere condiciones especiales de conservaci&#243;n.</span></p>\r\n  </div>"
+            }
+          ],
+          "type": "string"
+        },
+        "content_text": {
+          "distinct_count": null,
+          "distinct_count_lower_bound": 100001,
+          "null_count": 73588,
+          "null_fraction": 0.08690702,
+          "sample_values": [
+            "A.A.S. 100 mg comprimidos.",
+            "Cada comprimido de A.A.S. 100 mg contiene 100 mg de ácido acetilsalicílico. Excipientes: colorante amarillo anaranjado S (E-110): 0,002 mg Para consultar la lista completa de excipientes ver sección 6... [truncated; 203 characters]",
+            "Comprimidos redondos, biconvexos, ranurados, de color amarillo a naranja.",
+            "En base a su efecto antiagregante plaquetario está indicado en la profilaxis de: Infarto de miocardio o reinfarto de miocardio en pacientes con angina de pecho inestable y para prevenir la recurrencia... [truncated; 689 characters]",
+            "Posología: Como inhibidor de la agregación plaquetaria : En la prevención de accidentes tromboembólicos (infarto, angina de pecho, prótesis valvulares biológicas, by pass arteriales, tromboflebitis, f... [truncated; 601 characters]"
+          ],
+          "string_length": {
+            "max": 239305,
+            "mean": 2014.886176916431,
+            "min": 0
+          },
+          "top_values": [
+            {
+              "count": 14039,
+              "value": "No procede."
+            },
+            {
+              "count": 13051,
+              "value": ""
+            },
+            {
+              "count": 4540,
+              "value": "3 años."
+            },
+            {
+              "count": 4423,
+              "value": "No requiere condiciones especiales de conservación."
+            },
+            {
+              "count": 3823,
+              "value": "Ninguna especial."
+            },
+            {
+              "count": 3117,
+              "value": "La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él, se realizará de acuerdo con la normativa local."
+            },
+            {
+              "count": 2619,
+              "value": "Este medicamento no requiere condiciones especiales de conservación."
+            },
+            {
+              "count": 2601,
+              "value": "La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él se realizará de acuerdo con la normativa local."
+            },
+            {
+              "count": 2587,
+              "value": "3 años"
+            },
+            {
+              "count": 2575,
+              "value": "Hipersensibilidad al principio activo o a alguno de los excipientes incluidos en la sección 6.1."
+            },
+            {
+              "count": 2373,
+              "value": "2 años."
+            },
+            {
+              "count": 1698,
+              "value": "No procede"
+            },
+            {
+              "count": 1584,
+              "value": "Ninguna especial. La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él, se realizará de acuerdo con la normativa local."
+            },
+            {
+              "count": 1382,
+              "value": "2 años"
+            },
+            {
+              "count": 993,
+              "value": "No aplicable."
+            },
+            {
+              "count": 906,
+              "value": "En ausencia de estudios de compatibilidad, este medicamento no debe mezclarse con otros."
+            },
+            {
+              "count": 843,
+              "value": "La información detallada de este medicamento está disponible en la página web de la Agencia Europea de Medicamentos http://www.ema.europa.eu ."
+            },
+            {
+              "count": 737,
+              "value": "No se han descrito."
+            },
+            {
+              "count": 681,
+              "value": "5 años."
+            },
+            {
+              "count": 652,
+              "value": "Ninguna especial para su eliminación."
+            }
+          ],
+          "type": "string"
+        },
+        "document_type": {
+          "distinct_count": 2,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "numeric": {
+            "max": 2,
+            "mean": 1.1899582400347686,
+            "min": 1
+          },
+          "sample_values": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "top_values": [
+            {
+              "count": 685898,
+              "value": 1
+            },
+            {
+              "count": 160846,
+              "value": 2
+            }
+          ],
+          "type": "int64"
+        },
+        "registration_number": {
+          "distinct_count": 23022,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "42991",
+            "42991",
+            "42991",
+            "42991",
+            "42991"
+          ],
+          "string_length": {
+            "max": 10,
+            "mean": 5.612280689322865,
+            "min": 4
+          },
+          "top_values": [
+            {
+              "count": 61,
+              "value": "71898"
+            },
+            {
+              "count": 61,
+              "value": "66905"
+            },
+            {
+              "count": 61,
+              "value": "78262"
+            },
+            {
+              "count": 56,
+              "value": "65349"
+            },
+            {
+              "count": 56,
+              "value": "56523"
+            },
+            {
+              "count": 55,
+              "value": "60931"
+            },
+            {
+              "count": 55,
+              "value": "76347"
+            },
+            {
+              "count": 54,
+              "value": "81998"
+            },
+            {
+              "count": 54,
+              "value": "75040"
+            },
+            {
+              "count": 54,
+              "value": "75042"
+            },
+            {
+              "count": 53,
+              "value": "58518"
+            },
+            {
+              "count": 53,
+              "value": "80604"
+            },
+            {
+              "count": 53,
+              "value": "66821"
+            },
+            {
+              "count": 53,
+              "value": "64819"
+            },
+            {
+              "count": 53,
+              "value": "64817"
+            },
+            {
+              "count": 53,
+              "value": "61017"
+            },
+            {
+              "count": 53,
+              "value": "80996"
+            },
+            {
+              "count": 53,
+              "value": "80994"
+            },
+            {
+              "count": 53,
+              "value": "80995"
+            },
+            {
+              "count": 53,
+              "value": "68584"
+            }
+          ],
+          "type": "string"
+        },
+        "section": {
+          "distinct_count": 54,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "4.1"
+          ],
+          "string_length": {
+            "max": 5,
+            "mean": 2.201279253233563,
+            "min": 1
+          },
+          "top_values": [
+            {
+              "count": 45904,
+              "value": "1"
+            },
+            {
+              "count": 45904,
+              "value": "2"
+            },
+            {
+              "count": 45904,
+              "value": "3"
+            },
+            {
+              "count": 45904,
+              "value": "4"
+            },
+            {
+              "count": 45904,
+              "value": "5"
+            },
+            {
+              "count": 45904,
+              "value": "6"
+            },
+            {
+              "count": 24340,
+              "value": "0"
+            },
+            {
+              "count": 22926,
+              "value": "7"
+            },
+            {
+              "count": 22926,
+              "value": "8"
+            },
+            {
+              "count": 22926,
+              "value": "9"
+            },
+            {
+              "count": 22926,
+              "value": "10"
+            },
+            {
+              "count": 22906,
+              "value": "4.3"
+            },
+            {
+              "count": 22904,
+              "value": "4.5"
+            },
+            {
+              "count": 22900,
+              "value": "4.7"
+            },
+            {
+              "count": 22894,
+              "value": "4.4"
+            },
+            {
+              "count": 22893,
+              "value": "4.8"
+            },
+            {
+              "count": 22890,
+              "value": "4.2"
+            },
+            {
+              "count": 22890,
+              "value": "5.2"
+            },
+            {
+              "count": 22884,
+              "value": "4.9"
+            },
+            {
+              "count": 22884,
+              "value": "5.1"
+            }
+          ],
+          "type": "string"
+        },
+        "source_order": {
+          "distinct_count": 19,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "numeric": {
+            "max": 19,
+            "mean": 5.1870470886123785,
+            "min": 1
+          },
+          "sample_values": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "top_values": [
+            {
+              "count": 253904,
+              "value": 1
+            },
+            {
+              "count": 91799,
+              "value": 2
+            },
+            {
+              "count": 91587,
+              "value": 7
+            },
+            {
+              "count": 71624,
+              "value": 3
+            },
+            {
+              "count": 69871,
+              "value": 6
+            },
+            {
+              "count": 52059,
+              "value": 4
+            },
+            {
+              "count": 51109,
+              "value": 5
+            },
+            {
+              "count": 26119,
+              "value": 14
+            },
+            {
+              "count": 25585,
+              "value": 9
+            },
+            {
+              "count": 25453,
+              "value": 11
+            },
+            {
+              "count": 23034,
+              "value": 15
+            },
+            {
+              "count": 22893,
+              "value": 16
+            },
+            {
+              "count": 22884,
+              "value": 18
+            },
+            {
+              "count": 5669,
+              "value": 13
+            },
+            {
+              "count": 5652,
+              "value": 12
+            },
+            {
+              "count": 3664,
+              "value": 8
+            },
+            {
+              "count": 2904,
+              "value": 10
+            },
+            {
+              "count": 816,
+              "value": 17
+            },
+            {
+              "count": 118,
+              "value": 19
+            }
+          ],
+          "type": "int64"
+        },
+        "title": {
+          "distinct_count": 51069,
+          "distinct_count_lower_bound": null,
+          "null_count": 22,
+          "null_fraction": 2.598e-05,
+          "sample_values": [
+            "NOMBRE DEL MEDICAMENTO",
+            "COMPOSICIÓN CUALITATIVA Y CUANTITATIVA",
+            "FORMA FARMACÉUTICA",
+            "DATOS CLÍNICOS",
+            "Indicaciones terapéuticas"
+          ],
+          "string_length": {
+            "max": 155,
+            "mean": 32.22625017420121,
+            "min": 4
+          },
+          "top_values": [
+            {
+              "count": 22978,
+              "value": "Introducción"
+            },
+            {
+              "count": 22978,
+              "value": "Posibles efectos adversos"
+            },
+            {
+              "count": 22926,
+              "value": "NOMBRE DEL MEDICAMENTO"
+            },
+            {
+              "count": 22926,
+              "value": "COMPOSICIÓN CUALITATIVA Y CUANTITATIVA"
+            },
+            {
+              "count": 22926,
+              "value": "FORMA FARMACÉUTICA"
+            },
+            {
+              "count": 22926,
+              "value": "DATOS CLÍNICOS"
+            },
+            {
+              "count": 22926,
+              "value": "PROPIEDADES FARMACOLÓGICAS"
+            },
+            {
+              "count": 22926,
+              "value": "DATOS FARMACÉUTICOS"
+            },
+            {
+              "count": 22926,
+              "value": "TITULAR DE LA AUTORIZACIÓN DE COMERCIALIZACIÓN"
+            },
+            {
+              "count": 22926,
+              "value": "NÚMERO(S) DE AUTORIZACIÓN DE COMERCIALIZACIÓN"
+            },
+            {
+              "count": 22926,
+              "value": "FECHA DE LA PRIMERA AUTORIZACIÓN/ RENOVACIÓN DE LA AUTORIZACIÓN"
+            },
+            {
+              "count": 22926,
+              "value": "FECHA DE LA REVISIÓN DEL TEXTO"
+            },
+            {
+              "count": 22906,
+              "value": "Contraindicaciones"
+            },
+            {
+              "count": 22904,
+              "value": "Interacción con otros medicamentos y otras formas de interacción"
+            },
+            {
+              "count": 22900,
+              "value": "Efectos sobre la capacidad para conducir y utilizar máquinas"
+            },
+            {
+              "count": 22894,
+              "value": "Advertencias y precauciones especiales de empleo"
+            },
+            {
+              "count": 22893,
+              "value": "Reacciones adversas"
+            },
+            {
+              "count": 22890,
+              "value": "Posología y forma de administración"
+            },
+            {
+              "count": 22890,
+              "value": "Propiedades farmacocinéticas"
+            },
+            {
+              "count": 22884,
+              "value": "Sobredosis"
+            }
+          ],
+          "type": "string"
+        }
+      },
+      "compressed_bytes": 1076593661,
+      "row_count": 846744
+    },
+    "excipients": {
+      "column_count": 7,
+      "columns": {
+        "excipient_id": {
+          "distinct_count": 530,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "numeric": {
+            "max": 100275,
+            "mean": 7013.652780851221,
+            "min": 25
+          },
+          "sample_values": [
+            7316,
+            5568,
+            7316,
+            5568,
+            1187
+          ],
+          "top_values": [
+            {
+              "count": 6745,
+              "value": 15547
+            },
+            {
+              "count": 5391,
+              "value": 9142
+            },
+            {
+              "count": 3096,
+              "value": 5568
+            },
+            {
+              "count": 2916,
+              "value": 5398
+            },
+            {
+              "count": 2716,
+              "value": 4991
+            },
+            {
+              "count": 2153,
+              "value": 6792
+            },
+            {
+              "count": 1991,
+              "value": 2479
+            },
+            {
+              "count": 1960,
+              "value": 6996
+            },
+            {
+              "count": 1515,
+              "value": 7368
+            },
+            {
+              "count": 1275,
+              "value": 4661
+            },
+            {
+              "count": 1203,
+              "value": 3949
+            },
+            {
+              "count": 1039,
+              "value": 4755
+            },
+            {
+              "count": 976,
+              "value": 17064
+            },
+            {
+              "count": 777,
+              "value": 7316
+            },
+            {
+              "count": 768,
+              "value": 15305
+            },
+            {
+              "count": 730,
+              "value": 202
+            },
+            {
+              "count": 729,
+              "value": 873
+            },
+            {
+              "count": 721,
+              "value": 4986
+            },
+            {
+              "count": 705,
+              "value": 15025
+            },
+            {
+              "count": 687,
+              "value": 2362
+            }
+          ],
+          "type": "int64"
+        },
+        "excipient_name": {
+          "distinct_count": 528,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "SACARINA SODICA",
+            "MANITOL (E-421)",
+            "SACARINA SODICA",
+            "MANITOL (E-421)",
+            "AMARILLO ANARANJADO S (E 110, CI=15985)"
+          ],
+          "string_length": {
+            "max": 72,
+            "mean": 20.097551080622555,
+            "min": 4
+          },
+          "top_values": [
+            {
+              "count": 6745,
+              "value": "LACTOSA MONOHIDRATO"
+            },
+            {
+              "count": 5391,
+              "value": "CROSCARMELOSA SODICA"
+            },
+            {
+              "count": 3096,
+              "value": "MANITOL (E-421)"
+            },
+            {
+              "count": 2916,
+              "value": "LAURILSULFATO DE SODIO"
+            },
+            {
+              "count": 2716,
+              "value": "HIDROXIDO DE SODIO (E 524)"
+            },
+            {
+              "count": 2153,
+              "value": "POLISORBATO 80"
+            },
+            {
+              "count": 1991,
+              "value": "CLORURO DE SODIO"
+            },
+            {
+              "count": 1960,
+              "value": "PROPILENGLICOL"
+            },
+            {
+              "count": 1515,
+              "value": "SACAROSA"
+            },
+            {
+              "count": 1479,
+              "value": "CARBOXIMETILALMIDON SODICO"
+            },
+            {
+              "count": 1275,
+              "value": "GLICEROL (E 422)"
+            },
+            {
+              "count": 1203,
+              "value": "FUMARATO DE ESTEARILO Y SODIO"
+            },
+            {
+              "count": 976,
+              "value": "LACTOSA"
+            },
+            {
+              "count": 777,
+              "value": "SACARINA SODICA"
+            },
+            {
+              "count": 768,
+              "value": "LACTOSA HIDRATADA"
+            },
+            {
+              "count": 730,
+              "value": "LACTOSA ANHIDRA"
+            },
+            {
+              "count": 729,
+              "value": "ALCOHOL ETILICO (ETANOL)"
+            },
+            {
+              "count": 721,
+              "value": "POTASIO, HIDROXIDO DE"
+            },
+            {
+              "count": 705,
+              "value": "ASPARTAMO (E-951)"
+            },
+            {
+              "count": 687,
+              "value": "CITRATO DE SODIO (E-331)"
+            }
+          ],
+          "type": "string"
+        },
+        "position": {
+          "distinct_count": 27,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "numeric": {
+            "max": 26,
+            "mean": 1.2177472892232795,
+            "min": 0
+          },
+          "sample_values": [
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "top_values": [
+            {
+              "count": 21922,
+              "value": 0
+            },
+            {
+              "count": 15051,
+              "value": 1
+            },
+            {
+              "count": 8726,
+              "value": 2
+            },
+            {
+              "count": 4477,
+              "value": 3
+            },
+            {
+              "count": 2122,
+              "value": 4
+            },
+            {
+              "count": 1018,
+              "value": 5
+            },
+            {
+              "count": 475,
+              "value": 6
+            },
+            {
+              "count": 216,
+              "value": 7
+            },
+            {
+              "count": 119,
+              "value": 8
+            },
+            {
+              "count": 43,
+              "value": 9
+            },
+            {
+              "count": 17,
+              "value": 10
+            },
+            {
+              "count": 9,
+              "value": 11
+            },
+            {
+              "count": 5,
+              "value": 12
+            },
+            {
+              "count": 5,
+              "value": 13
+            },
+            {
+              "count": 3,
+              "value": 14
+            },
+            {
+              "count": 3,
+              "value": 15
+            },
+            {
+              "count": 2,
+              "value": 16
+            },
+            {
+              "count": 2,
+              "value": 17
+            },
+            {
+              "count": 2,
+              "value": 18
+            },
+            {
+              "count": 2,
+              "value": 19
+            }
+          ],
+          "type": "int64"
+        },
+        "quantity": {
+          "distinct_count": 11420,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "0,98",
+            "68,2",
+            "2,04",
+            "225,8",
+            "1,86"
+          ],
+          "string_length": {
+            "max": 43,
+            "mean": 3.9264217747289223,
+            "min": 1
+          },
+          "top_values": [
+            {
+              "count": 4148,
+              "value": "IP"
+            },
+            {
+              "count": 3072,
+              "value": "0"
+            },
+            {
+              "count": 600,
+              "value": "10"
+            },
+            {
+              "count": 508,
+              "value": "1"
+            },
+            {
+              "count": 503,
+              "value": "5"
+            },
+            {
+              "count": 486,
+              "value": "2"
+            },
+            {
+              "count": 454,
+              "value": "-"
+            },
+            {
+              "count": 393,
+              "value": "20"
+            },
+            {
+              "count": 380,
+              "value": "4"
+            },
+            {
+              "count": 368,
+              "value": "3"
+            },
+            {
+              "count": 290,
+              "value": "0,5"
+            },
+            {
+              "count": 283,
+              "value": "6"
+            },
+            {
+              "count": 279,
+              "value": "9"
+            },
+            {
+              "count": 260,
+              "value": "0,1"
+            },
+            {
+              "count": 256,
+              "value": "15"
+            },
+            {
+              "count": 251,
+              "value": "12"
+            },
+            {
+              "count": 233,
+              "value": "50"
+            },
+            {
+              "count": 230,
+              "value": "30"
+            },
+            {
+              "count": 221,
+              "value": "100"
+            },
+            {
+              "count": 220,
+              "value": "40"
+            }
+          ],
+          "type": "string"
+        },
+        "registration_number": {
+          "distinct_count": 21922,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "42991",
+            "42991",
+            "42956",
+            "42956",
+            "81012"
+          ],
+          "string_length": {
+            "max": 21,
+            "mean": 6.151674411743011,
+            "min": 4
+          },
+          "top_values": [
+            {
+              "count": 27,
+              "value": "1211550001"
+            },
+            {
+              "count": 14,
+              "value": "60387"
+            },
+            {
+              "count": 12,
+              "value": "91066"
+            },
+            {
+              "count": 12,
+              "value": "91480"
+            },
+            {
+              "count": 12,
+              "value": "91479"
+            },
+            {
+              "count": 11,
+              "value": "60992"
+            },
+            {
+              "count": 11,
+              "value": "55989"
+            },
+            {
+              "count": 11,
+              "value": "60309"
+            },
+            {
+              "count": 11,
+              "value": "79116"
+            },
+            {
+              "count": 10,
+              "value": "71673"
+            },
+            {
+              "count": 10,
+              "value": "71674"
+            },
+            {
+              "count": 10,
+              "value": "71675"
+            },
+            {
+              "count": 10,
+              "value": "89319"
+            },
+            {
+              "count": 10,
+              "value": "86656"
+            },
+            {
+              "count": 10,
+              "value": "65670"
+            },
+            {
+              "count": 10,
+              "value": "65584"
+            },
+            {
+              "count": 10,
+              "value": "86532"
+            },
+            {
+              "count": 10,
+              "value": "78859"
+            },
+            {
+              "count": 10,
+              "value": "83850"
+            },
+            {
+              "count": 10,
+              "value": "82680"
+            }
+          ],
+          "type": "string"
+        },
+        "source_order": {
+          "distinct_count": 69,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "numeric": {
+            "max": 90,
+            "mean": 5.173268422217305,
+            "min": 0
+          },
+          "sample_values": [
+            1,
+            6,
+            1,
+            2,
+            9
+          ],
+          "top_values": [
+            {
+              "count": 10305,
+              "value": 1
+            },
+            {
+              "count": 7564,
+              "value": 2
+            },
+            {
+              "count": 7187,
+              "value": 3
+            },
+            {
+              "count": 6417,
+              "value": 4
+            },
+            {
+              "count": 5060,
+              "value": 5
+            },
+            {
+              "count": 3494,
+              "value": 6
+            },
+            {
+              "count": 2676,
+              "value": 7
+            },
+            {
+              "count": 2164,
+              "value": 8
+            },
+            {
+              "count": 1830,
+              "value": 9
+            },
+            {
+              "count": 1525,
+              "value": 10
+            },
+            {
+              "count": 1260,
+              "value": 11
+            },
+            {
+              "count": 899,
+              "value": 12
+            },
+            {
+              "count": 749,
+              "value": 13
+            },
+            {
+              "count": 587,
+              "value": 14
+            },
+            {
+              "count": 444,
+              "value": 15
+            },
+            {
+              "count": 398,
+              "value": 16
+            },
+            {
+              "count": 260,
+              "value": 17
+            },
+            {
+              "count": 225,
+              "value": 18
+            },
+            {
+              "count": 208,
+              "value": 19
+            },
+            {
+              "count": 196,
+              "value": 20
+            }
+          ],
+          "type": "int64"
+        },
+        "unit": {
+          "distinct_count": 58,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "mg",
+            "mg",
+            "mg",
+            "mg",
+            "mg"
+          ],
+          "string_length": {
+            "max": 20,
+            "mean": 2.3646455705539573,
+            "min": 1
+          },
+          "top_values": [
+            {
+              "count": 38950,
+              "value": "mg"
+            },
+            {
+              "count": 4153,
+              "value": "IP"
+            },
+            {
+              "count": 3819,
+              "value": "-"
+            },
+            {
+              "count": 2032,
+              "value": "g"
+            },
+            {
+              "count": 1495,
+              "value": "mg/ml"
+            },
+            {
+              "count": 715,
+              "value": "Porcentaje peso/peso"
+            },
+            {
+              "count": 526,
+              "value": "PORCENTAJE"
+            },
+            {
+              "count": 524,
+              "value": "pH"
+            },
+            {
+              "count": 390,
+              "value": "ml"
+            },
+            {
+              "count": 331,
+              "value": "%"
+            },
+            {
+              "count": 278,
+              "value": "C.S"
+            },
+            {
+              "count": 233,
+              "value": "µg"
+            },
+            {
+              "count": 137,
+              "value": "mg/g"
+            },
+            {
+              "count": 78,
+              "value": "% V/V"
+            },
+            {
+              "count": 66,
+              "value": "Cantidad suficiente"
+            },
+            {
+              "count": 65,
+              "value": "mg/dosis"
+            },
+            {
+              "count": 62,
+              "value": "MILIMOLES"
+            },
+            {
+              "count": 52,
+              "value": "% P/V"
+            },
+            {
+              "count": 38,
+              "value": "g/l"
+            },
+            {
+              "count": 26,
+              "value": "Microlitro\r\n"
+            }
+          ],
+          "type": "string"
+        }
+      },
+      "compressed_bytes": 443539,
+      "row_count": 54228
+    },
+    "medications": {
+      "column_count": 32,
+      "columns": {
+        "affects_driving": {
+          "distinct_count": 2,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "top_values": [
+            {
+              "count": 16289,
+              "value": false
+            },
+            {
+              "count": 9158,
+              "value": true
+            }
+          ],
+          "type": "bool"
+        },
+        "authorized_at": {
+          "distinct_count": 13024,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "numeric": {
+            "max": 1786378020000,
+            "mean": 1342510101970.0554,
+            "min": -1512086400000
+          },
+          "sample_values": [
+            -118458000000,
+            -118458000000,
+            1466978400000,
+            1510527600000,
+            1559200317000
+          ],
+          "top_values": [
+            {
+              "count": 43,
+              "value": 880930800000
+            },
+            {
+              "count": 40,
+              "value": 928188000000
+            },
+            {
+              "count": 37,
+              "value": 899244000000
+            },
+            {
+              "count": 35,
+              "value": 912466800000
+            },
+            {
+              "count": 34,
+              "value": 907192800000
+            },
+            {
+              "count": 34,
+              "value": 891381600000
+            },
+            {
+              "count": 33,
+              "value": 917823600000
+            },
+            {
+              "count": 32,
+              "value": 930780000000
+            },
+            {
+              "count": 31,
+              "value": 1085695200000
+            },
+            {
+              "count": 28,
+              "value": 867708000000
+            },
+            {
+              "count": 27,
+              "value": 646783200000
+            },
+            {
+              "count": 27,
+              "value": 1443045600000
+            },
+            {
+              "count": 27,
+              "value": 915145200000
+            },
+            {
+              "count": 26,
+              "value": 1274824800000
+            },
+            {
+              "count": 25,
+              "value": 815180400000
+            },
+            {
+              "count": 24,
+              "value": 786236400000
+            },
+            {
+              "count": 23,
+              "value": 623199600000
+            },
+            {
+              "count": 23,
+              "value": 1288216800000
+            },
+            {
+              "count": 22,
+              "value": 657414000000
+            },
+            {
+              "count": 22,
+              "value": 1259103600000
+            }
+          ],
+          "type": "int64"
+        },
+        "biosimilar": {
+          "distinct_count": 2,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "top_values": [
+            {
+              "count": 25087,
+              "value": false
+            },
+            {
+              "count": 360,
+              "value": true
+            }
+          ],
+          "type": "bool"
+        },
+        "black_triangle": {
+          "distinct_count": 2,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "top_values": [
+            {
+              "count": 24767,
+              "value": false
+            },
+            {
+              "count": 680,
+              "value": true
+            }
+          ],
+          "type": "bool"
+        },
+        "dose": {
+          "distinct_count": 5875,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "100 mg",
+            "500 mg",
+            "600 mg/300 mg",
+            "600 mg/300 mg",
+            "600 mg/ 300 mg"
+          ],
+          "string_length": {
+            "max": 254,
+            "mean": 10.247769874641412,
+            "min": 1
+          },
+          "top_values": [
+            {
+              "count": 1228,
+              "value": "10 mg"
+            },
+            {
+              "count": 933,
+              "value": "20 mg"
+            },
+            {
+              "count": 823,
+              "value": "5 mg"
+            },
+            {
+              "count": 773,
+              "value": "100 mg"
+            },
+            {
+              "count": 668,
+              "value": "50 mg"
+            },
+            {
+              "count": 501,
+              "value": "25 mg"
+            },
+            {
+              "count": 458,
+              "value": "200 mg"
+            },
+            {
+              "count": 445,
+              "value": "500 mg"
+            },
+            {
+              "count": 441,
+              "value": "40 mg"
+            },
+            {
+              "count": 398,
+              "value": "150 mg"
+            },
+            {
+              "count": 380,
+              "value": "30 mg"
+            },
+            {
+              "count": 332,
+              "value": "300 mg"
+            },
+            {
+              "count": 323,
+              "value": "15 mg"
+            },
+            {
+              "count": 314,
+              "value": "1 mg"
+            },
+            {
+              "count": 264,
+              "value": "60 mg"
+            },
+            {
+              "count": 251,
+              "value": "400 mg"
+            },
+            {
+              "count": 238,
+              "value": "2 mg"
+            },
+            {
+              "count": 236,
+              "value": "75 mg"
+            },
+            {
+              "count": 226,
+              "value": "4 mg"
+            },
+            {
+              "count": 207,
+              "value": "250 mg"
+            }
+          ],
+          "type": "string"
+        },
+        "ema_authorized": {
+          "distinct_count": 2,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "top_values": [
+            {
+              "count": 20774,
+              "value": false
+            },
+            {
+              "count": 4673,
+              "value": true
+            }
+          ],
+          "type": "bool"
+        },
+        "generic": {
+          "distinct_count": 2,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          "top_values": [
+            {
+              "count": 13806,
+              "value": true
+            },
+            {
+              "count": 11641,
+              "value": false
+            }
+          ],
+          "type": "bool"
+        },
+        "has_information_materials": {
+          "distinct_count": 2,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          "top_values": [
+            {
+              "count": 23553,
+              "value": false
+            },
+            {
+              "count": 1894,
+              "value": true
+            }
+          ],
+          "type": "bool"
+        },
+        "has_safety_notes": {
+          "distinct_count": 2,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "top_values": [
+            {
+              "count": 20224,
+              "value": false
+            },
+            {
+              "count": 5223,
+              "value": true
+            }
+          ],
+          "type": "bool"
+        },
+        "holder_laboratory": {
+          "distinct_count": 1186,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "Laboratorio Stada S.L.",
+            "Laboratorio Stada S.L.",
+            "Reddy Pharma Iberia S.A.",
+            "Glenmark Arzneimittel Gmbh",
+            "Kern Pharma S.L."
+          ],
+          "string_length": {
+            "max": 100,
+            "mean": 23.064879946555585,
+            "min": 4
+          },
+          "top_values": [
+            {
+              "count": 850,
+              "value": "Teva Pharma S.L.U."
+            },
+            {
+              "count": 819,
+              "value": "Laboratorio Stada S.L."
+            },
+            {
+              "count": 807,
+              "value": "Laboratorios Normon S.A."
+            },
+            {
+              "count": 800,
+              "value": "Laboratorios Cinfa S.A."
+            },
+            {
+              "count": 656,
+              "value": "Kern Pharma S.L."
+            },
+            {
+              "count": 643,
+              "value": "Sandoz Farmaceutica S.A."
+            },
+            {
+              "count": 548,
+              "value": "Aurovitas Spain, S.A.U."
+            },
+            {
+              "count": 541,
+              "value": "Accord Healthcare S.L.U."
+            },
+            {
+              "count": 463,
+              "value": "Laboratorios Alter S.A."
+            },
+            {
+              "count": 459,
+              "value": "Krka D.D. Novo Mesto"
+            },
+            {
+              "count": 422,
+              "value": "Tarbis Farma S.L."
+            },
+            {
+              "count": 394,
+              "value": "Laboratorios Combix S.L.U."
+            },
+            {
+              "count": 340,
+              "value": "Towa Pharmaceutical S.A."
+            },
+            {
+              "count": 336,
+              "value": "Tecnimede España Industria Farmaceutica S.A."
+            },
+            {
+              "count": 323,
+              "value": "Teva B.V."
+            },
+            {
+              "count": 320,
+              "value": "Viatris Limited"
+            },
+            {
+              "count": 279,
+              "value": "Aristo Pharma Iberia S.L."
+            },
+            {
+              "count": 246,
+              "value": "Mabo Farma S.A."
+            },
+            {
+              "count": 244,
+              "value": "Novartis Europharm Limited"
+            },
+            {
+              "count": 242,
+              "value": "Sun Pharmaceutical Industries (Europe) B.V."
+            }
+          ],
+          "type": "string"
+        },
+        "marketed": {
+          "distinct_count": 2,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "top_values": [
+            {
+              "count": 16101,
+              "value": true
+            },
+            {
+              "count": 9346,
+              "value": false
+            }
+          ],
+          "type": "bool"
+        },
+        "marketing_laboratory": {
+          "distinct_count": 835,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "Laboratorio Stada S.L.",
+            "Laboratorio Stada S.L.",
+            "Reddy Pharma Iberia S.A.",
+            "Glenmark Farmaceutica S.L.U",
+            "Kern Pharma S.L."
+          ],
+          "string_length": {
+            "max": 76,
+            "mean": 22.86163398435965,
+            "min": 3
+          },
+          "top_values": [
+            {
+              "count": 1246,
+              "value": "Teva Pharma S.L.U."
+            },
+            {
+              "count": 843,
+              "value": "Laboratorio Stada S.L."
+            },
+            {
+              "count": 806,
+              "value": "Laboratorios Normon S.A."
+            },
+            {
+              "count": 800,
+              "value": "Laboratorios Cinfa S.A."
+            },
+            {
+              "count": 736,
+              "value": "Sandoz Farmaceutica S.A."
+            },
+            {
+              "count": 690,
+              "value": "Aurovitas Spain, S.A.U."
+            },
+            {
+              "count": 686,
+              "value": "Kern Pharma S.L."
+            },
+            {
+              "count": 542,
+              "value": "Accord Healthcare S.L.U."
+            },
+            {
+              "count": 511,
+              "value": "Krka Farmaceutica S.L."
+            },
+            {
+              "count": 491,
+              "value": "Viatris Pharmaceuticals S.L."
+            },
+            {
+              "count": 489,
+              "value": "Aristo Pharma Iberia S.L."
+            },
+            {
+              "count": 462,
+              "value": "Laboratorios Alter S.A."
+            },
+            {
+              "count": 446,
+              "value": "Elam Pharma Labs S.L."
+            },
+            {
+              "count": 422,
+              "value": "Tarbis Farma S.L."
+            },
+            {
+              "count": 394,
+              "value": "Laboratorios Combix S.L.U."
+            },
+            {
+              "count": 364,
+              "value": "Melyfarma S.L."
+            },
+            {
+              "count": 340,
+              "value": "Towa Pharmaceutical S.A."
+            },
+            {
+              "count": 335,
+              "value": "Tecnimede España Industria Farmaceutica S.A."
+            },
+            {
+              "count": 333,
+              "value": "Pfizer S.L."
+            },
+            {
+              "count": 312,
+              "value": "Difarmed S.L.U."
+            }
+          ],
+          "type": "string"
+        },
+        "name": {
+          "distinct_count": 23434,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "A.A.S. 100 mg COMPRIMIDOS",
+            "A.A.S. 500 mg COMPRIMIDOS",
+            "ABACAVIR/LAMIVUDINA DR. REDDYS 600 MG/300 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG",
+            "ABACAVIR/LAMIVUDINA GLENMARK 600 MG/300 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG",
+            "ABACAVIR/LAMIVUDINA KERN PHARMA 600 MG/300 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG"
+          ],
+          "string_length": {
+            "max": 127,
+            "mean": 55.207490077415805,
+            "min": 6
+          },
+          "top_values": [
+            {
+              "count": 11,
+              "value": "CELEBREX 200 MG CAPSULAS DURAS"
+            },
+            {
+              "count": 10,
+              "value": "JANUVIA 100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA"
+            },
+            {
+              "count": 10,
+              "value": "LIPOCOMB 10 MG/10 MG CAPSULAS DURAS"
+            },
+            {
+              "count": 10,
+              "value": "LIPOCOMB 20 MG/10 MG CAPSULAS DURAS"
+            },
+            {
+              "count": 10,
+              "value": "CIALIS 20 mg COMPRIMIDOS RECUBIERTOS CON PELICULA"
+            },
+            {
+              "count": 9,
+              "value": "EZETROL 10 mg COMPRIMIDOS"
+            },
+            {
+              "count": 8,
+              "value": "AERIUS 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA"
+            },
+            {
+              "count": 8,
+              "value": "ARICEPT 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA"
+            },
+            {
+              "count": 8,
+              "value": "CARDYL 80 MG COMPRIMIDOS RECUBIERTOS CON PELICULA"
+            },
+            {
+              "count": 8,
+              "value": "LEVITRA 10 mg COMPRIMIDOS RECUBIERTOS CON PELICULA"
+            },
+            {
+              "count": 8,
+              "value": "LEVITRA 20 mg COMPRIMIDOS RECUBIERTOS CON PELICULA"
+            },
+            {
+              "count": 8,
+              "value": "LYRICA 150 MG CAPSULAS DURAS"
+            },
+            {
+              "count": 8,
+              "value": "LYRICA 300 MG CAPSULAS DURAS"
+            },
+            {
+              "count": 8,
+              "value": "OPDIVO 10 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION"
+            },
+            {
+              "count": 8,
+              "value": "SINGULAIR 5 MG COMPRIMIDOS MASTICABLES"
+            },
+            {
+              "count": 8,
+              "value": "VALDOXAN 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA"
+            },
+            {
+              "count": 8,
+              "value": "CYMBALTA 60 MG CAPSULAS DURAS GASTRORRESISTENTES"
+            },
+            {
+              "count": 7,
+              "value": "ANORO ELLIPTA 55 MCG/22 MCG POLVO PARA INHALACION (UNIDOSIS)"
+            },
+            {
+              "count": 7,
+              "value": "ATOZET 10 MG/80 MG COMPRIMIDOS RECUBIERTOS CON PELICULA"
+            },
+            {
+              "count": 7,
+              "value": "CARDYL 20 mg COMPRIMIDOS RECUBIERTOS CON PELICULA"
+            }
+          ],
+          "type": "string"
+        },
+        "non_substitutable_code": {
+          "distinct_count": 0,
+          "distinct_count_lower_bound": null,
+          "null_count": 25447,
+          "null_fraction": 1.0,
+          "type": "string"
+        },
+        "non_substitutable_id": {
+          "distinct_count": 4,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "numeric": {
+            "max": 4,
+            "mean": 0.1382088261877628,
+            "min": 0
+          },
+          "sample_values": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "top_values": [
+            {
+              "count": 23120,
+              "value": 0
+            },
+            {
+              "count": 1791,
+              "value": 1
+            },
+            {
+              "count": 327,
+              "value": 4
+            },
+            {
+              "count": 209,
+              "value": 2
+            }
+          ],
+          "type": "int64"
+        },
+        "non_substitutable_name": {
+          "distinct_count": 4,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+          ],
+          "string_length": {
+            "max": 75,
+            "mean": 4.935316540260149,
+            "min": 3
+          },
+          "top_values": [
+            {
+              "count": 23120,
+              "value": "N/A"
+            },
+            {
+              "count": 1791,
+              "value": "Biológicos"
+            },
+            {
+              "count": 327,
+              "value": "Medicamentos para el aparato respiratorio administrados por vía inhalatoria"
+            },
+            {
+              "count": 209,
+              "value": "Medicamentos con principios activos de estrecho margen terapéutico"
+            }
+          ],
+          "type": "string"
+        },
+        "orphan_drug": {
+          "distinct_count": 2,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "top_values": [
+            {
+              "count": 25191,
+              "value": false
+            },
+            {
+              "count": 256,
+              "value": true
+            }
+          ],
+          "type": "bool"
+        },
+        "pharmaceutical_form_code": {
+          "distinct_count": 0,
+          "distinct_count_lower_bound": null,
+          "null_count": 25447,
+          "null_fraction": 1.0,
+          "type": "string"
+        },
+        "pharmaceutical_form_id": {
+          "distinct_count": 284,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "numeric": {
+            "max": 99032,
+            "mean": 619.1823790623649,
+            "min": 1
+          },
+          "sample_values": [
+            40,
+            40,
+            42,
+            42,
+            42
+          ],
+          "top_values": [
+            {
+              "count": 8171,
+              "value": 42
+            },
+            {
+              "count": 3235,
+              "value": 40
+            },
+            {
+              "count": 2124,
+              "value": 32
+            },
+            {
+              "count": 913,
+              "value": 197
+            },
+            {
+              "count": 833,
+              "value": 47
+            },
+            {
+              "count": 489,
+              "value": 77
+            },
+            {
+              "count": 472,
+              "value": 1286
+            },
+            {
+              "count": 457,
+              "value": 222
+            },
+            {
+              "count": 440,
+              "value": 225
+            },
+            {
+              "count": 397,
+              "value": 41
+            },
+            {
+              "count": 385,
+              "value": 5
+            },
+            {
+              "count": 372,
+              "value": 34
+            },
+            {
+              "count": 350,
+              "value": 46
+            },
+            {
+              "count": 332,
+              "value": 219
+            },
+            {
+              "count": 273,
+              "value": 1403
+            },
+            {
+              "count": 260,
+              "value": 130
+            },
+            {
+              "count": 246,
+              "value": 104
+            },
+            {
+              "count": 242,
+              "value": 294
+            },
+            {
+              "count": 229,
+              "value": 33
+            },
+            {
+              "count": 229,
+              "value": 36
+            }
+          ],
+          "type": "int64"
+        },
+        "pharmaceutical_form_name": {
+          "distinct_count": 283,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "COMPRIMIDO",
+            "COMPRIMIDO",
+            "COMPRIMIDO RECUBIERTO CON PELÍCULA",
+            "COMPRIMIDO RECUBIERTO CON PELÍCULA",
+            "COMPRIMIDO RECUBIERTO CON PELÍCULA"
+          ],
+          "string_length": {
+            "max": 70,
+            "mean": 26.456085196683304,
+            "min": 3
+          },
+          "top_values": [
+            {
+              "count": 8171,
+              "value": "COMPRIMIDO RECUBIERTO CON PELÍCULA"
+            },
+            {
+              "count": 3235,
+              "value": "COMPRIMIDO"
+            },
+            {
+              "count": 2124,
+              "value": "CÁPSULA DURA"
+            },
+            {
+              "count": 913,
+              "value": "SOLUCIÓN INYECTABLE"
+            },
+            {
+              "count": 833,
+              "value": "COMPRIMIDO DE LIBERACIÓN PROLONGADA"
+            },
+            {
+              "count": 489,
+              "value": "COMPRIMIDO BUCODISPERSABLE"
+            },
+            {
+              "count": 472,
+              "value": "SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA"
+            },
+            {
+              "count": 457,
+              "value": "SOLUCIÓN PARA PERFUSIÓN"
+            },
+            {
+              "count": 440,
+              "value": "CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN"
+            },
+            {
+              "count": 397,
+              "value": "COMPRIMIDO RECUBIERTO"
+            },
+            {
+              "count": 385,
+              "value": "SOLUCIÓN ORAL"
+            },
+            {
+              "count": 372,
+              "value": "CÁPSULA DURA GASTRORRESISTENTE"
+            },
+            {
+              "count": 350,
+              "value": "COMPRIMIDO GASTRORRESISTENTE"
+            },
+            {
+              "count": 332,
+              "value": "POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE"
+            },
+            {
+              "count": 273,
+              "value": "POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN"
+            },
+            {
+              "count": 260,
+              "value": "COLIRIO EN SOLUCIÓN"
+            },
+            {
+              "count": 246,
+              "value": "PARCHE TRANSDÉRMICO"
+            },
+            {
+              "count": 242,
+              "value": "SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA"
+            },
+            {
+              "count": 229,
+              "value": "CÁPSULA BLANDA"
+            },
+            {
+              "count": 229,
+              "value": "CÁPSULA DURA DE LIBERACIÓN PROLONGADA"
+            }
+          ],
+          "type": "string"
+        },
+        "prescription_conditions": {
+          "distinct_count": 15,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "Medicamento Sujeto A Prescripción Médica. Tratamiento De Larga Duración",
+            "Sin Receta",
+            "Diagnóstico Hospitalario",
+            "Diagnóstico Hospitalario",
+            "Diagnóstico Hospitalario"
+          ],
+          "string_length": {
+            "max": 84,
+            "mean": 35.43403937595787,
+            "min": 10
+          },
+          "top_values": [
+            {
+              "count": 14563,
+              "value": "Medicamento Sujeto A Prescripción Médica"
+            },
+            {
+              "count": 4136,
+              "value": "Uso Hospitalario"
+            },
+            {
+              "count": 2353,
+              "value": "Diagnóstico Hospitalario"
+            },
+            {
+              "count": 1884,
+              "value": "Medicamento Sujeto A Prescripción Médica. Tratamiento De Larga Duración"
+            },
+            {
+              "count": 1624,
+              "value": "Sin Receta"
+            },
+            {
+              "count": 354,
+              "value": "Medicamento Sujeto A Prescripción Médica. Psicótropos"
+            },
+            {
+              "count": 330,
+              "value": "Medicamento Sujeto A Prescripción Médica. Estupefacientes"
+            },
+            {
+              "count": 79,
+              "value": "Uso Hospitalario Y Centros De Diagnóstico Autorizados"
+            },
+            {
+              "count": 40,
+              "value": "Uso Hospitalario. Estupefacientes"
+            },
+            {
+              "count": 38,
+              "value": "Diagnóstico Hospitalario. Psicótropos"
+            },
+            {
+              "count": 31,
+              "value": "Uso Hospitalario. Psicótropos"
+            },
+            {
+              "count": 11,
+              "value": "Medicamento Sujeto A Prescripción Médica. Tratamiento De Larga Duración. Psicótropos"
+            },
+            {
+              "count": 2,
+              "value": "Diagnóstico Hospitalario. Tratamiento De Larga Duración."
+            },
+            {
+              "count": 1,
+              "value": "Diagnóstico Hospitalario. Estupefacientes"
+            },
+            {
+              "count": 1,
+              "value": "Medicamento Sujeto A Prescripción Médica,Uso Hospitalario"
+            }
+          ],
+          "type": "string"
+        },
+        "prescription_required": {
+          "distinct_count": 2,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            true,
+            false,
+            true,
+            true,
+            true
+          ],
+          "top_values": [
+            {
+              "count": 23823,
+              "value": true
+            },
+            {
+              "count": 1624,
+              "value": false
+            }
+          ],
+          "type": "bool"
+        },
+        "registration_number": {
+          "distinct_count": 25447,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "42991",
+            "42956",
+            "81012",
+            "82591",
+            "84182"
+          ],
+          "string_length": {
+            "max": 21,
+            "mean": 6.062915078398239,
+            "min": 4
+          },
+          "top_values": [
+            {
+              "count": 1,
+              "value": "42991"
+            },
+            {
+              "count": 1,
+              "value": "42956"
+            },
+            {
+              "count": 1,
+              "value": "81012"
+            },
+            {
+              "count": 1,
+              "value": "82591"
+            },
+            {
+              "count": 1,
+              "value": "84182"
+            },
+            {
+              "count": 1,
+              "value": "80803"
+            },
+            {
+              "count": 1,
+              "value": "82913"
+            },
+            {
+              "count": 1,
+              "value": "86190"
+            },
+            {
+              "count": 1,
+              "value": "87969"
+            },
+            {
+              "count": 1,
+              "value": "86024"
+            },
+            {
+              "count": 1,
+              "value": "86037"
+            },
+            {
+              "count": 1,
+              "value": "07428001"
+            },
+            {
+              "count": 1,
+              "value": "85180"
+            },
+            {
+              "count": 1,
+              "value": "1231752001"
+            },
+            {
+              "count": 1,
+              "value": "65382"
+            },
+            {
+              "count": 1,
+              "value": "65059"
+            },
+            {
+              "count": 1,
+              "value": "61836"
+            },
+            {
+              "count": 1,
+              "value": "61837"
+            },
+            {
+              "count": 1,
+              "value": "60014"
+            },
+            {
+              "count": 1,
+              "value": "70452"
+            }
+          ],
+          "type": "string"
+        },
+        "simplified_pharmaceutical_form_code": {
+          "distinct_count": 0,
+          "distinct_count_lower_bound": null,
+          "null_count": 25447,
+          "null_fraction": 1.0,
+          "type": "string"
+        },
+        "simplified_pharmaceutical_form_id": {
+          "distinct_count": 70,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "numeric": {
+            "max": 100,
+            "mean": 19.89739458482336,
+            "min": 0
+          },
+          "sample_values": [
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "top_values": [
+            {
+              "count": 12232,
+              "value": 10
+            },
+            {
+              "count": 3004,
+              "value": 34
+            },
+            {
+              "count": 2751,
+              "value": 4
+            },
+            {
+              "count": 1476,
+              "value": 35
+            },
+            {
+              "count": 1165,
+              "value": 93
+            },
+            {
+              "count": 945,
+              "value": 14
+            },
+            {
+              "count": 531,
+              "value": 12
+            },
+            {
+              "count": 405,
+              "value": 33
+            },
+            {
+              "count": 366,
+              "value": 8
+            },
+            {
+              "count": 320,
+              "value": 5
+            },
+            {
+              "count": 246,
+              "value": 42
+            },
+            {
+              "count": 189,
+              "value": 15
+            },
+            {
+              "count": 184,
+              "value": 18
+            },
+            {
+              "count": 161,
+              "value": 39
+            },
+            {
+              "count": 150,
+              "value": 53
+            },
+            {
+              "count": 148,
+              "value": 24
+            },
+            {
+              "count": 141,
+              "value": 11
+            },
+            {
+              "count": 97,
+              "value": 13
+            },
+            {
+              "count": 94,
+              "value": 47
+            },
+            {
+              "count": 79,
+              "value": 64
+            }
+          ],
+          "type": "int64"
+        },
+        "simplified_pharmaceutical_form_name": {
+          "distinct_count": 70,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "COMPRIMIDO",
+            "COMPRIMIDO",
+            "COMPRIMIDO",
+            "COMPRIMIDO",
+            "COMPRIMIDO"
+          ],
+          "string_length": {
+            "max": 55,
+            "mean": 13.14323888867057,
+            "min": 3
+          },
+          "top_values": [
+            {
+              "count": 12232,
+              "value": "COMPRIMIDO"
+            },
+            {
+              "count": 3004,
+              "value": "INYECTABLE"
+            },
+            {
+              "count": 2751,
+              "value": "CAPSULA"
+            },
+            {
+              "count": 1476,
+              "value": "INYECTABLE PERFUSION"
+            },
+            {
+              "count": 1165,
+              "value": "SOLUCIÓN/SUSPENSIÓN ORAL"
+            },
+            {
+              "count": 945,
+              "value": "COMPRIMIDO LIBERACION MODIFICADA"
+            },
+            {
+              "count": 531,
+              "value": "COMPRIMIDO BUCODISPERSABLE/LIOTAB"
+            },
+            {
+              "count": 405,
+              "value": "INHALACIÓN PULMONAR"
+            },
+            {
+              "count": 366,
+              "value": "COLIRIO"
+            },
+            {
+              "count": 320,
+              "value": "CAPSULA LIBERACION MODIFICADA"
+            },
+            {
+              "count": 246,
+              "value": "PARCHE TRANSDERMICO"
+            },
+            {
+              "count": 189,
+              "value": "COMPRIMIDO MASTICABLE"
+            },
+            {
+              "count": 184,
+              "value": "CREMA"
+            },
+            {
+              "count": 161,
+              "value": "LIQUIDO USO TOPICO"
+            },
+            {
+              "count": 150,
+              "value": "PRODUCTO USO NASAL"
+            },
+            {
+              "count": 148,
+              "value": "GEL"
+            },
+            {
+              "count": 141,
+              "value": "COMPRIMIDO BUCAL/PARA CHUPAR"
+            },
+            {
+              "count": 97,
+              "value": "COMPRIMIDO EFERVESCENTE"
+            },
+            {
+              "count": 94,
+              "value": "POMADA"
+            },
+            {
+              "count": 79,
+              "value": "SOLUCION/SUSPENSION GOTAS ORALES"
+            }
+          ],
+          "type": "string"
+        },
+        "supply_problem": {
+          "distinct_count": 2,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "top_values": [
+            {
+              "count": 24628,
+              "value": false
+            },
+            {
+              "count": 819,
+              "value": true
+            }
+          ],
+          "type": "bool"
+        },
+        "suspended_at": {
+          "distinct_count": 511,
+          "distinct_count_lower_bound": null,
+          "null_count": 24777,
+          "null_fraction": 0.97367077,
+          "numeric": {
+            "max": 1786104301000,
+            "mean": 1717100206217.9104,
+            "min": 1318596874000
+          },
+          "sample_values": [
+            1782395643000,
+            1786103940000,
+            1786103880000,
+            1776861245000,
+            1750934328000
+          ],
+          "top_values": [
+            {
+              "count": 9,
+              "value": 1384902000000
+            },
+            {
+              "count": 7,
+              "value": 1723068000000
+            },
+            {
+              "count": 6,
+              "value": 1720648800000
+            },
+            {
+              "count": 6,
+              "value": 1535666400000
+            },
+            {
+              "count": 5,
+              "value": 1570744800000
+            },
+            {
+              "count": 4,
+              "value": 1779718145000
+            },
+            {
+              "count": 4,
+              "value": 1777021623000
+            },
+            {
+              "count": 4,
+              "value": 1776861133000
+            },
+            {
+              "count": 4,
+              "value": 1712872800000
+            },
+            {
+              "count": 3,
+              "value": 1776861134000
+            },
+            {
+              "count": 3,
+              "value": 1776861135000
+            },
+            {
+              "count": 3,
+              "value": 1776861540000
+            },
+            {
+              "count": 3,
+              "value": 1743666906000
+            },
+            {
+              "count": 3,
+              "value": 1777021625000
+            },
+            {
+              "count": 3,
+              "value": 1784277965000
+            },
+            {
+              "count": 3,
+              "value": 1776861242000
+            },
+            {
+              "count": 3,
+              "value": 1406152800000
+            },
+            {
+              "count": 3,
+              "value": 1776861065000
+            },
+            {
+              "count": 3,
+              "value": 1786103950000
+            },
+            {
+              "count": 3,
+              "value": 1776860164000
+            }
+          ],
+          "type": "int64"
+        },
+        "virtual_therapeutic_moiety_code": {
+          "distinct_count": 0,
+          "distinct_count_lower_bound": null,
+          "null_count": 25447,
+          "null_fraction": 1.0,
+          "type": "string"
+        },
+        "virtual_therapeutic_moiety_id": {
+          "distinct_count": 2376,
+          "distinct_count_lower_bound": null,
+          "null_count": 3,
+          "null_fraction": 0.00011789,
+          "numeric": {
+            "max": 296131000140109,
+            "mean": 33722701260942.562,
+            "min": 302007
+          },
+          "sample_values": [
+            7947003,
+            7947003,
+            413381000,
+            413381000,
+            413381000
+          ],
+          "top_values": [
+            {
+              "count": 314,
+              "value": 108600003
+            },
+            {
+              "count": 288,
+              "value": 108443001
+            },
+            {
+              "count": 260,
+              "value": 415159003
+            },
+            {
+              "count": 257,
+              "value": 108441004
+            },
+            {
+              "count": 234,
+              "value": 406785006
+            },
+            {
+              "count": 227,
+              "value": 38268001
+            },
+            {
+              "count": 222,
+              "value": 90332006
+            },
+            {
+              "count": 210,
+              "value": 442539005
+            },
+            {
+              "count": 202,
+              "value": 145371000140105
+            },
+            {
+              "count": 189,
+              "value": 116076009
+            },
+            {
+              "count": 176,
+              "value": 768151007
+            },
+            {
+              "count": 174,
+              "value": 109123009
+            },
+            {
+              "count": 162,
+              "value": 441532003
+            },
+            {
+              "count": 159,
+              "value": 421737001
+            },
+            {
+              "count": 157,
+              "value": 424106006
+            },
+            {
+              "count": 155,
+              "value": 407734006
+            },
+            {
+              "count": 154,
+              "value": 770960003
+            },
+            {
+              "count": 154,
+              "value": 40648001
+            },
+            {
+              "count": 146,
+              "value": 317317009
+            },
+            {
+              "count": 145,
+              "value": 323368009
+            }
+          ],
+          "type": "int64"
+        },
+        "virtual_therapeutic_moiety_name": {
+          "distinct_count": 2376,
+          "distinct_count_lower_bound": null,
+          "null_count": 3,
+          "null_fraction": 0.00011789,
+          "sample_values": [
+            "ácido acetilsalicílico",
+            "ácido acetilsalicílico",
+            "abacavir + lamivudina",
+            "abacavir + lamivudina",
+            "abacavir + lamivudina"
+          ],
+          "string_length": {
+            "max": 128,
+            "mean": 14.475357648168528,
+            "min": 3
+          },
+          "top_values": [
+            {
+              "count": 314,
+              "value": "atorvastatina"
+            },
+            {
+              "count": 288,
+              "value": "quetiapina"
+            },
+            {
+              "count": 260,
+              "value": "pregabalina"
+            },
+            {
+              "count": 257,
+              "value": "olanzapina"
+            },
+            {
+              "count": 234,
+              "value": "aripiprazol"
+            },
+            {
+              "count": 227,
+              "value": "ibuprofeno"
+            },
+            {
+              "count": 222,
+              "value": "paracetamol"
+            },
+            {
+              "count": 210,
+              "value": "rivaroxabán"
+            },
+            {
+              "count": 202,
+              "value": "multicomponente"
+            },
+            {
+              "count": 189,
+              "value": "levetiracetam"
+            },
+            {
+              "count": 176,
+              "value": "rosuvastatina"
+            },
+            {
+              "count": 174,
+              "value": "sildenafilo"
+            },
+            {
+              "count": 162,
+              "value": "lacosamida"
+            },
+            {
+              "count": 159,
+              "value": "lenalidomida"
+            },
+            {
+              "count": 157,
+              "value": "sitagliptina"
+            },
+            {
+              "count": 155,
+              "value": "tadalafilo"
+            },
+            {
+              "count": 154,
+              "value": "olmesartán + amlodipino + hidroclorotiazida"
+            },
+            {
+              "count": 154,
+              "value": "fentanilo"
+            },
+            {
+              "count": 146,
+              "value": "pantoprazol"
+            },
+            {
+              "count": 145,
+              "value": "rivastigmina"
+            }
+          ],
+          "type": "string"
+        },
+        "withdrawn_at": {
+          "distinct_count": 3659,
+          "distinct_count_lower_bound": null,
+          "null_count": 21074,
+          "null_fraction": 0.82815263,
+          "numeric": {
+            "max": 1785998044000,
+            "mean": 1708204799782.3005,
+            "min": 1628769690000
+          },
+          "sample_values": [
+            1774518549000,
+            1699874550000,
+            1653318293000,
+            1650383853000,
+            1650383858000
+          ],
+          "top_values": [
+            {
+              "count": 17,
+              "value": 1644274800000
+            },
+            {
+              "count": 10,
+              "value": 1760083980000
+            },
+            {
+              "count": 10,
+              "value": 1678438403000
+            },
+            {
+              "count": 8,
+              "value": 1752530400000
+            },
+            {
+              "count": 7,
+              "value": 1761519600000
+            },
+            {
+              "count": 6,
+              "value": 1769778848000
+            },
+            {
+              "count": 6,
+              "value": 1629928800000
+            },
+            {
+              "count": 5,
+              "value": 1704354290000
+            },
+            {
+              "count": 4,
+              "value": 1768926434000
+            },
+            {
+              "count": 4,
+              "value": 1767871020000
+            },
+            {
+              "count": 4,
+              "value": 1645012316000
+            },
+            {
+              "count": 4,
+              "value": 1773145209000
+            },
+            {
+              "count": 4,
+              "value": 1782976320000
+            },
+            {
+              "count": 4,
+              "value": 1770023821000
+            },
+            {
+              "count": 4,
+              "value": 1707433200000
+            },
+            {
+              "count": 4,
+              "value": 1648418400000
+            },
+            {
+              "count": 4,
+              "value": 1690149600000
+            },
+            {
+              "count": 4,
+              "value": 1641979728000
+            },
+            {
+              "count": 4,
+              "value": 1652279470000
+            },
+            {
+              "count": 3,
+              "value": 1728646264000
+            }
+          ],
+          "type": "int64"
+        }
+      },
+      "compressed_bytes": 874766,
+      "row_count": 25447
+    },
+    "photos": {
+      "column_count": 5,
+      "columns": {
+        "photo_type": {
+          "distinct_count": 2,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "materialas",
+            "formafarmac",
+            "materialas",
+            "formafarmac",
+            "materialas"
+          ],
+          "string_length": {
+            "max": 11,
+            "mean": 10.500545989080218,
+            "min": 10
+          },
+          "top_values": [
+            {
+              "count": 5959,
+              "value": "formafarmac"
+            },
+            {
+              "count": 5946,
+              "value": "materialas"
+            }
+          ],
+          "type": "string"
+        },
+        "position": {
+          "distinct_count": 2,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "numeric": {
+            "max": 1,
+            "mean": 0.4950020999580008,
+            "min": 0
+          },
+          "sample_values": [
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "top_values": [
+            {
+              "count": 6012,
+              "value": 0
+            },
+            {
+              "count": 5893,
+              "value": 1
+            }
+          ],
+          "type": "int64"
+        },
+        "registration_number": {
+          "distinct_count": 6012,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "42991",
+            "42991",
+            "42956",
+            "42956",
+            "81012"
+          ],
+          "string_length": {
+            "max": 11,
+            "mean": 5.706005879882403,
+            "min": 4
+          },
+          "top_values": [
+            {
+              "count": 2,
+              "value": "42991"
+            },
+            {
+              "count": 2,
+              "value": "42956"
+            },
+            {
+              "count": 2,
+              "value": "81012"
+            },
+            {
+              "count": 2,
+              "value": "82591"
+            },
+            {
+              "count": 2,
+              "value": "84182"
+            },
+            {
+              "count": 2,
+              "value": "80803"
+            },
+            {
+              "count": 2,
+              "value": "82913"
+            },
+            {
+              "count": 2,
+              "value": "86190"
+            },
+            {
+              "count": 2,
+              "value": "87969"
+            },
+            {
+              "count": 2,
+              "value": "86024"
+            },
+            {
+              "count": 2,
+              "value": "86037"
+            },
+            {
+              "count": 2,
+              "value": "07428001"
+            },
+            {
+              "count": 2,
+              "value": "85180"
+            },
+            {
+              "count": 2,
+              "value": "1231752001"
+            },
+            {
+              "count": 2,
+              "value": "65382"
+            },
+            {
+              "count": 2,
+              "value": "65059"
+            },
+            {
+              "count": 2,
+              "value": "61836"
+            },
+            {
+              "count": 2,
+              "value": "61837"
+            },
+            {
+              "count": 2,
+              "value": "60014"
+            },
+            {
+              "count": 2,
+              "value": "70452"
+            }
+          ],
+          "type": "string"
+        },
+        "source_updated_at": {
+          "distinct_count": 10798,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "numeric": {
+            "max": 1786366639000,
+            "mean": 1663195382915.7498,
+            "min": 1509097856000
+          },
+          "sample_values": [
+            1748521750000,
+            1748521752000,
+            1748521780000,
+            1748521783000,
+            1570105172000
+          ],
+          "top_values": [
+            {
+              "count": 17,
+              "value": 1778495324000
+            },
+            {
+              "count": 12,
+              "value": 1769774107000
+            },
+            {
+              "count": 10,
+              "value": 1612874151000
+            },
+            {
+              "count": 6,
+              "value": 1703587860000
+            },
+            {
+              "count": 6,
+              "value": 1653045352000
+            },
+            {
+              "count": 6,
+              "value": 1670922561000
+            },
+            {
+              "count": 4,
+              "value": 1679560175000
+            },
+            {
+              "count": 4,
+              "value": 1778495323000
+            },
+            {
+              "count": 4,
+              "value": 1755153509000
+            },
+            {
+              "count": 4,
+              "value": 1758112412000
+            },
+            {
+              "count": 4,
+              "value": 1771428648000
+            },
+            {
+              "count": 4,
+              "value": 1778227045000
+            },
+            {
+              "count": 2,
+              "value": 1772493293000
+            },
+            {
+              "count": 2,
+              "value": 1780352072000
+            },
+            {
+              "count": 2,
+              "value": 1574146568000
+            },
+            {
+              "count": 2,
+              "value": 1603147199000
+            },
+            {
+              "count": 2,
+              "value": 1603147230000
+            },
+            {
+              "count": 2,
+              "value": 1741872165000
+            },
+            {
+              "count": 2,
+              "value": 1781129767000
+            },
+            {
+              "count": 2,
+              "value": 1778502427000
+            }
+          ],
+          "type": "int64"
+        },
+        "url": {
+          "distinct_count": 11905,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "https://cima.aemps.es/cima/fotos/thumbnails/materialas/42991/42991_materialas.jpg",
+            "https://cima.aemps.es/cima/fotos/thumbnails/formafarmac/42991/42991_formafarmac.jpg",
+            "https://cima.aemps.es/cima/fotos/thumbnails/materialas/42956/42956_materialas.jpg",
+            "https://cima.aemps.es/cima/fotos/thumbnails/formafarmac/42956/42956_formafarmac.jpg",
+            "https://cima.aemps.es/cima/fotos/thumbnails/materialas/81012/81012_materialas.jpg"
+          ],
+          "string_length": {
+            "max": 95,
+            "mean": 83.41310373792524,
+            "min": 79
+          },
+          "top_values": [
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/fotos/thumbnails/materialas/42991/42991_materialas.jpg"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/fotos/thumbnails/formafarmac/42991/42991_formafarmac.jpg"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/fotos/thumbnails/materialas/42956/42956_materialas.jpg"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/fotos/thumbnails/formafarmac/42956/42956_formafarmac.jpg"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/fotos/thumbnails/materialas/81012/81012_materialas.jpg"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/fotos/thumbnails/formafarmac/81012/81012_formafarmac.jpg"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/fotos/thumbnails/materialas/82591/82591_materialas.jpg"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/fotos/thumbnails/formafarmac/82591/82591_formafarmac.jpg"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/fotos/thumbnails/materialas/84182/84182_materialas.jpg"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/fotos/thumbnails/formafarmac/84182/84182_formafarmac.jpg"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/fotos/thumbnails/materialas/80803/80803_materialas.jpg"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/fotos/thumbnails/formafarmac/80803/80803_formafarmac.jpg"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/fotos/thumbnails/materialas/82913/82913_materialas.jpg"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/fotos/thumbnails/formafarmac/82913/82913_formafarmac.jpg"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/fotos/thumbnails/materialas/86190/86190_materialas.jpg"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/fotos/thumbnails/formafarmac/86190/86190_formafarmac.jpg"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/fotos/thumbnails/materialas/87969/87969_materialas.jpg"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/fotos/thumbnails/formafarmac/87969/87969_formafarmac.jpg"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/fotos/thumbnails/materialas/86024/86024_materialas.jpg"
+            },
+            {
+              "count": 1,
+              "value": "https://cima.aemps.es/cima/fotos/thumbnails/formafarmac/86024/86024_formafarmac.jpg"
+            }
+          ],
+          "type": "string"
+        }
+      },
+      "compressed_bytes": 191983,
+      "row_count": 11905
+    },
+    "presentations": {
+      "column_count": 9,
+      "columns": {
+        "authorized_at": {
+          "distinct_count": 16966,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "numeric": {
+            "max": 1786378020000,
+            "mean": 1369193841112.368,
+            "min": -2208987916000
+          },
+          "sample_values": [
+            1323730800000,
+            1021240800000,
+            1513119600000,
+            1467043405000,
+            1510574271000
+          ],
+          "top_values": [
+            {
+              "count": 82,
+              "value": 1291244400000
+            },
+            {
+              "count": 75,
+              "value": 995407200000
+            },
+            {
+              "count": 72,
+              "value": 1353279600000
+            },
+            {
+              "count": 67,
+              "value": 1568239200000
+            },
+            {
+              "count": 66,
+              "value": 1322002800000
+            },
+            {
+              "count": 65,
+              "value": 1359327600000
+            },
+            {
+              "count": 56,
+              "value": 880930800000
+            },
+            {
+              "count": 54,
+              "value": 930780000000
+            },
+            {
+              "count": 50,
+              "value": 1085695200000
+            },
+            {
+              "count": 50,
+              "value": 907192800000
+            },
+            {
+              "count": 49,
+              "value": 928188000000
+            },
+            {
+              "count": 47,
+              "value": 891381600000
+            },
+            {
+              "count": 47,
+              "value": 1274824800000
+            },
+            {
+              "count": 44,
+              "value": 899244000000
+            },
+            {
+              "count": 44,
+              "value": 915145200000
+            },
+            {
+              "count": 44,
+              "value": 1348696800000
+            },
+            {
+              "count": 44,
+              "value": 1131318000000
+            },
+            {
+              "count": 43,
+              "value": 1355094000000
+            },
+            {
+              "count": 43,
+              "value": 1312754400000
+            },
+            {
+              "count": 42,
+              "value": 1353970800000
+            }
+          ],
+          "type": "int64"
+        },
+        "marketed": {
+          "distinct_count": 2,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            true,
+            false,
+            true,
+            true,
+            false
+          ],
+          "top_values": [
+            {
+              "count": 21429,
+              "value": false
+            },
+            {
+              "count": 20567,
+              "value": true
+            }
+          ],
+          "type": "bool"
+        },
+        "name": {
+          "distinct_count": 40211,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "A.A.S. 100 mg COMPRIMIDOS, 30 comprimidos",
+            "A.A.S. 100 mg COMPRIMIDOS, 500 comprimidos",
+            "A.A.S. 500 mg COMPRIMIDOS , 20 comprimidos",
+            "ABACAVIR/LAMIVUDINA  DR. REDDYS 600 MG/300 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG 30 comprimidos",
+            "ABACAVIR/LAMIVUDINA GLENMARK 600 MG/300 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG, 30 comprimidos (Blister PVC/Aclar/Al)"
+          ],
+          "string_length": {
+            "max": 189,
+            "mean": 75.84015144299457,
+            "min": 19
+          },
+          "top_values": [
+            {
+              "count": 7,
+              "value": "ANORO ELLIPTA 55 MCG/22 MCG POLVO PARA INHALACION (UNIDOSIS), 30 dosis"
+            },
+            {
+              "count": 7,
+              "value": "ARICEPT 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA, 28 comprimidos"
+            },
+            {
+              "count": 7,
+              "value": "CARDYL 20 mg COMPRIMIDOS RECUBIERTOS CON PELICULA, 28 comprimidos"
+            },
+            {
+              "count": 7,
+              "value": "LYRICA 150 MG CAPSULAS DURAS, 56 cápsulas"
+            },
+            {
+              "count": 7,
+              "value": "LYRICA 300 MG CAPSULAS DURAS, 56 cápsulas"
+            },
+            {
+              "count": 7,
+              "value": "MONOPROST 50 MICROGRAMOS/ML COLIRIO EN SOLUCION EN ENVASE UNIDOSIS, 30 envases unidosis de 0,2 ml"
+            },
+            {
+              "count": 7,
+              "value": "VALDOXAN 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA, 28 comprimidos"
+            },
+            {
+              "count": 6,
+              "value": "CORLENTOR 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA, 56 comprimidos"
+            },
+            {
+              "count": 6,
+              "value": "CORLENTOR 7,5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA, 56 comprimidos"
+            },
+            {
+              "count": 6,
+              "value": "ENTRESTO 24 MG/26 MG COMPRIMIDOS RECUBIERTOS CON PELICULA, 28 comprimidos"
+            },
+            {
+              "count": 6,
+              "value": "ENTRESTO 49 MG/51 MG COMPRIMIDOS RECUBIERTOS CON PELICULA, 56 comprimidos"
+            },
+            {
+              "count": 6,
+              "value": "JENTADUETO 2,5 MG/850 MG COMPRIMIDOS RECUBIERTOS CON PELICULA, 60 comprimidos"
+            },
+            {
+              "count": 6,
+              "value": "MIRAPEXIN 1,05 MG COMPRIMIDOS DE LIBERACION PROLONGADA, 30 comprimidos"
+            },
+            {
+              "count": 6,
+              "value": "SINGULAIR 5 MG COMPRIMIDOS MASTICABLES, 28 comprimidos"
+            },
+            {
+              "count": 5,
+              "value": "ATORDUO 10 MG/10 MG CAPSULAS DURAS, 30 cápsulas"
+            },
+            {
+              "count": 5,
+              "value": "ATORDUO 20 MG/10 MG CAPSULAS DURAS, 30 cápsulas"
+            },
+            {
+              "count": 5,
+              "value": "ATORDUO 40 MG/10 MG CAPSULAS DURAS, 30 cápsulas"
+            },
+            {
+              "count": 5,
+              "value": "CARDYL 40 mg COMPRIMIDOS RECUBIERTOS CON PELICULA, 28 comprimidos"
+            },
+            {
+              "count": 5,
+              "value": "ENTRESTO 97 MG/103 MG COMPRIMIDOS RECUBIERTOS CON PELICULA, 56 comprimidos"
+            },
+            {
+              "count": 5,
+              "value": "EUCREAS 50 mg/850 mg COMPRIMIDOS RECUBIERTOS CON PELICULA, 60 comprimidos"
+            }
+          ],
+          "type": "string"
+        },
+        "national_code": {
+          "distinct_count": 41996,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "686580",
+            "614537",
+            "700693",
+            "711415",
+            "719706"
+          ],
+          "string_length": {
+            "max": 6,
+            "mean": 6.0,
+            "min": 6
+          },
+          "top_values": [
+            {
+              "count": 1,
+              "value": "686580"
+            },
+            {
+              "count": 1,
+              "value": "614537"
+            },
+            {
+              "count": 1,
+              "value": "700693"
+            },
+            {
+              "count": 1,
+              "value": "711415"
+            },
+            {
+              "count": 1,
+              "value": "719706"
+            },
+            {
+              "count": 1,
+              "value": "719707"
+            },
+            {
+              "count": 1,
+              "value": "725917"
+            },
+            {
+              "count": 1,
+              "value": "725918"
+            },
+            {
+              "count": 1,
+              "value": "710542"
+            },
+            {
+              "count": 1,
+              "value": "720891"
+            },
+            {
+              "count": 1,
+              "value": "720893"
+            },
+            {
+              "count": 1,
+              "value": "731610"
+            },
+            {
+              "count": 1,
+              "value": "758030"
+            },
+            {
+              "count": 1,
+              "value": "731202"
+            },
+            {
+              "count": 1,
+              "value": "731201"
+            },
+            {
+              "count": 1,
+              "value": "731229"
+            },
+            {
+              "count": 1,
+              "value": "731230"
+            },
+            {
+              "count": 1,
+              "value": "660458"
+            },
+            {
+              "count": 1,
+              "value": "769276"
+            },
+            {
+              "count": 1,
+              "value": "769277"
+            }
+          ],
+          "type": "string"
+        },
+        "position": {
+          "distinct_count": 75,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "numeric": {
+            "max": 74,
+            "mean": 1.114106105343366,
+            "min": 0
+          },
+          "sample_values": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "top_values": [
+            {
+              "count": 25444,
+              "value": 0
+            },
+            {
+              "count": 9490,
+              "value": 1
+            },
+            {
+              "count": 3052,
+              "value": 2
+            },
+            {
+              "count": 1443,
+              "value": 3
+            },
+            {
+              "count": 620,
+              "value": 4
+            },
+            {
+              "count": 460,
+              "value": 5
+            },
+            {
+              "count": 244,
+              "value": 6
+            },
+            {
+              "count": 200,
+              "value": 7
+            },
+            {
+              "count": 132,
+              "value": 8
+            },
+            {
+              "count": 105,
+              "value": 9
+            },
+            {
+              "count": 86,
+              "value": 10
+            },
+            {
+              "count": 70,
+              "value": 11
+            },
+            {
+              "count": 61,
+              "value": 12
+            },
+            {
+              "count": 51,
+              "value": 13
+            },
+            {
+              "count": 46,
+              "value": 14
+            },
+            {
+              "count": 40,
+              "value": 15
+            },
+            {
+              "count": 36,
+              "value": 16
+            },
+            {
+              "count": 34,
+              "value": 17
+            },
+            {
+              "count": 29,
+              "value": 18
+            },
+            {
+              "count": 28,
+              "value": 19
+            }
+          ],
+          "type": "int64"
+        },
+        "registration_number": {
+          "distinct_count": 25444,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            "42991",
+            "42991",
+            "42956",
+            "81012",
+            "82591"
+          ],
+          "string_length": {
+            "max": 21,
+            "mean": 5.724735689113249,
+            "min": 4
+          },
+          "top_values": [
+            {
+              "count": 75,
+              "value": "67698"
+            },
+            {
+              "count": 75,
+              "value": "67795"
+            },
+            {
+              "count": 32,
+              "value": "34369"
+            },
+            {
+              "count": 32,
+              "value": "81354"
+            },
+            {
+              "count": 31,
+              "value": "34365"
+            },
+            {
+              "count": 30,
+              "value": "73819"
+            },
+            {
+              "count": 29,
+              "value": "67796"
+            },
+            {
+              "count": 27,
+              "value": "58448"
+            },
+            {
+              "count": 26,
+              "value": "74947"
+            },
+            {
+              "count": 21,
+              "value": "63898"
+            },
+            {
+              "count": 18,
+              "value": "66709"
+            },
+            {
+              "count": 18,
+              "value": "84244"
+            },
+            {
+              "count": 17,
+              "value": "67843"
+            },
+            {
+              "count": 16,
+              "value": "81952"
+            },
+            {
+              "count": 16,
+              "value": "81884"
+            },
+            {
+              "count": 16,
+              "value": "67166"
+            },
+            {
+              "count": 15,
+              "value": "69944"
+            },
+            {
+              "count": 15,
+              "value": "68511"
+            },
+            {
+              "count": 14,
+              "value": "67167"
+            },
+            {
+              "count": 13,
+              "value": "67677"
+            }
+          ],
+          "type": "string"
+        },
+        "supply_problem": {
+          "distinct_count": 2,
+          "distinct_count_lower_bound": null,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "sample_values": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "top_values": [
+            {
+              "count": 41064,
+              "value": false
+            },
+            {
+              "count": 932,
+              "value": true
+            }
+          ],
+          "type": "bool"
+        },
+        "suspended_at": {
+          "distinct_count": 550,
+          "distinct_count_lower_bound": null,
+          "null_count": 40850,
+          "null_fraction": 0.97271169,
+          "numeric": {
+            "max": 1784723643000,
+            "mean": 1704289129020.9424,
+            "min": 1317074400000
+          },
+          "sample_values": [
+            1782395643000,
+            1782395643000,
+            1744187300000,
+            1744187299000,
+            1696403840000
+          ],
+          "top_values": [
+            {
+              "count": 19,
+              "value": 1725012968000
+            },
+            {
+              "count": 15,
+              "value": 1720648800000
+            },
+            {
+              "count": 12,
+              "value": 1725012969000
+            },
+            {
+              "count": 11,
+              "value": 1570744800000
+            },
+            {
+              "count": 11,
+              "value": 1720691404000
+            },
+            {
+              "count": 10,
+              "value": 1585778400000
+            },
+            {
+              "count": 9,
+              "value": 1779718145000
+            },
+            {
+              "count": 9,
+              "value": 1384902000000
+            },
+            {
+              "count": 8,
+              "value": 1712872800000
+            },
+            {
+              "count": 7,
+              "value": 1723068000000
+            },
+            {
+              "count": 7,
+              "value": 1723799881000
+            },
+            {
+              "count": 7,
+              "value": 1781170147000
+            },
+            {
+              "count": 6,
+              "value": 1779718144000
+            },
+            {
+              "count": 6,
+              "value": 1779718146000
+            },
+            {
+              "count": 6,
+              "value": 1733232604000
+            },
+            {
+              "count": 6,
+              "value": 1612871707000
+            },
+            {
+              "count": 6,
+              "value": 1781170146000
+            },
+            {
+              "count": 6,
+              "value": 1630653007000
+            },
+            {
+              "count": 6,
+              "value": 1636066800000
+            },
+            {
+              "count": 6,
+              "value": 1764930245000
+            }
+          ],
+          "type": "int64"
+        },
+        "withdrawn_at": {
+          "distinct_count": 3854,
+          "distinct_count_lower_bound": null,
+          "null_count": 34646,
+          "null_fraction": 0.82498333,
+          "numeric": {
+            "max": 1785998044000,
+            "mean": 1709033300369.524,
+            "min": 1628769690000
+          },
+          "sample_values": [
+            1774518549000,
+            1774518549000,
+            1699874550000,
+            1653318293000,
+            1653318293000
+          ],
+          "top_values": [
+            {
+              "count": 65,
+              "value": 1752530400000
+            },
+            {
+              "count": 23,
+              "value": 1644274800000
+            },
+            {
+              "count": 14,
+              "value": 1761519600000
+            },
+            {
+              "count": 13,
+              "value": 1731320461000
+            },
+            {
+              "count": 12,
+              "value": 1727707501000
+            },
+            {
+              "count": 12,
+              "value": 1668528591000
+            },
+            {
+              "count": 12,
+              "value": 1750420602000
+            },
+            {
+              "count": 11,
+              "value": 1776090369000
+            },
+            {
+              "count": 11,
+              "value": 1768926433000
+            },
+            {
+              "count": 11,
+              "value": 1743511985000
+            },
+            {
+              "count": 11,
+              "value": 1722594182000
+            },
+            {
+              "count": 11,
+              "value": 1686044757000
+            },
+            {
+              "count": 10,
+              "value": 1693567932000
+            },
+            {
+              "count": 10,
+              "value": 1690804344000
+            },
+            {
+              "count": 10,
+              "value": 1775731852000
+            },
+            {
+              "count": 10,
+              "value": 1760083980000
+            },
+            {
+              "count": 10,
+              "value": 1779181267000
+            },
+            {
+              "count": 10,
+              "value": 1678438403000
+            },
+            {
+              "count": 9,
+              "value": 1731320116000
+            },
+            {
+              "count": 9,
+              "value": 1662559741000
+            }
+          ],
+          "type": "int64"
+        }
+      },
+      "compressed_bytes": 1056347,
+      "row_count": 41996
+    }
+  }
+}

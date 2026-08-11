@@ -1,0 +1,19 @@
+{
+  "base_url": "https://cima.aemps.es/cima/rest",
+  "raw_dir": "data/sample/raw",
+  "processed_dir": "data/sample/processed",
+  "artifacts_dir": "artifacts/sample",
+  "staging_dir": "hf_staging/sample",
+  "request_delay_seconds": 0.2,
+  "max_workers": 2,
+  "timeout_seconds": 60,
+  "max_retries": 3,
+  "max_pages": 1,
+  "max_medications": 5,
+  "include_details": true,
+  "include_documents": true,
+  "include_change_register": false,
+  "changes_since": "01/01/2025",
+  "parquet_rows_per_file": 10000,
+  "user_agent": "public-data-research-cima/0.1 (sample research run)"
+}

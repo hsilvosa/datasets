@@ -1,0 +1,89 @@
+{
+  "files": [
+    {
+      "bytes": 339394,
+      "path": "active_ingredients/part-00000.parquet",
+      "sha256": "313194c4eb75e802041c7bae186b8a90d440c881844739c54b0e66c7a3bb5ebd"
+    },
+    {
+      "bytes": 151972,
+      "path": "administration_routes/part-00000.parquet",
+      "sha256": "f2157f797f41203a4956f4e68f32d4a81ba3fd37d06a9fa2ce9f2900533f4ed5"
+    },
+    {
+      "bytes": 345191,
+      "path": "atc_codes/part-00000.parquet",
+      "sha256": "1350a9d4fd92826052ce853cd61bb9f099e87b1627c091f16f12dd71be060244"
+    },
+    {
+      "bytes": 1107377,
+      "path": "document_links/part-00000.parquet",
+      "sha256": "560b6f9186f59565c8edfc5b8534a2f9899b78d3dadf1ac11b6f23d3b5089205"
+    },
+    {
+      "bytes": 135480648,
+      "path": "documents/part-00000.parquet",
+      "sha256": "433c9af9b2ab6f4973f96af19ec9f5afe3603c2195718b0b9eef639c888473de"
+    },
+    {
+      "bytes": 142952567,
+      "path": "documents/part-00001.parquet",
+      "sha256": "3ce2fbe0d29f63ad015b9eb96f1e86fa4c847eaab426f4748f2cd387096e5c26"
+    },
+    {
+      "bytes": 118406233,
+      "path": "documents/part-00002.parquet",
+      "sha256": "47e9603a0e3dc28e4dfab7e21e93dc03cf0aeb8c8ae07bc81c54d29f59b4933f"
+    },
+    {
+      "bytes": 126787828,
+      "path": "documents/part-00003.parquet",
+      "sha256": "ad3e89587de2b0744e0c5d4a2d52b2c432752fc61c78c482967bfdb5b8ca3bcf"
+    },
+    {
+      "bytes": 134685372,
+      "path": "documents/part-00004.parquet",
+      "sha256": "540fca7fcb51f45b79b0df433541d4fb47a79aec648c78cedce6567a3423de24"
+    },
+    {
+      "bytes": 118337764,
+      "path": "documents/part-00005.parquet",
+      "sha256": "8b7a9fc48900f845cd36b550f31ac8e340a742d252f2ec86621d972e43e3f07d"
+    },
+    {
+      "bytes": 117601331,
+      "path": "documents/part-00006.parquet",
+      "sha256": "52e62044b41b90dda9080f51ffc528d461ed8036a4e4a28aeb4bb60e546da43f"
+    },
+    {
+      "bytes": 118518545,
+      "path": "documents/part-00007.parquet",
+      "sha256": "3051b9a8d56bd56a360a11c958a38ed3807a0d6bbe5e308667f398bec68a61ff"
+    },
+    {
+      "bytes": 63823373,
+      "path": "documents/part-00008.parquet",
+      "sha256": "6590304f4a49ba1e6271755ddfbbb080d756c629a206d3ae982e3c98dd775de1"
+    },
+    {
+      "bytes": 443539,
+      "path": "excipients/part-00000.parquet",
+      "sha256": "c656f6ca878b8145f7c1b4ddf55f7c276aeaf76678b4d50c4ab0c66d3d3187ce"
+    },
+    {
+      "bytes": 874766,
+      "path": "medications/part-00000.parquet",
+      "sha256": "68811d86581796c25b0bc1f467e8477d65bd4351cac5a06c732fef39f41798bb"
+    },
+    {
+      "bytes": 191983,
+      "path": "photos/part-00000.parquet",
+      "sha256": "69b673c58614244be6223d83fbd88ab555c13112f014b9641cfac06980af1dea"
+    },
+    {
+      "bytes": 1056347,
+      "path": "presentations/part-00000.parquet",
+      "sha256": "e4d4c7df229ca8d57dd7f33dfb87ee914894824507fcfed3c0464a669780f6a0"
+    }
+  ]
+}
