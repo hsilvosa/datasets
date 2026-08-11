@@ -1,6 +1,8 @@
 # AEMPS CIMA Research Dataset
 
-This repository contains the reproducible pipeline used to build the [AEMPS CIMA dataset on Hugging Face](https://huggingface.co/datasets/HSilvosa/aemps-cima). CIMA is the medicine information system maintained by the Spanish Agency of Medicines and Medical Devices (AEMPS).
+**Published dataset:** [hsilvosa/aemps-cima on Hugging Face](https://huggingface.co/datasets/hsilvosa/aemps-cima)
+
+This repository contains the reproducible pipeline used to build the published dataset. CIMA is the medicine information system maintained by the Spanish Agency of Medicines and Medical Devices (AEMPS).
 
 The source exposes official information about authorized and non-authorized medicines, commercial presentations, active ingredients, ATC codes, pharmaceutical forms, administration routes, regulatory status, safety-related indicators, segmented summaries of product characteristics and patient leaflets.
 
