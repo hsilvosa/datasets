@@ -1,0 +1,79 @@
+{
+  "dataset": "ENTSO-E Transparency prices and load",
+  "generated_at": "2026-08-12T09:51:22.339959+00:00",
+  "tables": {
+    "actual_load": {
+      "compressed_bytes": 394091,
+      "country_count": 3,
+      "currencies": {},
+      "file_count": 1,
+      "numeric": {
+        "column": "load",
+        "max": 86918.07,
+        "mean": 51601.33069702399,
+        "min": 18488.0,
+        "non_null_count": 8905,
+        "null_count": 0,
+        "standard_deviation": 17694.954810655807
+      },
+      "resolutions": {
+        "PT15M": 8905
+      },
+      "row_count": 8905,
+      "rows_by_country": {
+        "DE": 2976,
+        "ES": 2953,
+        "FR": 2976
+      },
+      "rows_by_zone": {
+        "DE_LU": 2976,
+        "ES": 2953,
+        "FR": 2976
+      },
+      "timestamp_max_utc": "2025-01-31T23:45:00+00:00",
+      "timestamp_min_utc": "2025-01-01T00:00:00+00:00",
+      "units": {
+        "MAW": 8905
+      },
+      "zone_count": 3
+    },
+    "day_ahead_prices": {
+      "compressed_bytes": 232796,
+      "country_count": 3,
+      "currencies": {
+        "EUR": 5169
+      },
+      "file_count": 1,
+      "numeric": {
+        "column": "price",
+        "max": 583.4,
+        "mean": 110.86944670148964,
+        "min": -34.93,
+        "non_null_count": 5169,
+        "null_count": 0,
+        "standard_deviation": 55.29231069874138
+      },
+      "resolutions": {
+        "PT15M": 2969,
+        "PT60M": 2200
+      },
+      "row_count": 5169,
+      "rows_by_country": {
+        "DE": 3707,
+        "ES": 724,
+        "FR": 738
+      },
+      "rows_by_zone": {
+        "DE_LU": 3707,
+        "ES": 724,
+        "FR": 738
+      },
+      "timestamp_max_utc": "2025-01-31T23:45:00+00:00",
+      "timestamp_min_utc": "2025-01-01T00:00:00+00:00",
+      "units": {
+        "MWH": 5169
+      },
+      "zone_count": 3
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "files": [
+    {
+      "bytes": 232796,
+      "file": "day_ahead_prices/train-00000.parquet",
+      "sha256": "8b4937619aa5134f03eeb459907db520a59d09033fa3959cf570a966ecbd6294"
+    },
+    {
+      "bytes": 394091,
+      "file": "actual_load/train-00000.parquet",
+      "sha256": "1e78d80aee22726d12034441ca89c686c5e6d9e21546a80c21857916dd099526"
+    }
+  ]
+}

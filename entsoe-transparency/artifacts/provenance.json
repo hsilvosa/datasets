@@ -1,0 +1,50 @@
+{
+  "api": "https://web-api.tp.entsoe.eu/api",
+  "configuration": {
+    "artifacts_dir": "C:\\Users\\Usuario\\Desktop\\PORTFOLIO\\datasets\\entsoe-transparency\\artifacts",
+    "base_url": "https://web-api.tp.entsoe.eu/api",
+    "datasets": [
+      "day_ahead_prices",
+      "actual_load"
+    ],
+    "end_date": "2026-08-01",
+    "load_chunk_months": 12,
+    "max_retries": 8,
+    "max_tasks": null,
+    "max_workers": 4,
+    "parquet_rows_per_file": 500000,
+    "price_chunk_months": 1,
+    "processed_dir": "C:\\Users\\Usuario\\Desktop\\PORTFOLIO\\datasets\\entsoe-transparency\\data\\processed",
+    "raw_dir": "C:\\Users\\Usuario\\Desktop\\PORTFOLIO\\datasets\\entsoe-transparency\\data\\raw",
+    "requests_per_second": 4.0,
+    "staging_dir": "C:\\Users\\Usuario\\Desktop\\PORTFOLIO\\datasets\\entsoe-transparency\\hf_staging",
+    "start_date": "2015-01-01",
+    "timeout_seconds": 180,
+    "user_agent": "public-data-research-entsoe/0.1 (research dataset builder)",
+    "zone_keys": null,
+    "zones_file": "C:\\Users\\Usuario\\Desktop\\PORTFOLIO\\datasets\\entsoe-transparency\\configs\\zones.json"
+  },
+  "generated_at": "2026-08-12T11:35:04.240325+00:00",
+  "normalization": {
+    "missing_values": "Source gaps are preserved and are not imputed",
+    "splits": "All observations are in train; downstream temporal splits are recommended",
+    "timestamps": "UTC instants derived from Period start, resolution, and Point position"
+  },
+  "publisher": "European Network of Transmission System Operators for Electricity (ENTSO-E)",
+  "retrieval": {
+    "cached_tasks": 0,
+    "configured_tasks": 7550,
+    "data_tasks": 6183,
+    "downloaded_tasks": 7550,
+    "elapsed_seconds": 5534.195,
+    "failed_tasks": 0,
+    "failures": [],
+    "generated_at_utc": "2026-08-12T11:28:37.667335+00:00",
+    "no_data_tasks": 1367,
+    "requests_per_second": 4.0,
+    "response_bytes": 1874470193,
+    "source": "https://web-api.tp.entsoe.eu/api",
+    "workers": 4
+  },
+  "source": "https://transparency.entsoe.eu/"
+}

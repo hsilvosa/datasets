@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "bytes": 3779043,
+      "file": "day_ahead_prices/train-00000.parquet",
+      "sha256": "7be4ddf5d7e4defb7d0c270b6db6a6f504b685f0407c6b966ed6c8032092248c"
+    },
+    {
+      "bytes": 778052,
+      "file": "day_ahead_prices/train-00001.parquet",
+      "sha256": "5893b7e7766a6da47d2a9f3d7e82d53935449780fa974acb55da7e0cda675a82"
+    },
+    {
+      "bytes": 4026250,
+      "file": "actual_load/train-00000.parquet",
+      "sha256": "0420897d555be1203233436b7a1d1f28ac004709d5a6b8eb249897ec29976198"
+    },
+    {
+      "bytes": 271620,
+      "file": "actual_load/train-00001.parquet",
+      "sha256": "7777d7472f0fb83207f0657277a30522eab225f2e4faa624f58cf8fa1ec0b6b4"
+    }
+  ]
+}

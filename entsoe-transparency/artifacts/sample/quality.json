@@ -1,0 +1,26 @@
+{
+  "checks_passed": true,
+  "generated_at": "2026-08-12T09:51:22.339959+00:00",
+  "tables": {
+    "actual_load": {
+      "checks_passed": true,
+      "duplicate_rows_removed": 0,
+      "negative_load_rows": 0,
+      "null_record_ids": 0,
+      "null_timestamps": 0,
+      "null_values": 0,
+      "out_of_range_rows_removed": 0,
+      "row_count": 8905
+    },
+    "day_ahead_prices": {
+      "checks_passed": true,
+      "duplicate_rows_removed": 0,
+      "negative_load_rows": 0,
+      "null_record_ids": 0,
+      "null_timestamps": 0,
+      "null_values": 0,
+      "out_of_range_rows_removed": 168,
+      "row_count": 5169
+    }
+  }
+}

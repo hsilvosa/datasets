@@ -1,0 +1,151 @@
+{
+  "actual_load": [
+    {
+      "name": "record_id",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "timestamp_utc",
+      "nullable": false,
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "zone_key",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "zone_name",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "country_code",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "eic_code",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "load",
+      "nullable": false,
+      "type": "double"
+    },
+    {
+      "name": "unit",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "resolution",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "curve_type",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "document_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "revision_number",
+      "nullable": true,
+      "type": "int32"
+    },
+    {
+      "name": "timeseries_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "source_file",
+      "nullable": false,
+      "type": "string"
+    }
+  ],
+  "day_ahead_prices": [
+    {
+      "name": "record_id",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "timestamp_utc",
+      "nullable": false,
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "zone_key",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "zone_name",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "country_code",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "eic_code",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "price",
+      "nullable": false,
+      "type": "double"
+    },
+    {
+      "name": "currency",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "unit",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "resolution",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "curve_type",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "document_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "revision_number",
+      "nullable": true,
+      "type": "int32"
+    },
+    {
+      "name": "timeseries_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "source_file",
+      "nullable": false,
+      "type": "string"
+    }
+  ]
+}

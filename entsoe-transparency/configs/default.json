@@ -1,0 +1,23 @@
+{
+  "base_url": "https://web-api.tp.entsoe.eu/api",
+  "token_env": "ENTSOE_API_TOKEN",
+  "env_file": "../.env",
+  "zones_file": "configs/zones.json",
+  "raw_dir": "data/raw",
+  "processed_dir": "data/processed",
+  "artifacts_dir": "artifacts",
+  "staging_dir": "hf_staging",
+  "start_date": "2015-01-01",
+  "end_date": "2026-08-01",
+  "datasets": ["day_ahead_prices", "actual_load"],
+  "zone_keys": null,
+  "price_chunk_months": 1,
+  "load_chunk_months": 12,
+  "max_workers": 4,
+  "requests_per_second": 4.0,
+  "timeout_seconds": 180,
+  "max_retries": 8,
+  "parquet_rows_per_file": 500000,
+  "max_tasks": null,
+  "user_agent": "public-data-research-entsoe/0.1 (research dataset builder)"
+}
