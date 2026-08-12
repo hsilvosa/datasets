@@ -17,7 +17,7 @@ Sizes and row counts below are planning estimates, not guarantees. “Classes”
 | Order | Dataset | Description | Approximate scale | Raw size estimate | Classes | Train / validation / test |
 |---:|---|---|---:|---:|---|---|
 | 1 | [AEMPS CIMA](aemps-cima/) | Spanish medicines, active ingredients, presentations, regulatory status, documents, and relationships | 10k–100k entities plus changes | 50 MB–1 GB | N/A; categorical fields are documented, not labels | 100% / 0% / 0% per table |
-| 2 | IGN Earthquakes | Verified seismic events in Spain and nearby areas | 100k–1M events | Under 1–10 GB | N/A | 100% / 0% / 0%; temporal splits downstream |
+| 2 | [IGN Earthquakes](ign-earthquakes/) ([Hugging Face](https://huggingface.co/datasets/hsilvosa/ign-earthquakes)) | Verified seismic events in Spain and nearby areas | 100k–1M events | Under 1–10 GB | N/A | 100% / 0% / 0%; temporal splits downstream |
 | 3 | Meteocat XEMA | Half-hourly observations from Catalan automatic weather stations | 10M–100M observations | 5–50 GB | N/A | 100% / 0% / 0%; temporal splits downstream |
 | 4 | SiAR | Spanish agroclimatic station observations | 10M–100M+ observations | 5–50 GB | N/A | 100% / 0% / 0%; temporal splits downstream |
 | 5 | REE e·sios | Electricity demand, generation, prices, and system indicators | 10M–100M values | 5–100 GB | N/A | 100% / 0% / 0% per indicator family |
