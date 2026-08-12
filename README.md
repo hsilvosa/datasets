@@ -12,12 +12,12 @@ These are primarily observational and entity datasets rather than supervised-lea
 
 ## Dataset roadmap
 
-Sizes and row counts below are planning estimates, not guarantees. “Classes” means an explicit supervised target taxonomy; `N/A` indicates that the source is not a classification dataset. The order is the saved implementation priority.
+Implemented datasets show verified row counts and compressed Parquet sizes from their published snapshots. Datasets not yet implemented retain planning estimates, not guarantees. “Classes” means an explicit supervised target taxonomy; `N/A` indicates that the source is not a classification dataset. The order is the saved implementation priority.
 
-| Order | Dataset | Description | Approximate scale | Raw size estimate | Classes | Train / validation / test |
+| Order | Dataset | Description | Scale | Data size | Classes | Train / validation / test |
 |---:|---|---|---:|---:|---|---|
-| 1 | [AEMPS CIMA](aemps-cima/) | Spanish medicines, active ingredients, presentations, regulatory status, documents, and relationships | 10k–100k entities plus changes | 50 MB–1 GB | N/A; categorical fields are documented, not labels | 100% / 0% / 0% per table |
-| 2 | [IGN Earthquakes](ign-earthquakes/) ([Hugging Face](https://huggingface.co/datasets/hsilvosa/ign-earthquakes)) | Verified seismic events in Spain and nearby areas | 100k–1M events | Under 1–10 GB | N/A | 100% / 0% / 0%; temporal splits downstream |
+| 1 | [AEMPS CIMA](aemps-cima/) | Spanish medicines, active ingredients, presentations, regulatory status, documents, and relationships | 1,171,395 rows across 9 tables | 1.08 GB compressed Parquet | N/A; categorical fields are documented, not labels | 100% / 0% / 0% per table |
+| 2 | [IGN Earthquakes](ign-earthquakes/) ([Hugging Face](https://huggingface.co/datasets/hsilvosa/ign-earthquakes)) | Verified seismic events in Spain and nearby areas | 207,222 events | 5.41 MB compressed Parquet | N/A | 100% / 0% / 0%; temporal splits downstream |
 | 3 | Meteocat XEMA | Half-hourly observations from Catalan automatic weather stations | 10M–100M observations | 5–50 GB | N/A | 100% / 0% / 0%; temporal splits downstream |
 | 4 | SiAR | Spanish agroclimatic station observations | 10M–100M+ observations | 5–50 GB | N/A | 100% / 0% / 0%; temporal splits downstream |
 | 5 | REE e·sios | Electricity demand, generation, prices, and system indicators | 10M–100M values | 5–100 GB | N/A | 100% / 0% / 0% per indicator family |
