@@ -1,0 +1,4174 @@
+{
+  "data/processed/authorities/train-00000.parquet": {
+    "bytes": 2458302,
+    "sha256": "bae0cc7b14ae08bea316c1bd6862032bdfba7528cbcac99cdbb23299e39a5201"
+  },
+  "data/processed/authorities/train-00001.parquet": {
+    "bytes": 2381568,
+    "sha256": "da5ef23d1d2b8f5afbfa8049a274e9b7e902c2b59c307c2e196713404f7dfcc2"
+  },
+  "data/processed/authorities/train-00002.parquet": {
+    "bytes": 2315370,
+    "sha256": "a51b4bcdab9473c922d2173c72cfb987799c752675e8246180d2c40b321c6a43"
+  },
+  "data/processed/authorities/train-00003.parquet": {
+    "bytes": 2872370,
+    "sha256": "86cbd679ecd3979c2cf7ae4f1e47895ffe92bb51be3b7501d8dd6ba180269e04"
+  },
+  "data/processed/authorities/train-00004.parquet": {
+    "bytes": 2778403,
+    "sha256": "da84897dfe334a77bc6aadc7a9e48a35a1c3d22a0a675eff625f773adac6c2dd"
+  },
+  "data/processed/authorities/train-00005.parquet": {
+    "bytes": 3018937,
+    "sha256": "497dfcf240f2188017e32101812e615578b446fac47232e60b4c48ebe82ecdf8"
+  },
+  "data/processed/authorities/train-00006.parquet": {
+    "bytes": 2980631,
+    "sha256": "242e2f5253b15b269d5324d6ac0daec9bed3b7045ab749188539425daa6c8035"
+  },
+  "data/processed/authorities/train-00007.parquet": {
+    "bytes": 3082387,
+    "sha256": "0bf28c0dd6705949e42f6acfe9e29b8ebe777f9acb87446a7f0221d6e5f311e7"
+  },
+  "data/processed/authorities/train-00008.parquet": {
+    "bytes": 2991722,
+    "sha256": "f6484b53b7b036062a53bd7ccc4aed08cc12a33975d74afd9598efc1db0f6e67"
+  },
+  "data/processed/authorities/train-00009.parquet": {
+    "bytes": 2965700,
+    "sha256": "bfd0f48894052eb38b66178a8794f818e5c2a193caba21ab2597f63d23fd45e8"
+  },
+  "data/processed/authorities/train-00010.parquet": {
+    "bytes": 3228112,
+    "sha256": "f232e373e7b279b79e7e9e09a29ba5e25537d70b78b5b2fe4400c3ddc20d1358"
+  },
+  "data/processed/authorities/train-00011.parquet": {
+    "bytes": 3391688,
+    "sha256": "546dacf0399675c1d03bcf04a292bbef5245251856b629bce76320e74e2ac3a3"
+  },
+  "data/processed/authorities/train-00012.parquet": {
+    "bytes": 3575959,
+    "sha256": "ce2e8f0124f2660aec7cffc73ef45518d21f7b00acc23aa0bffe23d9ba36a9e5"
+  },
+  "data/processed/authorities/train-00013.parquet": {
+    "bytes": 3754429,
+    "sha256": "3a0d2d12dfc0ebb6872b892d097b914db28f4b6c4b3f9ddfee229a6a1f1d80df"
+  },
+  "data/processed/authorities/train-00014.parquet": {
+    "bytes": 4027854,
+    "sha256": "c4d623782185115359e7f8bcf61b5f8212dee953c02e50637da5a08889d1bc8d"
+  },
+  "data/processed/authorities/train-00015.parquet": {
+    "bytes": 3784447,
+    "sha256": "98d6ed3f6d123041549a9afc0583c6687dbe0d4f79b985ef70692ccaf0c4109a"
+  },
+  "data/processed/authorities/train-00016.parquet": {
+    "bytes": 3999858,
+    "sha256": "a936c4d39bb561def2783af0d275a2ce109c9df9878733e065fce04f64033b1b"
+  },
+  "data/processed/authorities/train-00017.parquet": {
+    "bytes": 1969225,
+    "sha256": "e56e2a5a7212a6b6caecf22add476b184665630e2b4593ad72488b1c2184a05f"
+  },
+  "data/processed/authorities/train-00018.parquet": {
+    "bytes": 1679847,
+    "sha256": "315c426782d5b6753fb93f07fc845c3172530d762dbe442cb38dd4544f3791cf"
+  },
+  "data/processed/authorities/train-00019.parquet": {
+    "bytes": 2023880,
+    "sha256": "632915c8088baee2f9cb5cd59e6eee24854a8f85c7c1499466a9ca17927c8212"
+  },
+  "data/processed/authorities/train-00020.parquet": {
+    "bytes": 2388726,
+    "sha256": "7dc375057816c891c4af5803ac859496f194db665f275b1f97ace86adf4c6a76"
+  },
+  "data/processed/authorities/train-00021.parquet": {
+    "bytes": 2382611,
+    "sha256": "cddc34aef1d50a4c440d2d5bce7d630468bea7e37a6732bf7d1752b90420ba62"
+  },
+  "data/processed/authorities/train-00022.parquet": {
+    "bytes": 2455219,
+    "sha256": "66b956ebde9a209098261e483c80c7134677d592d76a99d212f57d1d3ad4a836"
+  },
+  "data/processed/authorities/train-00023.parquet": {
+    "bytes": 2470214,
+    "sha256": "7bab92a4cad3265000521d069ca56417f1607f2ef47166ad63d8fb2f3fbec9f7"
+  },
+  "data/processed/authorities/train-00024.parquet": {
+    "bytes": 2602677,
+    "sha256": "79884f2f7cf88b34ff70331db7a61d884bbebcfe464f826c1e3f7e923cbbbd9a"
+  },
+  "data/processed/authorities/train-00025.parquet": {
+    "bytes": 2642658,
+    "sha256": "9df0f9fca7f755d34ec92075d46657e4e23a9fc0fb857dc1c6e46ea8cc580527"
+  },
+  "data/processed/authorities/train-00026.parquet": {
+    "bytes": 2514608,
+    "sha256": "8868e5f7d926c9c1d937896824957b0f986fd0d03e052351e2d3f5959729bef9"
+  },
+  "data/processed/authorities/train-00027.parquet": {
+    "bytes": 2497505,
+    "sha256": "96ce985941a8414dbae9f1a6fa0102d76c0c5adf706ebde72a0f7343e988a99b"
+  },
+  "data/processed/authorities/train-00028.parquet": {
+    "bytes": 2712091,
+    "sha256": "3748820a0886bfb90e8e726054ccf3c03125ae248a37cc5d3ea7893233ff6196"
+  },
+  "data/processed/authorities/train-00029.parquet": {
+    "bytes": 2575943,
+    "sha256": "20f7cc816b4ede49b0b60a696e82dd0f2364b67a0ad0a39cfb091efddee9605d"
+  },
+  "data/processed/authorities/train-00030.parquet": {
+    "bytes": 2699333,
+    "sha256": "cb91780a90f8d564658b1113d7ce7d5a52396777948a949444c8cbb257d67386"
+  },
+  "data/processed/authorities/train-00031.parquet": {
+    "bytes": 2727047,
+    "sha256": "f4727b0952171c8cc7db1a60514995b5a85b1721d80a2049e88148b0d861dd75"
+  },
+  "data/processed/authorities/train-00032.parquet": {
+    "bytes": 2764770,
+    "sha256": "eeaf683eb2b4b0fe9bffa2b794ce51a4b9744957f7bd804e9c966da4f0ff1d51"
+  },
+  "data/processed/authorities/train-00033.parquet": {
+    "bytes": 2740349,
+    "sha256": "818d7d423cd00b005ce6887f16883cd83c730e17ba819741402789c7984cbd7f"
+  },
+  "data/processed/authorities/train-00034.parquet": {
+    "bytes": 2683899,
+    "sha256": "28e8ad990f26cef479a151374bebcd49758b84a5076d92958a7a5132f91cf1fc"
+  },
+  "data/processed/authorities/train-00035.parquet": {
+    "bytes": 2589144,
+    "sha256": "ff335fbcbda2726044a6bc01ce78f5de3cc55910cd6ee228814f11699ceb71e3"
+  },
+  "data/processed/authorities/train-00036.parquet": {
+    "bytes": 2535002,
+    "sha256": "c6b1f946c6b7382bc4e22f57a4d06ded17a3e428097be794a0ab37cd1cf34aea"
+  },
+  "data/processed/authorities/train-00037.parquet": {
+    "bytes": 2559213,
+    "sha256": "c44c4c120e9ac799498bda56913b171be5424bda89c0671680d8771d038536ed"
+  },
+  "data/processed/authorities/train-00038.parquet": {
+    "bytes": 2677232,
+    "sha256": "563778d82898cded979f4c31d1323e940ef3a218ae409b6658d6d224bd918f1d"
+  },
+  "data/processed/authorities/train-00039.parquet": {
+    "bytes": 2637661,
+    "sha256": "3d75f243a926f23776c55c8235563e07b5b49fb2cd28d83753fd5d39ca2ea58f"
+  },
+  "data/processed/authorities/train-00040.parquet": {
+    "bytes": 2523511,
+    "sha256": "c6ad94847982cf19fdf005a01fe378e487430741164ef51f4fb265d553a7ca9f"
+  },
+  "data/processed/authorities/train-00041.parquet": {
+    "bytes": 2545360,
+    "sha256": "c663cc4df80d0ed9004ba0b00fda05c03d59b75e2e5da89ac8efc2fb3a9ed6a5"
+  },
+  "data/processed/authorities/train-00042.parquet": {
+    "bytes": 2660722,
+    "sha256": "e63018759bf552fd9a101b4331c512019ebebb4792afa5ff724ebbaf90a1919a"
+  },
+  "data/processed/authorities/train-00043.parquet": {
+    "bytes": 2692312,
+    "sha256": "f3b269bb46ce0a16b7305665298acf0a96906340684647bc4f16a041b3f5a0c3"
+  },
+  "data/processed/authorities/train-00044.parquet": {
+    "bytes": 2671476,
+    "sha256": "37e209fc14ebf7c541079afd9f20f2f31fec1cda74bcddf63d13f93461f2cb30"
+  },
+  "data/processed/authorities/train-00045.parquet": {
+    "bytes": 2648175,
+    "sha256": "ec5ffd00eff300926f8df3c00e7237fde7a42f98de1025721dd67c91a8f45dad"
+  },
+  "data/processed/authorities/train-00046.parquet": {
+    "bytes": 2669596,
+    "sha256": "db6275fd0a323036f19f03f74cde10e4e630dc372755261e56b16d0127c99a83"
+  },
+  "data/processed/authorities/train-00047.parquet": {
+    "bytes": 2821301,
+    "sha256": "58c4acf86a4aefa8cf5c98c184cee116de467bf36de0d8e3816e39721684622c"
+  },
+  "data/processed/authorities/train-00048.parquet": {
+    "bytes": 2814559,
+    "sha256": "6409d2f6dd3b3d508c587082b99de10a166f0b563f87fd15d95505333f9d198a"
+  },
+  "data/processed/authorities/train-00049.parquet": {
+    "bytes": 2770022,
+    "sha256": "36de454d0d071b2d3d6a047662706454e17ff7d6672406cdb7c5d87e22d2ced3"
+  },
+  "data/processed/authorities/train-00050.parquet": {
+    "bytes": 2487343,
+    "sha256": "2b6f6fafd5b3c46adc5124802a6467909dc796c37426a27b0385ffa4834bc2ae"
+  },
+  "data/processed/authorities/train-00051.parquet": {
+    "bytes": 2480567,
+    "sha256": "ccff07f5e8b4238be050ee60c012b63fe7d9d36b27578845b4d792aab0b85dc8"
+  },
+  "data/processed/authorities/train-00052.parquet": {
+    "bytes": 2485756,
+    "sha256": "0cbea47dae8503af70ce340cfa8e5e78cbc7cf39f8ebdb2d61586d3f9db729a4"
+  },
+  "data/processed/authorities/train-00053.parquet": {
+    "bytes": 2178869,
+    "sha256": "82fa1c52d16d909f36bf88c314226da06d5e8e49872c29e50b61f29200e3d724"
+  },
+  "data/processed/authorities/train-00054.parquet": {
+    "bytes": 2181835,
+    "sha256": "d33911abdd4b6ae221b37e5c9ecb72273d264d7ce88db3424ddc6e35db47f67c"
+  },
+  "data/processed/authorities/train-00055.parquet": {
+    "bytes": 2222367,
+    "sha256": "c2ddd34978619e1c1c6022cabc88e6fa55303b924f5332c5cfafa2e88236f77b"
+  },
+  "data/processed/authorities/train-00056.parquet": {
+    "bytes": 2435117,
+    "sha256": "672cd210d0c00bf6c119c66dfa7edc08eab8e2be7500129beda4c5176cfc9ebc"
+  },
+  "data/processed/authorities/train-00057.parquet": {
+    "bytes": 2420061,
+    "sha256": "fb8fb5aa87c69e4b377559e339a53e75c43a019a3b10d88d8c9e569feeb42db7"
+  },
+  "data/processed/authorities/train-00058.parquet": {
+    "bytes": 2484628,
+    "sha256": "2faaec04ef2d29c0177c93b85b8eaaa0273a19e70eeaf8a1c3da18c3c53be45c"
+  },
+  "data/processed/authorities/train-00059.parquet": {
+    "bytes": 2399378,
+    "sha256": "3147dc4e8c006e83553f69610e5f851b27fa77c31d00881c8fc5efdba239bc97"
+  },
+  "data/processed/authorities/train-00060.parquet": {
+    "bytes": 2832803,
+    "sha256": "bf27955435703c266d8e63bd4e578fd586940ae98d9574a6eccab945ebca0452"
+  },
+  "data/processed/authorities/train-00061.parquet": {
+    "bytes": 2512603,
+    "sha256": "c62f1eb690f68b2b95d844610e4f9a82b3f68a7d52f2d9f21fb92ce3e3de87dd"
+  },
+  "data/processed/authorities/train-00062.parquet": {
+    "bytes": 2491551,
+    "sha256": "6cc2874e1efb5626922fb99f0c85ea87e783b9ea612d599b173db66160bcce08"
+  },
+  "data/processed/authorities/train-00063.parquet": {
+    "bytes": 2522055,
+    "sha256": "85dc70d3d412676f32754ae5283ee7803587f5275c7e54f3a02fae332aedb9f8"
+  },
+  "data/processed/authorities/train-00064.parquet": {
+    "bytes": 2517250,
+    "sha256": "95dd2d8ce4767cfb8be1907c2003a2a21f5bd1cc0445781a300f21a4a23272b7"
+  },
+  "data/processed/authorities/train-00065.parquet": {
+    "bytes": 2498245,
+    "sha256": "9c8471be280a9754201aefdb120fd891e39b7ec7a25c66f01477521cfe3944cb"
+  },
+  "data/processed/authorities/train-00066.parquet": {
+    "bytes": 2422640,
+    "sha256": "6448fdd444dc828f0ac031cce143480e8a90233e17fce01c9663205245cda964"
+  },
+  "data/processed/authorities/train-00067.parquet": {
+    "bytes": 2440840,
+    "sha256": "88c0deda17f34af40958612101d1727267a7377f9fd9f7831be212bfe8917247"
+  },
+  "data/processed/authorities/train-00068.parquet": {
+    "bytes": 2453984,
+    "sha256": "7409cd80088ef62f7cb728e8b64493976278bbec165d208e8c2b577965c4c62a"
+  },
+  "data/processed/authorities/train-00069.parquet": {
+    "bytes": 2437993,
+    "sha256": "9c5aee7736a0f21feaac02f34442a207818cf06af73e3960491b7f70f78479b2"
+  },
+  "data/processed/authorities/train-00070.parquet": {
+    "bytes": 2433371,
+    "sha256": "8d0878047a7db84aa1c2358bb0e0003d50d6adf59d347fcc2897bef77f668936"
+  },
+  "data/processed/authorities/train-00071.parquet": {
+    "bytes": 2456972,
+    "sha256": "5b7d958e03adf761c1a671591109adab11c56f95b8087807d5e22aa344e65efd"
+  },
+  "data/processed/authorities/train-00072.parquet": {
+    "bytes": 2425065,
+    "sha256": "b99d9e6e157c88b6d32c88f802fa29eaa8d1020b4b44c1b9d257c1f83a628388"
+  },
+  "data/processed/authorities/train-00073.parquet": {
+    "bytes": 2431811,
+    "sha256": "04eb3f71de09c5b9238f04bc0f0da028caf7f7b6620877b391e19261c2e87f19"
+  },
+  "data/processed/authorities/train-00074.parquet": {
+    "bytes": 2450883,
+    "sha256": "7bccb37d47e33205f5a1ca2e0db3dcbf228e1c056f3afc7db06ec4350b24c609"
+  },
+  "data/processed/authorities/train-00075.parquet": {
+    "bytes": 2397969,
+    "sha256": "a35180e087458f144fc0be308a8b138d5d771b424ec6a9a7d412d0f02da5690c"
+  },
+  "data/processed/authorities/train-00076.parquet": {
+    "bytes": 2422410,
+    "sha256": "a880f9321a39aa3cf12a3a6e28e8658071089b83a9f00cfd1ea7be52574fc362"
+  },
+  "data/processed/authorities/train-00077.parquet": {
+    "bytes": 2401412,
+    "sha256": "d68bf918d5b8e132f1d6e4d7014399fb48293df9c36d6aeceebb22e0323a7dfe"
+  },
+  "data/processed/authorities/train-00078.parquet": {
+    "bytes": 2469616,
+    "sha256": "160798fb7d5f40542147d7a621568b37be88321d7ab9bfe260525caa262bb93e"
+  },
+  "data/processed/authorities/train-00079.parquet": {
+    "bytes": 2506729,
+    "sha256": "fec7472801badb309894546170f5f94983db945ebce27249b68d3450a8c08870"
+  },
+  "data/processed/authorities/train-00080.parquet": {
+    "bytes": 2493175,
+    "sha256": "3058183c24a94732cc8952a087a837d6833a6946b4776a791ff35db0c476fe8d"
+  },
+  "data/processed/authorities/train-00081.parquet": {
+    "bytes": 2543088,
+    "sha256": "1b7ed0fce9f60ab182047440dcc1d4d385d92bab166ec3fc057ca2c778df174e"
+  },
+  "data/processed/authorities/train-00082.parquet": {
+    "bytes": 2568602,
+    "sha256": "a11b3ded6d02fc892c13b6758a09ba579c4708fd7eb9b3169ef40e2d28c31283"
+  },
+  "data/processed/authorities/train-00083.parquet": {
+    "bytes": 2442607,
+    "sha256": "7249b486a5c55a22e69ab11dd6d196ac9a82813c32a90feda650fa7468b483b5"
+  },
+  "data/processed/authorities/train-00084.parquet": {
+    "bytes": 3155373,
+    "sha256": "68daf54e083d129abbc27d404ea67ea38241f0e727afea9bcdefd2af3b368dda"
+  },
+  "data/processed/authorities/train-00085.parquet": {
+    "bytes": 3180046,
+    "sha256": "d7b1377a28524d701d96a1c8823357f3aab4e4d1b14e09b82f3acaf57fe915ee"
+  },
+  "data/processed/authorities/train-00086.parquet": {
+    "bytes": 3151590,
+    "sha256": "52eacc2d92024717af2c5d76f9fce205a9e1d0cd4d1f0a048b221d2243320e70"
+  },
+  "data/processed/authorities/train-00087.parquet": {
+    "bytes": 3166912,
+    "sha256": "6245e4a87c9c46332deccd09556a2d772500c6c02d9a08dfb33721eb9fa43695"
+  },
+  "data/processed/authorities/train-00088.parquet": {
+    "bytes": 3203584,
+    "sha256": "305951b0c952ddf65012ee33fc5c36e43eb5433dfc1b875e660e7368e21b7e82"
+  },
+  "data/processed/authorities/train-00089.parquet": {
+    "bytes": 3248693,
+    "sha256": "da7000b062664662d97c00e9c4085f0f7dbc7e864a09ae9ef0921327904c7570"
+  },
+  "data/processed/authorities/train-00090.parquet": {
+    "bytes": 3242165,
+    "sha256": "ce0be440c194d656b0a1bc197d3753c294d75c62cab521c5dd66e7b71c9fd25a"
+  },
+  "data/processed/authorities/train-00091.parquet": {
+    "bytes": 3229167,
+    "sha256": "ce5c922a714a2e67107f5c25a4038e6b5304e5e427bb69a605acacfabd96a542"
+  },
+  "data/processed/authorities/train-00092.parquet": {
+    "bytes": 3207332,
+    "sha256": "49a1794f77c44fa11d97281a1ea4dd6fbdacf2172b8a5f88301b9187604c9574"
+  },
+  "data/processed/authorities/train-00093.parquet": {
+    "bytes": 3273219,
+    "sha256": "ac44ebc2a2e0297b06ae304d8b14d7a5e276a1bd4461e33e183980306e48b2cd"
+  },
+  "data/processed/authorities/train-00094.parquet": {
+    "bytes": 3377168,
+    "sha256": "c95f22e13c71aaae1ca0408ea670e9e092ed080e1613852e2febbfa6a7977652"
+  },
+  "data/processed/authorities/train-00095.parquet": {
+    "bytes": 3543603,
+    "sha256": "0820e458908bb277617ef05e8fd66cfe3e2e5390f3ebe3416c5bf6195c7f4d11"
+  },
+  "data/processed/authorities/train-00096.parquet": {
+    "bytes": 3404289,
+    "sha256": "0d9a07f2cee8781e2b92f8bfc678e2342c7b55ab49bb430c0c50ade03f1008eb"
+  },
+  "data/processed/authorities/train-00097.parquet": {
+    "bytes": 3495529,
+    "sha256": "f58ffc8659763b21fe1466986ca6f51f908f632e08841647a233bae69cfc7d47"
+  },
+  "data/processed/authorities/train-00098.parquet": {
+    "bytes": 3432506,
+    "sha256": "e15294a919117295bfb1aa3c215d134ac397da616c6756d8a1891da356f9c36d"
+  },
+  "data/processed/authorities/train-00099.parquet": {
+    "bytes": 3349686,
+    "sha256": "861f6da2611da9e076381b9ac1a62c627affb7f34523b6793fab10446502c9ff"
+  },
+  "data/processed/authorities/train-00100.parquet": {
+    "bytes": 3582283,
+    "sha256": "f8c7435d16fb9257e79d5dee5008e9d30e63e4b9cf0fcfb0652d95a83f78ec55"
+  },
+  "data/processed/authorities/train-00101.parquet": {
+    "bytes": 3550885,
+    "sha256": "02994989204d58ec5a01f1a64c5d0f1bc2236416c1b256c0bb4eebe056c05b03"
+  },
+  "data/processed/authorities/train-00102.parquet": {
+    "bytes": 3517028,
+    "sha256": "a0f814b25e7151bd0ae808e08c68e415e323243088049c1d7c217a19afc3a0f1"
+  },
+  "data/processed/authorities/train-00103.parquet": {
+    "bytes": 3395947,
+    "sha256": "add97118b16e91340ecf5896ecb1ce595df0a57af31b95ef892c44a6c2771803"
+  },
+  "data/processed/authorities/train-00104.parquet": {
+    "bytes": 3291282,
+    "sha256": "a3b1c504df47f86e7d2fa2c062777ffdbc1dae7f033841361bc62892eace9298"
+  },
+  "data/processed/authorities/train-00105.parquet": {
+    "bytes": 3228408,
+    "sha256": "0f3d61f2e87d48ba950221da4cd161e1cdfdb63ae72d99855f378e224015995c"
+  },
+  "data/processed/authorities/train-00106.parquet": {
+    "bytes": 3230088,
+    "sha256": "f0dcf9c57fea583aff440f8d07dfb2cbc57e7190c387d15ae7a7211c0002d3d4"
+  },
+  "data/processed/authorities/train-00107.parquet": {
+    "bytes": 2764462,
+    "sha256": "1472707eb30710e43cb9f0fcf0c6fcbe43eb79120fc522a11decba21c85b6044"
+  },
+  "data/processed/authorities/train-00108.parquet": {
+    "bytes": 2671599,
+    "sha256": "62920339dde4e5562de644feab678c68838fc0f038e362da5e459b85d5838043"
+  },
+  "data/processed/authorities/train-00109.parquet": {
+    "bytes": 2708672,
+    "sha256": "a3df1c97e84230d47317ecea447ac01ff10642af18dce8547ff7153949085673"
+  },
+  "data/processed/authorities/train-00110.parquet": {
+    "bytes": 2637043,
+    "sha256": "d102184de90ca3d4e8af2783c280f1c46bfee14e62ed72ae93b7d57769e59e5c"
+  },
+  "data/processed/authorities/train-00111.parquet": {
+    "bytes": 2786158,
+    "sha256": "bf140e128d12fdf9ce7ce074512c13494355060bdda7c1650d6da7aa2124920c"
+  },
+  "data/processed/authorities/train-00112.parquet": {
+    "bytes": 2900074,
+    "sha256": "6f9366076b0259abb3c9f110a0499c6d2d086ff5e5d543e2106c2a475a107da8"
+  },
+  "data/processed/authorities/train-00113.parquet": {
+    "bytes": 2903195,
+    "sha256": "3f317701deb9a580cc53d0d5e065976e0c509b2ee457cbcd41944d9c7acf53cd"
+  },
+  "data/processed/authorities/train-00114.parquet": {
+    "bytes": 2979599,
+    "sha256": "d0ee4c35fa5cad2ab3ec72b9c269eab4ec8f528e8a4b904b6e2bbb706ae367f7"
+  },
+  "data/processed/authorities/train-00115.parquet": {
+    "bytes": 2912414,
+    "sha256": "687d8d2d2d99596ba004b7934f7b54c2093b94f6840ecf0a990ca5e448714a97"
+  },
+  "data/processed/authorities/train-00116.parquet": {
+    "bytes": 2930949,
+    "sha256": "e7835a8078279568dfb78e6f0d6c6b6d32946453a8f42f3fcd03d84fc577d629"
+  },
+  "data/processed/authorities/train-00117.parquet": {
+    "bytes": 2880556,
+    "sha256": "3b20597e265fa57b4e1a32efabfcc3996ec491dcf9e992d3f61805ef41b370ad"
+  },
+  "data/processed/authorities/train-00118.parquet": {
+    "bytes": 2884080,
+    "sha256": "e12e61d2836e6fa12c62aefd3d4304d399dcfe350f5c608ff0cfd1b776656224"
+  },
+  "data/processed/authorities/train-00119.parquet": {
+    "bytes": 2864894,
+    "sha256": "8739efadfca03a57b3e1c9ae56e46583fc9cf30a271a43a7e46ef463884f3f39"
+  },
+  "data/processed/authorities/train-00120.parquet": {
+    "bytes": 2903619,
+    "sha256": "003b8d33c9cd286870abd5f9cf46a49830f8cb7624eaf2594814e32156f8d022"
+  },
+  "data/processed/authorities/train-00121.parquet": {
+    "bytes": 2870138,
+    "sha256": "085166d3b858e1af8a0d5db25d04a150ddef5b842f491e7560730d9ddbcc9c28"
+  },
+  "data/processed/authorities/train-00122.parquet": {
+    "bytes": 2907407,
+    "sha256": "d631d5ef091232e88fdb837634953ecda439d2bb67964ee04d477b5e6cb40b75"
+  },
+  "data/processed/authorities/train-00123.parquet": {
+    "bytes": 2902188,
+    "sha256": "56d9fb96b80004c1c12be926213f96e7838fe2f288410969b629932502c39a03"
+  },
+  "data/processed/authorities/train-00124.parquet": {
+    "bytes": 2876362,
+    "sha256": "d1f69e196194110efa47e5e77301757941a0d18f7470644807609c92f87a37c2"
+  },
+  "data/processed/authorities/train-00125.parquet": {
+    "bytes": 3013498,
+    "sha256": "111658f69044e257c437a79446011ec0e6af583574c4961b16ed364393570b91"
+  },
+  "data/processed/authorities/train-00126.parquet": {
+    "bytes": 3008470,
+    "sha256": "3c6a9ef6ad60dc38a5afb3b13dad5195fd6e0866f47e6c141b37bffff3082f4e"
+  },
+  "data/processed/authorities/train-00127.parquet": {
+    "bytes": 3141670,
+    "sha256": "4bd88dbaabdd3f82ed416383c3f2b095ffeecc56468fcd029ba38930728a4a04"
+  },
+  "data/processed/authorities/train-00128.parquet": {
+    "bytes": 3023828,
+    "sha256": "27b43ba714552620567f315704cc3366abd12808cb2e277e03a1db5c4ac29c31"
+  },
+  "data/processed/authorities/train-00129.parquet": {
+    "bytes": 2948579,
+    "sha256": "44778e521eced51effe5d46f0b65a6772020f25a7ce9cdd481bbf0be0b12ddd6"
+  },
+  "data/processed/authorities/train-00130.parquet": {
+    "bytes": 2965329,
+    "sha256": "d09e52c4e18d6f8e7fb3857cfda1b354b60bd8948e7d0ef5c614f3b4f57ef37f"
+  },
+  "data/processed/authorities/train-00131.parquet": {
+    "bytes": 2974145,
+    "sha256": "3b90121503198add441050c347497c497248b520679a9450afabda5c3af7755a"
+  },
+  "data/processed/authorities/train-00132.parquet": {
+    "bytes": 2997422,
+    "sha256": "5e97c9c8b18191214f7a19bafb3123beecd20624568b9fdfb8cabe7dac13080a"
+  },
+  "data/processed/authorities/train-00133.parquet": {
+    "bytes": 2979236,
+    "sha256": "0c1155f6a8f08bbc5bd8d2024f6948866ae67cf8b306077b8c5123b5d34efa1e"
+  },
+  "data/processed/authorities/train-00134.parquet": {
+    "bytes": 2937498,
+    "sha256": "c4749346c8f4faed9b16d01cba844f99c52b622d1c3968a5036223a483113e6a"
+  },
+  "data/processed/authorities/train-00135.parquet": {
+    "bytes": 2947638,
+    "sha256": "9cdf671f4409b73ec821ed7e29a040cede823cd50dc63398ff093d6fd50c7374"
+  },
+  "data/processed/authorities/train-00136.parquet": {
+    "bytes": 2953841,
+    "sha256": "c66ce52aeca66c839b8425e8ba224d63dffb747c430729925b67f028fb251dbf"
+  },
+  "data/processed/authorities/train-00137.parquet": {
+    "bytes": 2935984,
+    "sha256": "13510aee06f26e34425b50db3adc7160ab0589f378508b009728b24d1bbc0402"
+  },
+  "data/processed/authorities/train-00138.parquet": {
+    "bytes": 2995292,
+    "sha256": "f36e7016ba343d2ae4695ee71f20ca9fc29e910929901fab2c87bede0f083557"
+  },
+  "data/processed/authorities/train-00139.parquet": {
+    "bytes": 2955160,
+    "sha256": "8237ab005874e0ba56e8a96127abc818cdcfffcb9735f29c40588fb9ddc381ba"
+  },
+  "data/processed/authorities/train-00140.parquet": {
+    "bytes": 2943766,
+    "sha256": "616962ba538b57f665217586a541f2415629fde0af9b4f4c93b0ab27a5579ba8"
+  },
+  "data/processed/authorities/train-00141.parquet": {
+    "bytes": 2921262,
+    "sha256": "963d4808c54216ac242e48c25cf9b2b20b2d892a3ad4634dbc03553b5cb04d58"
+  },
+  "data/processed/authorities/train-00142.parquet": {
+    "bytes": 2925485,
+    "sha256": "f391291ae265f6df8caf04b5354e4129cf2cb445c67f766feb1e088278e43746"
+  },
+  "data/processed/authorities/train-00143.parquet": {
+    "bytes": 2891059,
+    "sha256": "898b76e7bf4e57ba0772f4885821b8ec76e46cb5c9d15b9e880f6b9aa1416a8d"
+  },
+  "data/processed/authorities/train-00144.parquet": {
+    "bytes": 2957447,
+    "sha256": "8d33a9799e10439cc9e0a7363477dad125a3dbc2713f84b8bc3796e8c12ebe36"
+  },
+  "data/processed/authorities/train-00145.parquet": {
+    "bytes": 2980632,
+    "sha256": "c9ca9f6e952d17d209843595953a749c98893a3ba089c18078caf1d6c49eac90"
+  },
+  "data/processed/authorities/train-00146.parquet": {
+    "bytes": 2989009,
+    "sha256": "ac8684f1e6cac8a0c5d067abe2a12fd276bf202abe3f39c56cfdd158cd026618"
+  },
+  "data/processed/authorities/train-00147.parquet": {
+    "bytes": 2946248,
+    "sha256": "77ab97b6a1fca562266151d34e9eed9c42fb3c0f9001b6fc391977dd86174ad9"
+  },
+  "data/processed/authorities/train-00148.parquet": {
+    "bytes": 2990851,
+    "sha256": "593230f30dbb6be32d25370a43c7063a79b31452223d19cacf5898eaad40aac4"
+  },
+  "data/processed/authorities/train-00149.parquet": {
+    "bytes": 2991043,
+    "sha256": "1f0d8979947d1c39f11e55ede4796b24f303255cf5e8194ac8ea02ec6e846741"
+  },
+  "data/processed/authorities/train-00150.parquet": {
+    "bytes": 2906635,
+    "sha256": "77850ed62ac0c8370e6de58a26cc5727a7e29c24fb0fe67c1c6ed3947c52dd2f"
+  },
+  "data/processed/authorities/train-00151.parquet": {
+    "bytes": 2817483,
+    "sha256": "c3961ecdaa5ea8cbcbffabeabe27f0ec1b1811e1bfa9cd0b438e31038549d708"
+  },
+  "data/processed/authorities/train-00152.parquet": {
+    "bytes": 2774435,
+    "sha256": "b5cc9fbb140ad58e8449a7eab8761182a47461e0441d22d2ac3b6e0e556f7a08"
+  },
+  "data/processed/authorities/train-00153.parquet": {
+    "bytes": 2845451,
+    "sha256": "eb941a807b5f2336ee2832483fef3b39220f34dc326a2914b4beb808736f10ac"
+  },
+  "data/processed/authorities/train-00154.parquet": {
+    "bytes": 2873780,
+    "sha256": "c95899dc8ba17b4147f1d47ac438184e479652617b89c34ab2a722c9b3f3031d"
+  },
+  "data/processed/authorities/train-00155.parquet": {
+    "bytes": 2851284,
+    "sha256": "18d360d6499983e20e74a34bfe20fdc2f683dbc07de9f024e3739bd9b4b8266e"
+  },
+  "data/processed/authorities/train-00156.parquet": {
+    "bytes": 2998631,
+    "sha256": "0c9067edb96ccd58918cca9a0f53b53d316ed05dca2e26669608443c9bf06f9a"
+  },
+  "data/processed/authorities/train-00157.parquet": {
+    "bytes": 3266579,
+    "sha256": "f0a98ab79238df90120718fb706671046a3ed6259035b0b78c9a366ab2406b3e"
+  },
+  "data/processed/authorities/train-00158.parquet": {
+    "bytes": 3353046,
+    "sha256": "3dbbc7a6d26af7213bfc1e81f4e6b30dfeb95b6f11c0807eb0137beeddd157b7"
+  },
+  "data/processed/authorities/train-00159.parquet": {
+    "bytes": 2599820,
+    "sha256": "28e9073727ee8cedba8d002d5b8dc3268cbab9312fe3a73f12b2427f6d4f731d"
+  },
+  "data/processed/authorities/train-00160.parquet": {
+    "bytes": 1635306,
+    "sha256": "7e0faf28864a0e6b22b03afb37d818985b57085af5aef189147f20fa57fc2f1c"
+  },
+  "data/processed/authorities/train-00161.parquet": {
+    "bytes": 1875868,
+    "sha256": "d2c30c3b744cd59ae4e3f4a2f1902714e285711b31864c0d7fd332bacfbae787"
+  },
+  "data/processed/authorities/train-00162.parquet": {
+    "bytes": 1729454,
+    "sha256": "9497531c2a07b4582069690c9b4d1d69aa9ab3701836afdcf4f4f7a512eab8b5"
+  },
+  "data/processed/authorities/train-00163.parquet": {
+    "bytes": 1860031,
+    "sha256": "4b8bc3a2617c300ebb0b2facbb73da9f87e4bd23968ccc1660ed10f550bf10d0"
+  },
+  "data/processed/authorities/train-00164.parquet": {
+    "bytes": 1817714,
+    "sha256": "01d6d4c5e85b9e934e86719845a2ff5497b010b596fc9aa28442d4b7878fbcbf"
+  },
+  "data/processed/authorities/train-00165.parquet": {
+    "bytes": 1697295,
+    "sha256": "1fcefab07a0caa55030c7890aa93634a0390804dc802edf0f5e6386b5da5363b"
+  },
+  "data/processed/authorities/train-00166.parquet": {
+    "bytes": 1611044,
+    "sha256": "7c364b844e21a9a419755c4f6778974cd077c56afec98b144e59c404eafa4b31"
+  },
+  "data/processed/authorities/train-00167.parquet": {
+    "bytes": 1602971,
+    "sha256": "8ce6be89ba9e297d57fde3d2fb5f3a20f35f49c1a6b38ce7640e645be37b823c"
+  },
+  "data/processed/authorities/train-00168.parquet": {
+    "bytes": 1597740,
+    "sha256": "8268543f299a7fd2180f4a0afde194cf9301bb6b050e5c75123c1e6d577b61f2"
+  },
+  "data/processed/authorities/train-00169.parquet": {
+    "bytes": 1591073,
+    "sha256": "e512d9aaa10a2f71d7644e040fe465ae53759433a3b9c5566fd6ac36860b0eee"
+  },
+  "data/processed/authorities/train-00170.parquet": {
+    "bytes": 1574476,
+    "sha256": "6138347102a9963ebbdceeec9b48cf9440cb5db6a8c4c8bd226cb08c659dea56"
+  },
+  "data/processed/authorities/train-00171.parquet": {
+    "bytes": 1563604,
+    "sha256": "6762cb50ba4eab422ef3535a96d6e429a111b0d517c4750e5360b32330a96d3c"
+  },
+  "data/processed/authorities/train-00172.parquet": {
+    "bytes": 1568698,
+    "sha256": "9e0e169521e3bdd761a16a3ba9d9681e536b9604b774ae48f70ad941cb00c50a"
+  },
+  "data/processed/authorities/train-00173.parquet": {
+    "bytes": 1586298,
+    "sha256": "20d9f784943e72f2b4bb8fae0685caf781ebb217fb4f01466f038a309001311d"
+  },
+  "data/processed/authorities/train-00174.parquet": {
+    "bytes": 1634188,
+    "sha256": "4a775f2a8dc3c7512d2af0c8aa20d6c8a88bdc4c087f5056fb1e04cd687b6aba"
+  },
+  "data/processed/authorities/train-00175.parquet": {
+    "bytes": 1606441,
+    "sha256": "2d9f2fe88c986fb1a2dcab9848303f38298e7326e93a7948c04b2d727b0d38e2"
+  },
+  "data/processed/authorities/train-00176.parquet": {
+    "bytes": 1626316,
+    "sha256": "6b858aa9320e7d33caa93921eff38d0b27dabb0ab516114d523795b42cfc5e56"
+  },
+  "data/processed/authorities/train-00177.parquet": {
+    "bytes": 1620122,
+    "sha256": "7d548fc0a700245fcdb7c22f5b6a3ee8e95b3937d1b5f686504ba6dbad7d7312"
+  },
+  "data/processed/authorities/train-00178.parquet": {
+    "bytes": 1730680,
+    "sha256": "bc17763e60debe198c0d45e436e5e0963fb6fae14ed41df33be88a50ffbd8101"
+  },
+  "data/processed/authorities/train-00179.parquet": {
+    "bytes": 1747391,
+    "sha256": "87523abde132d8bf5036046fcde82f360f559a65b264e733630cf3142586c9f6"
+  },
+  "data/processed/authorities/train-00180.parquet": {
+    "bytes": 1824185,
+    "sha256": "2cbed308273ac47e910a550343a178e693d0dd2c595b3eeb18c0f30860a10f50"
+  },
+  "data/processed/authorities/train-00181.parquet": {
+    "bytes": 1774013,
+    "sha256": "6e7d7651b0f9cf9f6f21de932b17d5410d25afa6b21b2e35e4f8644e19172d07"
+  },
+  "data/processed/authorities/train-00182.parquet": {
+    "bytes": 1799334,
+    "sha256": "0291172d898929f7e9efe18c40a2bded1aab8d0ad5e234e5a8e17e17bab99332"
+  },
+  "data/processed/authorities/train-00183.parquet": {
+    "bytes": 1690850,
+    "sha256": "9e6ca9b99a838a4777182d1f2936837f9b7ead9d322323fae3773325e0a1541f"
+  },
+  "data/processed/authorities/train-00184.parquet": {
+    "bytes": 968054,
+    "sha256": "3592dc668affbebd61606fa01303d7af2305fca6cf61d5bff373b6223821fbe3"
+  },
+  "data/processed/bibliographic/train-00000.parquet": {
+    "bytes": 1683550,
+    "sha256": "6a83ae39125ff5964e614962a7477e7aea48b27682b32a82de3e7943529dfdc2"
+  },
+  "data/processed/bibliographic/train-00001.parquet": {
+    "bytes": 1981436,
+    "sha256": "0eff4df8cad402c8551d38109e4d5b82586470e339a1efdfc43ff25062259918"
+  },
+  "data/processed/bibliographic/train-00002.parquet": {
+    "bytes": 1540211,
+    "sha256": "bf7118262382372a4cba1315858ba14ba8f7313d3c083cfe8adeb7c8cb3deeb4"
+  },
+  "data/processed/bibliographic/train-00003.parquet": {
+    "bytes": 1457493,
+    "sha256": "756465b3c660f764b6779413d3e99482288f931c0f805573d16a51518c05382a"
+  },
+  "data/processed/bibliographic/train-00004.parquet": {
+    "bytes": 1657046,
+    "sha256": "333a1be16eb652074a9db0af21453ed372069c7cb0e64582e7c5d164863e9b30"
+  },
+  "data/processed/bibliographic/train-00005.parquet": {
+    "bytes": 2018740,
+    "sha256": "e05f9481fa401ead8abb175014750ffd771465375293e4e9e6a0a2c68e6ec9d1"
+  },
+  "data/processed/bibliographic/train-00006.parquet": {
+    "bytes": 1936554,
+    "sha256": "55239bbfdbe9eebffb7f0e581e6273dbee2cec1c9ea98e43094e7bf655f6c171"
+  },
+  "data/processed/bibliographic/train-00007.parquet": {
+    "bytes": 2073214,
+    "sha256": "1273642f09c18fa9fe8c82d61c62ec4fed670794e0e3d480fa7aeb6c12637d97"
+  },
+  "data/processed/bibliographic/train-00008.parquet": {
+    "bytes": 2524442,
+    "sha256": "c2240e479f02e62d3792028d9f8e73ad72c483f7733d3c1bc8e0a27420de0cf7"
+  },
+  "data/processed/bibliographic/train-00009.parquet": {
+    "bytes": 2015538,
+    "sha256": "f23c7e43e90abb06145e574e88f13c2a60cd83b745d9a8893824ea347f3e9670"
+  },
+  "data/processed/bibliographic/train-00010.parquet": {
+    "bytes": 1942812,
+    "sha256": "268124e07d49aa0faeefb266458839913ae1e52651a3574b8c5a03b17c5ec0d6"
+  },
+  "data/processed/bibliographic/train-00011.parquet": {
+    "bytes": 1822480,
+    "sha256": "05d4760f38589225c6557c31480852466fff8d5e83e703f142f83cc64abefdfe"
+  },
+  "data/processed/bibliographic/train-00012.parquet": {
+    "bytes": 1830570,
+    "sha256": "fc85d8e041c5100355830db34769aa833a8d10fbc17c6de1ee016926b21ccfa5"
+  },
+  "data/processed/bibliographic/train-00013.parquet": {
+    "bytes": 1806675,
+    "sha256": "0c9f62845e0ac6fe34c30ecd73a2371ba2f4d3c8a27913a795243ff86fc9b0cf"
+  },
+  "data/processed/bibliographic/train-00014.parquet": {
+    "bytes": 1643968,
+    "sha256": "ccf31de9c42ee08e0b8e199e4e7f6d0448ba784e678bc8b35cfb20ed3f65871d"
+  },
+  "data/processed/bibliographic/train-00015.parquet": {
+    "bytes": 1985368,
+    "sha256": "3aa8773ced4d431bdc1d7843efe5a652861b29136f86fbfcf7f6741d4ec46ed8"
+  },
+  "data/processed/bibliographic/train-00016.parquet": {
+    "bytes": 1917751,
+    "sha256": "cc9214cf73d3884f69024eaf2db0621de843691feec97aa65239e4494eeaa71a"
+  },
+  "data/processed/bibliographic/train-00017.parquet": {
+    "bytes": 1890129,
+    "sha256": "ca7b2341fbdb69805bf0227ce3610a980a399a4a2e20175f4d6f28aea4f87555"
+  },
+  "data/processed/bibliographic/train-00018.parquet": {
+    "bytes": 2631959,
+    "sha256": "0ee31af2e4a4314567b64df921769fce24e357da33586f11c6972986a7b2445c"
+  },
+  "data/processed/bibliographic/train-00019.parquet": {
+    "bytes": 2914534,
+    "sha256": "70c5699afc5a325f00aad11c43851dca3db452666fc0ad83664d9873989c1c52"
+  },
+  "data/processed/bibliographic/train-00020.parquet": {
+    "bytes": 2936487,
+    "sha256": "f1a774a7b4c45afc6a21e0721ebc11e38accab43b75269881f067cc1ea0f314f"
+  },
+  "data/processed/bibliographic/train-00021.parquet": {
+    "bytes": 2896269,
+    "sha256": "4c5006af6e7b1c192d9090f717da4a2b1fdf1521582b3f410140747f73fa9bdd"
+  },
+  "data/processed/bibliographic/train-00022.parquet": {
+    "bytes": 3035545,
+    "sha256": "f218dff49e065eebc038821304f581740c684098c20d82f3d90c56ae8065d344"
+  },
+  "data/processed/bibliographic/train-00023.parquet": {
+    "bytes": 2904644,
+    "sha256": "d1b8358328686c0ab9f71170327463ffbc1926e1c7d2089fbb868a2f620ce269"
+  },
+  "data/processed/bibliographic/train-00024.parquet": {
+    "bytes": 2862201,
+    "sha256": "69e6a948a121480b23ba906cd32cb8ba07053a188e7994ce9418b8fc7cdbe00e"
+  },
+  "data/processed/bibliographic/train-00025.parquet": {
+    "bytes": 2770313,
+    "sha256": "06a5610bcbf8c95c1ddb5bddfe1df013a53f8390b5b314bf243fdb2985790ece"
+  },
+  "data/processed/bibliographic/train-00026.parquet": {
+    "bytes": 2965395,
+    "sha256": "7d551e647db643a6695d6a62ccb09703af93132c165c26d7c8fcd85b4ae92675"
+  },
+  "data/processed/bibliographic/train-00027.parquet": {
+    "bytes": 2981589,
+    "sha256": "94c8e426c4d37439ad20f901bef55f24d302836b982162be21a379a09b7bbb41"
+  },
+  "data/processed/bibliographic/train-00028.parquet": {
+    "bytes": 2393095,
+    "sha256": "80d90c43148753a4c63c498e71cd5205a4cd16fd5102501436b71dfa9b4eb16e"
+  },
+  "data/processed/bibliographic/train-00029.parquet": {
+    "bytes": 3094507,
+    "sha256": "bbdfe249de0d81ab6bbdbf69e3d1c2436864c711b30140ca8b5770a876e2d3d8"
+  },
+  "data/processed/bibliographic/train-00030.parquet": {
+    "bytes": 3083337,
+    "sha256": "a01a359d422b3b6586c17acc1d7a87a62623bd9c81845e3596cf9b77d94d49ac"
+  },
+  "data/processed/bibliographic/train-00031.parquet": {
+    "bytes": 3019368,
+    "sha256": "1f29c3d5df02c06e6e001e424ced4b32ef98278d08dbc66948e4f26defd90dcd"
+  },
+  "data/processed/bibliographic/train-00032.parquet": {
+    "bytes": 3047832,
+    "sha256": "dc9810e1abe9a7e5ed96937d831e261d769d3d93d26deaed11e4b1af342fffe9"
+  },
+  "data/processed/bibliographic/train-00033.parquet": {
+    "bytes": 2925550,
+    "sha256": "95774bb570ae018c9d507b2e818e21d7af45c454aec72e3319c06803362e8dd7"
+  },
+  "data/processed/bibliographic/train-00034.parquet": {
+    "bytes": 3008516,
+    "sha256": "808fc835b4d4220677885dde6e7f25eff4bb820a0fdf385f9fa707e476f5ca6c"
+  },
+  "data/processed/bibliographic/train-00035.parquet": {
+    "bytes": 3048452,
+    "sha256": "ad672bb5321c683da638337c01b08d4e295ae31072d65c57ca1e459d6f412029"
+  },
+  "data/processed/bibliographic/train-00036.parquet": {
+    "bytes": 3017694,
+    "sha256": "c9edeebb11f4cefecab1ece98a3c8945e272efd99046e6eef2bfd588974a0f33"
+  },
+  "data/processed/bibliographic/train-00037.parquet": {
+    "bytes": 2999561,
+    "sha256": "db61b71dfed6f2b40bff0e6e3ca1b5715902bab14fb5a9a9010a622f9fc8ed15"
+  },
+  "data/processed/bibliographic/train-00038.parquet": {
+    "bytes": 2990944,
+    "sha256": "8b63d8011c5a88cfa34127b1e1f81146b0a806647b19002517ec14ea19d3a2e8"
+  },
+  "data/processed/bibliographic/train-00039.parquet": {
+    "bytes": 2850603,
+    "sha256": "849c9f78558e1fb31815bcf5e21491577a2490c19e8b22cc856b63c1521b187d"
+  },
+  "data/processed/bibliographic/train-00040.parquet": {
+    "bytes": 2884789,
+    "sha256": "87b11dec100f409ab3d54633cbedfe14b58349845cc8734a291d3be2ca355e30"
+  },
+  "data/processed/bibliographic/train-00041.parquet": {
+    "bytes": 2622519,
+    "sha256": "1ff23f9753e69da8e92d459940fb18ffbac4d2d27213dfe6d5357b7c82b98eb8"
+  },
+  "data/processed/bibliographic/train-00042.parquet": {
+    "bytes": 2546091,
+    "sha256": "366fc8ff77f07c72f403d93eeb9a7684792845857d2f1027546688cd69341160"
+  },
+  "data/processed/bibliographic/train-00043.parquet": {
+    "bytes": 2624953,
+    "sha256": "4661dbec8fe37e7c60343531a2e5c04f1c152bd12d4ee2b1cc915163dd5ac414"
+  },
+  "data/processed/bibliographic/train-00044.parquet": {
+    "bytes": 2618311,
+    "sha256": "c79e1cf5cf4478b10a46980466e7e0cc852b6f95e0c468a184cee46f1f44ca16"
+  },
+  "data/processed/bibliographic/train-00045.parquet": {
+    "bytes": 2596744,
+    "sha256": "2181a6384a2bf20e4773a6cc8eaa19a35dec70809c3519b49815f971095e1c83"
+  },
+  "data/processed/bibliographic/train-00046.parquet": {
+    "bytes": 2587825,
+    "sha256": "7477723a93aee5f516f29cf23d57668167cc1e191b21eb82f07b356afe5cb653"
+  },
+  "data/processed/bibliographic/train-00047.parquet": {
+    "bytes": 2562141,
+    "sha256": "3527600e1f4addf0ad45d344d3d6e6c498ed12a80c5f281ea22bcf1f882d507a"
+  },
+  "data/processed/bibliographic/train-00048.parquet": {
+    "bytes": 2685925,
+    "sha256": "a9083a63dd8cebb2810bee0da55e33a38129c2cd5a1241313a45e06b4721a67d"
+  },
+  "data/processed/bibliographic/train-00049.parquet": {
+    "bytes": 2845458,
+    "sha256": "dd577a3a28f5fd7ff631e055c14828cc703b214fd0468fb00405354e0a67b436"
+  },
+  "data/processed/bibliographic/train-00050.parquet": {
+    "bytes": 2760347,
+    "sha256": "3b2936b87fb5e382031cc0a66caf98446a9cff29d894fa9b4cb03221034aea80"
+  },
+  "data/processed/bibliographic/train-00051.parquet": {
+    "bytes": 2636486,
+    "sha256": "9e99bde35ccde2fc84cc1e2ae5ed50138207f02a24e7a5d40e50b3d4639ac75f"
+  },
+  "data/processed/bibliographic/train-00052.parquet": {
+    "bytes": 2611984,
+    "sha256": "27c3653a8f5e1acfa66c54f9b64119a379696fe347ed9bdcf554ba52338307d1"
+  },
+  "data/processed/bibliographic/train-00053.parquet": {
+    "bytes": 2602729,
+    "sha256": "02208093d71c76fe4cb48bdbd5d55e2361a48a6fbf953649fe11411b028c58c1"
+  },
+  "data/processed/bibliographic/train-00054.parquet": {
+    "bytes": 2631285,
+    "sha256": "159417c9071c45f81c06237eec2ed9121e52d222848980ab517b04bca8139bbd"
+  },
+  "data/processed/bibliographic/train-00055.parquet": {
+    "bytes": 2586671,
+    "sha256": "1f598c5da4d5fe82c44dc411ed13a2ccb3c62a7f090425f92c3bce744b79c201"
+  },
+  "data/processed/bibliographic/train-00056.parquet": {
+    "bytes": 2727400,
+    "sha256": "b5924e2a51fa8b5954faec70d87b50e05426bc694d1bb45aa53f6d469ba07250"
+  },
+  "data/processed/bibliographic/train-00057.parquet": {
+    "bytes": 2885251,
+    "sha256": "03649760498503f6e98608224fd4fa0fbbb54d134423b1dad89c077d530eeee3"
+  },
+  "data/processed/bibliographic/train-00058.parquet": {
+    "bytes": 2811694,
+    "sha256": "164bccaef9f8ad81fb06a397ea72bdcb1c33a3ed91a5c6b9faa3292570e5d636"
+  },
+  "data/processed/bibliographic/train-00059.parquet": {
+    "bytes": 2731979,
+    "sha256": "c07ff2a787ba85b6eb65d1e924bf8d6840372e958ff7d1b5864ad876e76d457d"
+  },
+  "data/processed/bibliographic/train-00060.parquet": {
+    "bytes": 3082429,
+    "sha256": "3a7baf218bf83effa963e029b532a53f665c192cd959a0493030aabd67f4b87a"
+  },
+  "data/processed/bibliographic/train-00061.parquet": {
+    "bytes": 2925115,
+    "sha256": "517cfce7cde42baa81f6372531c89f632805bd352417d4ad728a7cd4b5fdf6db"
+  },
+  "data/processed/bibliographic/train-00062.parquet": {
+    "bytes": 2788278,
+    "sha256": "73c8804bc916106564bdf0077b921608e9d149f034eb55d31cbb0dca81a4d0dc"
+  },
+  "data/processed/bibliographic/train-00063.parquet": {
+    "bytes": 2972241,
+    "sha256": "e89c4c998830100682b16a403ea8eb967245862ba2418935105bd198c75e056f"
+  },
+  "data/processed/bibliographic/train-00064.parquet": {
+    "bytes": 2831678,
+    "sha256": "4c79cd7704696119f0011b08bff2151d754b194e84e1ad6d95e54c48fb28294d"
+  },
+  "data/processed/bibliographic/train-00065.parquet": {
+    "bytes": 2726900,
+    "sha256": "10ac0834fa36f92aa35fd7e91a22af7118b256326db16aba57fffa6da48528a2"
+  },
+  "data/processed/bibliographic/train-00066.parquet": {
+    "bytes": 2756356,
+    "sha256": "a9862316f14048038599a313d4c20a5992a67f3b07eed855c5ee008bf44c719b"
+  },
+  "data/processed/bibliographic/train-00067.parquet": {
+    "bytes": 2572316,
+    "sha256": "f116f95451f1905ae4af47f763196ee36cb645ec0fca6cfc07e62d9d10264495"
+  },
+  "data/processed/bibliographic/train-00068.parquet": {
+    "bytes": 2721983,
+    "sha256": "1a7751c27a1c6c032e5f02f8ac769e0056a7d187cb773afaf0bd12c1d8defa06"
+  },
+  "data/processed/bibliographic/train-00069.parquet": {
+    "bytes": 2330598,
+    "sha256": "2d648359e1c5a42240c95bc899024ee2325f04d09a199b2f523837449cd40ecf"
+  },
+  "data/processed/bibliographic/train-00070.parquet": {
+    "bytes": 2305533,
+    "sha256": "b0d78484df8db0f5d9b4a21a0379366b309845a115ff2909f6091bd3c8b7fc82"
+  },
+  "data/processed/bibliographic/train-00071.parquet": {
+    "bytes": 2072400,
+    "sha256": "173a1f93f5c6b0407936d4508d09375bc8ca0df0182277514acb9c8111725fe0"
+  },
+  "data/processed/bibliographic/train-00072.parquet": {
+    "bytes": 2354482,
+    "sha256": "c76dd257cd7ed52478ab938e4d8d46dd8f4df275373000dc845fcbb19494e7ef"
+  },
+  "data/processed/bibliographic/train-00073.parquet": {
+    "bytes": 1895468,
+    "sha256": "787b0d8b79cd27502893ca9e928e18b765fb6ac4bf3e25c4d9937b1a8277185e"
+  },
+  "data/processed/bibliographic/train-00074.parquet": {
+    "bytes": 2268649,
+    "sha256": "9a70a7e2b6d7c43adf857601b3adcb93cd805df5a8fe8dbe7e0eb16036a8050d"
+  },
+  "data/processed/bibliographic/train-00075.parquet": {
+    "bytes": 2282896,
+    "sha256": "12da18573ba0257faa180af67087dff6df67eb45a3049fdf227227d20065de22"
+  },
+  "data/processed/bibliographic/train-00076.parquet": {
+    "bytes": 2669171,
+    "sha256": "0d0ca45f6f8fd44042b3c0c6df343c203bacc697fba483241d8919e0414cc8f4"
+  },
+  "data/processed/bibliographic/train-00077.parquet": {
+    "bytes": 2745007,
+    "sha256": "db6df4db6ff4c51e8cd0da9defa9bf460c5bc876e293cba1e9f859cdaa7fe75b"
+  },
+  "data/processed/bibliographic/train-00078.parquet": {
+    "bytes": 2076539,
+    "sha256": "03255d08ca582bbbea9399c1e3dc3abdd11ab86725be0b450ac34c0faeb9da20"
+  },
+  "data/processed/bibliographic/train-00079.parquet": {
+    "bytes": 1698803,
+    "sha256": "53d7b09e0f369034503e3c22a664c752b93d9c0b83450ef243424c2f60825b55"
+  },
+  "data/processed/bibliographic/train-00080.parquet": {
+    "bytes": 1977377,
+    "sha256": "0959635105e737a87a331f9781cea12a157b6d5e422b4d330e864b713d2acada"
+  },
+  "data/processed/bibliographic/train-00081.parquet": {
+    "bytes": 2139200,
+    "sha256": "65c9f968c909c13c6ca50f8c0854d3bb8826894828fb1041bb3dff1f93e03877"
+  },
+  "data/processed/bibliographic/train-00082.parquet": {
+    "bytes": 2280226,
+    "sha256": "677ebd227cf6c01c64ac66635e6511f972f58106ab5bd302b5c4a86ffbe67b0e"
+  },
+  "data/processed/bibliographic/train-00083.parquet": {
+    "bytes": 2076279,
+    "sha256": "b84406b3d408d71d40b03a2d6ff23abd30dc199ce58cf06a86625a5ebffc67dd"
+  },
+  "data/processed/bibliographic/train-00084.parquet": {
+    "bytes": 1973902,
+    "sha256": "39e05960ae8a7ed9cd5b89855ac2ee1a6ff603d4632a91dffd318b92287344da"
+  },
+  "data/processed/bibliographic/train-00085.parquet": {
+    "bytes": 1935899,
+    "sha256": "6261baf9b0ffe2eec8617a2dab8f50a9287300629965dd037cbe335266a0df66"
+  },
+  "data/processed/bibliographic/train-00086.parquet": {
+    "bytes": 1795820,
+    "sha256": "3e8ef5a8cd3575c1b65aa47e9446dd1bacd22ab5efc8931cf707e262ae79c956"
+  },
+  "data/processed/bibliographic/train-00087.parquet": {
+    "bytes": 1374949,
+    "sha256": "2543bc0716de49f871f95c9f10ca31f73a89915483ff060842fa9faf1d6edb79"
+  },
+  "data/processed/bibliographic/train-00088.parquet": {
+    "bytes": 2190479,
+    "sha256": "544a2c80639d6d0488d1376b6ae66d62d1d2aa37ea57d845715b301c5d7a1790"
+  },
+  "data/processed/bibliographic/train-00089.parquet": {
+    "bytes": 2161444,
+    "sha256": "7fc1c017fc64ad6d13f583837e27363dc11146e897be23991b13bb38e55adfb8"
+  },
+  "data/processed/bibliographic/train-00090.parquet": {
+    "bytes": 2007961,
+    "sha256": "3c682de1095ff3ed105c13672ed591590ca85d66547ee2ee83399bcde605a3f9"
+  },
+  "data/processed/bibliographic/train-00091.parquet": {
+    "bytes": 1995140,
+    "sha256": "82cbff3d479392c44da18024174c8a3443a108eb1b96978911b5681e2149a63d"
+  },
+  "data/processed/bibliographic/train-00092.parquet": {
+    "bytes": 1948908,
+    "sha256": "088c4b73b78798357f3707171d01f2e33b562ddcdb21e5cefcd54f912b4b35bd"
+  },
+  "data/processed/bibliographic/train-00093.parquet": {
+    "bytes": 2005409,
+    "sha256": "834739532f7e3050972972e4607dc5ce4ec63eed3ebc6b4562158e2906b13f38"
+  },
+  "data/processed/bibliographic/train-00094.parquet": {
+    "bytes": 1997628,
+    "sha256": "ed803498f7dc787ffb37567f34ff4a622f4009ce9b52c63a70ae40007b61379c"
+  },
+  "data/processed/bibliographic/train-00095.parquet": {
+    "bytes": 1959790,
+    "sha256": "b0ea36294d2c60327e7f26824f56e31dea82fc5b1465c6c10167d17119aac067"
+  },
+  "data/processed/bibliographic/train-00096.parquet": {
+    "bytes": 2077389,
+    "sha256": "0a31a07b1de8bd80460c419c2dd8bbcadd149ba429e310e4b86c3baef2d37aa9"
+  },
+  "data/processed/bibliographic/train-00097.parquet": {
+    "bytes": 2008877,
+    "sha256": "2e4970be97ddb162b3d6d3319a6bc63238f4ea361f57d08a24f88e13e73e5112"
+  },
+  "data/processed/bibliographic/train-00098.parquet": {
+    "bytes": 1992580,
+    "sha256": "929d24a637d374c82724b7431da56a38e71d1dc92992e39189ed9e5bf8b46a6c"
+  },
+  "data/processed/bibliographic/train-00099.parquet": {
+    "bytes": 1871047,
+    "sha256": "5cfcab0bec3fbc94a293e5145a28d3b9bc0d03dd4951bcdd4fe7a5bbd3a97ab5"
+  },
+  "data/processed/bibliographic/train-00100.parquet": {
+    "bytes": 1874287,
+    "sha256": "2fbe2ef04be5facfd6fa71075002776b16b9853eab03eecb6e5d653e0192f739"
+  },
+  "data/processed/bibliographic/train-00101.parquet": {
+    "bytes": 1890102,
+    "sha256": "50b07cc8f7a77d5898bcb9b757a5ae911108d2a3f413af2997f5d6192205ba6f"
+  },
+  "data/processed/bibliographic/train-00102.parquet": {
+    "bytes": 1820159,
+    "sha256": "03c89235559bb85f632a61572bc5f95ccd31f606af5d0f88b1ef587d729d877d"
+  },
+  "data/processed/bibliographic/train-00103.parquet": {
+    "bytes": 2050658,
+    "sha256": "e44dac92f929e86805d6e345124fe4855aed5912730ac287ce2c155606805658"
+  },
+  "data/processed/bibliographic/train-00104.parquet": {
+    "bytes": 2136638,
+    "sha256": "abd5ee765c2e86691acbfed6466ba989bb500054f7b2b236a4215ec602e31df1"
+  },
+  "data/processed/bibliographic/train-00105.parquet": {
+    "bytes": 2002237,
+    "sha256": "ff607c254567bfc8c66376932d4d38cb2117fa154dcea918307c62bd2541be77"
+  },
+  "data/processed/bibliographic/train-00106.parquet": {
+    "bytes": 1958455,
+    "sha256": "b139705afd9eec65dd9b0e043b1632e59dea3d50dab6a42934805f433ca483bc"
+  },
+  "data/processed/bibliographic/train-00107.parquet": {
+    "bytes": 1910188,
+    "sha256": "7b29c9518ff046fa0ac50740ff2f7d65100bbee5fab5954013b10e2702728420"
+  },
+  "data/processed/bibliographic/train-00108.parquet": {
+    "bytes": 1945922,
+    "sha256": "b5154f675be3e585d2ea5f6b6493e7cc59474e313c9b3741474410e2b0390250"
+  },
+  "data/processed/bibliographic/train-00109.parquet": {
+    "bytes": 1942271,
+    "sha256": "73e4e0d69c68047cbca9ffb602921094a5d12960a9b3a94e5207cb5d902f2eee"
+  },
+  "data/processed/bibliographic/train-00110.parquet": {
+    "bytes": 1931569,
+    "sha256": "3f41587b3fb715057a65d105c70959c1100654e0600378d02a3c374826ae99ae"
+  },
+  "data/processed/bibliographic/train-00111.parquet": {
+    "bytes": 1882286,
+    "sha256": "d74581173fd937aa522b6165f6363dee12042b8285cc648b90822b49f4c48fe3"
+  },
+  "data/processed/bibliographic/train-00112.parquet": {
+    "bytes": 1900461,
+    "sha256": "bd123611053447f42fc3a78b1fdefc45b922884df26c10accf5e2d06dcfd575b"
+  },
+  "data/processed/bibliographic/train-00113.parquet": {
+    "bytes": 1892935,
+    "sha256": "90014914e2127ac27442f06e3f9a2011c61aae55bbaa1b01eeaff829faf135a3"
+  },
+  "data/processed/bibliographic/train-00114.parquet": {
+    "bytes": 1942638,
+    "sha256": "b2471a2c163504becaba284973af0e790190e634ae5163794eced6d2c35519e8"
+  },
+  "data/processed/bibliographic/train-00115.parquet": {
+    "bytes": 1975003,
+    "sha256": "19164e2d5ffb011ab5eb6eb54d2c622162c89ab6263cbebdb3084b239873ca18"
+  },
+  "data/processed/bibliographic/train-00116.parquet": {
+    "bytes": 2022731,
+    "sha256": "bbc2d56f4c2e566cd2ad26b98a0e20458eef222a1d3289fbce544d8a49e40c9f"
+  },
+  "data/processed/bibliographic/train-00117.parquet": {
+    "bytes": 1891982,
+    "sha256": "e605f48ca3e0d6fc56175ed75622c552497c2e531e217d5268e7485a314037de"
+  },
+  "data/processed/bibliographic/train-00118.parquet": {
+    "bytes": 1877089,
+    "sha256": "501f536465c6b9c0b1930ee47173b5421219c8dc106baacce8521b9e53533889"
+  },
+  "data/processed/bibliographic/train-00119.parquet": {
+    "bytes": 1908487,
+    "sha256": "8be3375241782de8019a43ae655a1439a8a42d84f66db8215bc2aeb4172a21cd"
+  },
+  "data/processed/bibliographic/train-00120.parquet": {
+    "bytes": 2027272,
+    "sha256": "3d7f26af055779a1c00ec11a7bd7d47492c83e7e03f36e75d8fa5a1167c4d261"
+  },
+  "data/processed/bibliographic/train-00121.parquet": {
+    "bytes": 2008446,
+    "sha256": "03cae69b35dc2c13ef617f78cd41842f2f786924d154807cd3beb308b326441f"
+  },
+  "data/processed/bibliographic/train-00122.parquet": {
+    "bytes": 1889220,
+    "sha256": "2a7c7e423c7fbabf81249e2e0a35f60e42855cda579fc482620bcbbb52bc292e"
+  },
+  "data/processed/bibliographic/train-00123.parquet": {
+    "bytes": 1945720,
+    "sha256": "766640d9fa45382161290c4b96b57abf75a52db7e24b55fd5711526e1f975e45"
+  },
+  "data/processed/bibliographic/train-00124.parquet": {
+    "bytes": 1930024,
+    "sha256": "0e2c64c3ea2e19f7c1bfa7693fe7214611699a24c2a15234ef609e0051d6668c"
+  },
+  "data/processed/bibliographic/train-00125.parquet": {
+    "bytes": 1966495,
+    "sha256": "f18eb693d31affc09372458f1eae572f16b6fc09fc4cdf78b5e172e068332fb9"
+  },
+  "data/processed/bibliographic/train-00126.parquet": {
+    "bytes": 1943943,
+    "sha256": "36a0723ad667215a37b25a2c6fc16443fd24cae4695e272c7383f2c268bd0d97"
+  },
+  "data/processed/bibliographic/train-00127.parquet": {
+    "bytes": 1956139,
+    "sha256": "4699ee77ca801377940382e0ecfe656dcdf68ca1bb0eca6e70ff929f6b2ff7e7"
+  },
+  "data/processed/bibliographic/train-00128.parquet": {
+    "bytes": 1869864,
+    "sha256": "9d2a14aee941dd42cefbeee9322c6dd3b0ee0bfc7041742e17b7d5039389fcc8"
+  },
+  "data/processed/bibliographic/train-00129.parquet": {
+    "bytes": 1884269,
+    "sha256": "ab40536b2168ece3e953173468fd03de7e987b43f11b9f588b506d7bbd7394de"
+  },
+  "data/processed/bibliographic/train-00130.parquet": {
+    "bytes": 1908713,
+    "sha256": "7cac5bdfdcab8974a5f8edbcbf434126b667c3109b793db78accedda6026d9a7"
+  },
+  "data/processed/bibliographic/train-00131.parquet": {
+    "bytes": 1966854,
+    "sha256": "b0b6b6015df9814a4bbec6c15789d38023e85f2b7432cd208fd7b1cbb272839d"
+  },
+  "data/processed/bibliographic/train-00132.parquet": {
+    "bytes": 1871560,
+    "sha256": "254530859284d7b12267bf1d9c44d1a169afcb58f55d93dc6ec090815a9ea105"
+  },
+  "data/processed/bibliographic/train-00133.parquet": {
+    "bytes": 1816620,
+    "sha256": "a34728e2cc1e9bee6b084605fd08e1478fe1b8cc01cececc6a0026027a5e9da0"
+  },
+  "data/processed/bibliographic/train-00134.parquet": {
+    "bytes": 1737035,
+    "sha256": "6e75c01dd97f942a7d995739d1a5d9a65ee87bb5e4b31e224b3e8d2dccb8e8a0"
+  },
+  "data/processed/bibliographic/train-00135.parquet": {
+    "bytes": 1785461,
+    "sha256": "d0634fdfc587286505e16b76aab3fa1dc0da0c821925e9a9afe268f113469d49"
+  },
+  "data/processed/bibliographic/train-00136.parquet": {
+    "bytes": 1733042,
+    "sha256": "b03f1ef93aa46dc774b4a863d5fb7f851f65721d7fc095ab489405ff47ede51d"
+  },
+  "data/processed/bibliographic/train-00137.parquet": {
+    "bytes": 1775021,
+    "sha256": "bc9d5498197a31b8b7001e450cf5cdc763b161b58734ef85db6a485d39d7a895"
+  },
+  "data/processed/bibliographic/train-00138.parquet": {
+    "bytes": 1795971,
+    "sha256": "4777b8850d1f39e63d18f3344185e0d3e546054848149843d14ef0d89171440f"
+  },
+  "data/processed/bibliographic/train-00139.parquet": {
+    "bytes": 1811098,
+    "sha256": "7c32004cef7f5beb2ca5b2a740f25b73acad6f254c6785ad80865ceaa779d8ab"
+  },
+  "data/processed/bibliographic/train-00140.parquet": {
+    "bytes": 1857094,
+    "sha256": "48572ad7c02ffaade7bea3e295e3b41a7b689a3c5cb82bb48be4ac68e87a09c5"
+  },
+  "data/processed/bibliographic/train-00141.parquet": {
+    "bytes": 1773709,
+    "sha256": "eee7770c98ad39e81dbc14346e5f03087a4b69c398165c46e17ad6e850d80f75"
+  },
+  "data/processed/bibliographic/train-00142.parquet": {
+    "bytes": 1882139,
+    "sha256": "a30f9d84c1adeb7eace2e55202e8e6102a83215e0d7b05c6cb9f2e85af0b9f01"
+  },
+  "data/processed/bibliographic/train-00143.parquet": {
+    "bytes": 2046354,
+    "sha256": "2a1316a017651e53fed209f5f77ee03590943c968f6b0e55b79e0fe9f851af40"
+  },
+  "data/processed/bibliographic/train-00144.parquet": {
+    "bytes": 2007127,
+    "sha256": "45dcfb5922f360cb155776139b7ba037adfe79e5d2e82d34c7cc2b79e75463c9"
+  },
+  "data/processed/bibliographic/train-00145.parquet": {
+    "bytes": 1889285,
+    "sha256": "9f7baee6d4078e4c8c3551463f566c9afce06fc2262492882e64c284167ef4b4"
+  },
+  "data/processed/bibliographic/train-00146.parquet": {
+    "bytes": 2210607,
+    "sha256": "3b4f542b5758caed41e5e30c922262e4937d44331a6a13b01183c267a58e1b54"
+  },
+  "data/processed/bibliographic/train-00147.parquet": {
+    "bytes": 1976426,
+    "sha256": "d2dc809aa719aa58b21e90ad8346e0a35d640bb6289fb74b0005a8f3214cad98"
+  },
+  "data/processed/bibliographic/train-00148.parquet": {
+    "bytes": 1984112,
+    "sha256": "52ca76b6ebf28d95613ffd616f059ee0679ea5c0479218f5aa49672f362dde5b"
+  },
+  "data/processed/bibliographic/train-00149.parquet": {
+    "bytes": 1950476,
+    "sha256": "7b79c097a1b9ddebd77d7e83a908dee7f4d6e0b273a2f263787fb2d128abe65f"
+  },
+  "data/processed/bibliographic/train-00150.parquet": {
+    "bytes": 1924412,
+    "sha256": "c154c2dae43e1a2baf31b7f58777e299bdce8aab7e9c60b54ffb6283943228a7"
+  },
+  "data/processed/bibliographic/train-00151.parquet": {
+    "bytes": 1992097,
+    "sha256": "9d5bf2263bf8e2aacb1a53d5ca488fd9cd68b05e9bfc3f1cddd7d6f3260d665c"
+  },
+  "data/processed/bibliographic/train-00152.parquet": {
+    "bytes": 2119835,
+    "sha256": "8f2c15d8921d1e81c00a17602bdb2f46ff793939a37c04fd6953186bee2a6e8b"
+  },
+  "data/processed/bibliographic/train-00153.parquet": {
+    "bytes": 2640635,
+    "sha256": "603b6f4ed25ec3390ae1bc3a5e8a2ba9563a609545e049a20395ccee608a7a0c"
+  },
+  "data/processed/bibliographic/train-00154.parquet": {
+    "bytes": 2791421,
+    "sha256": "face2777057cfa626c4356615178a75d78f07ad1a105071d4fde23ea3c858954"
+  },
+  "data/processed/bibliographic/train-00155.parquet": {
+    "bytes": 2287443,
+    "sha256": "b640e825821d02773edc279fd910471a02835faea940bf7b3524fbcf08483284"
+  },
+  "data/processed/bibliographic/train-00156.parquet": {
+    "bytes": 2710848,
+    "sha256": "7c07f0725fb3838319aeace23f9c634c5282587068b8531a3681287b9c13001b"
+  },
+  "data/processed/bibliographic/train-00157.parquet": {
+    "bytes": 2564097,
+    "sha256": "32bda78449cf31cc33e0f465338d95361e0387cb59434a0be1b9f8b3478ed46e"
+  },
+  "data/processed/bibliographic/train-00158.parquet": {
+    "bytes": 2490592,
+    "sha256": "c50999a5b036f8d5998c746d4481d038e6bc005945db7783db41fc0d44cda672"
+  },
+  "data/processed/bibliographic/train-00159.parquet": {
+    "bytes": 2224588,
+    "sha256": "96f126c0791172ec490a3c0a5e221df21122b5405c1c479ce371729aeb3713b8"
+  },
+  "data/processed/bibliographic/train-00160.parquet": {
+    "bytes": 2007184,
+    "sha256": "035e8e5bba4202b2175f918e1f815cbfdf0c351c038b198a365d91c8df6b9d01"
+  },
+  "data/processed/bibliographic/train-00161.parquet": {
+    "bytes": 1923055,
+    "sha256": "60ab9ca3beb914f0a9b127c29a422e5565e4f8822948e7e5cd59854cd510b1cc"
+  },
+  "data/processed/bibliographic/train-00162.parquet": {
+    "bytes": 2142824,
+    "sha256": "ebc926bf34a04e1cf0631321b577fa572f46afe329ae0f5304bac8a6dff36ca5"
+  },
+  "data/processed/bibliographic/train-00163.parquet": {
+    "bytes": 2088261,
+    "sha256": "a852eef4bfee80534ac5fff0b1bcc8e68a1730f36b1074adbcc193e04bcb5fa0"
+  },
+  "data/processed/bibliographic/train-00164.parquet": {
+    "bytes": 2054647,
+    "sha256": "075732183e48dcef4dd2197589b0fa7dc8618e13e432b65c03b53ffa249b93bf"
+  },
+  "data/processed/bibliographic/train-00165.parquet": {
+    "bytes": 2111836,
+    "sha256": "9e59a8b6c87cae18c69706b732f5b2eda38ac2634bca2f719cd1f704f8dc8c5f"
+  },
+  "data/processed/bibliographic/train-00166.parquet": {
+    "bytes": 2580654,
+    "sha256": "ae273a48641b39f52751f29a0bcd4b398cacc7eb5d7c274e76a79b48cfbbce66"
+  },
+  "data/processed/bibliographic/train-00167.parquet": {
+    "bytes": 2686586,
+    "sha256": "bbeccf4640de9340ead67acdda576c2bbda21c534786dbb3069641a0c719bcab"
+  },
+  "data/processed/bibliographic/train-00168.parquet": {
+    "bytes": 2476910,
+    "sha256": "80bf0a2ca63e77a52c7c78188d5570367af665a8ba1b8ff671a4e6b07debbec8"
+  },
+  "data/processed/bibliographic/train-00169.parquet": {
+    "bytes": 2377352,
+    "sha256": "7a7bcf798604ee260821b357d3fc09d2eca50afcbe87594d49f01d60657a9e38"
+  },
+  "data/processed/bibliographic/train-00170.parquet": {
+    "bytes": 2444279,
+    "sha256": "14110c686d07bb96a757f5bb46cb4ee54dcf20d0ea694b3ed33e5a56958ff200"
+  },
+  "data/processed/bibliographic/train-00171.parquet": {
+    "bytes": 2484018,
+    "sha256": "bda1d0bf5152562f26abce00cd9c6a047a772848456e7933516da06c6c965e0e"
+  },
+  "data/processed/bibliographic/train-00172.parquet": {
+    "bytes": 2538093,
+    "sha256": "4c3f6e9c0b707b69f61dafbb633dd4ce6c83c5e101e458a88ff980360ceeef49"
+  },
+  "data/processed/bibliographic/train-00173.parquet": {
+    "bytes": 2472982,
+    "sha256": "650e9f40d4bc021dc4edbfb6f4ecd73836bea127dc2923ba428441ab5963a1bb"
+  },
+  "data/processed/bibliographic/train-00174.parquet": {
+    "bytes": 2477489,
+    "sha256": "6fea36d4c75d05df6a3ff0fd1ac6f072c60ffbaa49ed26c356668a0d8c32ce6b"
+  },
+  "data/processed/bibliographic/train-00175.parquet": {
+    "bytes": 2491884,
+    "sha256": "5c69827207c1a9aee7c35a40cc24f1e6c9fe708e45575b7eb6735f755ea83656"
+  },
+  "data/processed/bibliographic/train-00176.parquet": {
+    "bytes": 2446683,
+    "sha256": "b2749dfe41e29a316ed4ea8677463acf3b1fdddb9e4231bb8e6f183c011e0345"
+  },
+  "data/processed/bibliographic/train-00177.parquet": {
+    "bytes": 2451165,
+    "sha256": "951f3a874193ad7d3c67e0e5a5d99c12a15d5edb5e19b1addf8e2ab668c4abbe"
+  },
+  "data/processed/bibliographic/train-00178.parquet": {
+    "bytes": 2464160,
+    "sha256": "75e6808dbe8d951bbc361262f57b7ee586f74f82f2e030e654c3d93d188c4f33"
+  },
+  "data/processed/bibliographic/train-00179.parquet": {
+    "bytes": 2213482,
+    "sha256": "64e684adf6d0ddb61b970048164d0933b4cae8a785d828042aee389041c76726"
+  },
+  "data/processed/bibliographic/train-00180.parquet": {
+    "bytes": 2581058,
+    "sha256": "11861dc8a5e361697682848bb032f783b5e50e4d4edd6d84d408bd0a79ffa59f"
+  },
+  "data/processed/bibliographic/train-00181.parquet": {
+    "bytes": 2648317,
+    "sha256": "bf00f4199a147c9f27cacf172ae94d4a5b0099c1d21d87a1d144940ebab4633d"
+  },
+  "data/processed/bibliographic/train-00182.parquet": {
+    "bytes": 2474526,
+    "sha256": "21b12926515df5ec9d5f0b5b4853dd7a8dbc776cd5c9a286016e2203b93c47fe"
+  },
+  "data/processed/bibliographic/train-00183.parquet": {
+    "bytes": 2659356,
+    "sha256": "85afafe5b9e8251e99e652862717f7489de29afdfc5d185489e7b1c7329ecfdd"
+  },
+  "data/processed/bibliographic/train-00184.parquet": {
+    "bytes": 2676819,
+    "sha256": "4106970040999914a20eb462b40777b5cefec0d5655fa6f7030a9d0a189ee701"
+  },
+  "data/processed/bibliographic/train-00185.parquet": {
+    "bytes": 2616318,
+    "sha256": "d8d240b8240e93c8aa68d78d11eb53492d7cf0d2777119dc3a35b88bcbd24e20"
+  },
+  "data/processed/bibliographic/train-00186.parquet": {
+    "bytes": 2688805,
+    "sha256": "3a92c27fd308658c2be3b1a1efdd6c936020162906f3d962ba50fbefad562207"
+  },
+  "data/processed/bibliographic/train-00187.parquet": {
+    "bytes": 2751003,
+    "sha256": "247211ca0315647a2fbe6349e9fde9647a202151f364da04e315cbd4f4f25782"
+  },
+  "data/processed/bibliographic/train-00188.parquet": {
+    "bytes": 2774281,
+    "sha256": "5dfbe908df0090e0991fceaba3dad41e10838262979e18156fabfe1d8384d32f"
+  },
+  "data/processed/bibliographic/train-00189.parquet": {
+    "bytes": 2808980,
+    "sha256": "a23f05af5967bbd1c56af6918cfefb53e170f8358fe7593eeaf5ee84e353c0e9"
+  },
+  "data/processed/bibliographic/train-00190.parquet": {
+    "bytes": 2785861,
+    "sha256": "2472e1cea62e580a0eebd905cc1d797a9b35d104a62a7891f14f6f6769c82924"
+  },
+  "data/processed/bibliographic/train-00191.parquet": {
+    "bytes": 2831152,
+    "sha256": "a6f8bd907dd46237a5e0e1ef17090c1d67cfee7b7cfaae61b29fd4c0a2d62af3"
+  },
+  "data/processed/bibliographic/train-00192.parquet": {
+    "bytes": 2873625,
+    "sha256": "6afe14f1a53c93342208002f75367c57c9ffb3766b0a14978969b8a18c7bf295"
+  },
+  "data/processed/bibliographic/train-00193.parquet": {
+    "bytes": 2952511,
+    "sha256": "576a0c54bf29b9137aa634789092010f8ffcbf095b502aa071e64f9cbd8ba50d"
+  },
+  "data/processed/bibliographic/train-00194.parquet": {
+    "bytes": 2777612,
+    "sha256": "3931b5ffd347d76410ae5c173e4f96a3fbb8be244c0e6628d260e807b61f5ec0"
+  },
+  "data/processed/bibliographic/train-00195.parquet": {
+    "bytes": 2830726,
+    "sha256": "901303159d080a2b966b4e211f5547a98135b838d6ba4cb9f7f0bb45854acdb9"
+  },
+  "data/processed/bibliographic/train-00196.parquet": {
+    "bytes": 2468693,
+    "sha256": "e4803f294b84e213dad8ab968a746c08f39d736015d9969bf65e8127439ffa4a"
+  },
+  "data/processed/bibliographic/train-00197.parquet": {
+    "bytes": 1914327,
+    "sha256": "e29dc0746f63d929587459bc47856660769585d0730d0bdad6b96af65030db25"
+  },
+  "data/processed/bibliographic/train-00198.parquet": {
+    "bytes": 1899434,
+    "sha256": "f0bfe53d4a19ec5a685b139c599263f5fb6285bc66091feb03c836a4a12ac33a"
+  },
+  "data/processed/bibliographic/train-00199.parquet": {
+    "bytes": 1879092,
+    "sha256": "21691f7f4ad15bf2cc000f8dec356d1c82e6b8dc883f711125001c8c50cdb57e"
+  },
+  "data/processed/bibliographic/train-00200.parquet": {
+    "bytes": 1938867,
+    "sha256": "b8b86bd5e96ac3e134b9e820f4d545628daf8f659a09cf799a6c33eca79ded29"
+  },
+  "data/processed/bibliographic/train-00201.parquet": {
+    "bytes": 1932621,
+    "sha256": "ed48b8d24726125594bb99a217c5eb048feb082cfeba67e0da1aa1a2c6f7c199"
+  },
+  "data/processed/bibliographic/train-00202.parquet": {
+    "bytes": 1982942,
+    "sha256": "d296dba2f501ad81d69e2158c1fa2cf34e86c63788898c156f7b60fefb7202d4"
+  },
+  "data/processed/bibliographic/train-00203.parquet": {
+    "bytes": 1985147,
+    "sha256": "53ac9f54336e23ea869ff2cecfc0e3ced0c3874708335b7d5914e9c953c09ca0"
+  },
+  "data/processed/bibliographic/train-00204.parquet": {
+    "bytes": 2012596,
+    "sha256": "8a959e503ba2e6921fe5899fca3556b09adbb3a37b3f71c1247cea670e76b70e"
+  },
+  "data/processed/bibliographic/train-00205.parquet": {
+    "bytes": 2005284,
+    "sha256": "df0967ab81947f9d9e09711f950b0148574580c6ed2b3459919d0737c9d615c8"
+  },
+  "data/processed/bibliographic/train-00206.parquet": {
+    "bytes": 1986375,
+    "sha256": "1c58dfd3a38e1cc7566f2024ba37611e6bac6c9903106c5141f0583976b9cdb2"
+  },
+  "data/processed/bibliographic/train-00207.parquet": {
+    "bytes": 1977881,
+    "sha256": "a6536d83452e8b9bc7bfb2c902e2d256e2229a09084ea86636a642681d37b815"
+  },
+  "data/processed/bibliographic/train-00208.parquet": {
+    "bytes": 2024505,
+    "sha256": "17afb0a63e21ac78544ca07ef3fe98b70383f7a6d78b8926c395801c3f386c90"
+  },
+  "data/processed/bibliographic/train-00209.parquet": {
+    "bytes": 2036762,
+    "sha256": "d184be40cb64b0ce24f354870e44a3c661690c6492fd7525e03c9c5b4022bf58"
+  },
+  "data/processed/bibliographic/train-00210.parquet": {
+    "bytes": 1967072,
+    "sha256": "b0be2a98d0272c941c3541f89e5af8ad57d448c5e1e886118c2121b6c83a3e73"
+  },
+  "data/processed/bibliographic/train-00211.parquet": {
+    "bytes": 2031573,
+    "sha256": "7a560aca23bae3043ecc786657053757b829559eb8eb82980e382181f0d5f87a"
+  },
+  "data/processed/bibliographic/train-00212.parquet": {
+    "bytes": 2003618,
+    "sha256": "76c176c56d42b35617eb15aa9c9c5d6db64153e5d2615cab3616b4b00fe3d1d4"
+  },
+  "data/processed/bibliographic/train-00213.parquet": {
+    "bytes": 1984455,
+    "sha256": "98031f5b9f876db8466abdbe269f3d2cfc1f6f7c64750dfa30a0fd6622c5367b"
+  },
+  "data/processed/bibliographic/train-00214.parquet": {
+    "bytes": 1904557,
+    "sha256": "a8adfe06cb503931dd5bad375d1685382773f2e52fbd2da9c6a6669a4b560d5a"
+  },
+  "data/processed/bibliographic/train-00215.parquet": {
+    "bytes": 1976973,
+    "sha256": "d88890f96285a8cd24bd81aee495762d5c2735e634ac34009a4400071228de5d"
+  },
+  "data/processed/bibliographic/train-00216.parquet": {
+    "bytes": 1938553,
+    "sha256": "66f77290972632bc19e336aa63e61f56694ee1539913602ecbd88a34e26995cb"
+  },
+  "data/processed/bibliographic/train-00217.parquet": {
+    "bytes": 1923814,
+    "sha256": "eb844aaa383703a74754b6b0cc83441451e7f0752ea260c9598944dc414ca058"
+  },
+  "data/processed/bibliographic/train-00218.parquet": {
+    "bytes": 1891154,
+    "sha256": "0fa67976bdce56a7b2f9351ab2efcecee37251cc62e3595eb478bc28c7ba475c"
+  },
+  "data/processed/bibliographic/train-00219.parquet": {
+    "bytes": 1947567,
+    "sha256": "b4d34f28b5c4d6a9e3cb42109fc822e6e47a78150ac8b984a0c36bed4f019c26"
+  },
+  "data/processed/bibliographic/train-00220.parquet": {
+    "bytes": 1891989,
+    "sha256": "840b823b0826ef88d026efe6ae806055fdf8cf02807eba089b8eed210fa91aee"
+  },
+  "data/processed/bibliographic/train-00221.parquet": {
+    "bytes": 1907043,
+    "sha256": "9da815d27d6a3974b5cafcc5a5ddfc5861ca78c095c592f1f564aaf0ac0f11d5"
+  },
+  "data/processed/bibliographic/train-00222.parquet": {
+    "bytes": 1883985,
+    "sha256": "f025e3cbc50db257a197cdc19741d58bcc1f5efba1813d6c00a8ce286534496a"
+  },
+  "data/processed/bibliographic/train-00223.parquet": {
+    "bytes": 1968985,
+    "sha256": "ec99dbb5720f3eab5b10d84ace8081bee5752f05fe612b20d60c81a9fd10b840"
+  },
+  "data/processed/bibliographic/train-00224.parquet": {
+    "bytes": 1980376,
+    "sha256": "830a58517851a4b4e68232e894525e4c67bc186ee896c387da94e813375cc7fa"
+  },
+  "data/processed/bibliographic/train-00225.parquet": {
+    "bytes": 2006652,
+    "sha256": "6d30788300e7cbc198596d8bd630bf2933cae876a91febed5390b77b9e10055a"
+  },
+  "data/processed/bibliographic/train-00226.parquet": {
+    "bytes": 2039159,
+    "sha256": "fe043372de967691ccdcabafdfd90cbfc6188b766ea039b29553b6c6fa79e910"
+  },
+  "data/processed/bibliographic/train-00227.parquet": {
+    "bytes": 1964812,
+    "sha256": "e25c90888351d1ad993f8a553ba6489077791b701f258ad15823cb914f042e14"
+  },
+  "data/processed/bibliographic/train-00228.parquet": {
+    "bytes": 1980931,
+    "sha256": "199d72f6488c12d1144b68b300cb73740a584d85270632d93f92cfcdbf33eb83"
+  },
+  "data/processed/bibliographic/train-00229.parquet": {
+    "bytes": 1964362,
+    "sha256": "c3d509d5b38fe1d5e85fee4bb85be4f4fb9a97e22dcf2616c27e2e91531949ff"
+  },
+  "data/processed/bibliographic/train-00230.parquet": {
+    "bytes": 1936565,
+    "sha256": "381ffcad2d119b082b3886d4a33f3651959a4770b8a14c5615628e8853b9153f"
+  },
+  "data/processed/bibliographic/train-00231.parquet": {
+    "bytes": 1946109,
+    "sha256": "9919769c184fea8310d35336ca16b3c960273a82ff8cde6d47136df39b1e42b6"
+  },
+  "data/processed/bibliographic/train-00232.parquet": {
+    "bytes": 1928842,
+    "sha256": "9738e55f8a4762312d72ee52f6945244dde673c2c2f890e29e81d1ea3bd2aed6"
+  },
+  "data/processed/bibliographic/train-00233.parquet": {
+    "bytes": 1940117,
+    "sha256": "1251cf9330ce57b65ada83458cfd4227bd092edd8a8c21ddc5128b685c271ec3"
+  },
+  "data/processed/bibliographic/train-00234.parquet": {
+    "bytes": 1918370,
+    "sha256": "77e291a93e12a0cf765ae108b28bde464e515271ad2b32715136fbc5f68b7a8c"
+  },
+  "data/processed/bibliographic/train-00235.parquet": {
+    "bytes": 1947192,
+    "sha256": "7c63009f5f6f0e0c302c1bc5fd2e11e1ffbee8e01407c0f7be389aa72f6b4793"
+  },
+  "data/processed/bibliographic/train-00236.parquet": {
+    "bytes": 2001908,
+    "sha256": "18efc163c4ffdef51414688fac696da8625bf327fabaf91fef4b8245847501e4"
+  },
+  "data/processed/bibliographic/train-00237.parquet": {
+    "bytes": 2012129,
+    "sha256": "97f040d57baa5e3c47b63c246855bfd4af2058f07f21ac5dfb2295f957f78688"
+  },
+  "data/processed/bibliographic/train-00238.parquet": {
+    "bytes": 1986658,
+    "sha256": "e64af70eb200dec204276e695df39e98090ba9253b89c64d4190351f57e849e4"
+  },
+  "data/processed/bibliographic/train-00239.parquet": {
+    "bytes": 1945277,
+    "sha256": "2f782011fc4d9956cf9217413d0389f6010782e834d86b8d9737b0a8405e66d9"
+  },
+  "data/processed/bibliographic/train-00240.parquet": {
+    "bytes": 1960357,
+    "sha256": "5b9c02f69978f1e6de2c2fdf63d7289613aa96de9a29ea3b7d9a4101c63e35a3"
+  },
+  "data/processed/bibliographic/train-00241.parquet": {
+    "bytes": 1985577,
+    "sha256": "ebbda391faa5f72021ba9096aed5a899fd83af04bc60a4303cda3af3221796cd"
+  },
+  "data/processed/bibliographic/train-00242.parquet": {
+    "bytes": 2020102,
+    "sha256": "1832cb7aff5fbcc1db34fe77a856babeda1594f6d3b02120feb771222bc9d2cb"
+  },
+  "data/processed/bibliographic/train-00243.parquet": {
+    "bytes": 2018015,
+    "sha256": "ae4af87b648a247413d8a29339de1728d70607637c487fca0c3ea431b578ade5"
+  },
+  "data/processed/bibliographic/train-00244.parquet": {
+    "bytes": 2070698,
+    "sha256": "29dd158b2cb6379ff8ff3116419b0c2192f401cb86d2bb1bad98ecd94df24d5f"
+  },
+  "data/processed/bibliographic/train-00245.parquet": {
+    "bytes": 2104779,
+    "sha256": "83a43b7300de66e3fa43be839e9584305c5720289696978a472ef5ac92c40e08"
+  },
+  "data/processed/bibliographic/train-00246.parquet": {
+    "bytes": 2039473,
+    "sha256": "3e1a6950195165ab8d856205d70f039523262e07b51bcfd73b0a8855067734b4"
+  },
+  "data/processed/bibliographic/train-00247.parquet": {
+    "bytes": 2034826,
+    "sha256": "5fd70d088f450477ab48c27a0903cc0a4db22a46cfe26dba143440b7e6ee8fd4"
+  },
+  "data/processed/bibliographic/train-00248.parquet": {
+    "bytes": 2026134,
+    "sha256": "cedecadd609733cebdab5e0e963f57c9e501a651e36b6f3645db7adffedf8b4b"
+  },
+  "data/processed/bibliographic/train-00249.parquet": {
+    "bytes": 1993633,
+    "sha256": "d61db60e8fef1bbf61a76b93123cb4131769017a54b47164450227c235ab3ce8"
+  },
+  "data/processed/bibliographic/train-00250.parquet": {
+    "bytes": 1987356,
+    "sha256": "e482f41a5c6a6368acc04922d0c0e0b548df8aa45e7907a7300178c3d0767e62"
+  },
+  "data/processed/bibliographic/train-00251.parquet": {
+    "bytes": 2015963,
+    "sha256": "c7bbb79516012a45a9b440fb37ce41e9bc5f0d58ad92e60367ce28f685c57a47"
+  },
+  "data/processed/bibliographic/train-00252.parquet": {
+    "bytes": 2023490,
+    "sha256": "677476bf523c304cb1a3af6707048c3025cb1a0eade0cdbcfc3538ce9fac603f"
+  },
+  "data/processed/bibliographic/train-00253.parquet": {
+    "bytes": 2042836,
+    "sha256": "c9a43c3a0435181599acdabbf821c4ef9efb8082272e08529b2e974f11ab26a1"
+  },
+  "data/processed/bibliographic/train-00254.parquet": {
+    "bytes": 2158584,
+    "sha256": "b8c01945c28599d9ceb44847833c8d39bf613a6844b01c4650165e47672d8360"
+  },
+  "data/processed/bibliographic/train-00255.parquet": {
+    "bytes": 2110968,
+    "sha256": "762f6bf43c53d81c2043168cd7e8eb73c6dbd3e4c4749987af7e04de84b3592b"
+  },
+  "data/processed/bibliographic/train-00256.parquet": {
+    "bytes": 1988585,
+    "sha256": "6059eaf84bc004d614b6be6866f67f372388f185e050af920dc2a26f43183586"
+  },
+  "data/processed/bibliographic/train-00257.parquet": {
+    "bytes": 2001874,
+    "sha256": "3f19d542a41c6f369a98ce092edae1ba56ab55c9d907169bdf34a47ae086d559"
+  },
+  "data/processed/bibliographic/train-00258.parquet": {
+    "bytes": 1967037,
+    "sha256": "d6f56a279606cb82d1e80739a52e5030f76fc4bcbe7e7356b4589283099f4f10"
+  },
+  "data/processed/bibliographic/train-00259.parquet": {
+    "bytes": 2029934,
+    "sha256": "f13e2253eb2314f85ef57b9f7c591508c10b9028822a2ed7c4555cf402ef5994"
+  },
+  "data/processed/bibliographic/train-00260.parquet": {
+    "bytes": 2024865,
+    "sha256": "2c1645ff8a4cf06f2e8db9cb914465d132f1e3fd7b79e9b6f73395202712329b"
+  },
+  "data/processed/bibliographic/train-00261.parquet": {
+    "bytes": 2034640,
+    "sha256": "8b745c8700ea8257da8785d5de60fa392064021d590ec5f5756da0fdca3a3851"
+  },
+  "data/processed/bibliographic/train-00262.parquet": {
+    "bytes": 2024451,
+    "sha256": "1604e22f4f8bc1bbe1e102cf1f6ed53e54518c1ae7cf27cc01abbb2597589dda"
+  },
+  "data/processed/bibliographic/train-00263.parquet": {
+    "bytes": 2019083,
+    "sha256": "72a155682c49009b6f8e9de7c48c8ec857b240af1930278b0ec1f772955c9d84"
+  },
+  "data/processed/bibliographic/train-00264.parquet": {
+    "bytes": 1991791,
+    "sha256": "b1910810679f482afd0b6f3228b4f77378b53ea3c4c359e65f3d7024d482b4c4"
+  },
+  "data/processed/bibliographic/train-00265.parquet": {
+    "bytes": 2029973,
+    "sha256": "7d17a42e5a6e7fd32b4611c830e6d1b26cad61dd182dcc39ced1d1b5b3536c62"
+  },
+  "data/processed/bibliographic/train-00266.parquet": {
+    "bytes": 2036475,
+    "sha256": "b553de5a03f798c2228584cb541b6e8b7c90a2e5cdd5b9d0f8618b8988a90a4c"
+  },
+  "data/processed/bibliographic/train-00267.parquet": {
+    "bytes": 2005665,
+    "sha256": "b6127e5ca05bd13d4baee39373925ca6e55c7103dd136fc69f9f379b30412044"
+  },
+  "data/processed/bibliographic/train-00268.parquet": {
+    "bytes": 1917815,
+    "sha256": "337d52fab650ae200568efcfcc5b11556ed1ce4c133e40454872ad3c744cbdf4"
+  },
+  "data/processed/bibliographic/train-00269.parquet": {
+    "bytes": 1999277,
+    "sha256": "718ed4fd8b22fd7a3aa0253f50137d8ecaaaa57ce5cc7804445cffd557fda4ea"
+  },
+  "data/processed/bibliographic/train-00270.parquet": {
+    "bytes": 1997504,
+    "sha256": "d8072204a8e032c0667cf34c6bf3bb874aec30be81cd3222287d29a4cbe08574"
+  },
+  "data/processed/bibliographic/train-00271.parquet": {
+    "bytes": 2053371,
+    "sha256": "cd4d1ddfafc1540f95142c431e55a82be79b79f4808582de68753784ac781fde"
+  },
+  "data/processed/bibliographic/train-00272.parquet": {
+    "bytes": 2009512,
+    "sha256": "82596fc50c9c71231b78fd3859d06ce061efc3ad11ff9a6bf69d96589c8fa292"
+  },
+  "data/processed/bibliographic/train-00273.parquet": {
+    "bytes": 2044423,
+    "sha256": "474f4faec02a2ab832e87c363c74bbf8d9dceb8a7e8ca6a54a7b30978542f7e3"
+  },
+  "data/processed/bibliographic/train-00274.parquet": {
+    "bytes": 2027018,
+    "sha256": "4afbfc918d9b6d92705e43940c03b97fe87e0325f7690949df78736439a11ede"
+  },
+  "data/processed/bibliographic/train-00275.parquet": {
+    "bytes": 2021837,
+    "sha256": "56d8ad6dd93a8b8e6fb648f2a06184f23b97f4e4ebfcb5f60f899e8099f874e5"
+  },
+  "data/processed/bibliographic/train-00276.parquet": {
+    "bytes": 2033829,
+    "sha256": "4a982ea7c6a5adaa0e40c85ed54abd27ca5f373fecb2d75682e183ebebe13788"
+  },
+  "data/processed/bibliographic/train-00277.parquet": {
+    "bytes": 2052519,
+    "sha256": "000c5cf693704530832271f403dffdd760973c076d40eb455ce50f2ef7cedd04"
+  },
+  "data/processed/bibliographic/train-00278.parquet": {
+    "bytes": 2021012,
+    "sha256": "70df6c94ce24ac46fcf75120f523f7badfc313a25c56f9b8d8bdfdd1a7e9fb8e"
+  },
+  "data/processed/bibliographic/train-00279.parquet": {
+    "bytes": 1994863,
+    "sha256": "02163bbf11588e2eac6b9aff08dc68d607b7e30de79b30b5c7542def630ce2e9"
+  },
+  "data/processed/bibliographic/train-00280.parquet": {
+    "bytes": 2053680,
+    "sha256": "6eb0cce943beefcde5fe7f3c7c13162d79a81d26ac616e0f66e36e907ce1b94d"
+  },
+  "data/processed/bibliographic/train-00281.parquet": {
+    "bytes": 2016509,
+    "sha256": "8c176c00c48050edaca83789e9b9a804fc847f9eb379919b1511e2badc5a0f74"
+  },
+  "data/processed/bibliographic/train-00282.parquet": {
+    "bytes": 2022530,
+    "sha256": "4995d71fc05ff71bbf87f68dedf7df829c7530615d7b2a80ceea1d8ff8971cb4"
+  },
+  "data/processed/bibliographic/train-00283.parquet": {
+    "bytes": 2105893,
+    "sha256": "277d32695a5ea715b7b91e3d48fb7fa88501b2ee61412b7fe2f3444d25bd16c3"
+  },
+  "data/processed/bibliographic/train-00284.parquet": {
+    "bytes": 2008159,
+    "sha256": "46fdcb15fe5bccd3cdfce2a4904d500a2b89392d4b3888072bb72cfdd1724f29"
+  },
+  "data/processed/bibliographic/train-00285.parquet": {
+    "bytes": 2038385,
+    "sha256": "066543dadf19b78f01f30e35620ed449128af439a2cf2f861685e11a8484f522"
+  },
+  "data/processed/bibliographic/train-00286.parquet": {
+    "bytes": 2036861,
+    "sha256": "cbb851c1249429a0da40dd51995c927305cf2d1033a17e848222b5eff677d099"
+  },
+  "data/processed/bibliographic/train-00287.parquet": {
+    "bytes": 2079798,
+    "sha256": "755585a5ea01dae0ab243d28cc64e1cdc6d31e7ae58d99b4665635c508057b95"
+  },
+  "data/processed/bibliographic/train-00288.parquet": {
+    "bytes": 2034116,
+    "sha256": "21afbc0a45eb186e8fb0394f718d78c537ded7f752436525db4dbef09d030cb8"
+  },
+  "data/processed/bibliographic/train-00289.parquet": {
+    "bytes": 2044063,
+    "sha256": "d3b6af9242120a171022fd3db50dd8e984076e0b6eac9b786e8e2ae0aca5596a"
+  },
+  "data/processed/bibliographic/train-00290.parquet": {
+    "bytes": 2008396,
+    "sha256": "ca003a5f9f2cc3d662151bf5d114eb06732705a55b6652f35bde16d66e34eeec"
+  },
+  "data/processed/bibliographic/train-00291.parquet": {
+    "bytes": 1981922,
+    "sha256": "0d09d860a7506d46071635320e7ad31d4fa90da1bbba863bcfb7ee95a63a476a"
+  },
+  "data/processed/bibliographic/train-00292.parquet": {
+    "bytes": 1974345,
+    "sha256": "e2c0e7ab9dd49d4dc3987e072e27e96f4653649d2ee0771d807165402c4b6f8c"
+  },
+  "data/processed/bibliographic/train-00293.parquet": {
+    "bytes": 1953702,
+    "sha256": "013e7cde43fa2b2e44504079ac8cc523ad05ae353c5febd292a756ff3131bb0b"
+  },
+  "data/processed/bibliographic/train-00294.parquet": {
+    "bytes": 2022023,
+    "sha256": "a721565f00b36db9f5860d479a1afef3d565509b6f8555cbfef2cdc40f555191"
+  },
+  "data/processed/bibliographic/train-00295.parquet": {
+    "bytes": 2036467,
+    "sha256": "adf7a77e4a8757d4081a56c83dec6f875b903f4d3340038864b6a4922d2d13fa"
+  },
+  "data/processed/bibliographic/train-00296.parquet": {
+    "bytes": 2062062,
+    "sha256": "4631c47693bfd29b19d2efe5c8baf492ecd73a01b00cee9a230c20a51bb29ba4"
+  },
+  "data/processed/bibliographic/train-00297.parquet": {
+    "bytes": 2050438,
+    "sha256": "0f09a8d4cb80587ad3c18ee633e682e4caa73359dd8b9b41450f6afe69ac4935"
+  },
+  "data/processed/bibliographic/train-00298.parquet": {
+    "bytes": 2028377,
+    "sha256": "03c71cadbbd042ecbccfa917c5cebf0d2c5433dbe11f91e959a8980040e91c71"
+  },
+  "data/processed/bibliographic/train-00299.parquet": {
+    "bytes": 2065062,
+    "sha256": "1535e747f6c6a3a36820425497197235f71d143ef5f8e015d31f5d53f8425be6"
+  },
+  "data/processed/bibliographic/train-00300.parquet": {
+    "bytes": 2079195,
+    "sha256": "ccc06f0d6daddef42687e5aaa1fc068df9e172feb74c2b34d5da0f8e8fdc7e2b"
+  },
+  "data/processed/bibliographic/train-00301.parquet": {
+    "bytes": 2030838,
+    "sha256": "07b6af6ecf68c3c0030829da48291ed331459dd81ef6dd06169d59ce41166a1a"
+  },
+  "data/processed/bibliographic/train-00302.parquet": {
+    "bytes": 2021698,
+    "sha256": "af784d0c4df98bd159f8b55f49db9b11974b9d5c0b134efafd8331d649d48f41"
+  },
+  "data/processed/bibliographic/train-00303.parquet": {
+    "bytes": 2048171,
+    "sha256": "247b9c1259958db6df01eb4d1525c3353fbf1100f3dbe53751e1fc6e9c48b9cf"
+  },
+  "data/processed/bibliographic/train-00304.parquet": {
+    "bytes": 2028786,
+    "sha256": "091d691084a8af041653705d2afc819060f3a60fd5e505a05e10042cce3edb2a"
+  },
+  "data/processed/bibliographic/train-00305.parquet": {
+    "bytes": 2039234,
+    "sha256": "57347f6d21ab839270f462cd00edf6fde71e3fe569d1957e3c8c643c80675f86"
+  },
+  "data/processed/bibliographic/train-00306.parquet": {
+    "bytes": 2054022,
+    "sha256": "0bdf4fc56bf5d857b69e690db6d77de9393809a6100576235fd2583176d87b4f"
+  },
+  "data/processed/bibliographic/train-00307.parquet": {
+    "bytes": 2126215,
+    "sha256": "fc5e98e780d99807a87a6d70ea64e8e11e9ff0ee2a501de9e5d376792b37b57a"
+  },
+  "data/processed/bibliographic/train-00308.parquet": {
+    "bytes": 1917493,
+    "sha256": "d64ed767d99ab042f5563c9785940678702d22704ec594ac5351dd6803d6e58f"
+  },
+  "data/processed/bibliographic/train-00309.parquet": {
+    "bytes": 2012979,
+    "sha256": "79888201066bff9bcd66fb6bb03d370950ce07672abb4116d618fa63f5fd2e42"
+  },
+  "data/processed/bibliographic/train-00310.parquet": {
+    "bytes": 2085826,
+    "sha256": "282a6128f32cceeca41b77c90806ada9a663e05b20a6ba3109e78d23623a965c"
+  },
+  "data/processed/bibliographic/train-00311.parquet": {
+    "bytes": 2001294,
+    "sha256": "d31f2f4f4ed9ae5b1e1cd9d905c7bdc295417d1e6c0ef52ce405e7cd07d6e009"
+  },
+  "data/processed/bibliographic/train-00312.parquet": {
+    "bytes": 1950007,
+    "sha256": "aa7b46d8453b65025093c409aafdc7e53ab7133ce24f6b2e252a026738ddebdc"
+  },
+  "data/processed/bibliographic/train-00313.parquet": {
+    "bytes": 1994720,
+    "sha256": "38c4b8401608479908457e6dd7a69d1b6bb3b907aefda7ce0b131efe19cbe584"
+  },
+  "data/processed/bibliographic/train-00314.parquet": {
+    "bytes": 1879737,
+    "sha256": "78a161a728482578fc547a49d231d85acc2306c9c623fbdba9731727c83b82e9"
+  },
+  "data/processed/bibliographic/train-00315.parquet": {
+    "bytes": 2024712,
+    "sha256": "6139a80a0a654e2b53cdb82f72f398f04022e89f37458d74dd589e1c84948339"
+  },
+  "data/processed/bibliographic/train-00316.parquet": {
+    "bytes": 2117520,
+    "sha256": "bdc1fd313babc7e02ac8b73eb9b45c88f336565f50bdc862d219bb68d4bb0c85"
+  },
+  "data/processed/bibliographic/train-00317.parquet": {
+    "bytes": 2088674,
+    "sha256": "fa0c9a6448dbf3101625240b46077f31556447fb4e1627248c6bca3a31e6471a"
+  },
+  "data/processed/bibliographic/train-00318.parquet": {
+    "bytes": 2050170,
+    "sha256": "d4c533254d0e54610c00f31274ff57cb79b2aeadd47883494b035719b7e14f51"
+  },
+  "data/processed/bibliographic/train-00319.parquet": {
+    "bytes": 2021862,
+    "sha256": "85eaf4cae57da26430f36ea012124eb24a9ef01e032a93b1ab6cabbdef981d6b"
+  },
+  "data/processed/bibliographic/train-00320.parquet": {
+    "bytes": 2089385,
+    "sha256": "7059adde123e4ed0a10e06a1d324d83358f353cb437e88de406bccae592618ac"
+  },
+  "data/processed/bibliographic/train-00321.parquet": {
+    "bytes": 2075379,
+    "sha256": "2ea2047c719ea71afbb13300808dbf83668c19b4be61fc6c897cf3969e741c93"
+  },
+  "data/processed/bibliographic/train-00322.parquet": {
+    "bytes": 2083983,
+    "sha256": "ca3a1e249a50f5fe214f56c94ba92d015f40b283abc50cace71a88f0089835d2"
+  },
+  "data/processed/bibliographic/train-00323.parquet": {
+    "bytes": 2035316,
+    "sha256": "f8bf8ca76799b0ea274306f9bd4a1333865247fd846d2c783a4d1e6105b78bd8"
+  },
+  "data/processed/bibliographic/train-00324.parquet": {
+    "bytes": 2006965,
+    "sha256": "04dbc9808bb4d798aad6609a29b79b695962e5648fec30dafd4611391c8edb7b"
+  },
+  "data/processed/bibliographic/train-00325.parquet": {
+    "bytes": 2034068,
+    "sha256": "6e46e9dfef1483d516a8acaee89116a441f7be65d0b7a57f8118109242fd25fe"
+  },
+  "data/processed/bibliographic/train-00326.parquet": {
+    "bytes": 2066087,
+    "sha256": "a2ca9f4094126b898397b464fc15c56dd8407bbcf509ed095937e26ad95be45e"
+  },
+  "data/processed/bibliographic/train-00327.parquet": {
+    "bytes": 2032847,
+    "sha256": "7462a552c0fc3dff889f56ec21c4d8f2b5716cbee8802145c2cb22a9001ba55f"
+  },
+  "data/processed/bibliographic/train-00328.parquet": {
+    "bytes": 2045839,
+    "sha256": "66376c72e1a98b351e9e0446653187771bfae6d6a72f152c17400b825fe8d1b5"
+  },
+  "data/processed/bibliographic/train-00329.parquet": {
+    "bytes": 2032123,
+    "sha256": "670bd06fb51ff9e327268971d79aae6eea82b5be66451fa307d6b70ac9aed6ea"
+  },
+  "data/processed/bibliographic/train-00330.parquet": {
+    "bytes": 2001680,
+    "sha256": "03250a6b0968febf53da6b2ab89e4ca550bce31c49594cc4ee23b44ccaf47ce4"
+  },
+  "data/processed/bibliographic/train-00331.parquet": {
+    "bytes": 1978010,
+    "sha256": "55c6dd948479fa4671ad847a9a9bfbe1a16de17829cbbbe006d9bbe0c9f0a2f0"
+  },
+  "data/processed/bibliographic/train-00332.parquet": {
+    "bytes": 2012110,
+    "sha256": "41dc7ef9eca3404ca5936864bde6c089e8adb7c05c341e3d1cd23941bab47e94"
+  },
+  "data/processed/bibliographic/train-00333.parquet": {
+    "bytes": 2070629,
+    "sha256": "4ee57b3a474b51cfbcb64f6de77a058852e6b18fad8b955697ee70246a220666"
+  },
+  "data/processed/bibliographic/train-00334.parquet": {
+    "bytes": 2072378,
+    "sha256": "f6056c50d17353a5fd08037f45b625eea0d578c923dc53814cad15bd8e5cc52e"
+  },
+  "data/processed/bibliographic/train-00335.parquet": {
+    "bytes": 2077959,
+    "sha256": "2066200307ffe2af6f473e39c2bd21bfa14fe9c28d954ac6b94a87645cc5342e"
+  },
+  "data/processed/bibliographic/train-00336.parquet": {
+    "bytes": 2088009,
+    "sha256": "2334f82e9ccc74a9763f07406afe3e39d81eff1c47c15ec525565ac51a62619d"
+  },
+  "data/processed/bibliographic/train-00337.parquet": {
+    "bytes": 2067462,
+    "sha256": "de3c8094d6a88bddb5c75ab004ea7163f78875c970a10b781dc176f0040a7b99"
+  },
+  "data/processed/bibliographic/train-00338.parquet": {
+    "bytes": 2078476,
+    "sha256": "628a05bbdf9adaf8ceef0ececb8c9405eb6510829ceecfc2ba5c99b6cd39c6db"
+  },
+  "data/processed/bibliographic/train-00339.parquet": {
+    "bytes": 2071151,
+    "sha256": "5be24e6b6b16fea3a80266e8b08b982a0116a2099f880423b9e1108fdb73cef7"
+  },
+  "data/processed/bibliographic/train-00340.parquet": {
+    "bytes": 1807165,
+    "sha256": "774f74175faf553a1530af139db29e053febdb0b5f00d820956a9b71df297ee3"
+  },
+  "data/processed/bibliographic/train-00341.parquet": {
+    "bytes": 2091786,
+    "sha256": "2523cfb69222d88bc980f2b00047eef58dd491c4d8f740eda976bba57c8749c0"
+  },
+  "data/processed/bibliographic/train-00342.parquet": {
+    "bytes": 2079531,
+    "sha256": "b69bd69eaf2bb820269d8f526e78668775a06eda6239ab60f7be7ce264046766"
+  },
+  "data/processed/bibliographic/train-00343.parquet": {
+    "bytes": 2064370,
+    "sha256": "3ec3883c46b4dbbff0dc4c29dcea50ccd1b9641eb2c0728838e16d35fbe1b90c"
+  },
+  "data/processed/bibliographic/train-00344.parquet": {
+    "bytes": 2137004,
+    "sha256": "901ab519acddf57f0a2ed0fc1a0addf37145bc4de27f9ad8bb460bf8ac2f6d7f"
+  },
+  "data/processed/bibliographic/train-00345.parquet": {
+    "bytes": 2045199,
+    "sha256": "9f3223024304303b1b8b7beb252c1f43f9b8d921afef8f78acf2888cfd7b58a2"
+  },
+  "data/processed/bibliographic/train-00346.parquet": {
+    "bytes": 2035678,
+    "sha256": "491fd3b2ac003507ed335a0ce58936e68a32dc21e73b826289996768556b141f"
+  },
+  "data/processed/bibliographic/train-00347.parquet": {
+    "bytes": 2049322,
+    "sha256": "14ba22c1bf2572789c7f09df135272a118190bbcea530e2e73e91919d331864a"
+  },
+  "data/processed/bibliographic/train-00348.parquet": {
+    "bytes": 2084539,
+    "sha256": "804830c092dfb7dc9842059fba6941a4449c5580ecbd7fb90d25c149d975e486"
+  },
+  "data/processed/bibliographic/train-00349.parquet": {
+    "bytes": 2089354,
+    "sha256": "324d857a78aac5cf62a66e545cf3e21688cddf6fddf2efadb26ecab5316da31c"
+  },
+  "data/processed/bibliographic/train-00350.parquet": {
+    "bytes": 2032959,
+    "sha256": "5da0b2b23a434f36359aaaaf71b16dd8082a4c942070b3e39daf4f2764d21a39"
+  },
+  "data/processed/bibliographic/train-00351.parquet": {
+    "bytes": 2066230,
+    "sha256": "61e63ab2f5b1a72c699d773ab5dfc9b459da650b38c1c23d8ccd13a4dd2acf79"
+  },
+  "data/processed/bibliographic/train-00352.parquet": {
+    "bytes": 2094290,
+    "sha256": "871e7d013eaee09eafaae93b2d3fd22163dedd656dceb50191141e8a94259a0e"
+  },
+  "data/processed/bibliographic/train-00353.parquet": {
+    "bytes": 2030801,
+    "sha256": "cb0ebba34775e174064c1c2d54f17f4fa1471d15ac83c226f001404b6e5bfd68"
+  },
+  "data/processed/bibliographic/train-00354.parquet": {
+    "bytes": 2053488,
+    "sha256": "8e727670df17186f4d1cbc11da490c8fb3a67819780b42809c87e58456443925"
+  },
+  "data/processed/bibliographic/train-00355.parquet": {
+    "bytes": 2025091,
+    "sha256": "d6d27da53369559225ba6657a72559af468b5d2591cf1f23aaed64f09a147531"
+  },
+  "data/processed/bibliographic/train-00356.parquet": {
+    "bytes": 2021369,
+    "sha256": "64eaae674fb28a07c5593a9047208b014e7414618034f979c363510faa45ac69"
+  },
+  "data/processed/bibliographic/train-00357.parquet": {
+    "bytes": 2060069,
+    "sha256": "3e55f27cc4ac8ea896521ec9f9c7c884480caff9bf0317dd7336e1d5ce403938"
+  },
+  "data/processed/bibliographic/train-00358.parquet": {
+    "bytes": 2083385,
+    "sha256": "358d9de06a9bed098b1c7b42e9d9707d1ecc9777f7cbb33fddc0fc5a3059d157"
+  },
+  "data/processed/bibliographic/train-00359.parquet": {
+    "bytes": 2010962,
+    "sha256": "06b5029b8c57024d86cc474d8b280823fe90682075b1032ab5b60a473be9c9bb"
+  },
+  "data/processed/bibliographic/train-00360.parquet": {
+    "bytes": 2068325,
+    "sha256": "e123d993b6452ef02c5adead76170d5e787341bd73a60048d01a9a871e667609"
+  },
+  "data/processed/bibliographic/train-00361.parquet": {
+    "bytes": 2057196,
+    "sha256": "e9407eb499e9e936fc9f724da0f67e23783023cb498fd519d0ee3d78b298482e"
+  },
+  "data/processed/bibliographic/train-00362.parquet": {
+    "bytes": 2089361,
+    "sha256": "e5884eaeadde13e129d75eb8d5908648dadef1e9f10a7e89b170541501fef9e5"
+  },
+  "data/processed/bibliographic/train-00363.parquet": {
+    "bytes": 2064027,
+    "sha256": "de0c52549ed56577ccccea3c7b0d657833591dc8395784cfff0b139874c760fd"
+  },
+  "data/processed/bibliographic/train-00364.parquet": {
+    "bytes": 2052026,
+    "sha256": "1ef3ae27689a43cfd8cd2f40504725db13b8bb509c3f646c9cff4592c7889406"
+  },
+  "data/processed/bibliographic/train-00365.parquet": {
+    "bytes": 2091198,
+    "sha256": "207c33c8e93a189c91860550efb36ee5043f1f9b082766de5290f9faed04ba84"
+  },
+  "data/processed/bibliographic/train-00366.parquet": {
+    "bytes": 2136534,
+    "sha256": "46cf92ad480b984d7a2dafe3b86bad877bf66ab5a70c27c079f7408c2b70f77c"
+  },
+  "data/processed/bibliographic/train-00367.parquet": {
+    "bytes": 2047535,
+    "sha256": "1763c650c75548a363acefb0da846a262d2c38cb75acf20f7a941fb5c28da07e"
+  },
+  "data/processed/bibliographic/train-00368.parquet": {
+    "bytes": 2042444,
+    "sha256": "c3ded38462f1c43a4845f97533633c4e583e02a2681f4b2dc4256149769fc350"
+  },
+  "data/processed/bibliographic/train-00369.parquet": {
+    "bytes": 2084496,
+    "sha256": "13103e062514e6e4463fca3eb497324c0cf323a5c23cfaf2855e8ff656ad3101"
+  },
+  "data/processed/bibliographic/train-00370.parquet": {
+    "bytes": 2108429,
+    "sha256": "fd3b3bbce68403024a26c3344a91216ca4d2b6f7c4854df9028786e439f7273a"
+  },
+  "data/processed/bibliographic/train-00371.parquet": {
+    "bytes": 2117336,
+    "sha256": "8142015ef384bc74fa640761fcc86f4fcd6946289e17f8105c01632b3dd43fd2"
+  },
+  "data/processed/bibliographic/train-00372.parquet": {
+    "bytes": 2002590,
+    "sha256": "f1c7917123b6052dbcbb852b6eb1198e36dc25c1d338490cf747c5fbbddf7ff8"
+  },
+  "data/processed/bibliographic/train-00373.parquet": {
+    "bytes": 2083629,
+    "sha256": "f18ceb52bb09eefb142ec7d9bc197ee06ad89f5af95cdd631b65723f3eaf4164"
+  },
+  "data/processed/bibliographic/train-00374.parquet": {
+    "bytes": 2032543,
+    "sha256": "0975dc95389843e5e4f2f08f6bdc2cdd33f293b817d263ddb6bd4d777fb9fa8f"
+  },
+  "data/processed/bibliographic/train-00375.parquet": {
+    "bytes": 2074357,
+    "sha256": "746cd904d56bc104db05bff919a4347c5754610e024bf84b76ade50a4bc329ca"
+  },
+  "data/processed/bibliographic/train-00376.parquet": {
+    "bytes": 2099509,
+    "sha256": "2f8b9fd0854af0b11b4a1c3d1c0246e2c853edc81c4b5c258cd5aa3873717c2d"
+  },
+  "data/processed/bibliographic/train-00377.parquet": {
+    "bytes": 2064797,
+    "sha256": "8c7c2c25df3c837fbcaf4e350a20032625f143b60c307aad7475427af83a7b33"
+  },
+  "data/processed/bibliographic/train-00378.parquet": {
+    "bytes": 2083759,
+    "sha256": "274777478656bd4a0e110b02a3ed1ad09d78c79b1e4155d1bfc62cd42623d796"
+  },
+  "data/processed/bibliographic/train-00379.parquet": {
+    "bytes": 2080401,
+    "sha256": "023d2ddc7300d4e7a15b10eec57d8b349711560044c8cb5d86cdfda863c46a4c"
+  },
+  "data/processed/bibliographic/train-00380.parquet": {
+    "bytes": 2103860,
+    "sha256": "252d8fd603d332b69c1f8678c20d872f25bedf1cf880af5d42fb72d4225368b4"
+  },
+  "data/processed/bibliographic/train-00381.parquet": {
+    "bytes": 2071087,
+    "sha256": "502b837c63d828cd97fd54836ed6dfed4a2a7e7dfba38b397911628ff3e054d7"
+  },
+  "data/processed/bibliographic/train-00382.parquet": {
+    "bytes": 2053306,
+    "sha256": "8dc1cd0eb179d13cfd3913cd672d053e35447379d40d92c49160015e1b3d9984"
+  },
+  "data/processed/bibliographic/train-00383.parquet": {
+    "bytes": 2035550,
+    "sha256": "08411d28cf194f4ecd20b7d22dd425399f4e512e67351c652a2aebe7b48a6664"
+  },
+  "data/processed/bibliographic/train-00384.parquet": {
+    "bytes": 2081597,
+    "sha256": "1033c2df73d53783f2f31fbc29c555f886ba1a27d62a2ac475029f05cf9d25fd"
+  },
+  "data/processed/bibliographic/train-00385.parquet": {
+    "bytes": 2050135,
+    "sha256": "8682f6caa5bc6db05231a16db77f8403db7d5b7550c48e5f22e0afc4d2665e1c"
+  },
+  "data/processed/bibliographic/train-00386.parquet": {
+    "bytes": 2037816,
+    "sha256": "d84e75209b4bd2e301c564fa8fbd5ea04e8b142b7f5b75bc6324698f2887b3cb"
+  },
+  "data/processed/bibliographic/train-00387.parquet": {
+    "bytes": 2017032,
+    "sha256": "2b8aee4e7f79ee598b95207b6fc1bc7db1f4664e0a707431764bb7ecff0e06dd"
+  },
+  "data/processed/bibliographic/train-00388.parquet": {
+    "bytes": 2071473,
+    "sha256": "ceaa67a5e69043e94c88e30f4b65d97c0d79f23f27395ab7d885b0f6f44cccf3"
+  },
+  "data/processed/bibliographic/train-00389.parquet": {
+    "bytes": 2064107,
+    "sha256": "b0f0a655b575b881f6d2e537ec315ae664fbd1dcecd1cefac8782f44e4519a34"
+  },
+  "data/processed/bibliographic/train-00390.parquet": {
+    "bytes": 2091210,
+    "sha256": "ca81fb15ee4b446b47d1a8b574abd2723f03f41a94bee34913f0ed35b7993b4a"
+  },
+  "data/processed/bibliographic/train-00391.parquet": {
+    "bytes": 2052918,
+    "sha256": "452086842d7918a7739703bdc61ad31fc695fb4a91b43f86d8f61e79bc764a5b"
+  },
+  "data/processed/bibliographic/train-00392.parquet": {
+    "bytes": 2076601,
+    "sha256": "a434c9c1b4ac7c870cec6aacbe6104b2f2338c0414c94fb23d9b70ae6c201e12"
+  },
+  "data/processed/bibliographic/train-00393.parquet": {
+    "bytes": 2109350,
+    "sha256": "4fdc4440257e69b399dfef67d4faa479bfc032379b603a5ebc944212f2727344"
+  },
+  "data/processed/bibliographic/train-00394.parquet": {
+    "bytes": 2047153,
+    "sha256": "b20e27a283d08db03976317dcd3a64697a98b597bc12b3c54032a38e78686570"
+  },
+  "data/processed/bibliographic/train-00395.parquet": {
+    "bytes": 2078842,
+    "sha256": "313872a6339b7c11f7dc851870b69f73877d3c29f73139f819615693586c5d84"
+  },
+  "data/processed/bibliographic/train-00396.parquet": {
+    "bytes": 2170259,
+    "sha256": "be4ef24c86532d1bc2cd1d2d80bb10099a1a50a40801eeabdb89699fc2745259"
+  },
+  "data/processed/bibliographic/train-00397.parquet": {
+    "bytes": 2071568,
+    "sha256": "27f5f531cd1eabcd6cba938cde1e3586bef9ecba81a3725fffeb8fa020aff5e9"
+  },
+  "data/processed/bibliographic/train-00398.parquet": {
+    "bytes": 2071083,
+    "sha256": "4abcf939ff1b38bccf5003aaf128c3ceb44eb6870f51590707d8ef2eb5f358fc"
+  },
+  "data/processed/bibliographic/train-00399.parquet": {
+    "bytes": 2083513,
+    "sha256": "42bd5ab8876520a87a3246cc7dc16f482594b027d244fca8adb7e472d5c9efdd"
+  },
+  "data/processed/bibliographic/train-00400.parquet": {
+    "bytes": 2261251,
+    "sha256": "272077c758ad73b0562d4a204fed8374fd21a08f6a06bcfeb59bfca30fce42a3"
+  },
+  "data/processed/bibliographic/train-00401.parquet": {
+    "bytes": 2065994,
+    "sha256": "ed6a6b16f8dd0648a8f99f54c596fb1295926e6d12fb4d326c0d8ae5b300061a"
+  },
+  "data/processed/bibliographic/train-00402.parquet": {
+    "bytes": 2039753,
+    "sha256": "613800b7fa193e1cd266683dd904652467c7c9d944fd7372a0585f9c06bce0dc"
+  },
+  "data/processed/bibliographic/train-00403.parquet": {
+    "bytes": 2043349,
+    "sha256": "06e59b4b849c506de2bed2830f304d041cb9e94749a9a8647328fdea5e868438"
+  },
+  "data/processed/bibliographic/train-00404.parquet": {
+    "bytes": 2093038,
+    "sha256": "0b68295c4e890371b4f190755060dfbda3a50edeaa4d7b914b3a5b20f1ed93d9"
+  },
+  "data/processed/bibliographic/train-00405.parquet": {
+    "bytes": 2012167,
+    "sha256": "d28d30e67c9851075b3e11113b60bf550756cfefc8c242dd326b425b6f83074c"
+  },
+  "data/processed/bibliographic/train-00406.parquet": {
+    "bytes": 2059588,
+    "sha256": "be77c179bac9638434d8b95653c2e1f533cc86bf0c1f6352989e779d39967b84"
+  },
+  "data/processed/bibliographic/train-00407.parquet": {
+    "bytes": 2093633,
+    "sha256": "bb80e626c5f631bbd0ab8ed255c32421d2a0b5dc93571e97b95bad0ac65269b9"
+  },
+  "data/processed/bibliographic/train-00408.parquet": {
+    "bytes": 2041400,
+    "sha256": "21ea5fb9918a211deae82668f0865eb0b0e59f4a466594990f3b465d2d6ca411"
+  },
+  "data/processed/bibliographic/train-00409.parquet": {
+    "bytes": 2053212,
+    "sha256": "f61d93b8cf318cd75dfeaa5a4dc05608ddc664b265e72f492b74413ead2f14d7"
+  },
+  "data/processed/bibliographic/train-00410.parquet": {
+    "bytes": 2101693,
+    "sha256": "42af62d5afa1d3124fee9a9b589b0c2029f292f93840daf61c30a507e7746314"
+  },
+  "data/processed/bibliographic/train-00411.parquet": {
+    "bytes": 2112407,
+    "sha256": "0e19474e54151a4d9592aa85b4d6f9d5a1868b47206bea77635a39f0b82a3a65"
+  },
+  "data/processed/bibliographic/train-00412.parquet": {
+    "bytes": 2080559,
+    "sha256": "d8bbbdd5d07beedd5f6cd7e8db2deb2ba32b96fefc29d650ab313f3253698505"
+  },
+  "data/processed/bibliographic/train-00413.parquet": {
+    "bytes": 2081112,
+    "sha256": "7dea077c693704fb6c8e69551405ae5529adc5973c4b2f06e48ad769183af3bc"
+  },
+  "data/processed/bibliographic/train-00414.parquet": {
+    "bytes": 2065659,
+    "sha256": "7664a16ab3d41a92b3e7f05f31bdc6e962d348b2834d97e30095c9bfd796762a"
+  },
+  "data/processed/bibliographic/train-00415.parquet": {
+    "bytes": 2144873,
+    "sha256": "9266a5f88f9e8ce578c85681d423a8d0d2afd46ee1852a2052a7f795efa588d5"
+  },
+  "data/processed/bibliographic/train-00416.parquet": {
+    "bytes": 2092170,
+    "sha256": "c854297dd618141a4f6da9374f4a68a9d049c9e817aeac487db5f088dc158ade"
+  },
+  "data/processed/bibliographic/train-00417.parquet": {
+    "bytes": 2077975,
+    "sha256": "e0d9fd0db4ef2876ea91991cf6ef64c00583a54b331f27ec1d32e4addf2b14be"
+  },
+  "data/processed/bibliographic/train-00418.parquet": {
+    "bytes": 2077173,
+    "sha256": "ecdbecfb0eb2aa9550bc68df33999c6e8729a4954d8031d166a6741a2672b88e"
+  },
+  "data/processed/bibliographic/train-00419.parquet": {
+    "bytes": 2078956,
+    "sha256": "116dd1470171025693ee97c87ed26e7ba80f1d8add612c00dc67f794f23c2cef"
+  },
+  "data/processed/bibliographic/train-00420.parquet": {
+    "bytes": 2091931,
+    "sha256": "04ebf0948a141b2642d7ebe5c940630b40d18a733dcfe9543f03089d0a58cf09"
+  },
+  "data/processed/bibliographic/train-00421.parquet": {
+    "bytes": 2068209,
+    "sha256": "164bea13f29e0f27b1a73bdc3a7643b39920660e0cc6da4d91e082f10fa4b642"
+  },
+  "data/processed/bibliographic/train-00422.parquet": {
+    "bytes": 2085199,
+    "sha256": "2d1b93609e9d146faf928e2a4c7e1553fedd6371c4dd9561c1b39a52ef00afef"
+  },
+  "data/processed/bibliographic/train-00423.parquet": {
+    "bytes": 2075290,
+    "sha256": "429cf48e34619ad783c3729d53b577dbc9e88cd9c4fd6cf6d80a84212d8559bc"
+  },
+  "data/processed/bibliographic/train-00424.parquet": {
+    "bytes": 2099988,
+    "sha256": "e4663fee76760c47b121feeab856c1a3df927800cfd506f0cfe7f369f5ef3823"
+  },
+  "data/processed/bibliographic/train-00425.parquet": {
+    "bytes": 2095759,
+    "sha256": "9f5a8c2c4327428917868084483e202c782afcb7d2791017a4cc2760d74d5165"
+  },
+  "data/processed/bibliographic/train-00426.parquet": {
+    "bytes": 2068060,
+    "sha256": "911294ccf3f4f90117cd34a5d3dd838c4e6ad003135e80066f900bf394003d8c"
+  },
+  "data/processed/bibliographic/train-00427.parquet": {
+    "bytes": 2105278,
+    "sha256": "8bd01e8115e9800f300523731072068d3b20a427f50f75962a0d225859cff754"
+  },
+  "data/processed/bibliographic/train-00428.parquet": {
+    "bytes": 2121737,
+    "sha256": "e11c94d7bc50205c6233b691cdeabf43dec34c4989f3c5a6c9e252d305f73167"
+  },
+  "data/processed/bibliographic/train-00429.parquet": {
+    "bytes": 1912252,
+    "sha256": "7188e9d56b3836cd4066567ae337988bd57066a88623168ccb5aae5c97853e0a"
+  },
+  "data/processed/bibliographic/train-00430.parquet": {
+    "bytes": 2071173,
+    "sha256": "e4fca7bce87150285373336e11b97d8b4bad41687014cddba13d0db9f41ca4c1"
+  },
+  "data/processed/bibliographic/train-00431.parquet": {
+    "bytes": 2064522,
+    "sha256": "9011480b41fd583c18e6e025ceee597369250974a8a34e47756394512a53843a"
+  },
+  "data/processed/bibliographic/train-00432.parquet": {
+    "bytes": 2071355,
+    "sha256": "72a2e12d6f0db907d318d1cbce7edee0da5cfd9cc47e5a3cdc2d9d88dc24ded8"
+  },
+  "data/processed/bibliographic/train-00433.parquet": {
+    "bytes": 2087156,
+    "sha256": "5090bc56c877ca990efc87a07c6128043f694439c113803a7bb27c24502c5cfe"
+  },
+  "data/processed/bibliographic/train-00434.parquet": {
+    "bytes": 2083219,
+    "sha256": "6d9ac2860523c0eedfdabdfc4121c1ccb00d0f58d76cc487fd5f7a187dd3db76"
+  },
+  "data/processed/bibliographic/train-00435.parquet": {
+    "bytes": 2115721,
+    "sha256": "22be2d26d37a356f67690f68050c744cbc0782e658b86ed1c0c82e517d0b2495"
+  },
+  "data/processed/bibliographic/train-00436.parquet": {
+    "bytes": 2055439,
+    "sha256": "b22e4b9ac8d59f31c48e132ae3eb72fb3652a9bc0516d6a0be30234354924bbd"
+  },
+  "data/processed/bibliographic/train-00437.parquet": {
+    "bytes": 2083588,
+    "sha256": "03c7a166bf28fc58a022266df355327324583f9f865067cb98832a6562082f03"
+  },
+  "data/processed/bibliographic/train-00438.parquet": {
+    "bytes": 2103287,
+    "sha256": "bc7970f239d4d4262d41ff09b1f43d6c6c9e96ed961673bbbcd6fd6b2e4f1db3"
+  },
+  "data/processed/bibliographic/train-00439.parquet": {
+    "bytes": 2070043,
+    "sha256": "f0b9ff5688788103425c7913dfec869510c99e931d0fdedd15cd9975989042f6"
+  },
+  "data/processed/bibliographic/train-00440.parquet": {
+    "bytes": 2072278,
+    "sha256": "7abc5e9c0609e5eb3b0fb80ba3c6dddc0fa30a6acd5aa5c4cc1d48d1482c4d02"
+  },
+  "data/processed/bibliographic/train-00441.parquet": {
+    "bytes": 2104079,
+    "sha256": "ec0120404d722ab52b69375fffb28a5c7847db0bc1b1d2a72a0f931b680fb476"
+  },
+  "data/processed/bibliographic/train-00442.parquet": {
+    "bytes": 2103854,
+    "sha256": "00a277c62fa397af57ff1d8424cee2399ca7789d6bc280dd3c234c2aa814f26f"
+  },
+  "data/processed/bibliographic/train-00443.parquet": {
+    "bytes": 2062177,
+    "sha256": "583d092caf0d553d3b4192899b6172adc27e998c08725409a6884bb83edf8dc6"
+  },
+  "data/processed/bibliographic/train-00444.parquet": {
+    "bytes": 2054543,
+    "sha256": "acd78526a1751395a7df17e618bd871c9d6e5cd55183232726a200cdeed1280c"
+  },
+  "data/processed/bibliographic/train-00445.parquet": {
+    "bytes": 2093123,
+    "sha256": "49e0e271d1eae98db290767b2022730192f2703d219565461995aadd2dd165ac"
+  },
+  "data/processed/bibliographic/train-00446.parquet": {
+    "bytes": 2089546,
+    "sha256": "3c9bd5d32049e4cf38bf7f949ccd7dc9ddf71a10eefbecc8227e8abfaf069c92"
+  },
+  "data/processed/bibliographic/train-00447.parquet": {
+    "bytes": 2082251,
+    "sha256": "1beabba8c4c1bb342a73935ce0dc41a8ae1c0e2bbcf470286614018561941fa5"
+  },
+  "data/processed/bibliographic/train-00448.parquet": {
+    "bytes": 2091045,
+    "sha256": "63f33b43ecbea76ef1897ce33e1ad99ae9d1b571645b53a2b82d77927b9a8bbf"
+  },
+  "data/processed/bibliographic/train-00449.parquet": {
+    "bytes": 2053130,
+    "sha256": "3a82abfe1961bfcf896a31d5aa018e0c8c6ab986fbe9ca0b97ba2f040f77644a"
+  },
+  "data/processed/bibliographic/train-00450.parquet": {
+    "bytes": 2056983,
+    "sha256": "34545ab50af14b6511762e1f0f134a4b7c11701432981403387368e387d9cc4a"
+  },
+  "data/processed/bibliographic/train-00451.parquet": {
+    "bytes": 2030834,
+    "sha256": "a92f380187beb363c0eb54b9f0923c805d672e74aae341a44bc49c01401a1017"
+  },
+  "data/processed/bibliographic/train-00452.parquet": {
+    "bytes": 2070400,
+    "sha256": "98f38632c9d2672e9bc8bd1974e27688015bed0c9220917b160d5f76bfe9ea1a"
+  },
+  "data/processed/bibliographic/train-00453.parquet": {
+    "bytes": 2007289,
+    "sha256": "1b6feae1ea7236497586e572bbc552fe2219fea773e49f4ad919a38805c0ebad"
+  },
+  "data/processed/bibliographic/train-00454.parquet": {
+    "bytes": 2072191,
+    "sha256": "42c62490aaf0eb2328f95a0a8b82d0cd6a8bcb05a33bcd394fbf76cb04009844"
+  },
+  "data/processed/bibliographic/train-00455.parquet": {
+    "bytes": 2056259,
+    "sha256": "13a9b234102e99b37de50931a7f152b2c4481dbe9267b29b8502d1e67ad1f1a0"
+  },
+  "data/processed/bibliographic/train-00456.parquet": {
+    "bytes": 2022901,
+    "sha256": "2198b925a5e6c82ee8e42e649f6ea019fb1ae74fc668e05e787c139f0c1a978c"
+  },
+  "data/processed/bibliographic/train-00457.parquet": {
+    "bytes": 2075060,
+    "sha256": "70ca1a7ed914fe14c607526c89eb4ecb4187238db93348c6ad34aa12739e1373"
+  },
+  "data/processed/bibliographic/train-00458.parquet": {
+    "bytes": 2054013,
+    "sha256": "b619f4766ef8c9d6a1ef58dca236630773f9322b031efb9fc2f54346dd0ff14a"
+  },
+  "data/processed/bibliographic/train-00459.parquet": {
+    "bytes": 2048416,
+    "sha256": "da2bc87b7107f0b82223ca58f22960fc498db1dfc498c8fa5d7a565ae14d4b6a"
+  },
+  "data/processed/bibliographic/train-00460.parquet": {
+    "bytes": 2040821,
+    "sha256": "c1251527a54eb183495822765bda9904380df2376c415de4919d5b38905d669b"
+  },
+  "data/processed/bibliographic/train-00461.parquet": {
+    "bytes": 2054233,
+    "sha256": "d33f9f01744c8de2175609874c7cb14f86898d3b8fe2fc288510ea321156b761"
+  },
+  "data/processed/bibliographic/train-00462.parquet": {
+    "bytes": 2086232,
+    "sha256": "bfc433946b801de7c2226122ab4c7aa2a9e76d14e54355553ed5561c2c700974"
+  },
+  "data/processed/bibliographic/train-00463.parquet": {
+    "bytes": 2084294,
+    "sha256": "caf0221b30f1758aa16307bd571b8c61d4c1c5b860c3e23c769ae94fb999d1b5"
+  },
+  "data/processed/bibliographic/train-00464.parquet": {
+    "bytes": 1983359,
+    "sha256": "39d8399ec3f7f5d9c2ad52514e35f92842cae2b6c608c0426f32931476db627b"
+  },
+  "data/processed/bibliographic/train-00465.parquet": {
+    "bytes": 2032212,
+    "sha256": "67059b197635c72f3cd4df94f37a0a006fac5ce155449116c6075c3433a7de35"
+  },
+  "data/processed/bibliographic/train-00466.parquet": {
+    "bytes": 2061211,
+    "sha256": "39cea3ad99df97f38882ede6c71da8bf9cf0589a619c1b489c74d0e5f197f09e"
+  },
+  "data/processed/bibliographic/train-00467.parquet": {
+    "bytes": 2067019,
+    "sha256": "4c80defeb952668a265987eb880a70b72a43bd6b940a775630258876803da705"
+  },
+  "data/processed/bibliographic/train-00468.parquet": {
+    "bytes": 2084056,
+    "sha256": "51da3c4af151a7065e62e2d64915b2843702062f10db3a5295a07ada85b2566e"
+  },
+  "data/processed/bibliographic/train-00469.parquet": {
+    "bytes": 2053607,
+    "sha256": "2c97aa57ffe357b3d0c5c9caff23806436f986045ea4af4e841eb36acaa7e29e"
+  },
+  "data/processed/bibliographic/train-00470.parquet": {
+    "bytes": 2034745,
+    "sha256": "bb387589cd2c0a35a5341247e8dc692014bbc520eaa435ef6e0d3ec98316d215"
+  },
+  "data/processed/bibliographic/train-00471.parquet": {
+    "bytes": 2018872,
+    "sha256": "2d4e820dfa4ef73ca1b948fb5443302b6216ff690f3d1e4679833f09f6900fa9"
+  },
+  "data/processed/bibliographic/train-00472.parquet": {
+    "bytes": 2086787,
+    "sha256": "c4bc4fed043009e46457e204e3111a8a47a91bc11d0f7d97c6805f2c33fd8caf"
+  },
+  "data/processed/bibliographic/train-00473.parquet": {
+    "bytes": 2081985,
+    "sha256": "1bd15cd0e188e842b2a9e2df01bbd5f4ec66f64ca2f5a8d05caa3c4af6cea4fa"
+  },
+  "data/processed/bibliographic/train-00474.parquet": {
+    "bytes": 2072683,
+    "sha256": "4f89bbb8d69da2b6d0f8cab12c60570f5b4ca931d8a777352106746b4a37389d"
+  },
+  "data/processed/bibliographic/train-00475.parquet": {
+    "bytes": 2073868,
+    "sha256": "86e3c25b76d3396d6491d5fe8707df6900984da90bc4fd3f72f42dba689589f5"
+  },
+  "data/processed/bibliographic/train-00476.parquet": {
+    "bytes": 2100378,
+    "sha256": "b0cc6f670601112e34f380f2816c1b4ada2b54b24b8060a1bffa55e404295dc8"
+  },
+  "data/processed/bibliographic/train-00477.parquet": {
+    "bytes": 2075106,
+    "sha256": "d23c0737c9bf211fa1232b696c44e7e1d9e5d0832d0a16c3c422fab46c605b7b"
+  },
+  "data/processed/bibliographic/train-00478.parquet": {
+    "bytes": 2063636,
+    "sha256": "d1839be8da277e7788d7da20d07d40f51b9ac2f94709cf6e62f44197e6339e90"
+  },
+  "data/processed/bibliographic/train-00479.parquet": {
+    "bytes": 2036029,
+    "sha256": "b80c8f299463a6de07f96daf1ca25bc48551a3c98430a9cf426f683ec85446f1"
+  },
+  "data/processed/bibliographic/train-00480.parquet": {
+    "bytes": 2042371,
+    "sha256": "388744bebe3e1d6c0ebf55bbbbd3aa98026642e8b3696a0b7260a8583fe483c3"
+  },
+  "data/processed/bibliographic/train-00481.parquet": {
+    "bytes": 2079172,
+    "sha256": "099ff7029d42587469996192e1faf03c6d869fdb2943ecc0b942ea83250a4800"
+  },
+  "data/processed/bibliographic/train-00482.parquet": {
+    "bytes": 2088868,
+    "sha256": "bee9d3d2ba4707d1d18431b105dc028ccd143452a2512d0c3bfb2d59bb9d8a14"
+  },
+  "data/processed/bibliographic/train-00483.parquet": {
+    "bytes": 2112529,
+    "sha256": "afd01d780a15c5ca73d1e845a33b1a40d290f77f92665ea88f8a1f15cb79e4a4"
+  },
+  "data/processed/bibliographic/train-00484.parquet": {
+    "bytes": 2117026,
+    "sha256": "15895f5929a6193826f32bdbabff4f3c61f75fcc3c44c68b4aaeb8ffc374af19"
+  },
+  "data/processed/bibliographic/train-00485.parquet": {
+    "bytes": 2107375,
+    "sha256": "c1eb468796677d25fbdcbab88dafabff878b7fc75164e561878c9994090bc9ef"
+  },
+  "data/processed/bibliographic/train-00486.parquet": {
+    "bytes": 2096578,
+    "sha256": "378490a58b97fd1e33ea275bdce50abb2e92436933522640c7b9c8de2032a229"
+  },
+  "data/processed/bibliographic/train-00487.parquet": {
+    "bytes": 2084834,
+    "sha256": "3988a98d1c6387856d3798fac99fccd550510c39d981e0e3358d9071c849b3f0"
+  },
+  "data/processed/bibliographic/train-00488.parquet": {
+    "bytes": 2102064,
+    "sha256": "691bf078875311295e8884953cbdd220658d8aec8f9fca1f738409672b67b73a"
+  },
+  "data/processed/bibliographic/train-00489.parquet": {
+    "bytes": 2126877,
+    "sha256": "77bfc510fd7f7d8dd7499ffa9109ef64aee2cfc2f23c2606aeec52df18b360c0"
+  },
+  "data/processed/bibliographic/train-00490.parquet": {
+    "bytes": 2126073,
+    "sha256": "65d8c985160eae3c0319ecbaca9a221c4bba570f00aa60fadb289005678e4dbc"
+  },
+  "data/processed/bibliographic/train-00491.parquet": {
+    "bytes": 2101371,
+    "sha256": "594651bb7814443c4f59598f13752ab8faa653486d0ed7d1dde0d28b403fcafc"
+  },
+  "data/processed/bibliographic/train-00492.parquet": {
+    "bytes": 2078868,
+    "sha256": "82745d4d80602b6d951ea653a6625a5dc3bcbdd6514dda75225a1fb8ea2fe76f"
+  },
+  "data/processed/bibliographic/train-00493.parquet": {
+    "bytes": 2118474,
+    "sha256": "762efa46ecb1f242796d46e4d8ea3eeb55316ad6f934f42df501278d8ca32164"
+  },
+  "data/processed/bibliographic/train-00494.parquet": {
+    "bytes": 2177279,
+    "sha256": "125c52dfa1e90acdb84c87ae5fa3dec9241f47950f7350889690be084d537965"
+  },
+  "data/processed/bibliographic/train-00495.parquet": {
+    "bytes": 2215675,
+    "sha256": "b756cf2f30de0ddb017b3c8f280b77a9a9f6b622c87ebb2ff38e438c6759d12a"
+  },
+  "data/processed/bibliographic/train-00496.parquet": {
+    "bytes": 2181096,
+    "sha256": "2435b6d11d129eb9f6302d86afed30bf15d3c80393ead8ecea57f7b33758d37a"
+  },
+  "data/processed/bibliographic/train-00497.parquet": {
+    "bytes": 2194675,
+    "sha256": "c086697a46fe50a049f24c77c36391dcd0ce4f7d5415269b43df12d3f504af76"
+  },
+  "data/processed/bibliographic/train-00498.parquet": {
+    "bytes": 2232440,
+    "sha256": "0ac4b8782242829fe56f69e385336374211d7c6d1f83bdade71e87d49950257d"
+  },
+  "data/processed/bibliographic/train-00499.parquet": {
+    "bytes": 2298871,
+    "sha256": "b4249a8b9766e4eb0baa85a0eb3044a2ff09cba2362eaf19368c07f71e77532b"
+  },
+  "data/processed/bibliographic/train-00500.parquet": {
+    "bytes": 1957812,
+    "sha256": "068e9e2db5c350116492bacce6a68bd28229bebe49a36ac47e510ea103bfed1b"
+  },
+  "data/processed/bibliographic/train-00501.parquet": {
+    "bytes": 1978885,
+    "sha256": "a7b4a0dc896d6d79282ae9218a7b9e175940768747399f2dcf1868158a306edb"
+  },
+  "data/processed/bibliographic/train-00502.parquet": {
+    "bytes": 1964271,
+    "sha256": "e78b640c0f5eba30513bafaf5750478c7e44012deba3ee949b961b93111ce927"
+  },
+  "data/processed/bibliographic/train-00503.parquet": {
+    "bytes": 2026247,
+    "sha256": "a3bc2a0a747b46762e4432339a754fda118c733d181a5d36c8d58bb757ffe3a6"
+  },
+  "data/processed/bibliographic/train-00504.parquet": {
+    "bytes": 2049315,
+    "sha256": "1a0b43343d0744d3f25099b3896eeabb0b5468ddb309abe8294fd49d4b78e204"
+  },
+  "data/processed/bibliographic/train-00505.parquet": {
+    "bytes": 2025125,
+    "sha256": "465cf9d50026dcb0778e5548e54b7fa430cae41fbfdc39a0aa9cc47789191c35"
+  },
+  "data/processed/bibliographic/train-00506.parquet": {
+    "bytes": 2070571,
+    "sha256": "772ec9c2bc74387ea3b095baca4ea92ed62e4230b60f76e8718f292d8c424df4"
+  },
+  "data/processed/bibliographic/train-00507.parquet": {
+    "bytes": 2038052,
+    "sha256": "b2d80a7b4a29e4a48f70297cf3d76bd218d1b902cf42372a9f967f84a0459164"
+  },
+  "data/processed/bibliographic/train-00508.parquet": {
+    "bytes": 2097788,
+    "sha256": "924e430848dd39c9306dcc5b2a693a5e263cf2fdbdd6a39820f42ea181910d65"
+  },
+  "data/processed/bibliographic/train-00509.parquet": {
+    "bytes": 2127592,
+    "sha256": "c0b6383529705df7ba48f2cb54f70604b4f8795fd61d01097bd4b7cd1cdfc2e5"
+  },
+  "data/processed/bibliographic/train-00510.parquet": {
+    "bytes": 2123640,
+    "sha256": "3862de88673fbcda2359cd7c10aab373b0845fb148ba07dc4b92eddb802e23dc"
+  },
+  "data/processed/bibliographic/train-00511.parquet": {
+    "bytes": 2129255,
+    "sha256": "916b96ad87f1c7add3d80bc7fd7c6e80c1794f2196845e496216edbb4fa17d18"
+  },
+  "data/processed/bibliographic/train-00512.parquet": {
+    "bytes": 2115873,
+    "sha256": "1d24d38f751bfbcefde1fef515956e25f003498eed3c890b759a41c5039e9cbf"
+  },
+  "data/processed/bibliographic/train-00513.parquet": {
+    "bytes": 2144454,
+    "sha256": "c7827a7eef73d6d0768bbe39431eb772cc1b7da84ca008b900e8f524b7bfdfa3"
+  },
+  "data/processed/bibliographic/train-00514.parquet": {
+    "bytes": 2117727,
+    "sha256": "8db094709848d1e194e0b098c1a7a3df8c0c48af10f7b15e46f0558f10a480ac"
+  },
+  "data/processed/bibliographic/train-00515.parquet": {
+    "bytes": 2106479,
+    "sha256": "fe50f99e3abfba20546b5a02719d9dde6520679187a6e0c9f4a52057b00ad485"
+  },
+  "data/processed/bibliographic/train-00516.parquet": {
+    "bytes": 2087710,
+    "sha256": "bbf5ace0355e26c0cd6e9e8824362772bb39bf2d9bb6f4bdb3ec2b663720d050"
+  },
+  "data/processed/bibliographic/train-00517.parquet": {
+    "bytes": 2015654,
+    "sha256": "41841d8676907ba679163256a8d40f5f6d8175031b4929616419f0e4d177f0bf"
+  },
+  "data/processed/bibliographic/train-00518.parquet": {
+    "bytes": 2037036,
+    "sha256": "055ef98c4c013c19688b7cd54222bf8e7ee475b803552d576701b6768ea4c34e"
+  },
+  "data/processed/bibliographic/train-00519.parquet": {
+    "bytes": 2085396,
+    "sha256": "3577c63eccc160a3266b68432660ad7014c53ddfd542ab373866968071bebb92"
+  },
+  "data/processed/bibliographic/train-00520.parquet": {
+    "bytes": 2078173,
+    "sha256": "eab486afafe400d1d213a4620fab4a2bbe0de86d2458198c03a30022df59e24c"
+  },
+  "data/processed/bibliographic/train-00521.parquet": {
+    "bytes": 2076148,
+    "sha256": "72a840f3e049f6a3e984e76c8fe468cf74551488851701faa498388cced09cde"
+  },
+  "data/processed/bibliographic/train-00522.parquet": {
+    "bytes": 2121797,
+    "sha256": "9e4c8c6134f64630fd59fc397493ffd8e5dca946f8b1b179d846b60a70c3ab95"
+  },
+  "data/processed/bibliographic/train-00523.parquet": {
+    "bytes": 2092808,
+    "sha256": "b682ba2eed6a9bcc73764b331c710ac8d2cb3845a3a950dbbcaeb7966554aed6"
+  },
+  "data/processed/bibliographic/train-00524.parquet": {
+    "bytes": 1923427,
+    "sha256": "14875c99a545a7ad6ea467c38797a88a75e3f501ac83798f96118863cad7b897"
+  },
+  "data/processed/bibliographic/train-00525.parquet": {
+    "bytes": 1985258,
+    "sha256": "d0afd00cec75041c79254a3e485ff0364f6bbcf54a307dacbdc2f723bbcb30f3"
+  },
+  "data/processed/bibliographic/train-00526.parquet": {
+    "bytes": 2028020,
+    "sha256": "af29d822df20dc83cc3473b693aaf6a84f482b88403cdc32d464f0838465b5dc"
+  },
+  "data/processed/bibliographic/train-00527.parquet": {
+    "bytes": 2033104,
+    "sha256": "3a510035677552e1821e7c518e1985550de361657b15880c75f90f4b8835de3c"
+  },
+  "data/processed/bibliographic/train-00528.parquet": {
+    "bytes": 2098975,
+    "sha256": "5177d22582572fa5e88e597a09ea50bc61115079d17505058b86b707c9de0863"
+  },
+  "data/processed/bibliographic/train-00529.parquet": {
+    "bytes": 2135879,
+    "sha256": "ee66530548a546ccc8b645fa8cfa6131bd525c2c7b860876b0ed9610a5831cd1"
+  },
+  "data/processed/bibliographic/train-00530.parquet": {
+    "bytes": 2234093,
+    "sha256": "8be37448f243a9a78ea4a99930174475ee341620cc0c56bfc21bec596d4f315e"
+  },
+  "data/processed/bibliographic/train-00531.parquet": {
+    "bytes": 2156418,
+    "sha256": "3b9dca971fbfa7355db14bb26dcacf568b05cf30719b7c290574dccd37935c33"
+  },
+  "data/processed/bibliographic/train-00532.parquet": {
+    "bytes": 2100503,
+    "sha256": "e45dfaaaee711358bbde1c79c534fb0c69aaddb4834ea81c957f6c87207d1e74"
+  },
+  "data/processed/bibliographic/train-00533.parquet": {
+    "bytes": 2041946,
+    "sha256": "ba9f66898bbe83b6437785dacf7951b0928180af399d48bab5de1c17da953a06"
+  },
+  "data/processed/bibliographic/train-00534.parquet": {
+    "bytes": 2081682,
+    "sha256": "90cc376f3d3f21675e5503ec6bc3b6eb0f27c7ab86ae90d13b98834c19cb26b5"
+  },
+  "data/processed/bibliographic/train-00535.parquet": {
+    "bytes": 1884603,
+    "sha256": "525b33eac95c9227c9a5c760063328fb31dff1b15fab39d5a44b712f3362e79e"
+  },
+  "data/processed/bibliographic/train-00536.parquet": {
+    "bytes": 1980920,
+    "sha256": "f631dc43f3589d1dc65054a17846231457a2d14f9585e89ba9794bbbc00e9925"
+  },
+  "data/processed/bibliographic/train-00537.parquet": {
+    "bytes": 2101656,
+    "sha256": "e673a2cba686e92ab6dc2035cea81d0d48033767ee70173bd9a1372fb377eb67"
+  },
+  "data/processed/bibliographic/train-00538.parquet": {
+    "bytes": 2105333,
+    "sha256": "b7aa9c0f1237c61ae1ac28844c0c9d2d9f9aed5764e96a18f08d62af42574351"
+  },
+  "data/processed/bibliographic/train-00539.parquet": {
+    "bytes": 2107274,
+    "sha256": "56a06e40cdb36d773e8e0493b44ebd2c5b8773b10aa75c9e854c29114a049960"
+  },
+  "data/processed/bibliographic/train-00540.parquet": {
+    "bytes": 2031314,
+    "sha256": "6616f26ed030d4ab90a30755199cd9a5c2296dfcbc349a2b7d16910bed0dccd8"
+  },
+  "data/processed/bibliographic/train-00541.parquet": {
+    "bytes": 1984858,
+    "sha256": "8903338e3203f48e8a03d22dfacde2438651df19d125896052b8ef75176d3596"
+  },
+  "data/processed/bibliographic/train-00542.parquet": {
+    "bytes": 1963222,
+    "sha256": "fc64f0c2afb050d720ccab6f7108f8151db0a0eaf1b9b8099b55ae20c3be5095"
+  },
+  "data/processed/bibliographic/train-00543.parquet": {
+    "bytes": 2097062,
+    "sha256": "76c45926d82d5ea9fac0705d1f78b523f2b9a76a6ab7f85888fb563619a19f59"
+  },
+  "data/processed/bibliographic/train-00544.parquet": {
+    "bytes": 2061180,
+    "sha256": "68897fc4a7ce3f32c579f44c8bf6d4f127410f37d17a99f5784d047cdfc30039"
+  },
+  "data/processed/bibliographic/train-00545.parquet": {
+    "bytes": 2037515,
+    "sha256": "9d322967e5b5f3390b381bbc93fb4040f6cfe35ebef1c8fe2724a7e4f9373cc6"
+  },
+  "data/processed/bibliographic/train-00546.parquet": {
+    "bytes": 2043402,
+    "sha256": "266319a3748af6f23b77a2519bc8bac8f878df4ef0393e1ba0de342c52f95c85"
+  },
+  "data/processed/bibliographic/train-00547.parquet": {
+    "bytes": 2036051,
+    "sha256": "8527d5c583405196a7bf25d069a16d4df010d60dbb8d4683d5e2bb9d9f979af0"
+  },
+  "data/processed/bibliographic/train-00548.parquet": {
+    "bytes": 2080923,
+    "sha256": "87fc72273594c22de0fb99fe245d8d71c44a51b8000daf1fd532c5ee24fe3aba"
+  },
+  "data/processed/bibliographic/train-00549.parquet": {
+    "bytes": 2103252,
+    "sha256": "bdba0721872509ec403b76b5415b2fd48769965e23c59e1352d27d2bda17ab42"
+  },
+  "data/processed/bibliographic/train-00550.parquet": {
+    "bytes": 2106033,
+    "sha256": "236c4d47ed84291841a794fca6f53b9cdaa507937d89281924a30f8c9983c5f7"
+  },
+  "data/processed/bibliographic/train-00551.parquet": {
+    "bytes": 2079000,
+    "sha256": "653a972a36c0291eae3af220a9d9e13615ece267c2eac45d7756affeb89b71e6"
+  },
+  "data/processed/bibliographic/train-00552.parquet": {
+    "bytes": 2117654,
+    "sha256": "6a016b43bb6056645c31da9f3d7ea716e8aa3d6a312c3b49f57a6066db4a07b8"
+  },
+  "data/processed/bibliographic/train-00553.parquet": {
+    "bytes": 2087004,
+    "sha256": "6d78abf98835371a8c5169466566cd887e60ec7e53ed0da6d444f94a2c5450f7"
+  },
+  "data/processed/bibliographic/train-00554.parquet": {
+    "bytes": 2081270,
+    "sha256": "78e259318cc73505287c9391aba99c242beae67c82863cdc9fa1b1a726fa985e"
+  },
+  "data/processed/bibliographic/train-00555.parquet": {
+    "bytes": 2087225,
+    "sha256": "1dff79fc6cd84d13a1794baa0b795bd8696bce493c1a9143b4df19edc700d3c5"
+  },
+  "data/processed/bibliographic/train-00556.parquet": {
+    "bytes": 2072864,
+    "sha256": "35737c59ff99a04d1ab12a7370cd165dc5e80a3315f2f037936b56517ddf8d06"
+  },
+  "data/processed/bibliographic/train-00557.parquet": {
+    "bytes": 2094336,
+    "sha256": "00cc9012a5a46a26752eaea99a85235373be006ce27f4eef729a5f2da41cc21a"
+  },
+  "data/processed/bibliographic/train-00558.parquet": {
+    "bytes": 2099023,
+    "sha256": "43da9557c94baa5af8a1c139d9e9de00df9af377f680ddff880d36eb7ba27ac2"
+  },
+  "data/processed/bibliographic/train-00559.parquet": {
+    "bytes": 2087962,
+    "sha256": "31bad46be2078be0bce12b850baf8b4018148781f20a017867e1316d014712e0"
+  },
+  "data/processed/bibliographic/train-00560.parquet": {
+    "bytes": 2083417,
+    "sha256": "78ff05a3119b6e16b19adb30c342a6efe4924c4dc21d3d6c4de51432bf864d16"
+  },
+  "data/processed/bibliographic/train-00561.parquet": {
+    "bytes": 2094342,
+    "sha256": "911071fd24ce6ef1c4e8dd17e2968ddf0e43cbf437b864ba04d2684d75118eef"
+  },
+  "data/processed/bibliographic/train-00562.parquet": {
+    "bytes": 2083992,
+    "sha256": "bbddd4e72b3a49ee51c314bc290fd44bb69ce36d301602751e47095fb09a3a26"
+  },
+  "data/processed/bibliographic/train-00563.parquet": {
+    "bytes": 2096142,
+    "sha256": "6045563f448d5ef382ad839bd1688438c0e919be58d8c29549ab3b25aabeaabf"
+  },
+  "data/processed/bibliographic/train-00564.parquet": {
+    "bytes": 2106426,
+    "sha256": "ffaa66c62742768c2d8a6a1785ce84848bb33bacd18b367826c87a4a7ce3e598"
+  },
+  "data/processed/bibliographic/train-00565.parquet": {
+    "bytes": 2110402,
+    "sha256": "93c2b4681d96e06641446cbe1daee61d06f6179088a0e3757a247b5e7b77dab8"
+  },
+  "data/processed/bibliographic/train-00566.parquet": {
+    "bytes": 2097523,
+    "sha256": "498063676a773adf5132bc17b266c431b8baf7a19c9b6ce39fd81b51c75bfd61"
+  },
+  "data/processed/bibliographic/train-00567.parquet": {
+    "bytes": 2055768,
+    "sha256": "a16781b1ee9e5465408cf4f93b329b5440b8be2cdd5db715260b787b3b3f2466"
+  },
+  "data/processed/bibliographic/train-00568.parquet": {
+    "bytes": 1967487,
+    "sha256": "7197adff15267dadf98e0a46d178139ed7814cf33e76eb471c9767b4c3781f94"
+  },
+  "data/processed/bibliographic/train-00569.parquet": {
+    "bytes": 1778089,
+    "sha256": "a0b0ca716e7b2012afac870ac718567e839f161ea5646ff11050fd77b91949a8"
+  },
+  "data/processed/bibliographic/train-00570.parquet": {
+    "bytes": 2048706,
+    "sha256": "0129ae58a80b2219c7c82ea35c0f32b01c83f6dba8170407eb400bb478eab11b"
+  },
+  "data/processed/bibliographic/train-00571.parquet": {
+    "bytes": 2072293,
+    "sha256": "bb6abf36e3d5f9370f5d969b4470d630f8e338bee1f70a9be27bd886ca762020"
+  },
+  "data/processed/bibliographic/train-00572.parquet": {
+    "bytes": 2093809,
+    "sha256": "16db04bd582934d1d5a73a9cd1ce1af28068ed58e498211a45fa0421e75bc5f1"
+  },
+  "data/processed/bibliographic/train-00573.parquet": {
+    "bytes": 2077621,
+    "sha256": "3a9307a7e159bf7a07d7632b981b8575b72d45def055d1c5370b7ae1b70f91c4"
+  },
+  "data/processed/bibliographic/train-00574.parquet": {
+    "bytes": 2061202,
+    "sha256": "a89c221a2ea660bc5499430cb46c2c809437e6997baae7b259a05a685d2b8522"
+  },
+  "data/processed/bibliographic/train-00575.parquet": {
+    "bytes": 2009720,
+    "sha256": "00590e16715cf60ccdcb5f55819bfa3507e5b2b6f599270d4c4a0a7cef2af2e9"
+  },
+  "data/processed/bibliographic/train-00576.parquet": {
+    "bytes": 2078525,
+    "sha256": "a3006901a5404b83cb7d3148eece98699db1eeaff542aed265d5d3ab60bbb6b8"
+  },
+  "data/processed/bibliographic/train-00577.parquet": {
+    "bytes": 2099377,
+    "sha256": "ad8efd61b926a0728fc8b15d9f751b195fe82e14ced6f3ac07850f5f97bf1973"
+  },
+  "data/processed/bibliographic/train-00578.parquet": {
+    "bytes": 2125526,
+    "sha256": "5ef5fac39d756de302a279c2844b2dd6ab056a42e056ab96194dcb7c4e62b456"
+  },
+  "data/processed/bibliographic/train-00579.parquet": {
+    "bytes": 2124138,
+    "sha256": "f35c1ce1ed9de707f693fa57d3032d531b298f045f5da5ef581e3adcef52f3ff"
+  },
+  "data/processed/bibliographic/train-00580.parquet": {
+    "bytes": 2090464,
+    "sha256": "f0f9c9d7d4b9590292caf3485cef39ffb23c0c41e57945bfd74f244d7fdf1aec"
+  },
+  "data/processed/bibliographic/train-00581.parquet": {
+    "bytes": 2113909,
+    "sha256": "4f49bea04546167b65561a3c6ab19440db4931a42f8e455440d2e38f74f47b44"
+  },
+  "data/processed/bibliographic/train-00582.parquet": {
+    "bytes": 2097996,
+    "sha256": "56bc78df6f3203b78f0b15699541f8553b20f13622ab818de551890056bbd7d8"
+  },
+  "data/processed/bibliographic/train-00583.parquet": {
+    "bytes": 2117018,
+    "sha256": "551674c23816ffa097a08ce3b8ec0fdbf0ffe3014c9a127883b14c4e781fb3a5"
+  },
+  "data/processed/bibliographic/train-00584.parquet": {
+    "bytes": 2089002,
+    "sha256": "1751890de9021ad5264e5d1c0e4cd24f96af3b460d4be94bcb4c0e0d87b0f64b"
+  },
+  "data/processed/bibliographic/train-00585.parquet": {
+    "bytes": 2109177,
+    "sha256": "8ce0eb1a1e90c96662518fd6149ad7488eb1743eecc1faba2823df4294a82f2c"
+  },
+  "data/processed/bibliographic/train-00586.parquet": {
+    "bytes": 2106271,
+    "sha256": "5075059197c0cd5063353fabf44d0dd25aba92a5b35c693fd0ee89cba0e8a891"
+  },
+  "data/processed/bibliographic/train-00587.parquet": {
+    "bytes": 2102259,
+    "sha256": "51be882261f1eab5e813a9dec74e8df987df8180d6192ea96be3602c1daf749c"
+  },
+  "data/processed/bibliographic/train-00588.parquet": {
+    "bytes": 2100231,
+    "sha256": "d1ece4866b1a7272c475cb6d6a773141b19f8ad04b7f2791f42ff6a8099c3cd3"
+  },
+  "data/processed/bibliographic/train-00589.parquet": {
+    "bytes": 2109087,
+    "sha256": "21dead4f031616862c80d70b0e5b442b5c36553bbd983c558e353deed4b34db7"
+  },
+  "data/processed/bibliographic/train-00590.parquet": {
+    "bytes": 2095156,
+    "sha256": "4cf967baf36cb538788687edb7db5e9e97e6f70417d98bf6e499829109ee014e"
+  },
+  "data/processed/bibliographic/train-00591.parquet": {
+    "bytes": 2085338,
+    "sha256": "4be60fdf4bf24ef3081ee44926e679258c82e28e16ec6a65a520d3240f678b5c"
+  },
+  "data/processed/bibliographic/train-00592.parquet": {
+    "bytes": 2097194,
+    "sha256": "7e73146180e70213e2b20621330e88c252815357657ecaacff9f46ce53eefa6e"
+  },
+  "data/processed/bibliographic/train-00593.parquet": {
+    "bytes": 2103069,
+    "sha256": "60c9dae6473e514e927bed911e4bd88f589a9b43498cf88ce7e6f504f83f924f"
+  },
+  "data/processed/bibliographic/train-00594.parquet": {
+    "bytes": 2102990,
+    "sha256": "8e24054396005c5def3173f2bacb58909dc25251a416a6c5f6d07e12aa7ba0fa"
+  },
+  "data/processed/bibliographic/train-00595.parquet": {
+    "bytes": 2098887,
+    "sha256": "c585768e04beaac73d57c3434acb3ad0ae91eaf00c639aab14c92c33230bc802"
+  },
+  "data/processed/bibliographic/train-00596.parquet": {
+    "bytes": 2112201,
+    "sha256": "17c81ae283be3553e76e0f255950b9273140b7656259ce779dab8f43ea0d779f"
+  },
+  "data/processed/bibliographic/train-00597.parquet": {
+    "bytes": 2070049,
+    "sha256": "3a501ac1bb701f86fa375cc970ff8793390d1a3af234565abb93190732dac175"
+  },
+  "data/processed/bibliographic/train-00598.parquet": {
+    "bytes": 2063670,
+    "sha256": "739482f96efd4da6520f9d984b0f3dd2e5d67136047675654bb8c18fe2fbb06e"
+  },
+  "data/processed/bibliographic/train-00599.parquet": {
+    "bytes": 2083087,
+    "sha256": "27e414d02108a2b3a050529b04ba3841a45f2fd4920695996a8d5b73cfb5ee02"
+  },
+  "data/processed/bibliographic/train-00600.parquet": {
+    "bytes": 2074135,
+    "sha256": "8087414f4470e396b20dbb7fff18de3879e2607e08beed35d383391d20b634fa"
+  },
+  "data/processed/bibliographic/train-00601.parquet": {
+    "bytes": 2075029,
+    "sha256": "73ad4bbbfd62c7c4d884ec2f77502510b7ed3ddea4b1bec89e5565c31f05f25f"
+  },
+  "data/processed/bibliographic/train-00602.parquet": {
+    "bytes": 2109936,
+    "sha256": "f24e01f90977837936ddb7ab8476a0ad138daee9de67dcb70475948f12ee7300"
+  },
+  "data/processed/bibliographic/train-00603.parquet": {
+    "bytes": 2103302,
+    "sha256": "3cf42e1ed8c380cba15dc41fe5282924d477dfd5e1817c8b6e55dda287288688"
+  },
+  "data/processed/bibliographic/train-00604.parquet": {
+    "bytes": 2105482,
+    "sha256": "fe605ea3ea8205f499f94cf8ed4ac98f796090fd88920e94634f8543cdacb650"
+  },
+  "data/processed/bibliographic/train-00605.parquet": {
+    "bytes": 2054919,
+    "sha256": "cf471c1af6bd930e742fe7cb759dd3762ad928524e9e0eaa8e95196de97bb651"
+  },
+  "data/processed/bibliographic/train-00606.parquet": {
+    "bytes": 2078669,
+    "sha256": "0f7d1a2fce479fa9fc970c24d8eb9d13833d7a9282f1ac7a78165c167d508937"
+  },
+  "data/processed/bibliographic/train-00607.parquet": {
+    "bytes": 2083602,
+    "sha256": "ea53d52af3dae4bff36dcd5866e0094d439686b638c3fae3a5a3d8e4fdcd0e79"
+  },
+  "data/processed/bibliographic/train-00608.parquet": {
+    "bytes": 2068488,
+    "sha256": "876ecae5b411127ee477e91e3281af0074d8f38082300e4d8f3b9ce5687da310"
+  },
+  "data/processed/bibliographic/train-00609.parquet": {
+    "bytes": 2083279,
+    "sha256": "6ddb8d98b1d769c9683588f675404141d410b1766c5697e42cc06e60fddf1dc7"
+  },
+  "data/processed/bibliographic/train-00610.parquet": {
+    "bytes": 2101104,
+    "sha256": "87d9eb44e88141d2696de65c42de0d77c33b201830717197df95518a11d0ab79"
+  },
+  "data/processed/bibliographic/train-00611.parquet": {
+    "bytes": 2105825,
+    "sha256": "9559f4804ad41ebcb4e67df605faab55de2679293bb354eb7653261f9aad9e60"
+  },
+  "data/processed/bibliographic/train-00612.parquet": {
+    "bytes": 2093960,
+    "sha256": "41cf794c53dad5cc5eaeef077868964c767b3ca74263df8785ffa2bfe6a63490"
+  },
+  "data/processed/bibliographic/train-00613.parquet": {
+    "bytes": 2075941,
+    "sha256": "37557b4bae1b102fb04aa52e5ead04ca11b475ad05686ae310e3073a82450e9d"
+  },
+  "data/processed/bibliographic/train-00614.parquet": {
+    "bytes": 2151998,
+    "sha256": "410870f3a8af3b1e5a0febf945be9224cb3c7409d360c33cf994a619c5d40395"
+  },
+  "data/processed/bibliographic/train-00615.parquet": {
+    "bytes": 2156706,
+    "sha256": "f4c2224705a19a4d39a23d79f68a8638104578beed0e35f04dda3d443ef0ad00"
+  },
+  "data/processed/bibliographic/train-00616.parquet": {
+    "bytes": 2106575,
+    "sha256": "23439ef06a0081b16b1bd1262bc3f2a569f5632ca091555bfffbd82dc63d0bff"
+  },
+  "data/processed/bibliographic/train-00617.parquet": {
+    "bytes": 2104075,
+    "sha256": "580af54e0ca9740f97cc3c298eacd8e3d6c11267a65d7094fe535f647f1d969a"
+  },
+  "data/processed/bibliographic/train-00618.parquet": {
+    "bytes": 2116102,
+    "sha256": "036c468193b48853e1d52f07bb07f60e1dcf0e4bd23063642c535064adf8344b"
+  },
+  "data/processed/bibliographic/train-00619.parquet": {
+    "bytes": 2129290,
+    "sha256": "73d855ec6bd8becae74079fa40dc5f111738f20b07852020d036bd69359a97a3"
+  },
+  "data/processed/bibliographic/train-00620.parquet": {
+    "bytes": 2104860,
+    "sha256": "bab8d4fcd6703790e031a0cb2535853b2124129d8d9fb8949f4cc70aaa0a5acc"
+  },
+  "data/processed/bibliographic/train-00621.parquet": {
+    "bytes": 2112776,
+    "sha256": "b99051a9fd9f96cd9a7dde5760247981472b3d917cf6ce47f25c9fb672fc8dde"
+  },
+  "data/processed/bibliographic/train-00622.parquet": {
+    "bytes": 2105726,
+    "sha256": "0ae04ac86ec783ca7cf301cf87dfa776c10ada7a9b0a86c828fd9c87aef17c84"
+  },
+  "data/processed/bibliographic/train-00623.parquet": {
+    "bytes": 2074473,
+    "sha256": "caa36b38a7bbf3db6c376bb245a0e8b3e32f0bb418a593cde519d84924a6f2e2"
+  },
+  "data/processed/bibliographic/train-00624.parquet": {
+    "bytes": 2105996,
+    "sha256": "1628c6e2271503e346442a381fbcbbe577daf59959b2bdc955360d5fa4923571"
+  },
+  "data/processed/bibliographic/train-00625.parquet": {
+    "bytes": 2073472,
+    "sha256": "83b1575a5e73ba9eed0161e4c3268f510ceb428ded5fb1cc6c4cca65fd773505"
+  },
+  "data/processed/bibliographic/train-00626.parquet": {
+    "bytes": 2117622,
+    "sha256": "862491341101c6d8c6b3955eb72af753f5cbf1e4d5280ee82fb58134d9d772f6"
+  },
+  "data/processed/bibliographic/train-00627.parquet": {
+    "bytes": 2152913,
+    "sha256": "8cb624bf179056cdca0963d34946f07262da1d742f4ebaa97d3f68eb09598b1c"
+  },
+  "data/processed/bibliographic/train-00628.parquet": {
+    "bytes": 2159538,
+    "sha256": "26f474fba1fb859fa4604c590a1ff73677fa6e797f98a7b5ef2fa364a34b64e8"
+  },
+  "data/processed/bibliographic/train-00629.parquet": {
+    "bytes": 2127343,
+    "sha256": "4be13a4a08a2f01365c46fc0877e0c4f73525496e08921898615fa3a1fbc314f"
+  },
+  "data/processed/bibliographic/train-00630.parquet": {
+    "bytes": 2108782,
+    "sha256": "46e2b05e46284d95119d28e9d12c48a26a59d8e3e67008e5d1c0e578c708921e"
+  },
+  "data/processed/bibliographic/train-00631.parquet": {
+    "bytes": 2087157,
+    "sha256": "5338e4190652300e65a8aa5b1921eb79a0d928a37c3ff1e3fa6255f4cc7971b6"
+  },
+  "data/processed/bibliographic/train-00632.parquet": {
+    "bytes": 2036159,
+    "sha256": "f863a796c933e4e4fbd181f9170955cae41aabac23a5378c04b753d9300935c5"
+  },
+  "data/processed/bibliographic/train-00633.parquet": {
+    "bytes": 1955886,
+    "sha256": "5af5da96c9e2603b6e086a8e2d03c0e54b6227552bd9a073c598828064e95ebd"
+  },
+  "data/processed/bibliographic/train-00634.parquet": {
+    "bytes": 1883280,
+    "sha256": "e5b544eaa64805624f8e91ad9ce3cec83318a9982a21ccaaed64fa9fe4089ab5"
+  },
+  "data/processed/bibliographic/train-00635.parquet": {
+    "bytes": 1915004,
+    "sha256": "9a0090deb7f8ca0a7217427f4c5908ce1ba5564093157ed5a66b573c5ab705bf"
+  },
+  "data/processed/bibliographic/train-00636.parquet": {
+    "bytes": 1861800,
+    "sha256": "a94b051ae38684c6325ece13f57f7c079b7ed3737600eb55efa2a92b678b5000"
+  },
+  "data/processed/bibliographic/train-00637.parquet": {
+    "bytes": 1868567,
+    "sha256": "1d575338360f93ce7d94166ca37cec396182cc1a13106faec8da442883342e7b"
+  },
+  "data/processed/bibliographic/train-00638.parquet": {
+    "bytes": 1909102,
+    "sha256": "7fa9fcf5a83cce53268e83ab8b9c7bade46b368349f9ecdfd7061db403a48d21"
+  },
+  "data/processed/bibliographic/train-00639.parquet": {
+    "bytes": 2032639,
+    "sha256": "fcac6eab8895f99eafbcba8c303cd9e60f631e21a2f9607de2d80661726e46c6"
+  },
+  "data/processed/bibliographic/train-00640.parquet": {
+    "bytes": 2143669,
+    "sha256": "44b12db22187fe8cd28d3fa025f365e4b0e71f1ad90aa43ad1da8fa16a41b120"
+  },
+  "data/processed/bibliographic/train-00641.parquet": {
+    "bytes": 2137837,
+    "sha256": "715a1e97448d6bd2383f9daa487202a5d84c17c4b087f8e9ed24c8d771a7df38"
+  },
+  "data/processed/bibliographic/train-00642.parquet": {
+    "bytes": 2050466,
+    "sha256": "0ae8bbb9e86a69a3de379b388f2386bcf83ae41d4796bb45e96b7ad22e320805"
+  },
+  "data/processed/bibliographic/train-00643.parquet": {
+    "bytes": 2113143,
+    "sha256": "f4ba58a19af0767bb19416c611d78c513d5f10aeb00509ed667e7c0e894add8d"
+  },
+  "data/processed/bibliographic/train-00644.parquet": {
+    "bytes": 2104911,
+    "sha256": "eabf46326e1bb9cee2a8836b4020d5226735b82948c3280a105ed947e2d61494"
+  },
+  "data/processed/bibliographic/train-00645.parquet": {
+    "bytes": 2043024,
+    "sha256": "9ce8bfa85ea2cb4fb09b34d7801819da6c692947cf4269217ae0de14cd92209f"
+  },
+  "data/processed/bibliographic/train-00646.parquet": {
+    "bytes": 2066376,
+    "sha256": "8ecde72f9e957aa900d1280503cb18e91b99f67dd606095382af0d5dcea308c0"
+  },
+  "data/processed/bibliographic/train-00647.parquet": {
+    "bytes": 2086157,
+    "sha256": "41112bb2f17709cec45487b0d2d1e7599c341da17bb8f955ddc5ec87107a1d78"
+  },
+  "data/processed/bibliographic/train-00648.parquet": {
+    "bytes": 2101941,
+    "sha256": "379f9a00c3e057f7cbd42f22eacc5e8a65c3d1868e79bfe917fdde265bbebb45"
+  },
+  "data/processed/bibliographic/train-00649.parquet": {
+    "bytes": 2152209,
+    "sha256": "357ba58c9c002aabad918607d45d3c862b76b0d92fb2625e32305ad820bb1441"
+  },
+  "data/processed/bibliographic/train-00650.parquet": {
+    "bytes": 2128835,
+    "sha256": "562907c21d06bfb299c597570899fdd2d05cfd944ac155d49c492b21c6f67db0"
+  },
+  "data/processed/bibliographic/train-00651.parquet": {
+    "bytes": 2125303,
+    "sha256": "8d4d12074269da9701c19abde64bb58219084e73d85feaf66f63c5d1931ddaf0"
+  },
+  "data/processed/bibliographic/train-00652.parquet": {
+    "bytes": 2119871,
+    "sha256": "9e45a114078dbabde79dd61d639ba647585b8e5531a28f52d2841332b7b6fd66"
+  },
+  "data/processed/bibliographic/train-00653.parquet": {
+    "bytes": 2076517,
+    "sha256": "5607c348f9ac3e766e4de75ceb04076558116fae8fb3c6f383fddb07fcef73d7"
+  },
+  "data/processed/bibliographic/train-00654.parquet": {
+    "bytes": 2073071,
+    "sha256": "85e9d0d8e782c405c79daabf09762fb990bcb522e55a7c1d1ea875418398d360"
+  },
+  "data/processed/bibliographic/train-00655.parquet": {
+    "bytes": 2091793,
+    "sha256": "c2007960f6248c9a5a38ce55a90af0e8bf8735188cbde1cd9222351ffb119a34"
+  },
+  "data/processed/bibliographic/train-00656.parquet": {
+    "bytes": 2087208,
+    "sha256": "c2ab71b703d5b8b6a8a94c6270fb1b4c55057a0ab713f58ad74e125cf8027090"
+  },
+  "data/processed/bibliographic/train-00657.parquet": {
+    "bytes": 2095169,
+    "sha256": "c52ad0ec4e2b5614ddca490213c86018cfcc95adf532822b7abaf5f6823e1df7"
+  },
+  "data/processed/bibliographic/train-00658.parquet": {
+    "bytes": 2085161,
+    "sha256": "1293cf28f5264d8ddc818eb64872e4618abea6682476a7f9cfb74e3ca9c4284c"
+  },
+  "data/processed/bibliographic/train-00659.parquet": {
+    "bytes": 2068186,
+    "sha256": "8a1e515572b7af596c00f383d1a823b01e3f43e8b2c1d4523fb34610cfa3d0ed"
+  },
+  "data/processed/bibliographic/train-00660.parquet": {
+    "bytes": 2068161,
+    "sha256": "adb54d130f75391d0abce8394e69b124ebc1da0ed23c018d36aa172d8cde6fbd"
+  },
+  "data/processed/bibliographic/train-00661.parquet": {
+    "bytes": 2058523,
+    "sha256": "aa6eece78a163a341a7b21ba85104c97923c6e48c32efde7d5e37e86ce324e72"
+  },
+  "data/processed/bibliographic/train-00662.parquet": {
+    "bytes": 2060988,
+    "sha256": "d35619f5e24c27a928956b0833e63c0c66e1215593e99c68fb88b5026e39bc34"
+  },
+  "data/processed/bibliographic/train-00663.parquet": {
+    "bytes": 2038156,
+    "sha256": "deeed5591e77aa0579917f6a526cc0c58652ab8220fd7e5a74ddbdb924a3f92e"
+  },
+  "data/processed/bibliographic/train-00664.parquet": {
+    "bytes": 2025746,
+    "sha256": "2486e3d79dce6fb33287b9829931a9c5009e99f75913d1cbf11d64bf796a11d3"
+  },
+  "data/processed/bibliographic/train-00665.parquet": {
+    "bytes": 2019647,
+    "sha256": "649e751b62d5d4633eeb61632108c3c50b5fc9a2fcef2193d74cb5e991caa915"
+  },
+  "data/processed/bibliographic/train-00666.parquet": {
+    "bytes": 2069842,
+    "sha256": "c3bfeef60170df34df2e68b13c5e45f07d5356550b4606d6f1f3230e2d2ea709"
+  },
+  "data/processed/bibliographic/train-00667.parquet": {
+    "bytes": 2069026,
+    "sha256": "fa88705accc645caa4d20af3dce8d5439f561b2ae59305b7cb92999851978737"
+  },
+  "data/processed/bibliographic/train-00668.parquet": {
+    "bytes": 2057710,
+    "sha256": "21dcebf8fa23031a160d79043f27df3d486754de7463e658e118674e1651946b"
+  },
+  "data/processed/bibliographic/train-00669.parquet": {
+    "bytes": 2014368,
+    "sha256": "e49c575915da92c025c56b1406c53d7c5814f8c242c7d7af45bf85899f9fc296"
+  },
+  "data/processed/bibliographic/train-00670.parquet": {
+    "bytes": 2017020,
+    "sha256": "399995adfb2d968664bf5d523ac4380f1972f19c69e9adf47bed2c9d6774d0c6"
+  },
+  "data/processed/bibliographic/train-00671.parquet": {
+    "bytes": 1937281,
+    "sha256": "d51c4d0afc41bba8c310a620ea6a1d40296b146d44ad6132439cb6f53b3255e7"
+  },
+  "data/processed/bibliographic/train-00672.parquet": {
+    "bytes": 2100202,
+    "sha256": "4b18695a2ae43d648fc3723805bd5d073af8ec8d050a98d9c8fa676639ec1e53"
+  },
+  "data/processed/bibliographic/train-00673.parquet": {
+    "bytes": 2091728,
+    "sha256": "af10738922a5967651c1edc3a4df034138354da4b6b35477ea531953b6582e32"
+  },
+  "data/processed/bibliographic/train-00674.parquet": {
+    "bytes": 2056213,
+    "sha256": "e01020d07e3e898d85f145cd84cb6f37ed1af149f7b80902ca2b14d118668740"
+  },
+  "data/processed/bibliographic/train-00675.parquet": {
+    "bytes": 2092551,
+    "sha256": "c9fe2af4f16ada9d6495a1c4bb55693406a658c851e23c76adac2374c5125f10"
+  },
+  "data/processed/bibliographic/train-00676.parquet": {
+    "bytes": 2063607,
+    "sha256": "fc4a11c668cedd21a5cf15d2b7fb9c506516924fe928da4db7d4ecac64a77385"
+  },
+  "data/processed/bibliographic/train-00677.parquet": {
+    "bytes": 2081978,
+    "sha256": "b8b01e1630f44d333af55e0c49937932c1c7cbea24aed6afbc6fc2879ff3de60"
+  },
+  "data/processed/bibliographic/train-00678.parquet": {
+    "bytes": 1888848,
+    "sha256": "0d5c6915d0efb4798b89d4f9f5b80d868e46a335181ccec4093febaac8687421"
+  },
+  "data/processed/bibliographic/train-00679.parquet": {
+    "bytes": 2400739,
+    "sha256": "bc502cb5e161a1b9b96169835ef7425ab8174413527659841b8a4347478aa06e"
+  },
+  "data/processed/bibliographic/train-00680.parquet": {
+    "bytes": 2203067,
+    "sha256": "efbbbb1d4545a73f17ed4f2a532a1dcf0a678c8e1d16d9a4e806744107e1c92d"
+  },
+  "data/processed/bibliographic/train-00681.parquet": {
+    "bytes": 2048476,
+    "sha256": "da1706d54f17638733a3fc8d8c23baac17c80b2b1d92cd0c0bd0627499ca697f"
+  },
+  "data/processed/bibliographic/train-00682.parquet": {
+    "bytes": 2427735,
+    "sha256": "02bdbd5d746628be597a1eb2379bfd700c6eb335b8ecaa01e403e2f57c76736c"
+  },
+  "data/processed/bibliographic/train-00683.parquet": {
+    "bytes": 2406478,
+    "sha256": "8b4ce7185943aba102fbd646728501f26d4332ff2e7839d8cbaa4e84f4cd1c68"
+  },
+  "data/processed/bibliographic/train-00684.parquet": {
+    "bytes": 2444123,
+    "sha256": "9fa22daea90ecd384ab0f4d35ed7f43931d4c0ca2a1baab26bec894a7ebb6788"
+  },
+  "data/processed/bibliographic/train-00685.parquet": {
+    "bytes": 2589200,
+    "sha256": "f7af93aa21c6473d283a85dd4bc8d3c8475f434d777fba152be5479ac63d616e"
+  },
+  "data/processed/bibliographic/train-00686.parquet": {
+    "bytes": 3051379,
+    "sha256": "422d3c20b60eca2b18eb91cfb09f3fcd5d2395bad8a29e8248ef4c10879e8bf5"
+  },
+  "data/processed/bibliographic/train-00687.parquet": {
+    "bytes": 2729995,
+    "sha256": "a242e541ea86ba2daa6580a8bbb9e608307a70c72d21cfef431ce7cde06796a2"
+  },
+  "data/processed/bibliographic/train-00688.parquet": {
+    "bytes": 2433695,
+    "sha256": "8e38ac55c233a27ed655c2ca087222814da2e34a596aa1486cdde17e0bef4cab"
+  },
+  "data/processed/bibliographic/train-00689.parquet": {
+    "bytes": 2048337,
+    "sha256": "4db394a1144ea8210a7c04e19d93932d4952c467650f138fcbb74d36ccc8e7af"
+  },
+  "data/processed/bibliographic/train-00690.parquet": {
+    "bytes": 2052548,
+    "sha256": "a6833b621335063f340d17826db1c9420ad6b49a5339555a030cfc2b548c40b8"
+  },
+  "data/processed/bibliographic/train-00691.parquet": {
+    "bytes": 2011246,
+    "sha256": "ef2a6356795bdb34bee04bd65c74dba8f8d7a1209de7318f101ffae6a027f30e"
+  },
+  "data/processed/bibliographic/train-00692.parquet": {
+    "bytes": 2116199,
+    "sha256": "8d9316c91baa4f27159c0be7be68aa29b5a2053b77efe25c6f8d538ec43706ca"
+  },
+  "data/processed/bibliographic/train-00693.parquet": {
+    "bytes": 2060057,
+    "sha256": "7b590c577a3515111976acf5d96cd4734fe96b9a97a8ef1c44ccc813367cec8c"
+  },
+  "data/processed/bibliographic/train-00694.parquet": {
+    "bytes": 1994256,
+    "sha256": "b100a2cc0b7ed20a5040714a24e2e56fb6f164700a814e10e48f510203ed1fb6"
+  },
+  "data/processed/bibliographic/train-00695.parquet": {
+    "bytes": 1846645,
+    "sha256": "b0295d7c4a9ab013fd7e50e2f3a426df60e21cd8a413a2cd1bbe9625d1031e22"
+  },
+  "data/processed/bibliographic/train-00696.parquet": {
+    "bytes": 2338431,
+    "sha256": "eb41d44725e5fbcb614f04edac9b7fb0f5aa99529428c9477106b019d08fb135"
+  },
+  "data/processed/bibliographic/train-00697.parquet": {
+    "bytes": 2074740,
+    "sha256": "15e6df2606e85ef6e24e9ec6a0a38560d693afc2d7f375da296e00eb912a6554"
+  },
+  "data/processed/bibliographic/train-00698.parquet": {
+    "bytes": 2078296,
+    "sha256": "484491932493bc4612d05254bda8b07ab2b5e189ca9a91ea52246baf9f88ca8f"
+  },
+  "data/processed/bibliographic/train-00699.parquet": {
+    "bytes": 2100722,
+    "sha256": "0d19fa01b8f03685ac68d4b6f5892d3f39e4d92f704e36bc58577c445a0d4c09"
+  },
+  "data/processed/bibliographic/train-00700.parquet": {
+    "bytes": 2102541,
+    "sha256": "28c114553b4dd5c945b20a074b521c216a121461906ef09bd38978fccfb89945"
+  },
+  "data/processed/bibliographic/train-00701.parquet": {
+    "bytes": 2060363,
+    "sha256": "173f9126936fb5c269d507a1f178ae4fa47a0e096843ef805ba057dbbf261f57"
+  },
+  "data/processed/bibliographic/train-00702.parquet": {
+    "bytes": 2088214,
+    "sha256": "2e477d46968e9296913728c6f7d856a9a2044bbc9000cbecf478761525baf760"
+  },
+  "data/processed/bibliographic/train-00703.parquet": {
+    "bytes": 2067905,
+    "sha256": "5af91496091bd8b1a031d1c21312989f0e73afb5572798d1bd10be6d5b7cacdd"
+  },
+  "data/processed/bibliographic/train-00704.parquet": {
+    "bytes": 2059933,
+    "sha256": "7bac2b11e8e5547daab07b1135c10537ca0cd6c3d9533d883ef1c964d709110b"
+  },
+  "data/processed/bibliographic/train-00705.parquet": {
+    "bytes": 2036165,
+    "sha256": "ee79a4b1db6b2ad7829f3135d45a48c25ba25db987be59e6b28cbee71e88bd46"
+  },
+  "data/processed/bibliographic/train-00706.parquet": {
+    "bytes": 2066467,
+    "sha256": "c20c4e24f58253a14563f828309f518b7f78d52c2d7429863bf0cdb0cc4c5743"
+  },
+  "data/processed/bibliographic/train-00707.parquet": {
+    "bytes": 1998824,
+    "sha256": "bfa7f1b35797d81653af6b6539075624389461ecedff83471f6028af34d58f68"
+  },
+  "data/processed/bibliographic/train-00708.parquet": {
+    "bytes": 1977914,
+    "sha256": "dd62b51bf905fb24d41cb245c922eb885526e66225ad8f3125af61a7c6fac0e6"
+  },
+  "data/processed/bibliographic/train-00709.parquet": {
+    "bytes": 2074115,
+    "sha256": "6cd5b317b955d1edece41a84bf2e92fee80e4ba3cdfa0334a7221b17f7d881e3"
+  },
+  "data/processed/bibliographic/train-00710.parquet": {
+    "bytes": 2089414,
+    "sha256": "ef01d18bd1edd395d36324fe6812e11013538bb74d0927f4d4b4e45710d2f7e0"
+  },
+  "data/processed/bibliographic/train-00711.parquet": {
+    "bytes": 2079313,
+    "sha256": "85ec10dc6911b111b4e6dd0c0eb901af83dc4cb9a244bc925d88208568dfad8b"
+  },
+  "data/processed/bibliographic/train-00712.parquet": {
+    "bytes": 2064700,
+    "sha256": "68465254203909d83bd6db90cdc8662aa1b43875416a2c7a016b5f85b7858158"
+  },
+  "data/processed/bibliographic/train-00713.parquet": {
+    "bytes": 2062322,
+    "sha256": "ee974ce51ff7c768acf84b0b4c4a3309320e1e766e4ac576ef6ec60d7c6e2986"
+  },
+  "data/processed/bibliographic/train-00714.parquet": {
+    "bytes": 1729906,
+    "sha256": "86efab928171a7ca7be768c855c699c4e51d70a20e459379c0e6ef219e9de064"
+  },
+  "data/processed/bibliographic/train-00715.parquet": {
+    "bytes": 1964152,
+    "sha256": "a9ca9c1b0ac913da3e82d21a6f6f5bbe6a78f6890c02ad58423ac8dc3285b33b"
+  },
+  "data/processed/bibliographic/train-00716.parquet": {
+    "bytes": 2063211,
+    "sha256": "96a1777072a92af0391ba3f086ffcfc9ce3e41ea22c25d03ebdd49c7801e33c3"
+  },
+  "data/processed/bibliographic/train-00717.parquet": {
+    "bytes": 2063336,
+    "sha256": "8193b734d09fbf1d8a85311a61e23a1a80b5c868ce33d97269c47c656cac7915"
+  },
+  "data/processed/bibliographic/train-00718.parquet": {
+    "bytes": 2052881,
+    "sha256": "ba8164baca290f1e5a3106eaee6b00e4ed25d38cf26d761cec54c804f204400c"
+  },
+  "data/processed/bibliographic/train-00719.parquet": {
+    "bytes": 2087106,
+    "sha256": "b6b77903515d089ae617f7c4f84ea0dc7babf649515f676aeaf169a077b98bb6"
+  },
+  "data/processed/bibliographic/train-00720.parquet": {
+    "bytes": 2041072,
+    "sha256": "063dbd1fd13620554b1e05554b976ed38b54c8aab8c3d5bd9812deaf1389f034"
+  },
+  "data/processed/bibliographic/train-00721.parquet": {
+    "bytes": 2002703,
+    "sha256": "a3a645304540d2f697d621bb85fb87e8533ece863deaaa27735a2bb1af2c2faa"
+  },
+  "data/processed/bibliographic/train-00722.parquet": {
+    "bytes": 2028680,
+    "sha256": "c77210d147e7efce6e6dfc9b13812dc6a9ebcd7823c1394668af1970446c35c4"
+  },
+  "data/processed/bibliographic/train-00723.parquet": {
+    "bytes": 2051275,
+    "sha256": "8a4c1c20fbf7e3626b55b8bce20e397c42549d32d5c221c41c34546035fb4c91"
+  },
+  "data/processed/bibliographic/train-00724.parquet": {
+    "bytes": 2040678,
+    "sha256": "eeff590e98e10c8ca3e7fb587f697983fb2f998413574ab46bf73c486ea0956a"
+  },
+  "data/processed/bibliographic/train-00725.parquet": {
+    "bytes": 2074152,
+    "sha256": "a0841acd3f5d9d59d4c6df71d81597034d0ee8a60ed181419badbcbf05f53492"
+  },
+  "data/processed/bibliographic/train-00726.parquet": {
+    "bytes": 2102666,
+    "sha256": "2270e46010e5554fc8cf2bba7f6d34f508292a810a825cdf29738f5325397ed0"
+  },
+  "data/processed/bibliographic/train-00727.parquet": {
+    "bytes": 2050444,
+    "sha256": "eb7ab7cb7341960892998f382acaece284135ffc00b3beecfb69d6db3cd95ea4"
+  },
+  "data/processed/bibliographic/train-00728.parquet": {
+    "bytes": 2072514,
+    "sha256": "f5beb872bd6f400617a7f6ac65f25b23d21c0c333ee52ef2dcb9dc5122d98b55"
+  },
+  "data/processed/bibliographic/train-00729.parquet": {
+    "bytes": 2062479,
+    "sha256": "e8d1b14fc75254686d7bd1f245e62e39036f05defc532160b7c63d211c8a724f"
+  },
+  "data/processed/bibliographic/train-00730.parquet": {
+    "bytes": 2018352,
+    "sha256": "e8ee8f3a1a7bbd21eb5b6daa08c03eaa669c232eb29e05304516ddba40ce4f77"
+  },
+  "data/processed/bibliographic/train-00731.parquet": {
+    "bytes": 1789834,
+    "sha256": "e693774c6afd306923a77c6056f5a2e6f9a3545669dbe1b1d91fbfeb490bed2b"
+  },
+  "data/processed/bibliographic/train-00732.parquet": {
+    "bytes": 2078637,
+    "sha256": "cf7346b7a15ba8d1102bccea02e80156672e3ed83e4c4895fd2c06ad8f1a5131"
+  },
+  "data/processed/bibliographic/train-00733.parquet": {
+    "bytes": 2075436,
+    "sha256": "c162f61f9ddc999c70ecfdf507f7a024c9bb7aa991e991ce16c233588a23e8a6"
+  },
+  "data/processed/bibliographic/train-00734.parquet": {
+    "bytes": 2037683,
+    "sha256": "55f6cc5a3245b0fc45cb2f6b13f5e4821210786b24f3307e23db2517ad059fde"
+  },
+  "data/processed/bibliographic/train-00735.parquet": {
+    "bytes": 2065737,
+    "sha256": "027c3354a8e6d9551d95e06c2e1850772aa7be70c9a43daaf7fba7abbd3ab1aa"
+  },
+  "data/processed/bibliographic/train-00736.parquet": {
+    "bytes": 2031757,
+    "sha256": "6ff3025b9e1acf9a3c79b4e5688e43ffebc1518ad841cc47acf729388dc1b337"
+  },
+  "data/processed/bibliographic/train-00737.parquet": {
+    "bytes": 1966374,
+    "sha256": "1354bd15317f1c9d125380aac8cd47792d6c6c7f11e4fb07d022130cc9a2f8ca"
+  },
+  "data/processed/bibliographic/train-00738.parquet": {
+    "bytes": 1931146,
+    "sha256": "c5dd31ac1679809e50dc740c7c38ea521d724f581694f218d5b743e0322c9036"
+  },
+  "data/processed/bibliographic/train-00739.parquet": {
+    "bytes": 1999883,
+    "sha256": "10fe7e24034e03203a4ce5b294c7bffcbd6038b3a225a57d04cf317cf06bb46d"
+  },
+  "data/processed/bibliographic/train-00740.parquet": {
+    "bytes": 1964184,
+    "sha256": "a6b09f0d8eb72f99267a098e1b918aa617f9f31a3d03c5a538265e17f0109263"
+  },
+  "data/processed/bibliographic/train-00741.parquet": {
+    "bytes": 1982616,
+    "sha256": "c7316f2841494e18b574a4adabb2c72c00583cda4fd7eb1ba68ca1103a8505d6"
+  },
+  "data/processed/bibliographic/train-00742.parquet": {
+    "bytes": 1935103,
+    "sha256": "69be8ac310a6fb13b12d1b74b360e31030f2b91e689c2f0724950ef82710921f"
+  },
+  "data/processed/bibliographic/train-00743.parquet": {
+    "bytes": 1847740,
+    "sha256": "05aeebc4a71ab87c1ed00124df6b0a7ee735b7f83b52fcf378ba8873c4ec8606"
+  },
+  "data/processed/bibliographic/train-00744.parquet": {
+    "bytes": 1827309,
+    "sha256": "e3ae0958cdcadebe94f851ab63a2e6a725ca096031a68accdfff87b9e9a0d891"
+  },
+  "data/processed/bibliographic/train-00745.parquet": {
+    "bytes": 1800854,
+    "sha256": "490884c04dddcf83ccf16b23967a193f20978ac6d8022ba791576d44a1a9c4c7"
+  },
+  "data/processed/bibliographic/train-00746.parquet": {
+    "bytes": 1933172,
+    "sha256": "abadbbdf21e23ad9ff8c486c6415d70bad4802b74b35816c22889ac7ed7d9221"
+  },
+  "data/processed/bibliographic/train-00747.parquet": {
+    "bytes": 1847389,
+    "sha256": "861896ef77ac900fdfba93ab4a6d0f80a5674c1e9dd23dcb4dbd007ce4a9043c"
+  },
+  "data/processed/bibliographic/train-00748.parquet": {
+    "bytes": 1858552,
+    "sha256": "b3b9d3a4cc096bd4dbeacc128c3c94e68000dc2c0b3a038b1dada9e6766bcb7f"
+  },
+  "data/processed/bibliographic/train-00749.parquet": {
+    "bytes": 1843525,
+    "sha256": "566c60b10266c91f9b4abe49f48089dcfa1c8195060337340c38262c0ce5749f"
+  },
+  "data/processed/bibliographic/train-00750.parquet": {
+    "bytes": 1876015,
+    "sha256": "36c426bc2b62ec81ffe9b08b90cabbf5d784d42c1ed31e3661c78786f163aa10"
+  },
+  "data/processed/bibliographic/train-00751.parquet": {
+    "bytes": 1884945,
+    "sha256": "326ecf5e1431520d91bd4de36de96cb27fbbde7cb625161c3a5dd1cd68c4f21d"
+  },
+  "data/processed/bibliographic/train-00752.parquet": {
+    "bytes": 1873609,
+    "sha256": "abc4fdf905400e1da079a878b7075bcd96f1115cf7286eca2b6eae6050c29f54"
+  },
+  "data/processed/bibliographic/train-00753.parquet": {
+    "bytes": 1880318,
+    "sha256": "2f3b89c6e27721a2251a8617ade31c763fc327fb3a280fd4a93edf394f30f993"
+  },
+  "data/processed/bibliographic/train-00754.parquet": {
+    "bytes": 1940248,
+    "sha256": "da86f36e70f39e3ef5ef34b928193d576de021e9661bc55a1024e37ad8f4d8ec"
+  },
+  "data/processed/bibliographic/train-00755.parquet": {
+    "bytes": 1812254,
+    "sha256": "a945d4d8b45c8af2637d246fdbaf3e8d6aefef2d616241c196050f045662eeec"
+  },
+  "data/processed/bibliographic/train-00756.parquet": {
+    "bytes": 1862891,
+    "sha256": "4fb987f92cc6ad9fe8404423cdc1f796591d95f7677df4e15014507ffce0772b"
+  },
+  "data/processed/bibliographic/train-00757.parquet": {
+    "bytes": 1927310,
+    "sha256": "d8d65730afc309193349572241f5c62374f90202109b36ea8f479c961efe6e84"
+  },
+  "data/processed/bibliographic/train-00758.parquet": {
+    "bytes": 1873224,
+    "sha256": "d1548a078c75707006ef1556b4a5f7400595654c49eb6b36e3720dddf7752e86"
+  },
+  "data/processed/bibliographic/train-00759.parquet": {
+    "bytes": 1945011,
+    "sha256": "67c777f3ced56acc6d91f515dd531b1a6cf181b0ecd7be139ff5579887e073a2"
+  },
+  "data/processed/bibliographic/train-00760.parquet": {
+    "bytes": 2132761,
+    "sha256": "3437a0218535adac28c99d198e1db8bd81a20ce8442543c75992e2918a1b5635"
+  },
+  "data/processed/bibliographic/train-00761.parquet": {
+    "bytes": 2158570,
+    "sha256": "31e1fb7204f1e7fd1657999e5a9276a1198199ac757c7d546836ca9b5613cf76"
+  },
+  "data/processed/bibliographic/train-00762.parquet": {
+    "bytes": 2122932,
+    "sha256": "c72919be6202986877200b0fa5ac85bc145f9c019a6503de1a2964c41de37b9e"
+  },
+  "data/processed/bibliographic/train-00763.parquet": {
+    "bytes": 1844060,
+    "sha256": "67394ec9f0094b51565e4f4d484de2d9a373935962639a46f61e288c75de1621"
+  },
+  "data/processed/bibliographic/train-00764.parquet": {
+    "bytes": 1817945,
+    "sha256": "79b81babafded11402db6a1340380cf9310cf9e5413a9a7411d5d017148d45eb"
+  },
+  "data/processed/bibliographic/train-00765.parquet": {
+    "bytes": 2262844,
+    "sha256": "3953721998f9007034d88c993fb9360f91d92cbf20cc6d8d65c8831a33ba5c26"
+  },
+  "data/processed/bibliographic/train-00766.parquet": {
+    "bytes": 2230369,
+    "sha256": "cba00b9f8aaaf88ba988913e7f9fb61356d86cbe64a7e472543faa1a9005dac8"
+  },
+  "data/processed/bibliographic/train-00767.parquet": {
+    "bytes": 2038973,
+    "sha256": "232c2d3d67010ade261fa7cbc59ade71d0b668da5eee387b759c1ca9acae73d9"
+  },
+  "data/processed/bibliographic/train-00768.parquet": {
+    "bytes": 2012958,
+    "sha256": "e3a6e17e712fa0d4d476c0c05e56fa19ef1b18ab803b1acb559f25bf907f11b3"
+  },
+  "data/processed/bibliographic/train-00769.parquet": {
+    "bytes": 1945603,
+    "sha256": "187310fea9da5e0b2e251d32ba1169201b5ac5fe96159215e76c4e73ec2799e2"
+  },
+  "data/processed/bibliographic/train-00770.parquet": {
+    "bytes": 1875929,
+    "sha256": "e650a46e1f3baf0fe35761fed2a7c6a76359dcbb7b14bb9ca8d63c2582667f7e"
+  },
+  "data/processed/bibliographic/train-00771.parquet": {
+    "bytes": 2068714,
+    "sha256": "cdb50a76d5bd2cc2c4e1ba73d5e9e936ce73ca7d95d84452c7ef51cb671a417a"
+  },
+  "data/processed/bibliographic/train-00772.parquet": {
+    "bytes": 2028165,
+    "sha256": "74cb2d0a6c3471ec2778534fbc8f7de201bd42b58ff645127a2900a5f295c7e7"
+  },
+  "data/processed/bibliographic/train-00773.parquet": {
+    "bytes": 1938085,
+    "sha256": "348f68c1e8b9209072b6e6434515f9fd6f0c61cdd8f7d0ff418e06dccfca2684"
+  },
+  "data/processed/bibliographic/train-00774.parquet": {
+    "bytes": 2145400,
+    "sha256": "46e774961c88e9083af2e49801d546eb1d8d2cb8abcf66eb6675f3f6df9b3c17"
+  },
+  "data/processed/bibliographic/train-00775.parquet": {
+    "bytes": 1783557,
+    "sha256": "20a960e6a9459cd1948c7c913241f27498ae1b0acda830b65d84f27a0adf5134"
+  },
+  "data/processed/bibliographic/train-00776.parquet": {
+    "bytes": 1879851,
+    "sha256": "e303f1e739651a98e40cb0170901ee97ec1733e7c7554bac72662fbe83923260"
+  },
+  "data/processed/bibliographic/train-00777.parquet": {
+    "bytes": 1635348,
+    "sha256": "92d240ef5ba25f0c2cd866d911ac52296212ba6fc1cb2d027536c9cd289e4154"
+  },
+  "data/processed/bibliographic/train-00778.parquet": {
+    "bytes": 1524466,
+    "sha256": "57bae83165fa544ce82e9972c197d0b96c87007b2c647c156f21199378a425b4"
+  },
+  "data/processed/bibliographic/train-00779.parquet": {
+    "bytes": 1743102,
+    "sha256": "80aff540fbb83e1dc8cd62c6ed28116f7c8cbc4a98a9c192c15e7118207f1186"
+  },
+  "data/processed/bibliographic/train-00780.parquet": {
+    "bytes": 1600229,
+    "sha256": "c445db843e93fb03c68e7a63b9c58f6510de53951fbb29473533241a50a334f1"
+  },
+  "data/processed/bibliographic/train-00781.parquet": {
+    "bytes": 1789679,
+    "sha256": "7558d6c46a8953e1f42f8847bd8f13104ebe853b28a01692c3da759878c60c83"
+  },
+  "data/processed/bibliographic/train-00782.parquet": {
+    "bytes": 2077895,
+    "sha256": "2c7a9cb1abfb8d36ec736a9b87d373f15d710958ecec52ba0242de2f6fabb8dc"
+  },
+  "data/processed/bibliographic/train-00783.parquet": {
+    "bytes": 2023405,
+    "sha256": "bf6d28a0e1a85226af1c6298c42e8efaac6fcfa733a593255c4386c2831dc30c"
+  },
+  "data/processed/bibliographic/train-00784.parquet": {
+    "bytes": 1962263,
+    "sha256": "c303ce85c26082c76893a71adecade655353ad8df6925c34367f2858d6dc4b01"
+  },
+  "data/processed/bibliographic/train-00785.parquet": {
+    "bytes": 1973467,
+    "sha256": "ced0dcc47729c7ff07144cf46e971f9a2b26c9553fc8be1840879c80f1dca19f"
+  },
+  "data/processed/bibliographic/train-00786.parquet": {
+    "bytes": 1963584,
+    "sha256": "81266be8a1177a5930f553df706b8192c462986dcfe41324ecc3a25404638a6a"
+  },
+  "data/processed/bibliographic/train-00787.parquet": {
+    "bytes": 2035282,
+    "sha256": "4ba07ae9464b3c23906c114b3e7f11be896681be2712ad213a5c3ac33844072a"
+  },
+  "data/processed/bibliographic/train-00788.parquet": {
+    "bytes": 2008657,
+    "sha256": "b153e1253f7a07529f8a96ef3a07909d9ffd8e5f9424f39e6d2a7323e73b13ce"
+  },
+  "data/processed/bibliographic/train-00789.parquet": {
+    "bytes": 2090280,
+    "sha256": "240bcc58a31d647586f028edd14e0a132d4bf5d29bf4fe5e7ef69b841c978a5f"
+  },
+  "data/processed/bibliographic/train-00790.parquet": {
+    "bytes": 2056412,
+    "sha256": "2aaaebf69a3695a1622e1346f8e8b9dd07cb4880b50e5cf1c0fd9ab959baaead"
+  },
+  "data/processed/bibliographic/train-00791.parquet": {
+    "bytes": 2053574,
+    "sha256": "ffbb17c34b877cb8cb26a9757df50e82c3c885600bc271c4190a7b4978bfd316"
+  },
+  "data/processed/bibliographic/train-00792.parquet": {
+    "bytes": 2034144,
+    "sha256": "0f3edf12ac86a56a2d758b780776a1fe1333daf782cd865e92da2feca441aa57"
+  },
+  "data/processed/bibliographic/train-00793.parquet": {
+    "bytes": 1992731,
+    "sha256": "1556dba09af1e97cbfd36bca76eb572373b4fbc64be5a9726ae0356e0c5afa14"
+  },
+  "data/processed/bibliographic/train-00794.parquet": {
+    "bytes": 1982965,
+    "sha256": "826992127a24fea0fa43108a6f9521d1a93801f73bc6bc7ffaef9a067767f1a1"
+  },
+  "data/processed/bibliographic/train-00795.parquet": {
+    "bytes": 1970278,
+    "sha256": "6d8433d7f97633ab029e2f056cd16d443b2302aba6218737f562d789ea153b98"
+  },
+  "data/processed/bibliographic/train-00796.parquet": {
+    "bytes": 1976220,
+    "sha256": "1944c2158ac2ba35fa8818ca3ac09e3c0be772c9ea02620ff99c79fc04c8a656"
+  },
+  "data/processed/bibliographic/train-00797.parquet": {
+    "bytes": 1992221,
+    "sha256": "a4987f67f14aa5d77b7e4c7acc64a4c69a7f26a37cc45f8925c6d8d9c0985f76"
+  },
+  "data/processed/bibliographic/train-00798.parquet": {
+    "bytes": 2008415,
+    "sha256": "9e329d32f16c0efcc6ddb5efb0da57b95ec00a5c7de2526109f64f0d7e779941"
+  },
+  "data/processed/bibliographic/train-00799.parquet": {
+    "bytes": 2067183,
+    "sha256": "aade954a35571666fd734563197b54d2e6bebce50396e5b2f8d4b6065e279aec"
+  },
+  "data/processed/bibliographic/train-00800.parquet": {
+    "bytes": 2021561,
+    "sha256": "76949e8e2535ab3ef0bc373279a5c034f96cb3b8f37872e90cebe6a4205f153b"
+  },
+  "data/processed/bibliographic/train-00801.parquet": {
+    "bytes": 2035227,
+    "sha256": "6fc78e60a19e2873439d030b12d0ea2a6178c802eb3195d30dbe5ead90732d48"
+  },
+  "data/processed/bibliographic/train-00802.parquet": {
+    "bytes": 1985558,
+    "sha256": "3d26a7b206dc29808f240317bfbb31ba6b026d9b74d93fc6cedb55490f4b03b0"
+  },
+  "data/processed/bibliographic/train-00803.parquet": {
+    "bytes": 2016340,
+    "sha256": "54ac5187d307f906eae5689fe076f319c36ae551b7d23dae875220b37658befb"
+  },
+  "data/processed/bibliographic/train-00804.parquet": {
+    "bytes": 2064921,
+    "sha256": "c054f279d77eac0910aca4435f58b493f766038677ecd121daf49306c657513f"
+  },
+  "data/processed/bibliographic/train-00805.parquet": {
+    "bytes": 2043510,
+    "sha256": "253c5147e1258d53716d4269ccc3f845a7e92cfc9e9ee2abb46adff1ee9b6dc9"
+  },
+  "data/processed/bibliographic/train-00806.parquet": {
+    "bytes": 2015499,
+    "sha256": "f4d67296de95ef7b12f4c3d63843db44f8eb33db43eb84050911b5e261a899ca"
+  },
+  "data/processed/bibliographic/train-00807.parquet": {
+    "bytes": 2003850,
+    "sha256": "5d3e55fc1b4d6e45ef8e15a0a30339ad7e915488b79523f38ebc16ee9d2bfed2"
+  },
+  "data/processed/bibliographic/train-00808.parquet": {
+    "bytes": 2075443,
+    "sha256": "3c3ee9e3afa7a4cc19b311b1b8e0573244020055d2ee490c08a11e96e08cbd13"
+  },
+  "data/processed/bibliographic/train-00809.parquet": {
+    "bytes": 2523691,
+    "sha256": "b15ad09541193fcb434329eb7c92fc4660818fed2f1bbb814426923a21987018"
+  },
+  "data/processed/bibliographic/train-00810.parquet": {
+    "bytes": 2537754,
+    "sha256": "e31821234c31712e25a44d469d421918342a7fad1d3c31844c43db74d9e0bb5d"
+  },
+  "data/processed/bibliographic/train-00811.parquet": {
+    "bytes": 2430327,
+    "sha256": "41d35d8d36588c78107e30aacf3bca3edeeb555179ec586e7180c7dbc7f63a30"
+  },
+  "data/processed/bibliographic/train-00812.parquet": {
+    "bytes": 2511921,
+    "sha256": "4eba3873a9b9b27f30797f6d42cd46ea92a3bcc6513c4828bf44c6fa9db20ad8"
+  },
+  "data/processed/bibliographic/train-00813.parquet": {
+    "bytes": 2416394,
+    "sha256": "96fb19392a42fbf90934795dd2c01349bdfb2f05f97c60916a38708d66b142cb"
+  },
+  "data/processed/bibliographic/train-00814.parquet": {
+    "bytes": 2507838,
+    "sha256": "eb039b604fb05dd7211ba60d5fc3d895cf5ac21e06bfe4072988d6f1e52e59a5"
+  },
+  "data/processed/bibliographic/train-00815.parquet": {
+    "bytes": 2372937,
+    "sha256": "81696409e44ace4c1de41ad5e4f49c4d3ed32995d1d15758fcf02ce10e0a6da7"
+  },
+  "data/processed/bibliographic/train-00816.parquet": {
+    "bytes": 2539995,
+    "sha256": "4345fd3c0b47257470339bb51faae69e3585ded28838640da91cacc452ef2fb9"
+  },
+  "data/processed/bibliographic/train-00817.parquet": {
+    "bytes": 2549548,
+    "sha256": "5916a0229f2b3a35063aba77518f290c7e03351a3f7b9d7cd752ef9d3ed7d32e"
+  },
+  "data/processed/bibliographic/train-00818.parquet": {
+    "bytes": 2731989,
+    "sha256": "44f10c91c917675ebfb8e736129d3cb32c1e63d00c2f1584ae0ea275a5bb4e4d"
+  },
+  "data/processed/bibliographic/train-00819.parquet": {
+    "bytes": 2732393,
+    "sha256": "95b6c8ca8baa99cac1ab7ee02614ad35e095510661d70baf85d7dee0402ccac7"
+  },
+  "data/processed/bibliographic/train-00820.parquet": {
+    "bytes": 2720519,
+    "sha256": "fdb06f74b56c39b4795be7fbe4093934dc0b27b87cb757f2d119b03d52f2d520"
+  },
+  "data/processed/bibliographic/train-00821.parquet": {
+    "bytes": 2711147,
+    "sha256": "617f3ef037b77653a48efcbd4fdfc51fc0e43a1d38f5b9e337431292adfba620"
+  },
+  "data/processed/bibliographic/train-00822.parquet": {
+    "bytes": 2919898,
+    "sha256": "82e55938204ad03c0dd17305bc75c56034f4db63ec092f407e3ddcbddccef1f9"
+  },
+  "data/processed/bibliographic/train-00823.parquet": {
+    "bytes": 2954917,
+    "sha256": "9443ef207e9865296150c69f0c3455e10a9dd4606ee15ac30a46391cd17ed8ed"
+  },
+  "data/processed/bibliographic/train-00824.parquet": {
+    "bytes": 3113721,
+    "sha256": "73a2d86c383a7aef2ef3034297986fcb2339ec8880e25bd9e9b3afd962fb7e4e"
+  },
+  "data/processed/bibliographic/train-00825.parquet": {
+    "bytes": 3125983,
+    "sha256": "daaa60d8f274f9b323045e200af3ddb76d59b048a08661955d8428ddb458bcaa"
+  },
+  "data/processed/bibliographic/train-00826.parquet": {
+    "bytes": 3194092,
+    "sha256": "f9c64f8d989e0198ba9bd3c9ed4553bbd287d405294773233998a6744a88f63e"
+  },
+  "data/processed/bibliographic/train-00827.parquet": {
+    "bytes": 3018963,
+    "sha256": "350b08c588d7f403cd5cc489ae59bb3a68bb0b65aac5e67beb65c76c3d68267c"
+  },
+  "data/processed/bibliographic/train-00828.parquet": {
+    "bytes": 2937797,
+    "sha256": "84839946b6ac95be459b760f85269d387435ba193b5a76c977e35e9dd8e81e8b"
+  },
+  "data/processed/bibliographic/train-00829.parquet": {
+    "bytes": 2839809,
+    "sha256": "d93da67d2aa734bb2eb89d82eba4c6dd48adf4c4496f46d939450f352ada683b"
+  },
+  "data/processed/bibliographic/train-00830.parquet": {
+    "bytes": 2700559,
+    "sha256": "bee6a6664abdc77cc6dbfc70bbd9fd49db33b1b811fbef92357672f21981aef1"
+  },
+  "data/processed/bibliographic/train-00831.parquet": {
+    "bytes": 2972979,
+    "sha256": "af2048b4405dc9f5a87caf96d2088d4e41cde51ec8c38f51bcac47fd7c7ada97"
+  },
+  "data/processed/bibliographic/train-00832.parquet": {
+    "bytes": 828019,
+    "sha256": "6557a7597711d036812ae7b1ba08654f425f90a12ff7611fb4997b849c60cbc3"
+  },
+  "data/processed/subjects/train-00000.parquet": {
+    "bytes": 2111521,
+    "sha256": "f926141f6f3f57fd73634e04daef99f31c0c3241213afb9fd4d7aa0102085248"
+  },
+  "data/processed/subjects/train-00001.parquet": {
+    "bytes": 2341325,
+    "sha256": "aafaae59d736039f855fb19ded8dbcc58e305fb09cbf067d2e5cfeead2cacd3d"
+  },
+  "data/processed/subjects/train-00002.parquet": {
+    "bytes": 2152029,
+    "sha256": "7d71505853c96f0ce553200dfd4a15c1860a5cf22d584dfb34b23137ad85de0f"
+  },
+  "data/processed/subjects/train-00003.parquet": {
+    "bytes": 2011871,
+    "sha256": "119f367f082e74b62c2c1e61b404b4c42b052270ee1defec1ca3bbb7794e0383"
+  },
+  "data/processed/subjects/train-00004.parquet": {
+    "bytes": 1929637,
+    "sha256": "8fe32fb3b835a01c269d274504efa59772e89cb20dc6b8dcabf48cd9991296a9"
+  },
+  "data/processed/subjects/train-00005.parquet": {
+    "bytes": 2094319,
+    "sha256": "e611171a5d52808fa0c4b09d0b720cfe6c2b2bb21a789afc30c6f8ca7b8507d0"
+  },
+  "data/processed/subjects/train-00006.parquet": {
+    "bytes": 2179326,
+    "sha256": "632c7372dfeae873335c9dd7beb56e625fb695f3e4182f1c6caaf79710555511"
+  },
+  "data/processed/subjects/train-00007.parquet": {
+    "bytes": 2301912,
+    "sha256": "a1da6f36f2d6fe6b870725817dc0c46d269ac1d99afb8adee545c77ef427b159"
+  },
+  "data/processed/subjects/train-00008.parquet": {
+    "bytes": 2416718,
+    "sha256": "0d66886234bfd6b52a37ab5d85d5818c77f3b9e89e3be8ea387edc4aa7ff946c"
+  },
+  "data/processed/subjects/train-00009.parquet": {
+    "bytes": 2470073,
+    "sha256": "be5b9e089f2adc2fbac539f287c7230846641bdb3c059667afb2c3e47667e0d9"
+  },
+  "data/processed/subjects/train-00010.parquet": {
+    "bytes": 2069652,
+    "sha256": "fc2b2af88ee56dfc4358fbe4e08dbc0f7f4ed6ffb0b376acd83837b3f44fc7ee"
+  },
+  "data/processed/subjects/train-00011.parquet": {
+    "bytes": 1989907,
+    "sha256": "e9cf9529166b5ffe467eaed42734457ecce81ad43ba098a00e1e6966c570fa0e"
+  },
+  "data/processed/subjects/train-00012.parquet": {
+    "bytes": 1989394,
+    "sha256": "7a2fc692b49d581a02d101b53ed17b4821e3faa711ec187336e805b775b1e76f"
+  },
+  "data/processed/subjects/train-00013.parquet": {
+    "bytes": 1980641,
+    "sha256": "3fdd5d78e2d654f010f2c0138f80ed29c50c0058f7421eeb517739a3daabc937"
+  },
+  "data/processed/subjects/train-00014.parquet": {
+    "bytes": 1974325,
+    "sha256": "285ef78eaef1f2bf058c6d7b40af5f58a0759d399b40d08844f233680f0d342b"
+  },
+  "data/processed/subjects/train-00015.parquet": {
+    "bytes": 2000200,
+    "sha256": "36036e4e4cab80fa1850169c5cdf852e4910944ba47fbed128ecf9742bc266b2"
+  },
+  "data/processed/subjects/train-00016.parquet": {
+    "bytes": 2005730,
+    "sha256": "f16a1b3e39608a9906b4eea84d111e8fb407535509dd322a03eb768de30d5327"
+  },
+  "data/processed/subjects/train-00017.parquet": {
+    "bytes": 2146213,
+    "sha256": "c163fe87a5b668cdbe71ddf3f1ae0b7ab0605b2edf7cb526bb14f36105620dde"
+  },
+  "data/processed/subjects/train-00018.parquet": {
+    "bytes": 2079904,
+    "sha256": "596c114314b48d021b5afb2e30f5a3903fe538953ef8307b80481a6770114f34"
+  },
+  "data/processed/subjects/train-00019.parquet": {
+    "bytes": 2113622,
+    "sha256": "28600a453bb46163b4fc0a4beecf358309740cbc53d95b3190f872ce7f31f583"
+  },
+  "data/processed/subjects/train-00020.parquet": {
+    "bytes": 2137085,
+    "sha256": "0008f237c22060b560a0e04ee477d16d5eafeaf01e5cd6ed4e869b1a3f7ff02b"
+  },
+  "data/processed/subjects/train-00021.parquet": {
+    "bytes": 2089673,
+    "sha256": "609095f651988618d741ade6cf6301af31f9ce33f697ac8605ffb8e12c72985f"
+  },
+  "data/processed/subjects/train-00022.parquet": {
+    "bytes": 2023713,
+    "sha256": "bae3d9848cc234384bb57381b17b73df03946479f059fab455c610a3aff27e86"
+  },
+  "data/processed/subjects/train-00023.parquet": {
+    "bytes": 2107387,
+    "sha256": "7bb4ff26bd2ae5acec71927a6580c61c5e6cc090fb2d0f9c5edc1259c3c21d9f"
+  },
+  "data/processed/subjects/train-00024.parquet": {
+    "bytes": 1270862,
+    "sha256": "d4884a950902339fb9509ba680663f68dbce32eebc82bdc7713a9cda83e21287"
+  }
+}

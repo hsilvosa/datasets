@@ -1,0 +1,29 @@
+{
+  "checks": {
+    "authorities": {
+      "no_invalid_source_lines": true,
+      "non_empty": true,
+      "normalization_rows_match": true,
+      "object_kinds_sum_to_rows": true,
+      "predicate_count_positive": true,
+      "subject_count_positive": true
+    },
+    "bibliographic": {
+      "no_invalid_source_lines": true,
+      "non_empty": true,
+      "normalization_rows_match": true,
+      "object_kinds_sum_to_rows": true,
+      "predicate_count_positive": true,
+      "subject_count_positive": true
+    },
+    "subjects": {
+      "no_invalid_source_lines": true,
+      "non_empty": true,
+      "normalization_rows_match": true,
+      "object_kinds_sum_to_rows": true,
+      "predicate_count_positive": true,
+      "subject_count_positive": true
+    }
+  },
+  "passed": true
+}

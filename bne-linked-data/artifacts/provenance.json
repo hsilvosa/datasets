@@ -1,0 +1,37 @@
+{
+  "documentation": "https://www.bne.es/es/catalogos/datos-enlazados-bne/datos-enlazados",
+  "license": "CC0-1.0",
+  "publisher": "Biblioteca Nacional de España",
+  "snapshot_date": "2023-09-06",
+  "source_files": [
+    {
+      "collection": "authorities",
+      "expected_bytes": 359784392,
+      "filename": "autoridades.nt.bz2",
+      "note": "Official BNE dump preserved by Internet Archive on 2023-09-20; source Last-Modified 2023-09-06",
+      "url": "https://web.archive.org/web/20230920163009id_/https://datos.bne.es/datadump/autoridades.nt.bz2"
+    },
+    {
+      "collection": "subjects",
+      "expected_bytes": 33805185,
+      "filename": "materias.nt.bz2",
+      "note": "Official BNE dump preserved by Internet Archive on 2023-09-20; source Last-Modified 2023-09-06",
+      "url": "https://web.archive.org/web/20230920162349id_/https://datos.bne.es/datadump/materias.nt.bz2"
+    },
+    {
+      "collection": "bibliographic",
+      "expected_bytes": 1212541852,
+      "filename": "bibliograficos.nt.bz2",
+      "note": "Official BNE dump preserved by Internet Archive on 2023-09-20; source Last-Modified 2023-09-06",
+      "url": "https://web.archive.org/web/20230920162417id_/https://datos.bne.es/datadump/bibliograficos.nt.bz2"
+    }
+  ],
+  "source_portal": "https://datos.bne.es/",
+  "transformations": [
+    "Stream-decompress BZip2 without loading the full graph into memory",
+    "Rejoin external IRIs split across two physical lines by the BNE subjects dump",
+    "Parse each N-Triples statement into explicit subject, predicate, and object fields",
+    "Preserve language tags, datatype IRIs, blank nodes, collection, and source line",
+    "Write compressed Parquet shards without resampling, inference, or enrichment"
+  ]
+}

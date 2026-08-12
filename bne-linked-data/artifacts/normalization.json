@@ -1,0 +1,39 @@
+{
+  "snapshot_date": "2023-09-06",
+  "collections": [
+    {
+      "collection": "authorities",
+      "parsed_triples": 46107241,
+      "ignored_lines": 0,
+      "invalid_lines": 0,
+      "repaired_wrapped_iris": 0,
+      "shards": 185,
+      "parquet_bytes": 493978094,
+      "limited": false
+    },
+    {
+      "collection": "subjects",
+      "parsed_triples": 6122512,
+      "ignored_lines": 0,
+      "invalid_lines": 0,
+      "repaired_wrapped_iris": 865,
+      "shards": 25,
+      "parquet_bytes": 51987039,
+      "limited": false
+    },
+    {
+      "collection": "bibliographic",
+      "parsed_triples": 208059171,
+      "ignored_lines": 0,
+      "invalid_lines": 0,
+      "repaired_wrapped_iris": 0,
+      "shards": 833,
+      "parquet_bytes": 1772292848,
+      "limited": false
+    }
+  ],
+  "total_triples": 260288924,
+  "invalid_lines": 0,
+  "repaired_wrapped_iris": 865,
+  "parquet_bytes": 2318257981
+}

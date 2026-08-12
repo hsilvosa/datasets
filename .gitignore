@@ -11,7 +11,11 @@ __pycache__/
 */dist/
 */hf_staging/
 */hf_staging_sample/
+*/hf_staging_sample_archive/
+*/artifacts/fixture/
+*/artifacts/sample_archive/
 */hf_staging_pilot/
+*/hf_staging_fixture/
 
 # Local credentials and editor files.
 .env

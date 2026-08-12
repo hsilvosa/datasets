@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bne-linked-data-pipeline"
+version = "0.1.0"
+description = "Reproducible pipeline for the BNE Linked Data RDF dumps"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "duckdb>=1.2",
+  "huggingface-hub>=0.27",
+  "pyarrow>=16",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8",
+  "ruff>=0.8",
+]
+
+[project.scripts]
+bne-pipeline = "bne_linked_data.cli:main"
+
+[project.urls]
+Source = "https://datos.bne.es/"
+Documentation = "https://www.bne.es/es/catalogos/datos-enlazados-bne/datos-enlazados"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/bne_linked_data"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+

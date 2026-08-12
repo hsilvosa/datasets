@@ -1,0 +1,415 @@
+{
+  "collections": {
+    "authorities": {
+      "blank_node_objects": 0,
+      "distinct_objects": 25728482,
+      "distinct_predicates": 96,
+      "distinct_subjects": 5624909,
+      "first_source_line": 1,
+      "iri_objects": 18008312,
+      "language_tagged_literals": 0,
+      "languages": [],
+      "last_source_line": 46107241,
+      "literal_objects": 28098929,
+      "parquet_bytes": 493978094,
+      "parquet_files": 185,
+      "rows": 46107241,
+      "top_predicates": [
+        {
+          "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+          "rows": 5624890
+        },
+        {
+          "predicate": "https://datos.bne.es/def/id",
+          "rows": 5623421
+        },
+        {
+          "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+          "rows": 4093366
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P1001",
+          "rows": 2209984
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P1100",
+          "rows": 2093770
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P1002",
+          "rows": 2090788
+        },
+        {
+          "predicate": "https://datos.bne.es/def/OP2001",
+          "rows": 2078136
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P1003",
+          "rows": 1895545
+        },
+        {
+          "predicate": "https://datos.bne.es/def/OP5002",
+          "rows": 1665198
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P5001",
+          "rows": 1524801
+        },
+        {
+          "predicate": "https://datos.bne.es/def/OP1002",
+          "rows": 1472605
+        },
+        {
+          "predicate": "https://datos.bne.es/def/OP2002",
+          "rows": 1472605
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P2001",
+          "rows": 1456502
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P1011",
+          "rows": 1406514
+        },
+        {
+          "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+          "rows": 1353732
+        },
+        {
+          "predicate": "https://datos.bne.es/def/OP1001",
+          "rows": 1272816
+        },
+        {
+          "predicate": "https://datos.bne.es/def/OP5001",
+          "rows": 1272816
+        },
+        {
+          "predicate": "http://www.rdaregistry.info/Elements/a/P50116",
+          "rows": 1006411
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P5024",
+          "rows": 963746
+        },
+        {
+          "predicate": "https://datos.bne.es/def/OP7001",
+          "rows": 916286
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P5012",
+          "rows": 453043
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P6001",
+          "rows": 358597
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P5002",
+          "rows": 341287
+        },
+        {
+          "predicate": "http://www.rdaregistry.info/Elements/a/P50104",
+          "rows": 326801
+        },
+        {
+          "predicate": "https://datos.bne.es/def/OP6004",
+          "rows": 290421
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P5010",
+          "rows": 279170
+        },
+        {
+          "predicate": "http://www.rdaregistry.info/Elements/a/P50102",
+          "rows": 243722
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P3066",
+          "rows": 209932
+        },
+        {
+          "predicate": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "rows": 197245
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P6005",
+          "rows": 137771
+        }
+      ],
+      "typed_literals": 0
+    },
+    "bibliographic": {
+      "blank_node_objects": 0,
+      "distinct_objects": 62179426,
+      "distinct_predicates": 105,
+      "distinct_subjects": 17850587,
+      "first_source_line": 1,
+      "iri_objects": 64183474,
+      "language_tagged_literals": 0,
+      "languages": [],
+      "last_source_line": 208059171,
+      "literal_objects": 143875697,
+      "parquet_bytes": 1772292848,
+      "parquet_files": 833,
+      "rows": 208059171,
+      "top_predicates": [
+        {
+          "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+          "rows": 17850592
+        },
+        {
+          "predicate": "https://datos.bne.es/def/OP3001",
+          "rows": 12421553
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P4014",
+          "rows": 12161077
+        },
+        {
+          "predicate": "https://datos.bne.es/def/OP4001",
+          "rows": 12161064
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P4001",
+          "rows": 12161063
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P4007",
+          "rows": 12161063
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P4008",
+          "rows": 12161063
+        },
+        {
+          "predicate": "https://datos.bne.es/def/OP3008",
+          "rows": 6640406
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P3006",
+          "rows": 5721712
+        },
+        {
+          "predicate": "https://datos.bne.es/def/id",
+          "rows": 5689529
+        },
+        {
+          "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+          "rows": 5689487
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P3002",
+          "rows": 5689487
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P3064",
+          "rows": 5682853
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P3001",
+          "rows": 5658038
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P3004",
+          "rows": 5627136
+        },
+        {
+          "predicate": "http://purl.org/dc/terms/language",
+          "rows": 5553068
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P3003",
+          "rows": 5528687
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P3015",
+          "rows": 5420127
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P3007",
+          "rows": 5108757
+        },
+        {
+          "predicate": "https://datos.bne.es/def/OP3006",
+          "rows": 4489951
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P3008",
+          "rows": 4007587
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P3009",
+          "rows": 3961947
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P3005",
+          "rows": 3536708
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P1011",
+          "rows": 3377591
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P3012",
+          "rows": 2693156
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P3013",
+          "rows": 2320077
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P3014",
+          "rows": 2259393
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P3061",
+          "rows": 2229353
+        },
+        {
+          "predicate": "https://datos.bne.es/def/OP3002",
+          "rows": 2078136
+        },
+        {
+          "predicate": "https://datos.bne.es/def/P3062",
+          "rows": 2030279
+        }
+      ],
+      "typed_literals": 0
+    },
+    "subjects": {
+      "blank_node_objects": 0,
+      "distinct_objects": 2198997,
+      "distinct_predicates": 21,
+      "distinct_subjects": 706951,
+      "first_source_line": 1,
+      "iri_objects": 3325883,
+      "language_tagged_literals": 1604451,
+      "languages": [
+        {
+          "language": "es",
+          "rows": 1527636
+        },
+        {
+          "language": "en",
+          "rows": 32508
+        },
+        {
+          "language": "fr",
+          "rows": 20530
+        },
+        {
+          "language": "ca",
+          "rows": 15982
+        },
+        {
+          "language": "eu",
+          "rows": 5186
+        },
+        {
+          "language": "gl",
+          "rows": 2609
+        }
+      ],
+      "last_source_line": 6123377,
+      "literal_objects": 2796629,
+      "parquet_bytes": 51987039,
+      "parquet_files": 25,
+      "rows": 6122512,
+      "top_predicates": [
+        {
+          "predicate": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+          "rows": 1377567
+        },
+        {
+          "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "rows": 783758
+        },
+        {
+          "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+          "rows": 706951
+        },
+        {
+          "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+          "rows": 706950
+        },
+        {
+          "predicate": "http://www.w3.org/2004/02/skos/core#inScheme",
+          "rows": 706944
+        },
+        {
+          "predicate": "https://datos.bne.es/def/id",
+          "rows": 706944
+        },
+        {
+          "predicate": "http://www.loc.gov/mads/rdf/v1#citationSource",
+          "rows": 202586
+        },
+        {
+          "predicate": "http://www.loc.gov/mads/rdf/v1#citationNote",
+          "rows": 159829
+        },
+        {
+          "predicate": "http://www.w3.org/2004/02/skos/core#closeMatch",
+          "rows": 139090
+        },
+        {
+          "predicate": "http://www.loc.gov/mads/rdf/v1#hasRelatedAuthority",
+          "rows": 130769
+        },
+        {
+          "predicate": "http://www.w3.org/2004/02/skos/core#altLabel",
+          "rows": 103378
+        },
+        {
+          "predicate": "http://www.loc.gov/mads/rdf/v1#isMemberOfMADSCollection",
+          "rows": 85861
+        },
+        {
+          "predicate": "http://www.w3.org/2004/02/skos/core#notation",
+          "rows": 76981
+        },
+        {
+          "predicate": "http://www.w3.org/2004/02/skos/core#related",
+          "rows": 64285
+        },
+        {
+          "predicate": "http://www.w3.org/2004/02/skos/core#narrower",
+          "rows": 57468
+        },
+        {
+          "predicate": "http://www.w3.org/2004/02/skos/core#broader",
+          "rows": 56948
+        },
+        {
+          "predicate": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+          "rows": 22928
+        },
+        {
+          "predicate": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+          "rows": 22903
+        },
+        {
+          "predicate": "http://www.w3.org/2004/02/skos/core#scopeNote",
+          "rows": 6273
+        },
+        {
+          "predicate": "http://www.loc.gov/mads/rdf/v1#editorialNote",
+          "rows": 4092
+        },
+        {
+          "predicate": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "rows": 7
+        }
+      ],
+      "typed_literals": 0
+    }
+  },
+  "generated_at_utc": "2026-08-12T15:14:53.280884+00:00",
+  "sample_limited": false,
+  "snapshot_date": "2023-09-06",
+  "totals": {
+    "parquet_bytes": 2318257981,
+    "parquet_files": 1043,
+    "rows": 260288924
+  }
+}

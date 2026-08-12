@@ -1,0 +1,34 @@
+{
+  "snapshot_date": "2023-09-06",
+  "raw_dir": "data/raw",
+  "processed_dir": "data/processed",
+  "artifacts_dir": "artifacts",
+  "staging_dir": "hf_staging",
+  "chunk_rows": 250000,
+  "max_triples_per_collection": null,
+  "timeout_seconds": 180,
+  "retries": 8,
+  "collections": [
+    {
+      "name": "authorities",
+      "url": "https://web.archive.org/web/20230920163009id_/https://datos.bne.es/datadump/autoridades.nt.bz2",
+      "filename": "autoridades.nt.bz2",
+      "expected_bytes": 359784392,
+      "note": "Official BNE dump preserved by Internet Archive on 2023-09-20; source Last-Modified 2023-09-06"
+    },
+    {
+      "name": "subjects",
+      "url": "https://web.archive.org/web/20230920162349id_/https://datos.bne.es/datadump/materias.nt.bz2",
+      "filename": "materias.nt.bz2",
+      "expected_bytes": 33805185,
+      "note": "Official BNE dump preserved by Internet Archive on 2023-09-20; source Last-Modified 2023-09-06"
+    },
+    {
+      "name": "bibliographic",
+      "url": "https://web.archive.org/web/20230920162417id_/https://datos.bne.es/datadump/bibliograficos.nt.bz2",
+      "filename": "bibliograficos.nt.bz2",
+      "expected_bytes": 1212541852,
+      "note": "Official BNE dump preserved by Internet Archive on 2023-09-20; source Last-Modified 2023-09-06"
+    }
+  ]
+}

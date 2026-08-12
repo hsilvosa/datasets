@@ -1,0 +1,171 @@
+{
+  "format": "Parquet",
+  "semantics": {
+    "datatype": "Datatype IRI when present on a literal",
+    "language": "BCP 47 language tag when present on a literal",
+    "object": "Decoded IRI, blank-node identifier, or literal lexical value",
+    "object_kind": "One of iri, literal, or blank_node",
+    "predicate": "Decoded predicate IRI",
+    "record_id": "Stable collection and source-line identifier within this snapshot",
+    "source_line": "One-based line number in the decompressed official dump",
+    "subject": "Decoded N-Triples subject IRI or blank-node identifier"
+  },
+  "tables": {
+    "authorities": [
+      {
+        "name": "record_id",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "subject",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "predicate",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "object",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "object_kind",
+        "nullable": true,
+        "type": "dictionary<values=string, indices=int8, ordered=0>"
+      },
+      {
+        "name": "language",
+        "nullable": true,
+        "type": "dictionary<values=string, indices=int16, ordered=0>"
+      },
+      {
+        "name": "datatype",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "collection",
+        "nullable": true,
+        "type": "dictionary<values=string, indices=int8, ordered=0>"
+      },
+      {
+        "name": "source_line",
+        "nullable": true,
+        "type": "uint64"
+      },
+      {
+        "name": "snapshot_date",
+        "nullable": true,
+        "type": "date32[day]"
+      }
+    ],
+    "bibliographic": [
+      {
+        "name": "record_id",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "subject",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "predicate",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "object",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "object_kind",
+        "nullable": true,
+        "type": "dictionary<values=string, indices=int8, ordered=0>"
+      },
+      {
+        "name": "language",
+        "nullable": true,
+        "type": "dictionary<values=string, indices=int16, ordered=0>"
+      },
+      {
+        "name": "datatype",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "collection",
+        "nullable": true,
+        "type": "dictionary<values=string, indices=int8, ordered=0>"
+      },
+      {
+        "name": "source_line",
+        "nullable": true,
+        "type": "uint64"
+      },
+      {
+        "name": "snapshot_date",
+        "nullable": true,
+        "type": "date32[day]"
+      }
+    ],
+    "subjects": [
+      {
+        "name": "record_id",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "subject",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "predicate",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "object",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "object_kind",
+        "nullable": true,
+        "type": "dictionary<values=string, indices=int8, ordered=0>"
+      },
+      {
+        "name": "language",
+        "nullable": true,
+        "type": "dictionary<values=string, indices=int16, ordered=0>"
+      },
+      {
+        "name": "datatype",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "collection",
+        "nullable": true,
+        "type": "dictionary<values=string, indices=int8, ordered=0>"
+      },
+      {
+        "name": "source_line",
+        "nullable": true,
+        "type": "uint64"
+      },
+      {
+        "name": "snapshot_date",
+        "nullable": true,
+        "type": "date32[day]"
+      }
+    ]
+  }
+}

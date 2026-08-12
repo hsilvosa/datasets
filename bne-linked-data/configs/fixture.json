@@ -1,0 +1,22 @@
+{
+  "snapshot_date": "2012-05-23",
+  "raw_dir": "data/fixture/raw",
+  "processed_dir": "data/fixture/processed",
+  "artifacts_dir": "artifacts/fixture",
+  "staging_dir": "hf_staging_fixture",
+  "chunk_rows": 100,
+  "max_triples_per_collection": 5,
+  "timeout_seconds": 10,
+  "retries": 1,
+  "collections": [
+    {
+      "name": "authorities",
+      "url": "https://datos.bne.es/resource/XX1718747",
+      "filename": "cervantes-links.nt",
+      "expected_bytes": 0,
+      "local_path": "tests/fixtures/cervantes-links.nt",
+      "note": "Five external authority links published in BNE/OEG documentation; validation fixture only"
+    }
+  ]
+}
+

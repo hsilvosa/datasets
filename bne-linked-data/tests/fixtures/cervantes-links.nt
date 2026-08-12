@@ -1,0 +1,6 @@
+# Real BNE authority links published by BNE/OEG for Miguel de Cervantes (XX1718747).
+<http://datos.bne.es/resource/XX1718747> <http://www.w3.org/2002/07/owl#sameAs> <http://d-nb.info/gnd/11851993X> .
+<http://datos.bne.es/resource/XX1718747> <http://www.w3.org/2002/07/owl#sameAs> <http://viaf.org/viaf/17220427> .
+<http://datos.bne.es/resource/XX1718747> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Miguel_de_Cervantes> .
+<http://datos.bne.es/resource/XX1718747> <http://www.w3.org/2002/07/owl#sameAs> <http://www.idref.fr/026774771/id> .
+<http://datos.bne.es/resource/XX1718747> <http://www.w3.org/2002/07/owl#sameAs> <http://libris.kb.se/resource/auth/45369> .

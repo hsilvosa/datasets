@@ -1,0 +1,20 @@
+{
+  "snapshot_date": "2023-09-06",
+  "raw_dir": "data/sample_archive/raw",
+  "processed_dir": "data/sample_archive/processed",
+  "artifacts_dir": "artifacts/sample_archive",
+  "staging_dir": "hf_staging_sample_archive",
+  "chunk_rows": 5000,
+  "max_triples_per_collection": 10000,
+  "timeout_seconds": 90,
+  "retries": 5,
+  "collections": [
+    {
+      "name": "subjects",
+      "url": "https://web.archive.org/web/20230920162349id_/https://datos.bne.es/datadump/materias.nt.bz2",
+      "filename": "materias.nt.bz2",
+      "expected_bytes": 33805185,
+      "note": "Official BNE dump preserved by Internet Archive; output is limited to 10,000 triples"
+    }
+  ]
+}
