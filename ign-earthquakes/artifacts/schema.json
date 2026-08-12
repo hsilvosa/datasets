@@ -1,0 +1,71 @@
+{
+  "tables": {
+    "earthquakes": [
+      {
+        "name": "event_id",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "occurred_at_utc",
+        "nullable": true,
+        "type": "timestamp[ms, tz=UTC]"
+      },
+      {
+        "name": "latitude",
+        "nullable": true,
+        "type": "double"
+      },
+      {
+        "name": "longitude",
+        "nullable": true,
+        "type": "double"
+      },
+      {
+        "name": "depth_km",
+        "nullable": true,
+        "type": "double"
+      },
+      {
+        "name": "maximum_intensity",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "maximum_intensity_numeric",
+        "nullable": true,
+        "type": "double"
+      },
+      {
+        "name": "magnitude",
+        "nullable": true,
+        "type": "double"
+      },
+      {
+        "name": "magnitude_type_code",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "location",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "country_code",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "country_name",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "name": "source_format",
+        "nullable": true,
+        "type": "string"
+      }
+    ]
+  }
+}

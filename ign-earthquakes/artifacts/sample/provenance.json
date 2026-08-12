@@ -1,0 +1,37 @@
+{
+  "citation": "Instituto Geografico Nacional (IGN). Catalogo de terremotos.",
+  "dataset": "IGN Earthquakes",
+  "doi": "https://doi.org/10.7419/162.03.2022",
+  "normalization": {
+    "compression": "zstd",
+    "format": "Parquet",
+    "split_policy": "All rows are in train; temporal splits are left to downstream users",
+    "timezone": "UTC"
+  },
+  "publisher": "Instituto Geografico Nacional (IGN)",
+  "query": {
+    "cond": "",
+    "endDate": "01/08/2026",
+    "fases": "no",
+    "intMax": "",
+    "intMin": "",
+    "latMax": "45.0",
+    "latMin": "26.0",
+    "longMax": "6.0",
+    "longMin": "-20.0",
+    "magMax": "",
+    "magMin": "",
+    "profMax": "",
+    "profMin": "",
+    "selIntensidad": "N",
+    "selMagnitud": "N",
+    "selProf": "N",
+    "startDate": "01/08/2026"
+  },
+  "raw_file": "earthquakes.csv",
+  "raw_responses_published": false,
+  "response_bytes": 3682,
+  "retrieved_at_utc": "2026-08-12T08:01:36.597101+00:00",
+  "source": "Instituto Geografico Nacional earthquake catalogue",
+  "source_url": "https://www.ign.es/web/sis-catalogo-terremotos"
+}

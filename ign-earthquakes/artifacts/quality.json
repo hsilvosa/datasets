@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "tables": {
+    "earthquakes": {
+      "below_expected_minimum": false,
+      "country_assigned_rows": 157564,
+      "country_unassigned_rows": 49658,
+      "duplicate_primary_keys": 0,
+      "expected_min_rows": 207222,
+      "invalid_coordinates": 0,
+      "negative_depths": 0,
+      "row_count": 207222
+    }
+  }
+}

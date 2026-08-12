@@ -1,0 +1,1002 @@
+{
+  "dataset": "IGN Earthquakes",
+  "generated_at": "2026-08-12T08:30:51.683226+00:00",
+  "geography": {
+    "classification_method": "Derived from the country, province, or island suffix in the IGN location text; locations without a suffix remain unassigned",
+    "country_counts": {
+      "AD": 116,
+      "DZ": 3380,
+      "ES": 127315,
+      "FR": 13872,
+      "MA": 5417,
+      "PT": 7464,
+      "unassigned": 49658
+    }
+  },
+  "tables": {
+    "earthquakes": {
+      "column_count": 13,
+      "columns": {
+        "country_code": {
+          "distinct_count": 6,
+          "null_count": 49658,
+          "null_fraction": 0.23963672,
+          "string_length": {
+            "max": 2,
+            "mean": 2.0,
+            "min": 2
+          },
+          "top_values": [
+            {
+              "count": 127315,
+              "value": "ES"
+            },
+            {
+              "count": 13872,
+              "value": "FR"
+            },
+            {
+              "count": 7464,
+              "value": "PT"
+            },
+            {
+              "count": 5417,
+              "value": "MA"
+            },
+            {
+              "count": 3380,
+              "value": "DZ"
+            },
+            {
+              "count": 116,
+              "value": "AD"
+            }
+          ],
+          "type": "string"
+        },
+        "country_name": {
+          "distinct_count": 6,
+          "null_count": 49658,
+          "null_fraction": 0.23963672,
+          "string_length": {
+            "max": 8,
+            "mean": 5.343289076184916,
+            "min": 5
+          },
+          "top_values": [
+            {
+              "count": 127315,
+              "value": "Spain"
+            },
+            {
+              "count": 13872,
+              "value": "France"
+            },
+            {
+              "count": 7464,
+              "value": "Portugal"
+            },
+            {
+              "count": 5417,
+              "value": "Morocco"
+            },
+            {
+              "count": 3380,
+              "value": "Algeria"
+            },
+            {
+              "count": 116,
+              "value": "Andorra"
+            }
+          ],
+          "type": "string"
+        },
+        "depth_km": {
+          "distinct_count": 1085,
+          "null_count": 1,
+          "null_fraction": 4.83e-06,
+          "numeric": {
+            "max": 663.0,
+            "mean": 10.105468075146824,
+            "min": 0.0
+          },
+          "top_values": [
+            {
+              "count": 62665,
+              "value": 0.0
+            },
+            {
+              "count": 9138,
+              "value": 11.0
+            },
+            {
+              "count": 6908,
+              "value": 10.0
+            },
+            {
+              "count": 6772,
+              "value": 12.0
+            },
+            {
+              "count": 5656,
+              "value": 5.0
+            },
+            {
+              "count": 4399,
+              "value": 9.0
+            },
+            {
+              "count": 4288,
+              "value": 3.0
+            },
+            {
+              "count": 4089,
+              "value": 4.0
+            },
+            {
+              "count": 4075,
+              "value": 8.0
+            },
+            {
+              "count": 3957,
+              "value": 6.0
+            },
+            {
+              "count": 3936,
+              "value": 7.0
+            },
+            {
+              "count": 3787,
+              "value": 2.0
+            },
+            {
+              "count": 3343,
+              "value": 13.0
+            },
+            {
+              "count": 3191,
+              "value": 1.0
+            },
+            {
+              "count": 2991,
+              "value": 14.0
+            },
+            {
+              "count": 2792,
+              "value": 15.0
+            },
+            {
+              "count": 2703,
+              "value": 16.0
+            },
+            {
+              "count": 2569,
+              "value": 17.0
+            },
+            {
+              "count": 2503,
+              "value": 20.0
+            },
+            {
+              "count": 2168,
+              "value": 18.0
+            }
+          ],
+          "type": "double"
+        },
+        "event_id": {
+          "distinct_count": 207222,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "string_length": {
+            "max": 11,
+            "mean": 8.442153825366033,
+            "min": 2
+          },
+          "top_values": [
+            {
+              "count": 1,
+              "value": "34"
+            },
+            {
+              "count": 1,
+              "value": "35"
+            },
+            {
+              "count": 1,
+              "value": "36"
+            },
+            {
+              "count": 1,
+              "value": "37"
+            },
+            {
+              "count": 1,
+              "value": "38"
+            },
+            {
+              "count": 1,
+              "value": "39"
+            },
+            {
+              "count": 1,
+              "value": "es1373aaaaa"
+            },
+            {
+              "count": 1,
+              "value": "40"
+            },
+            {
+              "count": 1,
+              "value": "41"
+            },
+            {
+              "count": 1,
+              "value": "42"
+            },
+            {
+              "count": 1,
+              "value": "43"
+            },
+            {
+              "count": 1,
+              "value": "44"
+            },
+            {
+              "count": 1,
+              "value": "45"
+            },
+            {
+              "count": 1,
+              "value": "46"
+            },
+            {
+              "count": 1,
+              "value": "47"
+            },
+            {
+              "count": 1,
+              "value": "48"
+            },
+            {
+              "count": 1,
+              "value": "49"
+            },
+            {
+              "count": 1,
+              "value": "50"
+            },
+            {
+              "count": 1,
+              "value": "51"
+            },
+            {
+              "count": 1,
+              "value": "52"
+            }
+          ],
+          "type": "string"
+        },
+        "latitude": {
+          "distinct_count": 63007,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "numeric": {
+            "max": 44.9989,
+            "mean": 35.79829551205953,
+            "min": 26.171
+          },
+          "top_values": [
+            {
+              "count": 337,
+              "value": 37.0
+            },
+            {
+              "count": 255,
+              "value": 36.5
+            },
+            {
+              "count": 189,
+              "value": 38.0
+            },
+            {
+              "count": 184,
+              "value": 36.7
+            },
+            {
+              "count": 181,
+              "value": 37.2
+            },
+            {
+              "count": 176,
+              "value": 37.2333
+            },
+            {
+              "count": 156,
+              "value": 38.7
+            },
+            {
+              "count": 150,
+              "value": 43.0
+            },
+            {
+              "count": 119,
+              "value": 43.1
+            },
+            {
+              "count": 113,
+              "value": 36.0
+            },
+            {
+              "count": 109,
+              "value": 38.1
+            },
+            {
+              "count": 100,
+              "value": 37.1833
+            },
+            {
+              "count": 93,
+              "value": 36.6
+            },
+            {
+              "count": 89,
+              "value": 35.2
+            },
+            {
+              "count": 85,
+              "value": 37.1667
+            },
+            {
+              "count": 84,
+              "value": 36.3
+            },
+            {
+              "count": 83,
+              "value": 36.7667
+            },
+            {
+              "count": 82,
+              "value": 28.47
+            },
+            {
+              "count": 79,
+              "value": 36.6667
+            },
+            {
+              "count": 78,
+              "value": 38.0833
+            }
+          ],
+          "type": "double"
+        },
+        "location": {
+          "distinct_count": 17886,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "string_length": {
+            "max": 60,
+            "mean": 16.4245639941705,
+            "min": 4
+          },
+          "top_values": [
+            {
+              "count": 13215,
+              "value": "ALBORÁN SUR"
+            },
+            {
+              "count": 8540,
+              "value": "SW FRONTERA.IHI"
+            },
+            {
+              "count": 7787,
+              "value": "ATLÁNTICO-CANARIAS"
+            },
+            {
+              "count": 7297,
+              "value": "W FRONTERA.IHI"
+            },
+            {
+              "count": 6245,
+              "value": "GOLFO DE CÁDIZ"
+            },
+            {
+              "count": 4430,
+              "value": "SW CABO DE SAN VICENTE"
+            },
+            {
+              "count": 4089,
+              "value": "ALBORÁN NORTE"
+            },
+            {
+              "count": 3321,
+              "value": "NE FUENCALIENTE DE LA PALMA.IL"
+            },
+            {
+              "count": 3190,
+              "value": "SW VILLA DE MAZO.ILP"
+            },
+            {
+              "count": 2704,
+              "value": "NW FRONTERA.IHI"
+            },
+            {
+              "count": 2353,
+              "value": "N FUENCALIENTE DE LA PALMA.ILP"
+            },
+            {
+              "count": 1882,
+              "value": "NE GUÍA DE ISORA.ITF"
+            },
+            {
+              "count": 1847,
+              "value": "ALBORÁN OESTE"
+            },
+            {
+              "count": 1768,
+              "value": "MEDITERRÁNEO-ARGELIA"
+            },
+            {
+              "count": 1704,
+              "value": "NW VILAFLOR DE CHASNA.ITF"
+            },
+            {
+              "count": 1625,
+              "value": "AZORES-CABO DE SAN VICENTE"
+            },
+            {
+              "count": 1459,
+              "value": "SW EL PINAR.IHI"
+            },
+            {
+              "count": 1449,
+              "value": "ATLÁNTICO-PORTUGAL"
+            },
+            {
+              "count": 1368,
+              "value": "W EL PINAR.IHI"
+            },
+            {
+              "count": 1316,
+              "value": "GOLFO DE VALENCIA"
+            }
+          ],
+          "type": "string"
+        },
+        "longitude": {
+          "distinct_count": 88352,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "numeric": {
+            "max": 6.0,
+            "mean": -7.203072397718389,
+            "min": -20.0
+          },
+          "top_values": [
+            {
+              "count": 272,
+              "value": -3.9833
+            },
+            {
+              "count": 200,
+              "value": -3.6
+            },
+            {
+              "count": 194,
+              "value": -3.7333
+            },
+            {
+              "count": 141,
+              "value": -0.7
+            },
+            {
+              "count": 121,
+              "value": -9.2
+            },
+            {
+              "count": 98,
+              "value": -17.85
+            },
+            {
+              "count": 97,
+              "value": -17.838
+            },
+            {
+              "count": 95,
+              "value": -10.0
+            },
+            {
+              "count": 82,
+              "value": -0.6
+            },
+            {
+              "count": 79,
+              "value": -0.6833
+            },
+            {
+              "count": 78,
+              "value": -2.9167
+            },
+            {
+              "count": 77,
+              "value": -0.5
+            },
+            {
+              "count": 74,
+              "value": -5.3333
+            },
+            {
+              "count": 74,
+              "value": -1.2
+            },
+            {
+              "count": 73,
+              "value": 0.1
+            },
+            {
+              "count": 71,
+              "value": -17.853
+            },
+            {
+              "count": 68,
+              "value": -0.4
+            },
+            {
+              "count": 68,
+              "value": -8.8
+            },
+            {
+              "count": 61,
+              "value": 3.1
+            },
+            {
+              "count": 58,
+              "value": -2.8333
+            }
+          ],
+          "type": "double"
+        },
+        "magnitude": {
+          "distinct_count": 78,
+          "null_count": 6374,
+          "null_fraction": 0.03075928,
+          "numeric": {
+            "max": 8.5,
+            "mean": 1.867724846650203,
+            "min": -2.0
+          },
+          "top_values": [
+            {
+              "count": 11995,
+              "value": 1.6
+            },
+            {
+              "count": 11531,
+              "value": 1.4
+            },
+            {
+              "count": 10746,
+              "value": 1.5
+            },
+            {
+              "count": 10426,
+              "value": 1.8
+            },
+            {
+              "count": 10290,
+              "value": 1.7
+            },
+            {
+              "count": 10289,
+              "value": 1.9
+            },
+            {
+              "count": 9907,
+              "value": 1.3
+            },
+            {
+              "count": 9344,
+              "value": 1.2
+            },
+            {
+              "count": 8993,
+              "value": 2.0
+            },
+            {
+              "count": 8693,
+              "value": 1.1
+            },
+            {
+              "count": 8067,
+              "value": 2.1
+            },
+            {
+              "count": 7140,
+              "value": 2.2
+            },
+            {
+              "count": 6744,
+              "value": 1.0
+            },
+            {
+              "count": 6057,
+              "value": 2.3
+            },
+            {
+              "count": 5987,
+              "value": 2.4
+            },
+            {
+              "count": 5618,
+              "value": 0.9
+            },
+            {
+              "count": 5602,
+              "value": 2.5
+            },
+            {
+              "count": 4825,
+              "value": 2.6
+            },
+            {
+              "count": 4712,
+              "value": 0.8
+            },
+            {
+              "count": 4108,
+              "value": 2.7
+            }
+          ],
+          "type": "double"
+        },
+        "magnitude_type_code": {
+          "distinct_count": 8,
+          "null_count": 6383,
+          "null_fraction": 0.03080271,
+          "string_length": {
+            "max": 2,
+            "mean": 1.0025542847753672,
+            "min": 1
+          },
+          "top_values": [
+            {
+              "count": 171784,
+              "value": "4"
+            },
+            {
+              "count": 16884,
+              "value": "2"
+            },
+            {
+              "count": 8670,
+              "value": "3"
+            },
+            {
+              "count": 2067,
+              "value": "6"
+            },
+            {
+              "count": 600,
+              "value": "1"
+            },
+            {
+              "count": 512,
+              "value": "13"
+            },
+            {
+              "count": 321,
+              "value": "5"
+            },
+            {
+              "count": 1,
+              "value": "15"
+            }
+          ],
+          "type": "string"
+        },
+        "maximum_intensity": {
+          "distinct_count": 21,
+          "null_count": 191014,
+          "null_fraction": 0.92178437,
+          "string_length": {
+            "max": 8,
+            "mean": 2.906589338598223,
+            "min": 1
+          },
+          "top_values": [
+            {
+              "count": 4806,
+              "value": "II"
+            },
+            {
+              "count": 3640,
+              "value": "III"
+            },
+            {
+              "count": 1819,
+              "value": "IV"
+            },
+            {
+              "count": 1635,
+              "value": "I-II"
+            },
+            {
+              "count": 1462,
+              "value": "II-III"
+            },
+            {
+              "count": 1116,
+              "value": "V"
+            },
+            {
+              "count": 463,
+              "value": "III-IV"
+            },
+            {
+              "count": 427,
+              "value": "VI"
+            },
+            {
+              "count": 237,
+              "value": "IV-V"
+            },
+            {
+              "count": 204,
+              "value": "VII"
+            },
+            {
+              "count": 131,
+              "value": "S"
+            },
+            {
+              "count": 84,
+              "value": "V-VI"
+            },
+            {
+              "count": 53,
+              "value": "VI-VII"
+            },
+            {
+              "count": 50,
+              "value": "VIII"
+            },
+            {
+              "count": 17,
+              "value": "VII-VIII"
+            },
+            {
+              "count": 17,
+              "value": "I"
+            },
+            {
+              "count": 15,
+              "value": "VIII-IX"
+            },
+            {
+              "count": 15,
+              "value": "IX"
+            },
+            {
+              "count": 7,
+              "value": "IX-X"
+            },
+            {
+              "count": 7,
+              "value": "X"
+            }
+          ],
+          "type": "string"
+        },
+        "maximum_intensity_numeric": {
+          "distinct_count": 20,
+          "null_count": 191145,
+          "null_fraction": 0.92241654,
+          "numeric": {
+            "max": 10.5,
+            "mean": 2.982770417366424,
+            "min": 1.0
+          },
+          "top_values": [
+            {
+              "count": 4806,
+              "value": 2.0
+            },
+            {
+              "count": 3640,
+              "value": 3.0
+            },
+            {
+              "count": 1819,
+              "value": 4.0
+            },
+            {
+              "count": 1635,
+              "value": 1.5
+            },
+            {
+              "count": 1462,
+              "value": 2.5
+            },
+            {
+              "count": 1116,
+              "value": 5.0
+            },
+            {
+              "count": 463,
+              "value": 3.5
+            },
+            {
+              "count": 427,
+              "value": 6.0
+            },
+            {
+              "count": 237,
+              "value": 4.5
+            },
+            {
+              "count": 204,
+              "value": 7.0
+            },
+            {
+              "count": 84,
+              "value": 5.5
+            },
+            {
+              "count": 53,
+              "value": 6.5
+            },
+            {
+              "count": 50,
+              "value": 8.0
+            },
+            {
+              "count": 17,
+              "value": 7.5
+            },
+            {
+              "count": 17,
+              "value": 1.0
+            },
+            {
+              "count": 15,
+              "value": 8.5
+            },
+            {
+              "count": 15,
+              "value": 9.0
+            },
+            {
+              "count": 7,
+              "value": 9.5
+            },
+            {
+              "count": 7,
+              "value": 10.0
+            },
+            {
+              "count": 3,
+              "value": 10.5
+            }
+          ],
+          "type": "double"
+        },
+        "occurred_at_utc": {
+          "distinct_count": 207029,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "string_length": {
+            "max": 25,
+            "mean": 25.0,
+            "min": 25
+          },
+          "top_values": [
+            {
+              "count": 3,
+              "value": "2011-08-23T04:54:29+00:00"
+            },
+            {
+              "count": 2,
+              "value": "1693-01-01T00:00:00+00:00"
+            },
+            {
+              "count": 2,
+              "value": "1727-01-01T00:00:00+00:00"
+            },
+            {
+              "count": 2,
+              "value": "1752-01-01T00:00:00+00:00"
+            },
+            {
+              "count": 2,
+              "value": "1793-06-09T00:00:00+00:00"
+            },
+            {
+              "count": 2,
+              "value": "1858-12-27T00:00:00+00:00"
+            },
+            {
+              "count": 2,
+              "value": "1871-03-01T00:00:00+00:00"
+            },
+            {
+              "count": 2,
+              "value": "1887-06-08T00:00:00+00:00"
+            },
+            {
+              "count": 2,
+              "value": "1887-07-22T00:00:00+00:00"
+            },
+            {
+              "count": 2,
+              "value": "1888-01-01T00:00:00+00:00"
+            },
+            {
+              "count": 2,
+              "value": "1898-03-06T22:15:00+00:00"
+            },
+            {
+              "count": 2,
+              "value": "1909-08-09T00:00:00+00:00"
+            },
+            {
+              "count": 2,
+              "value": "1992-09-30T11:34:56+00:00"
+            },
+            {
+              "count": 2,
+              "value": "1992-11-20T18:01:36+00:00"
+            },
+            {
+              "count": 2,
+              "value": "1998-04-13T04:23:54+00:00"
+            },
+            {
+              "count": 2,
+              "value": "1998-06-04T19:34:49+00:00"
+            },
+            {
+              "count": 2,
+              "value": "2001-09-20T23:59:14+00:00"
+            },
+            {
+              "count": 2,
+              "value": "2004-04-04T04:09:14+00:00"
+            },
+            {
+              "count": 2,
+              "value": "2009-06-30T23:07:58+00:00"
+            },
+            {
+              "count": 2,
+              "value": "2009-09-20T12:46:14+00:00"
+            }
+          ],
+          "type": "timestamp[ms, tz=UTC]"
+        },
+        "source_format": {
+          "distinct_count": 2,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "string_length": {
+            "max": 13,
+            "mean": 3.000048257424405,
+            "min": 3
+          },
+          "top_values": [
+            {
+              "count": 207221,
+              "value": "csv"
+            },
+            {
+              "count": 1,
+              "value": "html_fallback"
+            }
+          ],
+          "type": "string"
+        }
+      },
+      "compressed_bytes": 5408899,
+      "row_count": 207222
+    }
+  }
+}

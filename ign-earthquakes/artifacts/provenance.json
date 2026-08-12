@@ -1,0 +1,748 @@
+{
+  "annual_shard_ranges": [
+    [
+      1420,
+      1429
+    ]
+  ],
+  "citation": "Instituto Geografico Nacional (IGN). Catalogo de terremotos.",
+  "coalesce_before_year": null,
+  "daily_shard_months": [
+    [
+      1427,
+      4
+    ]
+  ],
+  "dataset": "IGN Earthquakes",
+  "doi": "https://doi.org/10.7419/162.03.2022",
+  "monthly_shard_years": [
+    1427
+  ],
+  "normalization": {
+    "compression": "zstd",
+    "format": "Parquet",
+    "html_fallback_files": [
+      "earthquakes-1427-04-23.html"
+    ],
+    "split_policy": "All rows are in train; temporal splits are left to downstream users",
+    "timezone": "UTC"
+  },
+  "publisher": "Instituto Geografico Nacional (IGN)",
+  "query": {
+    "cond": "",
+    "endDate": "12/08/2026",
+    "fases": "no",
+    "intMax": "",
+    "intMin": "",
+    "latMax": "45.0",
+    "latMin": "26.0",
+    "longMax": "6.0",
+    "longMin": "-20.0",
+    "magMax": "",
+    "magMin": "",
+    "profMax": "",
+    "profMin": "",
+    "selIntensidad": "N",
+    "selMagnitud": "N",
+    "selProf": "N",
+    "startDate": "01/01/1370"
+  },
+  "raw_files": [
+    {
+      "bytes": 1185,
+      "end_date": "31/12/1379",
+      "file": "earthquakes-1370-1379.csv",
+      "start_date": "01/01/1370"
+    },
+    {
+      "bytes": 265,
+      "end_date": "31/12/1389",
+      "file": "earthquakes-1380-1389.csv",
+      "start_date": "01/01/1380"
+    },
+    {
+      "bytes": 700,
+      "end_date": "31/12/1399",
+      "file": "earthquakes-1390-1399.csv",
+      "start_date": "01/01/1390"
+    },
+    {
+      "bytes": 384,
+      "end_date": "31/12/1409",
+      "file": "earthquakes-1400-1409.csv",
+      "start_date": "01/01/1400"
+    },
+    {
+      "bytes": 261,
+      "end_date": "31/12/1419",
+      "file": "earthquakes-1410-1419.csv",
+      "start_date": "01/01/1410"
+    },
+    {
+      "bytes": 133,
+      "end_date": "31/12/1420",
+      "file": "earthquakes-1420-1420.csv",
+      "start_date": "01/01/1420"
+    },
+    {
+      "bytes": 133,
+      "end_date": "31/12/1421",
+      "file": "earthquakes-1421-1421.csv",
+      "start_date": "01/01/1421"
+    },
+    {
+      "bytes": 133,
+      "end_date": "31/12/1422",
+      "file": "earthquakes-1422-1422.csv",
+      "start_date": "01/01/1422"
+    },
+    {
+      "bytes": 133,
+      "end_date": "31/12/1423",
+      "file": "earthquakes-1423-1423.csv",
+      "start_date": "01/01/1423"
+    },
+    {
+      "bytes": 133,
+      "end_date": "31/12/1424",
+      "file": "earthquakes-1424-1424.csv",
+      "start_date": "01/01/1424"
+    },
+    {
+      "bytes": 261,
+      "end_date": "31/12/1425",
+      "file": "earthquakes-1425-1425.csv",
+      "start_date": "01/01/1425"
+    },
+    {
+      "bytes": 133,
+      "end_date": "31/12/1426",
+      "file": "earthquakes-1426-1426.csv",
+      "start_date": "01/01/1426"
+    },
+    {
+      "bytes": 133,
+      "end_date": "31/01/1427",
+      "file": "earthquakes-1427-01.csv",
+      "start_date": "01/01/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "28/02/1427",
+      "file": "earthquakes-1427-02.csv",
+      "start_date": "01/02/1427"
+    },
+    {
+      "bytes": 1165,
+      "end_date": "31/03/1427",
+      "file": "earthquakes-1427-03.csv",
+      "start_date": "01/03/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "01/04/1427",
+      "file": "earthquakes-1427-04-01.csv",
+      "start_date": "01/04/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "02/04/1427",
+      "file": "earthquakes-1427-04-02.csv",
+      "start_date": "02/04/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "03/04/1427",
+      "file": "earthquakes-1427-04-03.csv",
+      "start_date": "03/04/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "04/04/1427",
+      "file": "earthquakes-1427-04-04.csv",
+      "start_date": "04/04/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "05/04/1427",
+      "file": "earthquakes-1427-04-05.csv",
+      "start_date": "05/04/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "06/04/1427",
+      "file": "earthquakes-1427-04-06.csv",
+      "start_date": "06/04/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "07/04/1427",
+      "file": "earthquakes-1427-04-07.csv",
+      "start_date": "07/04/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "08/04/1427",
+      "file": "earthquakes-1427-04-08.csv",
+      "start_date": "08/04/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "09/04/1427",
+      "file": "earthquakes-1427-04-09.csv",
+      "start_date": "09/04/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "10/04/1427",
+      "file": "earthquakes-1427-04-10.csv",
+      "start_date": "10/04/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "11/04/1427",
+      "file": "earthquakes-1427-04-11.csv",
+      "start_date": "11/04/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "12/04/1427",
+      "file": "earthquakes-1427-04-12.csv",
+      "start_date": "12/04/1427"
+    },
+    {
+      "bytes": 262,
+      "end_date": "13/04/1427",
+      "file": "earthquakes-1427-04-13.csv",
+      "start_date": "13/04/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "14/04/1427",
+      "file": "earthquakes-1427-04-14.csv",
+      "start_date": "14/04/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "15/04/1427",
+      "file": "earthquakes-1427-04-15.csv",
+      "start_date": "15/04/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "16/04/1427",
+      "file": "earthquakes-1427-04-16.csv",
+      "start_date": "16/04/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "17/04/1427",
+      "file": "earthquakes-1427-04-17.csv",
+      "start_date": "17/04/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "18/04/1427",
+      "file": "earthquakes-1427-04-18.csv",
+      "start_date": "18/04/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "19/04/1427",
+      "file": "earthquakes-1427-04-19.csv",
+      "start_date": "19/04/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "20/04/1427",
+      "file": "earthquakes-1427-04-20.csv",
+      "start_date": "20/04/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "21/04/1427",
+      "file": "earthquakes-1427-04-21.csv",
+      "start_date": "21/04/1427"
+    },
+    {
+      "bytes": 262,
+      "end_date": "22/04/1427",
+      "file": "earthquakes-1427-04-22.csv",
+      "start_date": "22/04/1427"
+    },
+    {
+      "bytes": 0,
+      "end_date": "23/04/1427",
+      "file": "earthquakes-1427-04-23.csv",
+      "start_date": "23/04/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "24/04/1427",
+      "file": "earthquakes-1427-04-24.csv",
+      "start_date": "24/04/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "25/04/1427",
+      "file": "earthquakes-1427-04-25.csv",
+      "start_date": "25/04/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "26/04/1427",
+      "file": "earthquakes-1427-04-26.csv",
+      "start_date": "26/04/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "27/04/1427",
+      "file": "earthquakes-1427-04-27.csv",
+      "start_date": "27/04/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "28/04/1427",
+      "file": "earthquakes-1427-04-28.csv",
+      "start_date": "28/04/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "29/04/1427",
+      "file": "earthquakes-1427-04-29.csv",
+      "start_date": "29/04/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "30/04/1427",
+      "file": "earthquakes-1427-04-30.csv",
+      "start_date": "30/04/1427"
+    },
+    {
+      "bytes": 271,
+      "end_date": "31/05/1427",
+      "file": "earthquakes-1427-05.csv",
+      "start_date": "01/05/1427"
+    },
+    {
+      "bytes": 565,
+      "end_date": "30/06/1427",
+      "file": "earthquakes-1427-06.csv",
+      "start_date": "01/06/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "31/07/1427",
+      "file": "earthquakes-1427-07.csv",
+      "start_date": "01/07/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "31/08/1427",
+      "file": "earthquakes-1427-08.csv",
+      "start_date": "01/08/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "30/09/1427",
+      "file": "earthquakes-1427-09.csv",
+      "start_date": "01/09/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "31/10/1427",
+      "file": "earthquakes-1427-10.csv",
+      "start_date": "01/10/1427"
+    },
+    {
+      "bytes": 133,
+      "end_date": "30/11/1427",
+      "file": "earthquakes-1427-11.csv",
+      "start_date": "01/11/1427"
+    },
+    {
+      "bytes": 259,
+      "end_date": "31/12/1427",
+      "file": "earthquakes-1427-12.csv",
+      "start_date": "01/12/1427"
+    },
+    {
+      "bytes": 263,
+      "end_date": "31/12/1428",
+      "file": "earthquakes-1428-1428.csv",
+      "start_date": "01/01/1428"
+    },
+    {
+      "bytes": 133,
+      "end_date": "31/12/1429",
+      "file": "earthquakes-1429-1429.csv",
+      "start_date": "01/01/1429"
+    },
+    {
+      "bytes": 1070,
+      "end_date": "31/12/1439",
+      "file": "earthquakes-1430-1439.csv",
+      "start_date": "01/01/1430"
+    },
+    {
+      "bytes": 262,
+      "end_date": "31/12/1449",
+      "file": "earthquakes-1440-1449.csv",
+      "start_date": "01/01/1440"
+    },
+    {
+      "bytes": 524,
+      "end_date": "31/12/1459",
+      "file": "earthquakes-1450-1459.csv",
+      "start_date": "01/01/1450"
+    },
+    {
+      "bytes": 261,
+      "end_date": "31/12/1469",
+      "file": "earthquakes-1460-1469.csv",
+      "start_date": "01/01/1460"
+    },
+    {
+      "bytes": 261,
+      "end_date": "31/12/1479",
+      "file": "earthquakes-1470-1479.csv",
+      "start_date": "01/01/1470"
+    },
+    {
+      "bytes": 516,
+      "end_date": "31/12/1489",
+      "file": "earthquakes-1480-1489.csv",
+      "start_date": "01/01/1480"
+    },
+    {
+      "bytes": 553,
+      "end_date": "31/12/1499",
+      "file": "earthquakes-1490-1499.csv",
+      "start_date": "01/01/1490"
+    },
+    {
+      "bytes": 516,
+      "end_date": "31/12/1509",
+      "file": "earthquakes-1500-1509.csv",
+      "start_date": "01/01/1500"
+    },
+    {
+      "bytes": 896,
+      "end_date": "31/12/1519",
+      "file": "earthquakes-1510-1519.csv",
+      "start_date": "01/01/1510"
+    },
+    {
+      "bytes": 1308,
+      "end_date": "31/12/1529",
+      "file": "earthquakes-1520-1529.csv",
+      "start_date": "01/01/1520"
+    },
+    {
+      "bytes": 672,
+      "end_date": "31/12/1539",
+      "file": "earthquakes-1530-1539.csv",
+      "start_date": "01/01/1530"
+    },
+    {
+      "bytes": 389,
+      "end_date": "31/12/1549",
+      "file": "earthquakes-1540-1549.csv",
+      "start_date": "01/01/1540"
+    },
+    {
+      "bytes": 260,
+      "end_date": "31/12/1559",
+      "file": "earthquakes-1550-1559.csv",
+      "start_date": "01/01/1550"
+    },
+    {
+      "bytes": 517,
+      "end_date": "31/12/1569",
+      "file": "earthquakes-1560-1569.csv",
+      "start_date": "01/01/1560"
+    },
+    {
+      "bytes": 893,
+      "end_date": "31/12/1579",
+      "file": "earthquakes-1570-1579.csv",
+      "start_date": "01/01/1570"
+    },
+    {
+      "bytes": 1331,
+      "end_date": "31/12/1589",
+      "file": "earthquakes-1580-1589.csv",
+      "start_date": "01/01/1580"
+    },
+    {
+      "bytes": 643,
+      "end_date": "31/12/1599",
+      "file": "earthquakes-1590-1599.csv",
+      "start_date": "01/01/1590"
+    },
+    {
+      "bytes": 763,
+      "end_date": "31/12/1609",
+      "file": "earthquakes-1600-1609.csv",
+      "start_date": "01/01/1600"
+    },
+    {
+      "bytes": 782,
+      "end_date": "31/12/1619",
+      "file": "earthquakes-1610-1619.csv",
+      "start_date": "01/01/1610"
+    },
+    {
+      "bytes": 1556,
+      "end_date": "31/12/1629",
+      "file": "earthquakes-1620-1629.csv",
+      "start_date": "01/01/1620"
+    },
+    {
+      "bytes": 1274,
+      "end_date": "31/12/1639",
+      "file": "earthquakes-1630-1639.csv",
+      "start_date": "01/01/1630"
+    },
+    {
+      "bytes": 1803,
+      "end_date": "31/12/1649",
+      "file": "earthquakes-1640-1649.csv",
+      "start_date": "01/01/1640"
+    },
+    {
+      "bytes": 641,
+      "end_date": "31/12/1659",
+      "file": "earthquakes-1650-1659.csv",
+      "start_date": "01/01/1650"
+    },
+    {
+      "bytes": 1317,
+      "end_date": "31/12/1669",
+      "file": "earthquakes-1660-1669.csv",
+      "start_date": "01/01/1660"
+    },
+    {
+      "bytes": 2208,
+      "end_date": "31/12/1679",
+      "file": "earthquakes-1670-1679.csv",
+      "start_date": "01/01/1670"
+    },
+    {
+      "bytes": 1164,
+      "end_date": "31/12/1689",
+      "file": "earthquakes-1680-1689.csv",
+      "start_date": "01/01/1680"
+    },
+    {
+      "bytes": 786,
+      "end_date": "31/12/1699",
+      "file": "earthquakes-1690-1699.csv",
+      "start_date": "01/01/1690"
+    },
+    {
+      "bytes": 7773,
+      "end_date": "31/12/1709",
+      "file": "earthquakes-1700-1709.csv",
+      "start_date": "01/01/1700"
+    },
+    {
+      "bytes": 2723,
+      "end_date": "31/12/1719",
+      "file": "earthquakes-1710-1719.csv",
+      "start_date": "01/01/1710"
+    },
+    {
+      "bytes": 1412,
+      "end_date": "31/12/1729",
+      "file": "earthquakes-1720-1729.csv",
+      "start_date": "01/01/1720"
+    },
+    {
+      "bytes": 2088,
+      "end_date": "31/12/1739",
+      "file": "earthquakes-1730-1739.csv",
+      "start_date": "01/01/1730"
+    },
+    {
+      "bytes": 2049,
+      "end_date": "31/12/1749",
+      "file": "earthquakes-1740-1749.csv",
+      "start_date": "01/01/1740"
+    },
+    {
+      "bytes": 15263,
+      "end_date": "31/12/1759",
+      "file": "earthquakes-1750-1759.csv",
+      "start_date": "01/01/1750"
+    },
+    {
+      "bytes": 6377,
+      "end_date": "31/12/1769",
+      "file": "earthquakes-1760-1769.csv",
+      "start_date": "01/01/1760"
+    },
+    {
+      "bytes": 8156,
+      "end_date": "31/12/1779",
+      "file": "earthquakes-1770-1779.csv",
+      "start_date": "01/01/1770"
+    },
+    {
+      "bytes": 6094,
+      "end_date": "31/12/1789",
+      "file": "earthquakes-1780-1789.csv",
+      "start_date": "01/01/1780"
+    },
+    {
+      "bytes": 15301,
+      "end_date": "31/12/1799",
+      "file": "earthquakes-1790-1799.csv",
+      "start_date": "01/01/1790"
+    },
+    {
+      "bytes": 36255,
+      "end_date": "31/12/1809",
+      "file": "earthquakes-1800-1809.csv",
+      "start_date": "01/01/1800"
+    },
+    {
+      "bytes": 4414,
+      "end_date": "31/12/1819",
+      "file": "earthquakes-1810-1819.csv",
+      "start_date": "01/01/1810"
+    },
+    {
+      "bytes": 14207,
+      "end_date": "31/12/1829",
+      "file": "earthquakes-1820-1829.csv",
+      "start_date": "01/01/1820"
+    },
+    {
+      "bytes": 5322,
+      "end_date": "31/12/1839",
+      "file": "earthquakes-1830-1839.csv",
+      "start_date": "01/01/1830"
+    },
+    {
+      "bytes": 17194,
+      "end_date": "31/12/1849",
+      "file": "earthquakes-1840-1849.csv",
+      "start_date": "01/01/1840"
+    },
+    {
+      "bytes": 29300,
+      "end_date": "31/12/1859",
+      "file": "earthquakes-1850-1859.csv",
+      "start_date": "01/01/1850"
+    },
+    {
+      "bytes": 39120,
+      "end_date": "31/12/1869",
+      "file": "earthquakes-1860-1869.csv",
+      "start_date": "01/01/1860"
+    },
+    {
+      "bytes": 17722,
+      "end_date": "31/12/1879",
+      "file": "earthquakes-1870-1879.csv",
+      "start_date": "01/01/1870"
+    },
+    {
+      "bytes": 66734,
+      "end_date": "31/12/1889",
+      "file": "earthquakes-1880-1889.csv",
+      "start_date": "01/01/1880"
+    },
+    {
+      "bytes": 17268,
+      "end_date": "31/12/1899",
+      "file": "earthquakes-1890-1899.csv",
+      "start_date": "01/01/1890"
+    },
+    {
+      "bytes": 56061,
+      "end_date": "31/12/1909",
+      "file": "earthquakes-1900-1909.csv",
+      "start_date": "01/01/1900"
+    },
+    {
+      "bytes": 79896,
+      "end_date": "31/12/1919",
+      "file": "earthquakes-1910-1919.csv",
+      "start_date": "01/01/1910"
+    },
+    {
+      "bytes": 62785,
+      "end_date": "31/12/1929",
+      "file": "earthquakes-1920-1929.csv",
+      "start_date": "01/01/1920"
+    },
+    {
+      "bytes": 74725,
+      "end_date": "31/12/1939",
+      "file": "earthquakes-1930-1939.csv",
+      "start_date": "01/01/1930"
+    },
+    {
+      "bytes": 69304,
+      "end_date": "31/12/1949",
+      "file": "earthquakes-1940-1949.csv",
+      "start_date": "01/01/1940"
+    },
+    {
+      "bytes": 101602,
+      "end_date": "31/12/1959",
+      "file": "earthquakes-1950-1959.csv",
+      "start_date": "01/01/1950"
+    },
+    {
+      "bytes": 131741,
+      "end_date": "31/12/1969",
+      "file": "earthquakes-1960-1969.csv",
+      "start_date": "01/01/1960"
+    },
+    {
+      "bytes": 237062,
+      "end_date": "31/12/1979",
+      "file": "earthquakes-1970-1979.csv",
+      "start_date": "01/01/1970"
+    },
+    {
+      "bytes": 436125,
+      "end_date": "31/12/1989",
+      "file": "earthquakes-1980-1989.csv",
+      "start_date": "01/01/1980"
+    },
+    {
+      "bytes": 1294245,
+      "end_date": "31/12/1999",
+      "file": "earthquakes-1990-1999.csv",
+      "start_date": "01/01/1990"
+    },
+    {
+      "bytes": 4910807,
+      "end_date": "31/12/2009",
+      "file": "earthquakes-2000-2009.csv",
+      "start_date": "01/01/2000"
+    },
+    {
+      "bytes": 10543194,
+      "end_date": "31/12/2019",
+      "file": "earthquakes-2010-2019.csv",
+      "start_date": "01/01/2010"
+    },
+    {
+      "bytes": 9795311,
+      "end_date": "12/08/2026",
+      "file": "earthquakes-2020-2026.csv",
+      "start_date": "01/01/2020"
+    }
+  ],
+  "raw_responses_published": false,
+  "response_bytes": 28142352,
+  "retrieved_at_utc": "2026-08-12T08:18:49.546893+00:00",
+  "shard_years": 10,
+  "source": "Instituto Geografico Nacional earthquake catalogue",
+  "source_url": "https://www.ign.es/web/sis-catalogo-terremotos"
+}

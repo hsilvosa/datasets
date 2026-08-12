@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "tables": {
+    "earthquakes": {
+      "duplicate_primary_keys": 0,
+      "invalid_coordinates": 0,
+      "negative_depths": 0,
+      "row_count": 5
+    }
+  }
+}

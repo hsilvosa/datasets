@@ -1,0 +1,19 @@
+{
+  "files": [
+    {
+      "bytes": 2612748,
+      "path": "earthquakes/train-00000.parquet",
+      "sha256": "4ec6eb7d2dcf7db7372a21abf04308de7fba5af97b13e7afa0deefdf67bea415"
+    },
+    {
+      "bytes": 2597337,
+      "path": "earthquakes/train-00001.parquet",
+      "sha256": "2f240e0322a3178b7aed1c3199803e9bddcf10a43942d0a59d7b4e37354d617d"
+    },
+    {
+      "bytes": 198814,
+      "path": "earthquakes/train-00002.parquet",
+      "sha256": "3be26bfb5f08b4658116dc537adb78babfddd44e8d082cf5ebb37ff91fdd5788"
+    }
+  ]
+}

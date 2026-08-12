@@ -1,0 +1,264 @@
+{
+  "dataset": "IGN Earthquakes",
+  "generated_at": "2026-08-12T08:02:01.052356+00:00",
+  "tables": {
+    "earthquakes": {
+      "column_count": 9,
+      "columns": {
+        "depth_km": {
+          "distinct_count": 4,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "numeric": {
+            "max": 11.0,
+            "mean": 5.2,
+            "min": 0.0
+          },
+          "top_values": [
+            {
+              "count": 2,
+              "value": 0.0
+            },
+            {
+              "count": 1,
+              "value": 11.0
+            },
+            {
+              "count": 1,
+              "value": 7.0
+            },
+            {
+              "count": 1,
+              "value": 8.0
+            }
+          ],
+          "type": "double"
+        },
+        "event_id": {
+          "distinct_count": 5,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "string_length": {
+            "max": 11,
+            "mean": 11.0,
+            "min": 11
+          },
+          "top_values": [
+            {
+              "count": 1,
+              "value": "es2026oxqnf"
+            },
+            {
+              "count": 1,
+              "value": "es2026oxqqc"
+            },
+            {
+              "count": 1,
+              "value": "es2026oxqtp"
+            },
+            {
+              "count": 1,
+              "value": "es2026oxshe"
+            },
+            {
+              "count": 1,
+              "value": "es2026oxsoz"
+            }
+          ],
+          "type": "string"
+        },
+        "latitude": {
+          "distinct_count": 5,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "numeric": {
+            "max": 43.1507,
+            "mean": 39.14264,
+            "min": 37.1057
+          },
+          "top_values": [
+            {
+              "count": 1,
+              "value": 41.0454
+            },
+            {
+              "count": 1,
+              "value": 37.1201
+            },
+            {
+              "count": 1,
+              "value": 37.2913
+            },
+            {
+              "count": 1,
+              "value": 37.1057
+            },
+            {
+              "count": 1,
+              "value": 43.1507
+            }
+          ],
+          "type": "double"
+        },
+        "location": {
+          "distinct_count": 5,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "string_length": {
+            "max": 19,
+            "mean": 14.0,
+            "min": 12
+          },
+          "top_values": [
+            {
+              "count": 1,
+              "value": "W MAZALEÓN.TE"
+            },
+            {
+              "count": 1,
+              "value": "W OGÍJARES.GR"
+            },
+            {
+              "count": 1,
+              "value": "SE GUADIX.GR"
+            },
+            {
+              "count": 1,
+              "value": "W ALHENDÍN.GR"
+            },
+            {
+              "count": 1,
+              "value": "NE VALLE DE MENA.BU"
+            }
+          ],
+          "type": "string"
+        },
+        "longitude": {
+          "distinct_count": 5,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "numeric": {
+            "max": 0.0856,
+            "mean": -2.70438,
+            "min": -3.6679
+          },
+          "top_values": [
+            {
+              "count": 1,
+              "value": 0.0856
+            },
+            {
+              "count": 1,
+              "value": -3.6218
+            },
+            {
+              "count": 1,
+              "value": -3.1002
+            },
+            {
+              "count": 1,
+              "value": -3.6679
+            },
+            {
+              "count": 1,
+              "value": -3.2176
+            }
+          ],
+          "type": "double"
+        },
+        "magnitude": {
+          "distinct_count": 5,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "numeric": {
+            "max": 2.1,
+            "mean": 1.24,
+            "min": 0.6
+          },
+          "top_values": [
+            {
+              "count": 1,
+              "value": 1.2
+            },
+            {
+              "count": 1,
+              "value": 0.7
+            },
+            {
+              "count": 1,
+              "value": 1.6
+            },
+            {
+              "count": 1,
+              "value": 0.6
+            },
+            {
+              "count": 1,
+              "value": 2.1
+            }
+          ],
+          "type": "double"
+        },
+        "magnitude_type_code": {
+          "distinct_count": 1,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "string_length": {
+            "max": 1,
+            "mean": 1.0,
+            "min": 1
+          },
+          "top_values": [
+            {
+              "count": 5,
+              "value": "4"
+            }
+          ],
+          "type": "string"
+        },
+        "maximum_intensity": {
+          "distinct_count": 0,
+          "null_count": 5,
+          "null_fraction": 1.0,
+          "top_values": [],
+          "type": "double"
+        },
+        "occurred_at_utc": {
+          "distinct_count": 5,
+          "null_count": 0,
+          "null_fraction": 0.0,
+          "string_length": {
+            "max": 25,
+            "mean": 25.0,
+            "min": 25
+          },
+          "top_values": [
+            {
+              "count": 1,
+              "value": "2026-08-01T02:52:42+00:00"
+            },
+            {
+              "count": 1,
+              "value": "2026-08-01T02:56:05+00:00"
+            },
+            {
+              "count": 1,
+              "value": "2026-08-01T03:00:08+00:00"
+            },
+            {
+              "count": 1,
+              "value": "2026-08-01T03:46:17+00:00"
+            },
+            {
+              "count": 1,
+              "value": "2026-08-01T03:55:23+00:00"
+            }
+          ],
+          "type": "timestamp[ms, tz=UTC]"
+        }
+      },
+      "compressed_bytes": 3156,
+      "row_count": 5
+    }
+  }
+}

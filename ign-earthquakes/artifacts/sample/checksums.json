@@ -1,0 +1,9 @@
+{
+  "files": [
+    {
+      "bytes": 3156,
+      "path": "earthquakes/train-00000.parquet",
+      "sha256": "77fe51a5f0b183154812277a04147f46833d8dc7d7d9f5a76a02ed1848fc6385"
+    }
+  ]
+}
