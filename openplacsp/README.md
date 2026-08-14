@@ -4,9 +4,7 @@ This directory contains a reproducible pipeline for the open procurement notices
 
 The primary source is the [Ministry of Finance open-data catalogue](https://www.hacienda.gob.es/es-ES/GobiernoAbierto/Datos%20Abiertos/Paginas/licitaciones_plataforma_contratacion.aspx). The main collection covers notices published by contracting authorities hosted on the platform from 1 January 2012 onward. Closed years are distributed as annual ZIP archives; the current year is distributed in monthly ZIP archives and updated daily.
 
-No API key or account is required.
-
-## Scope
+Scope
 
 The first release covers procurement notices from contracting authorities hosted on PLACSP, excluding minor contracts. The source records a new ATOM entry whenever a notice changes, so repeated procurement identifiers are expected and meaningful.
 
