@@ -1,0 +1,48 @@
+{
+  "checks_passed": true,
+  "generated_at": "2026-08-14T14:46:37.610141+00:00",
+  "tables": {
+    "addresses": {
+      "checks_passed": true,
+      "null_geometry_rows": 0,
+      "null_required_values": 0,
+      "row_count": 786
+    },
+    "building_parts": {
+      "checks_passed": true,
+      "null_geometry_rows": 0,
+      "null_required_values": 0,
+      "row_count": 1782
+    },
+    "buildings": {
+      "checks_passed": true,
+      "null_geometry_rows": 0,
+      "null_required_values": 0,
+      "row_count": 704
+    },
+    "cadastral_parcels": {
+      "checks_passed": true,
+      "null_geometry_rows": 0,
+      "null_required_values": 0,
+      "row_count": 3836
+    },
+    "cadastral_zonings": {
+      "checks_passed": true,
+      "null_geometry_rows": 0,
+      "null_required_values": 0,
+      "row_count": 86
+    },
+    "municipalities": {
+      "checks_passed": true,
+      "null_geometry_rows": null,
+      "null_required_values": 0,
+      "row_count": 1
+    },
+    "other_constructions": {
+      "checks_passed": true,
+      "null_geometry_rows": 0,
+      "null_required_values": 0,
+      "row_count": 6
+    }
+  }
+}

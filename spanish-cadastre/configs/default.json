@@ -1,0 +1,15 @@
+{
+  "raw_dir": "data/full/raw",
+  "processed_dir": "data/full/processed",
+  "artifacts_dir": "artifacts",
+  "staging_dir": "hf_staging",
+  "collections": ["parcels", "addresses", "buildings"],
+  "municipality_codes": null,
+  "max_municipalities": null,
+  "max_workers": 2,
+  "request_delay_seconds": 0.2,
+  "timeout_seconds": 180,
+  "max_retries": 5,
+  "parquet_rows_per_file": 250000,
+  "user_agent": "public-data-research-spanish-cadastre/0.1"
+}

@@ -1,0 +1,245 @@
+{
+  "awards": [
+    {
+      "name": "version_id",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "result_position",
+      "nullable": false,
+      "type": "int32"
+    },
+    {
+      "name": "winner_position",
+      "nullable": false,
+      "type": "int32"
+    },
+    {
+      "name": "result_code",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "description",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "award_date",
+      "nullable": true,
+      "type": "date32[day]"
+    },
+    {
+      "name": "received_tenders",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "name": "lot_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "winner_name",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "winner_nif",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "award_tax_exclusive",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "currency",
+      "nullable": true,
+      "type": "string"
+    }
+  ],
+  "cpv_codes": [
+    {
+      "name": "version_id",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "lot_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "cpv_code",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "cpv_name",
+      "nullable": true,
+      "type": "string"
+    }
+  ],
+  "lots": [
+    {
+      "name": "version_id",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "lot_id",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "name",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "budget_tax_exclusive",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "budget_total",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "currency",
+      "nullable": true,
+      "type": "string"
+    }
+  ],
+  "versions": [
+    {
+      "name": "version_id",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "atom_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "updated_at",
+      "nullable": true,
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "published_at",
+      "nullable": true,
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "title",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "summary",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "entry_url",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "is_deleted",
+      "nullable": false,
+      "type": "bool"
+    },
+    {
+      "name": "folder_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "status_code",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "project_name",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "contract_type_code",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "contract_subtype_code",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "estimated_value",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "budget_tax_exclusive",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "budget_total",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "currency",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "procedure_code",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "contracting_party_name",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "contracting_party_nif",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "contracting_party_platform_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "contracting_party_type_code",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "buyer_profile_url",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "source_archive",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "source_member",
+      "nullable": false,
+      "type": "string"
+    }
+  ]
+}

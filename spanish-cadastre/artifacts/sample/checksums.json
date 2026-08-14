@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "bytes": 69241,
+      "file": "addresses/part-00000.parquet",
+      "sha256": "c251e0791348c56fefaa89a73ee1147b778e0c79355d137fd9e1738eec098ca2"
+    },
+    {
+      "bytes": 238157,
+      "file": "building_parts/part-00000.parquet",
+      "sha256": "a68e4f807daa25dcc11f5b7d2b936f50588e4cdda172e6f8d613aefb51e2538c"
+    },
+    {
+      "bytes": 199422,
+      "file": "buildings/part-00000.parquet",
+      "sha256": "b281c97728c4413bea5ba86dff439d1803652e4c49510ba7b152aad1ed669669"
+    },
+    {
+      "bytes": 1327612,
+      "file": "cadastral_parcels/part-00000.parquet",
+      "sha256": "855a27fdfa300e29603cffe64869d9522880a39fc4f6107a9d8ced06f0c2acb9"
+    },
+    {
+      "bytes": 144774,
+      "file": "cadastral_zonings/part-00000.parquet",
+      "sha256": "2f12c437a603d3644b8719adc3c58ac079ebc9b7ee313cf0a58e8c01d17e2dec"
+    },
+    {
+      "bytes": 3323,
+      "file": "municipalities/part-00000.parquet",
+      "sha256": "d5e7f58d824b2bb91377270fe7d49b92050d19e312c90ff34592c2b474be39ac"
+    },
+    {
+      "bytes": 16274,
+      "file": "other_constructions/part-00000.parquet",
+      "sha256": "87242aa50e0e2e91c17b5cbfdf569c04bfda9efb61b1e2cd78fcd1903b8ab2a3"
+    }
+  ]
+}

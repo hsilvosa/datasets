@@ -1,0 +1,15 @@
+{
+  "raw_dir": "data/sample/raw",
+  "processed_dir": "data/sample/processed",
+  "artifacts_dir": "artifacts/sample",
+  "staging_dir": "hf_staging_sample",
+  "start_year": 2025,
+  "end_year": 2025,
+  "end_month": 12,
+  "monthly_from_year": 2025,
+  "max_archives": 1,
+  "timeout_seconds": 120,
+  "max_retries": 4,
+  "parquet_rows_per_file": 100000,
+  "user_agent": "public-data-research-openplacsp/0.1"
+}

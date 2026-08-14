@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:cbc="urn:dgpe:names:draft:codice:schema:xsd:CommonBasicComponents-2"
+      xmlns:cac="urn:dgpe:names:draft:codice:schema:xsd:CommonAggregateComponents-2"
+      xmlns:cbc-place-ext="urn:dgpe:names:draft:codice-place-ext:schema:xsd:CommonBasicComponents-2"
+      xmlns:cac-place-ext="urn:dgpe:names:draft:codice-place-ext:schema:xsd:CommonAggregateComponents-2"
+      xmlns:at="http://purl.org/atompub/tombstones/1.0">
+  <entry>
+    <id>https://example.test/tender/1</id>
+    <title>Sample procurement</title>
+    <summary>First published version</summary>
+    <published>2025-01-02T09:00:00Z</published>
+    <updated>2025-01-02T10:00:00Z</updated>
+    <link href="https://example.test/tender/1" rel="alternate"/>
+    <content>
+      <cac-place-ext:ContractFolderStatus>
+        <cbc:ContractFolderID>EXP-1</cbc:ContractFolderID>
+        <cbc-place-ext:ContractFolderStatusCode>PUB</cbc-place-ext:ContractFolderStatusCode>
+        <cac-place-ext:LocatedContractingParty>
+          <cbc:ContractingPartyTypeCode>1</cbc:ContractingPartyTypeCode>
+          <cbc:BuyerProfileURIID>https://example.test/buyer/42</cbc:BuyerProfileURIID>
+          <cac:Party>
+            <cac:PartyIdentification><cbc:ID schemeName="NIF">S1234567A</cbc:ID></cac:PartyIdentification>
+            <cac:PartyIdentification><cbc:ID schemeName="ID_PLATAFORMA">42</cbc:ID></cac:PartyIdentification>
+            <cac:PartyName><cbc:Name>Sample contracting authority</cbc:Name></cac:PartyName>
+          </cac:Party>
+        </cac-place-ext:LocatedContractingParty>
+        <cac:ProcurementProject>
+          <cbc:Name>Supply of research equipment</cbc:Name>
+          <cbc:TypeCode>1</cbc:TypeCode>
+          <cbc:SubTypeCode>2</cbc:SubTypeCode>
+          <cac:BudgetAmount>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">150000</cbc:EstimatedOverallContractAmount>
+            <cbc:TaxExclusiveAmount currencyID="EUR">100000</cbc:TaxExclusiveAmount>
+            <cbc:TotalAmount currencyID="EUR">121000</cbc:TotalAmount>
+          </cac:BudgetAmount>
+          <cac:RequiredCommodityClassification>
+            <cbc:ItemClassificationCode name="Laboratory equipment">38000000</cbc:ItemClassificationCode>
+          </cac:RequiredCommodityClassification>
+        </cac:ProcurementProject>
+        <cac:TenderingProcess><cbc:ProcedureCode>1</cbc:ProcedureCode></cac:TenderingProcess>
+        <cac:ProcurementProjectLot>
+          <cbc:ID>1</cbc:ID>
+          <cac:ProcurementProject>
+            <cbc:Name>Microscopes</cbc:Name>
+            <cac:BudgetAmount><cbc:TaxExclusiveAmount currencyID="EUR">60000</cbc:TaxExclusiveAmount></cac:BudgetAmount>
+            <cac:RequiredCommodityClassification>
+              <cbc:ItemClassificationCode name="Microscopes">38510000</cbc:ItemClassificationCode>
+            </cac:RequiredCommodityClassification>
+          </cac:ProcurementProject>
+        </cac:ProcurementProjectLot>
+        <cac:TenderResult>
+          <cbc:ResultCode>8</cbc:ResultCode>
+          <cbc:Description>Awarded</cbc:Description>
+          <cbc:AwardDate>2025-02-01</cbc:AwardDate>
+          <cbc:ReceivedTenderQuantity>3</cbc:ReceivedTenderQuantity>
+          <cac:WinningParty>
+            <cac:PartyIdentification><cbc:ID schemeName="NIF">B12345678</cbc:ID></cac:PartyIdentification>
+            <cac:PartyName><cbc:Name>Example supplier</cbc:Name></cac:PartyName>
+          </cac:WinningParty>
+          <cac:AwardedTenderedProject>
+            <cbc:ProcurementProjectLotID>1</cbc:ProcurementProjectLotID>
+            <cac:LegalMonetaryTotal><cbc:TaxExclusiveAmount currencyID="EUR">59000</cbc:TaxExclusiveAmount></cac:LegalMonetaryTotal>
+          </cac:AwardedTenderedProject>
+        </cac:TenderResult>
+      </cac-place-ext:ContractFolderStatus>
+    </content>
+  </entry>
+  <at:deleted-entry ref="https://example.test/tender/deleted" when="2025-02-03T12:00:00Z"/>
+</feed>

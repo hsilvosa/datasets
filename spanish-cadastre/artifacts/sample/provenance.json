@@ -1,0 +1,72 @@
+{
+  "configuration": {
+    "artifacts_dir": "D:\\datasets\\spanish-cadastre\\artifacts\\sample",
+    "collections": [
+      "parcels",
+      "addresses",
+      "buildings"
+    ],
+    "max_municipalities": null,
+    "max_retries": 4,
+    "max_workers": 2,
+    "municipality_codes": [
+      "02001"
+    ],
+    "parquet_rows_per_file": 100000,
+    "processed_dir": "D:\\datasets\\spanish-cadastre\\data\\sample\\processed",
+    "raw_dir": "D:\\datasets\\spanish-cadastre\\data\\sample\\raw",
+    "request_delay_seconds": 0.2,
+    "staging_dir": "D:\\datasets\\spanish-cadastre\\hf_staging_sample",
+    "timeout_seconds": 120,
+    "user_agent": "public-data-research-spanish-cadastre/0.1"
+  },
+  "generated_at": "2026-08-14T14:46:37.610141+00:00",
+  "normalization": {
+    "geometry": "Source INSPIRE geometries transformed to EPSG:4326 and encoded as WKB",
+    "source_archives_published": false,
+    "splits": "All rows are in train; geographic splits are left to downstream users",
+    "transformation": "GML features normalized into relational GeoParquet tables"
+  },
+  "publisher": "Directorate-General for Cadastre, Spain",
+  "retrieval": {
+    "cached": 0,
+    "downloaded": 3,
+    "failures": [],
+    "files": [
+      {
+        "bytes": 35536,
+        "collection": "addresses",
+        "file": "archives/addresses/02/A.ES.SDGC.AD.02001.zip",
+        "municipality_code": "02001",
+        "municipality_name": "ABENGIBRE addresses",
+        "province_code": "02",
+        "sha256": "661ab295e92eac35c6a83a3f779334f3fe53c1bbe4cdf2b2d229854adc187913",
+        "url": "https://www.catastro.hacienda.gob.es/INSPIRE/Addresses/02/02001-ABENGIBRE/A.ES.SDGC.AD.02001.zip"
+      },
+      {
+        "bytes": 338212,
+        "collection": "buildings",
+        "file": "archives/buildings/02/A.ES.SDGC.BU.02001.zip",
+        "municipality_code": "02001",
+        "municipality_name": "ABENGIBRE buildings",
+        "province_code": "02",
+        "sha256": "5738a7f7b60689cdc339fe9875b5b8e334b9e4c4dd927766d21db61a38811534",
+        "url": "https://www.catastro.hacienda.gob.es/INSPIRE/Buildings/02/02001-ABENGIBRE/A.ES.SDGC.BU.02001.zip"
+      },
+      {
+        "bytes": 1056250,
+        "collection": "parcels",
+        "file": "archives/parcels/02/A.ES.SDGC.CP.02001.zip",
+        "municipality_code": "02001",
+        "municipality_name": "ABENGIBRE Cadastral Parcels",
+        "province_code": "02",
+        "sha256": "9780a0f85ce3e7f540a6806c7a0b212239129fe6e199138faec6130bfd68e656",
+        "url": "https://www.catastro.hacienda.gob.es/INSPIRE/CadastralParcels/02/02001-ABENGIBRE/A.ES.SDGC.CP.02001.zip"
+      }
+    ],
+    "publisher": "Directorate-General for Cadastre",
+    "retrieved_at_utc": "2026-08-14T14:45:09.024628+00:00",
+    "tasks": 3
+  },
+  "source": "https://www.catastro.hacienda.gob.es/webinspire/index.html"
+}

@@ -1,0 +1,26 @@
+{
+  "checks_passed": true,
+  "generated_at": "2026-08-14T13:52:42.281034+00:00",
+  "tables": {
+    "awards": {
+      "checks_passed": true,
+      "null_required_values": 0,
+      "row_count": 3086121
+    },
+    "cpv_codes": {
+      "checks_passed": true,
+      "null_required_values": 0,
+      "row_count": 8944813
+    },
+    "lots": {
+      "checks_passed": true,
+      "null_required_values": 0,
+      "row_count": 2080084
+    },
+    "versions": {
+      "checks_passed": true,
+      "null_required_values": 0,
+      "row_count": 2993582
+    }
+  }
+}

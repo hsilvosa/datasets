@@ -1,0 +1,83 @@
+{
+  "dataset": "Spanish Cadastre INSPIRE",
+  "generated_at": "2026-08-14T14:46:37.610141+00:00",
+  "tables": {
+    "addresses": {
+      "compressed_bytes": 69241,
+      "file_count": 1,
+      "null_geometry_rows": 0,
+      "row_count": 786,
+      "wgs84_bounds": [
+        -1.565826374858785,
+        39.20020389781201,
+        -1.5242931506591852,
+        39.21521835254969
+      ]
+    },
+    "building_parts": {
+      "compressed_bytes": 238157,
+      "file_count": 1,
+      "null_geometry_rows": 0,
+      "row_count": 1782,
+      "wgs84_bounds": [
+        -1.5659424371320843,
+        39.19512544819764,
+        -1.4974992264409057,
+        39.22885052234758
+      ]
+    },
+    "buildings": {
+      "compressed_bytes": 199422,
+      "file_count": 1,
+      "null_geometry_rows": 0,
+      "row_count": 704,
+      "wgs84_bounds": [
+        -1.5659424371320843,
+        39.19512544819764,
+        -1.4974992264409057,
+        39.22885052234758
+      ]
+    },
+    "cadastral_parcels": {
+      "compressed_bytes": 1327612,
+      "file_count": 1,
+      "null_geometry_rows": 0,
+      "row_count": 3836,
+      "wgs84_bounds": [
+        -1.6057348084835852,
+        39.19365602721006,
+        -1.4846999745147231,
+        39.233882006378984
+      ]
+    },
+    "cadastral_zonings": {
+      "compressed_bytes": 144774,
+      "file_count": 1,
+      "null_geometry_rows": 0,
+      "row_count": 86,
+      "wgs84_bounds": [
+        -1.6057348084835852,
+        39.19365602721006,
+        -1.4846999745147231,
+        39.233882006378984
+      ]
+    },
+    "municipalities": {
+      "compressed_bytes": 3323,
+      "file_count": 1,
+      "row_count": 1
+    },
+    "other_constructions": {
+      "compressed_bytes": 16274,
+      "file_count": 1,
+      "null_geometry_rows": 0,
+      "row_count": 6,
+      "wgs84_bounds": [
+        -1.5438996390271578,
+        39.20612050252518,
+        -1.5413611242300227,
+        39.212427620976584
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "raw_dir": "data/sample/raw",
+  "processed_dir": "data/sample/processed",
+  "artifacts_dir": "artifacts/sample",
+  "staging_dir": "hf_staging_sample",
+  "collections": ["parcels", "addresses", "buildings"],
+  "municipality_codes": ["02001"],
+  "max_municipalities": null,
+  "max_workers": 2,
+  "request_delay_seconds": 0.2,
+  "timeout_seconds": 120,
+  "max_retries": 4,
+  "parquet_rows_per_file": 100000,
+  "user_agent": "public-data-research-spanish-cadastre/0.1"
+}

@@ -1,0 +1,125 @@
+{
+  "configuration": {
+    "artifacts_dir": "D:\\datasets\\openplacsp\\artifacts",
+    "end_month": 12,
+    "end_year": 2024,
+    "max_archives": null,
+    "max_retries": 5,
+    "monthly_from_year": 2025,
+    "parquet_rows_per_file": 250000,
+    "processed_dir": "D:\\datasets\\openplacsp\\data\\full\\processed",
+    "raw_dir": "D:\\datasets\\openplacsp\\data\\full\\raw",
+    "staging_dir": "D:\\datasets\\openplacsp\\hf_staging",
+    "start_year": 2012,
+    "timeout_seconds": 120,
+    "user_agent": "public-data-research-openplacsp/0.1"
+  },
+  "generated_at": "2026-08-14T13:52:42.281034+00:00",
+  "normalization": {
+    "deletions": "ATOM deleted-entry records are retained",
+    "documents": "Document URLs are metadata only; documents are not downloaded",
+    "history": "Every published update is retained as a separate version",
+    "splits": "All rows use train; temporal splits are left to downstream users"
+  },
+  "publisher": "Direccion General del Patrimonio del Estado",
+  "retrieval": {
+    "archives": 13,
+    "cached_archives": 13,
+    "files": [
+      {
+        "bytes": 16008909,
+        "file": "licitacionesPerfilesContratanteCompleto3_2012.zip",
+        "period": "2012",
+        "sha256": "de130e278de9877fe5840ba1263de75d1894949155989050edfad5cc76247763",
+        "url": "https://contrataciondelsectorpublico.gob.es/sindicacion/sindicacion_643/licitacionesPerfilesContratanteCompleto3_2012.zip"
+      },
+      {
+        "bytes": 20632011,
+        "file": "licitacionesPerfilesContratanteCompleto3_2013.zip",
+        "period": "2013",
+        "sha256": "1fbc453887a4923dedf9570e23aea10eea3a0bf1dbcb1311f8b43b0ec772c4e8",
+        "url": "https://contrataciondelsectorpublico.gob.es/sindicacion/sindicacion_643/licitacionesPerfilesContratanteCompleto3_2013.zip"
+      },
+      {
+        "bytes": 26239660,
+        "file": "licitacionesPerfilesContratanteCompleto3_2014.zip",
+        "period": "2014",
+        "sha256": "85c6b884dfa081067f843969ccaf03f6993dfa487f34c982386dae6d451c8222",
+        "url": "https://contrataciondelsectorpublico.gob.es/sindicacion/sindicacion_643/licitacionesPerfilesContratanteCompleto3_2014.zip"
+      },
+      {
+        "bytes": 37183295,
+        "file": "licitacionesPerfilesContratanteCompleto3_2015.zip",
+        "period": "2015",
+        "sha256": "4f8d6e29fcd7a831e58bf40ed35bf093ed8662ba979a6e58a361ccf85e59d4eb",
+        "url": "https://contrataciondelsectorpublico.gob.es/sindicacion/sindicacion_643/licitacionesPerfilesContratanteCompleto3_2015.zip"
+      },
+      {
+        "bytes": 58188149,
+        "file": "licitacionesPerfilesContratanteCompleto3_2016.zip",
+        "period": "2016",
+        "sha256": "ddeea4f453a72da195070f7e279dc0da4c5080eab39a438484f320a153fb8ecc",
+        "url": "https://contrataciondelsectorpublico.gob.es/sindicacion/sindicacion_643/licitacionesPerfilesContratanteCompleto3_2016.zip"
+      },
+      {
+        "bytes": 95910662,
+        "file": "licitacionesPerfilesContratanteCompleto3_2017.zip",
+        "period": "2017",
+        "sha256": "585b5ba2df1acd0fef1a5e6fa9fb624b93b0b203896fbd4162b305afde3d0936",
+        "url": "https://contrataciondelsectorpublico.gob.es/sindicacion/sindicacion_643/licitacionesPerfilesContratanteCompleto3_2017.zip"
+      },
+      {
+        "bytes": 276279363,
+        "file": "licitacionesPerfilesContratanteCompleto3_2018.zip",
+        "period": "2018",
+        "sha256": "6c027f8704b91678d7d2fec52a6bf5b2d540ac188f8b28159c0a01558698d16a",
+        "url": "https://contrataciondelsectorpublico.gob.es/sindicacion/sindicacion_643/licitacionesPerfilesContratanteCompleto3_2018.zip"
+      },
+      {
+        "bytes": 466498327,
+        "file": "licitacionesPerfilesContratanteCompleto3_2019.zip",
+        "period": "2019",
+        "sha256": "b3e4cc9c7d340ca5ba2807dc50574d68c4da338b88174afed4171bf917a7206b",
+        "url": "https://contrataciondelsectorpublico.gob.es/sindicacion/sindicacion_643/licitacionesPerfilesContratanteCompleto3_2019.zip"
+      },
+      {
+        "bytes": 445577831,
+        "file": "licitacionesPerfilesContratanteCompleto3_2020.zip",
+        "period": "2020",
+        "sha256": "d046552784468bb9a0db9bca00ba48229551bfed320c4ce66c8246604b7e6b46",
+        "url": "https://contrataciondelsectorpublico.gob.es/sindicacion/sindicacion_643/licitacionesPerfilesContratanteCompleto3_2020.zip"
+      },
+      {
+        "bytes": 605726559,
+        "file": "licitacionesPerfilesContratanteCompleto3_2021.zip",
+        "period": "2021",
+        "sha256": "1a77ca3f9a40d76f42e2ab883ca73d8e71c85410f9da10807a748a55a6de0287",
+        "url": "https://contrataciondelsectorpublico.gob.es/sindicacion/sindicacion_643/licitacionesPerfilesContratanteCompleto3_2021.zip"
+      },
+      {
+        "bytes": 947589492,
+        "file": "licitacionesPerfilesContratanteCompleto3_2022.zip",
+        "period": "2022",
+        "sha256": "c6a10117857a62c96d73c0dc412b2b0162861b171f99b4d6958e15e53a05b756",
+        "url": "https://contrataciondelsectorpublico.gob.es/sindicacion/sindicacion_643/licitacionesPerfilesContratanteCompleto3_2022.zip"
+      },
+      {
+        "bytes": 1668002789,
+        "file": "licitacionesPerfilesContratanteCompleto3_2023.zip",
+        "period": "2023",
+        "sha256": "39e7ab384113e8016e69196e0f3a5e20f28b0f19cc16b9e6c1ad6c56d609f493",
+        "url": "https://contrataciondelsectorpublico.gob.es/sindicacion/sindicacion_643/licitacionesPerfilesContratanteCompleto3_2023.zip"
+      },
+      {
+        "bytes": 1792750583,
+        "file": "licitacionesPerfilesContratanteCompleto3_2024.zip",
+        "period": "2024",
+        "sha256": "2b0bff734c49a423cf34c1d152863963f0ce329f7d8d4b224fa62cd510d6ba43",
+        "url": "https://contrataciondelsectorpublico.gob.es/sindicacion/sindicacion_643/licitacionesPerfilesContratanteCompleto3_2024.zip"
+      }
+    ],
+    "publisher": "Plataforma de Contratacion del Sector Publico",
+    "retrieved_at_utc": "2026-08-14T13:51:04.161383+00:00"
+  },
+  "source": "https://www.hacienda.gob.es/es-ES/GobiernoAbierto/Datos%20Abiertos/Paginas/licitaciones_plataforma_contratacion.aspx"
+}

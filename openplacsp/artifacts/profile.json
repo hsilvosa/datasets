@@ -1,0 +1,41 @@
+{
+  "dataset": "OpenPLACSP historical procurement",
+  "generated_at": "2026-08-14T13:52:42.281034+00:00",
+  "tables": {
+    "awards": {
+      "compressed_bytes": 173814894,
+      "file_count": 13,
+      "row_count": 3086121
+    },
+    "cpv_codes": {
+      "compressed_bytes": 116330166,
+      "file_count": 36,
+      "row_count": 8944813
+    },
+    "lots": {
+      "compressed_bytes": 60331361,
+      "file_count": 9,
+      "row_count": 2080084
+    },
+    "versions": {
+      "compressed_bytes": 600721244,
+      "deleted_rows": 79140,
+      "file_count": 12,
+      "row_count": 2993582,
+      "rows_by_status": {
+        "ADJ": 613763,
+        "ANUL": 6750,
+        "BORR": 1,
+        "CERR": 11,
+        "CREA": 48,
+        "EV": 466464,
+        "PRE": 23526,
+        "PUB": 670897,
+        "RES": 1132981,
+        "REs": 1
+      },
+      "updated_at_max": "2024-12-30T15:58:10.804000+00:00",
+      "updated_at_min": "2012-01-02T07:05:07.519000+00:00"
+    }
+  }
+}
