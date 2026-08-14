@@ -23,7 +23,14 @@ def local_name(tag: str) -> str:
 
 
 def clean_url(url: str) -> str:
-    return url.replace("http://www.catastro.hacienda.gob.es", "https://www.catastro.hacienda.gob.es")
+    url = url.replace(
+        "http://www.catastro.hacienda.gob.es",
+        "https://www.catastro.hacienda.gob.es",
+    )
+    parts = urllib.parse.urlsplit(url)
+    path = urllib.parse.quote(parts.path, safe="/%:@")
+    query = urllib.parse.quote(parts.query, safe="=&%:+,/?")
+    return urllib.parse.urlunsplit((parts.scheme, parts.netloc, path, query, parts.fragment))
 
 
 @dataclass(frozen=True)
