@@ -1,0 +1,67 @@
+[
+  {
+    "name": "captured_at",
+    "nullable": true,
+    "type": "timestamp[us]"
+  },
+  {
+    "name": "latitude",
+    "nullable": true,
+    "type": "double"
+  },
+  {
+    "name": "longitude",
+    "nullable": true,
+    "type": "double"
+  },
+  {
+    "name": "value",
+    "nullable": true,
+    "type": "double"
+  },
+  {
+    "name": "unit",
+    "nullable": true,
+    "type": "string"
+  },
+  {
+    "name": "location_name",
+    "nullable": true,
+    "type": "string"
+  },
+  {
+    "name": "device_id",
+    "nullable": true,
+    "type": "int64"
+  },
+  {
+    "name": "md5sum",
+    "nullable": true,
+    "type": "string"
+  },
+  {
+    "name": "height",
+    "nullable": true,
+    "type": "double"
+  },
+  {
+    "name": "surface",
+    "nullable": true,
+    "type": "string"
+  },
+  {
+    "name": "radiation",
+    "nullable": true,
+    "type": "string"
+  },
+  {
+    "name": "uploaded_at",
+    "nullable": true,
+    "type": "timestamp[us]"
+  },
+  {
+    "name": "loader_id",
+    "nullable": true,
+    "type": "int64"
+  }
+]

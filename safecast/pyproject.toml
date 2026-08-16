@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "safecast-historical-pipeline"
+version = "0.1.0"
+description = "Reproducible Parquet pipeline for the Safecast historical radiation dump"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["pyarrow>=18"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.8"]
+
+[project.scripts]
+safecast-historical = "safecast_historical.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/safecast_historical"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

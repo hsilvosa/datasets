@@ -1,0 +1,16 @@
+{
+  "configuration": {
+    "archive_path": "D:\\datasets\\safecast\\data\\raw\\measurements.tar.gz",
+    "artifacts_dir": "D:\\datasets\\safecast\\artifacts",
+    "csv_block_size": 67108864,
+    "processed_dir": "D:\\datasets\\safecast\\data\\processed",
+    "rows_per_file": 1000000,
+    "staging_dir": "D:\\datasets\\safecast\\hf_staging"
+  },
+  "generated_at": "2026-08-15T08:47:14.655354+00:00",
+  "license": "CC0-1.0",
+  "publisher": "Safecast",
+  "source_archive_bytes": 9161999888,
+  "source_archive_sha256": "c99251e2f9db56fa94afd9bd4618818d20cc3caa525db343b5d9dba6f4a5fdd6",
+  "source_url": "https://api.safecast.org/system/measurements.tar.gz"
+}

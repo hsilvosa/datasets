@@ -1,0 +1,8 @@
+{
+  "archive_path": "data/raw/measurements.tar.gz",
+  "processed_dir": "data/processed",
+  "artifacts_dir": "artifacts",
+  "staging_dir": "hf_staging",
+  "rows_per_file": 1000000,
+  "csv_block_size": 67108864
+}

@@ -1,0 +1,11 @@
+{
+  "captured_after_snapshot": 33063,
+  "captured_before_1900": 229,
+  "checks_passed": true,
+  "coordinates_in_range": true,
+  "generated_at": "2026-08-15T08:47:14.655354+00:00",
+  "null_captured_at": 29707,
+  "null_latitude": 4365,
+  "null_longitude": 4365,
+  "source_anomalies_present": true
+}
