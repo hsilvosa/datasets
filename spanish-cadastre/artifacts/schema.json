@@ -1,0 +1,781 @@
+{
+  "addresses": [
+    {
+      "name": "feature_id",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "local_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "namespace",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "province_code",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "municipality_code",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "municipality_name",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "begin_lifespan_version",
+      "nullable": true,
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "end_lifespan_version",
+      "nullable": true,
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "source_crs",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "geometry",
+      "nullable": true,
+      "type": "binary"
+    },
+    {
+      "name": "bbox_min_x",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "bbox_min_y",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "bbox_max_x",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "bbox_max_y",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "properties_json",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "source_archive",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "source_member",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "locator_designator",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "valid_from",
+      "nullable": true,
+      "type": "date32[day]"
+    },
+    {
+      "name": "valid_to",
+      "nullable": true,
+      "type": "date32[day]"
+    }
+  ],
+  "building_parts": [
+    {
+      "name": "feature_id",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "local_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "namespace",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "province_code",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "municipality_code",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "municipality_name",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "begin_lifespan_version",
+      "nullable": true,
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "end_lifespan_version",
+      "nullable": true,
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "source_crs",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "geometry",
+      "nullable": true,
+      "type": "binary"
+    },
+    {
+      "name": "bbox_min_x",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "bbox_min_y",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "bbox_max_x",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "bbox_max_y",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "properties_json",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "source_archive",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "source_member",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "condition_of_construction",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "construction_begin",
+      "nullable": true,
+      "type": "date32[day]"
+    },
+    {
+      "name": "construction_end",
+      "nullable": true,
+      "type": "date32[day]"
+    },
+    {
+      "name": "current_use",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "number_of_building_units",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "name": "number_of_dwellings",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "name": "floors_above_ground",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "name": "floors_below_ground",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "name": "official_area",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "cadastral_parcel_refs",
+      "nullable": true,
+      "type": "list<element: string>"
+    },
+    {
+      "name": "address_refs",
+      "nullable": true,
+      "type": "list<element: string>"
+    }
+  ],
+  "buildings": [
+    {
+      "name": "feature_id",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "local_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "namespace",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "province_code",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "municipality_code",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "municipality_name",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "begin_lifespan_version",
+      "nullable": true,
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "end_lifespan_version",
+      "nullable": true,
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "source_crs",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "geometry",
+      "nullable": true,
+      "type": "binary"
+    },
+    {
+      "name": "bbox_min_x",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "bbox_min_y",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "bbox_max_x",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "bbox_max_y",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "properties_json",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "source_archive",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "source_member",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "condition_of_construction",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "construction_begin",
+      "nullable": true,
+      "type": "date32[day]"
+    },
+    {
+      "name": "construction_end",
+      "nullable": true,
+      "type": "date32[day]"
+    },
+    {
+      "name": "current_use",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "number_of_building_units",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "name": "number_of_dwellings",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "name": "floors_above_ground",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "name": "floors_below_ground",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "name": "official_area",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "cadastral_parcel_refs",
+      "nullable": true,
+      "type": "list<element: string>"
+    },
+    {
+      "name": "address_refs",
+      "nullable": true,
+      "type": "list<element: string>"
+    }
+  ],
+  "cadastral_parcels": [
+    {
+      "name": "feature_id",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "local_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "namespace",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "province_code",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "municipality_code",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "municipality_name",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "begin_lifespan_version",
+      "nullable": true,
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "end_lifespan_version",
+      "nullable": true,
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "source_crs",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "geometry",
+      "nullable": true,
+      "type": "binary"
+    },
+    {
+      "name": "bbox_min_x",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "bbox_min_y",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "bbox_max_x",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "bbox_max_y",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "properties_json",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "source_archive",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "source_member",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "area_value",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "label",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "national_reference",
+      "nullable": true,
+      "type": "string"
+    }
+  ],
+  "cadastral_zonings": [
+    {
+      "name": "feature_id",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "local_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "namespace",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "province_code",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "municipality_code",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "municipality_name",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "begin_lifespan_version",
+      "nullable": true,
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "end_lifespan_version",
+      "nullable": true,
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "source_crs",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "geometry",
+      "nullable": true,
+      "type": "binary"
+    },
+    {
+      "name": "bbox_min_x",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "bbox_min_y",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "bbox_max_x",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "bbox_max_y",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "properties_json",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "source_archive",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "source_member",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "estimated_accuracy",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "label",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "level",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "level_name",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "national_reference",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "original_scale_denominator",
+      "nullable": true,
+      "type": "int64"
+    }
+  ],
+  "municipalities": [
+    {
+      "name": "municipality_code",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "municipality_name",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "province_code",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "parcels_archive_url",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "addresses_archive_url",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "buildings_archive_url",
+      "nullable": true,
+      "type": "string"
+    }
+  ],
+  "other_constructions": [
+    {
+      "name": "feature_id",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "local_id",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "namespace",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "province_code",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "municipality_code",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "municipality_name",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "begin_lifespan_version",
+      "nullable": true,
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "end_lifespan_version",
+      "nullable": true,
+      "type": "timestamp[us, tz=UTC]"
+    },
+    {
+      "name": "source_crs",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "geometry",
+      "nullable": true,
+      "type": "binary"
+    },
+    {
+      "name": "bbox_min_x",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "bbox_min_y",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "bbox_max_x",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "bbox_max_y",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "properties_json",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "source_archive",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "source_member",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "condition_of_construction",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "construction_begin",
+      "nullable": true,
+      "type": "date32[day]"
+    },
+    {
+      "name": "construction_end",
+      "nullable": true,
+      "type": "date32[day]"
+    },
+    {
+      "name": "current_use",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "number_of_building_units",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "name": "number_of_dwellings",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "name": "floors_above_ground",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "name": "floors_below_ground",
+      "nullable": true,
+      "type": "int64"
+    },
+    {
+      "name": "official_area",
+      "nullable": true,
+      "type": "double"
+    },
+    {
+      "name": "cadastral_parcel_refs",
+      "nullable": true,
+      "type": "list<element: string>"
+    },
+    {
+      "name": "address_refs",
+      "nullable": true,
+      "type": "list<element: string>"
+    }
+  ]
+}

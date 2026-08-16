@@ -28,7 +28,7 @@ def clean_url(url: str) -> str:
         "https://www.catastro.hacienda.gob.es",
     )
     parts = urllib.parse.urlsplit(url)
-    path = urllib.parse.quote(parts.path, safe="/%:@")
+    path = urllib.parse.quote(re.sub(r"\s+", " ", parts.path), safe="/%:@")
     query = urllib.parse.quote(parts.query, safe="=&%:+,/?")
     return urllib.parse.urlunsplit((parts.scheme, parts.netloc, path, query, parts.fragment))
 

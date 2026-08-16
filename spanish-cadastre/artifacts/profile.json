@@ -1,0 +1,83 @@
+{
+  "dataset": "Spanish Cadastre INSPIRE",
+  "generated_at": "2026-08-15T19:04:59.058068+00:00",
+  "tables": {
+    "addresses": {
+      "compressed_bytes": 1076626371,
+      "file_count": 64,
+      "null_geometry_rows": 0,
+      "row_count": 15886629,
+      "wgs84_bounds": [
+        -18.15006311996602,
+        27.639792711197487,
+        4.304746007241141,
+        43.7867808652562
+      ]
+    },
+    "building_parts": {
+      "compressed_bytes": 4710710431,
+      "file_count": 154,
+      "null_geometry_rows": 0,
+      "row_count": 38464416,
+      "wgs84_bounds": [
+        -18.149530664613376,
+        27.639356428083122,
+        4.3101498275350805,
+        43.78684712923098
+      ]
+    },
+    "buildings": {
+      "compressed_bytes": 3359889552,
+      "file_count": 50,
+      "null_geometry_rows": 0,
+      "row_count": 12489197,
+      "wgs84_bounds": [
+        -18.149530664613376,
+        27.639356428083122,
+        4.3101498275350805,
+        43.78684712923098
+      ]
+    },
+    "cadastral_parcels": {
+      "compressed_bytes": 17714989953,
+      "file_count": 208,
+      "null_geometry_rows": 0,
+      "row_count": 51953175,
+      "wgs84_bounds": [
+        -18.160833311628867,
+        27.637836147803142,
+        4.328079808509447,
+        43.78848147158354
+      ]
+    },
+    "cadastral_zonings": {
+      "compressed_bytes": 2615307824,
+      "file_count": 6,
+      "null_geometry_rows": 0,
+      "row_count": 1329151,
+      "wgs84_bounds": [
+        -18.160833311628867,
+        27.637836147803142,
+        4.328079808509447,
+        43.78848147158354
+      ]
+    },
+    "municipalities": {
+      "compressed_bytes": 479362,
+      "file_count": 1,
+      "row_count": 7611
+    },
+    "other_constructions": {
+      "compressed_bytes": 309958268,
+      "file_count": 6,
+      "null_geometry_rows": 0,
+      "row_count": 1368064,
+      "wgs84_bounds": [
+        -18.10482588261195,
+        27.64043817923211,
+        4.304923802976556,
+        43.74672548629944
+      ]
+    }
+  }
+}

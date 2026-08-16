@@ -1,0 +1,2449 @@
+{
+  "files": [
+    {
+      "bytes": 17418964,
+      "file": "addresses/part-00000.parquet",
+      "sha256": "51e68c955802dae4bc4a5c65b3bdc23abe17c97cd44a14eb6d05c78e18af83c2"
+    },
+    {
+      "bytes": 16402713,
+      "file": "addresses/part-00001.parquet",
+      "sha256": "c5e5a1065a78a5b596228866570296945e86d06c0f1325a9402429b88eb82773"
+    },
+    {
+      "bytes": 16505224,
+      "file": "addresses/part-00002.parquet",
+      "sha256": "acd910071ebd957b9e731cd527183b15df215b6f54825fcb348cde30d006ae6c"
+    },
+    {
+      "bytes": 16930580,
+      "file": "addresses/part-00003.parquet",
+      "sha256": "a9a0a48218b352e5d0892015e8f5b8e53ea2ae6c3ad300129f7a213ff04be077"
+    },
+    {
+      "bytes": 17022543,
+      "file": "addresses/part-00004.parquet",
+      "sha256": "e8cbf732cc36a7c525daaf444eda3e3336a6fb3dd009b993ef6de8941d9c73bd"
+    },
+    {
+      "bytes": 16868442,
+      "file": "addresses/part-00005.parquet",
+      "sha256": "7ea2341d829cb22484bf85d84db395ea814bc2295b0f5f3d9714754c6ff8eeab"
+    },
+    {
+      "bytes": 16942293,
+      "file": "addresses/part-00006.parquet",
+      "sha256": "b4b205805d92db299c37d92fb2827791c1fc6fe707193099653784012c216be9"
+    },
+    {
+      "bytes": 17287938,
+      "file": "addresses/part-00007.parquet",
+      "sha256": "e1894c94aca12f6975af02c3a02d733d2c215410b72fb424cdd736a8ebb43708"
+    },
+    {
+      "bytes": 17152087,
+      "file": "addresses/part-00008.parquet",
+      "sha256": "62e4fb894968d0b007dafbb47eb14f1b2246e533931394c395ae0147ab20a872"
+    },
+    {
+      "bytes": 16819749,
+      "file": "addresses/part-00009.parquet",
+      "sha256": "25432f5e2ddd3d853a650bf1fbb5552c414f08d3f96b576f5beb3dd952beabe6"
+    },
+    {
+      "bytes": 16803454,
+      "file": "addresses/part-00010.parquet",
+      "sha256": "2b5f939e7f205f01d699cfc8bf6c31148e8d52af82251d443e8211f1a8c32135"
+    },
+    {
+      "bytes": 16811100,
+      "file": "addresses/part-00011.parquet",
+      "sha256": "e3fb42219a0f11b2e44de0822e607f94a2e4c8adafa766255132477764bc25de"
+    },
+    {
+      "bytes": 17162602,
+      "file": "addresses/part-00012.parquet",
+      "sha256": "32b837518e419a79977ae240a6e8dca2d87d8909caf0864cac1cdfd20f6a7bb7"
+    },
+    {
+      "bytes": 17294273,
+      "file": "addresses/part-00013.parquet",
+      "sha256": "0c7af434a5f8179d969727522c8ace7a78793d9048a58112debdcab7eec4c3a8"
+    },
+    {
+      "bytes": 16338312,
+      "file": "addresses/part-00014.parquet",
+      "sha256": "ea1def4f1b6254ef4546dce0a22d24c627b37fbc4268b15d0df13c55f551a353"
+    },
+    {
+      "bytes": 17072704,
+      "file": "addresses/part-00015.parquet",
+      "sha256": "435f171d61eb7fffa8d440c74a36a8f31a60fd5347fd73bd35925ad859788b5e"
+    },
+    {
+      "bytes": 17132200,
+      "file": "addresses/part-00016.parquet",
+      "sha256": "1933d1b5f7cb1ed08ff6b3e80cefe9b4376c9ad05f4410a39d090d57bb385969"
+    },
+    {
+      "bytes": 17063469,
+      "file": "addresses/part-00017.parquet",
+      "sha256": "bee27deb465f3a0fd66316f75e9687a46282f05a2626dcf3997a321182ccd72d"
+    },
+    {
+      "bytes": 16641238,
+      "file": "addresses/part-00018.parquet",
+      "sha256": "67b998cd98aab35b68b1dcbe2a67f1c57d934a3c3f95515ba27679b6d2a4d384"
+    },
+    {
+      "bytes": 16379179,
+      "file": "addresses/part-00019.parquet",
+      "sha256": "3c1b9738049bd01516d1a707d22334e417767ab268847627cf39f2b84eca4ab1"
+    },
+    {
+      "bytes": 16480198,
+      "file": "addresses/part-00020.parquet",
+      "sha256": "b30a6f0d8d3179f5b8df446b2319614e697cb683ddb04875cac5c7a6a8f6c86c"
+    },
+    {
+      "bytes": 17439615,
+      "file": "addresses/part-00021.parquet",
+      "sha256": "4154dca62754a7e3f89a05fcb49b7cd37ed01654bae525b28ac6e07be2923738"
+    },
+    {
+      "bytes": 17137263,
+      "file": "addresses/part-00022.parquet",
+      "sha256": "a4e76983cba3d2f046af5907e1e7e222f2cbdc250b70c2b57505dd390385eff5"
+    },
+    {
+      "bytes": 17185709,
+      "file": "addresses/part-00023.parquet",
+      "sha256": "cb80f20104faede61e901469f2586f304a366b08d1d1c1c4065739020e7cc2d6"
+    },
+    {
+      "bytes": 17127368,
+      "file": "addresses/part-00024.parquet",
+      "sha256": "fc77d348f10946c837e52e3b585caf7e144d4f151d96cc2cfa15b6cab6c7fa60"
+    },
+    {
+      "bytes": 16854236,
+      "file": "addresses/part-00025.parquet",
+      "sha256": "5a0d5d09fe7523cae7a63623640da9e6b8a39d8e8eff9668335fc0e8d9825d8f"
+    },
+    {
+      "bytes": 16959115,
+      "file": "addresses/part-00026.parquet",
+      "sha256": "626a5b1dbc50b7ec8c62323e547cb14a9380bea1e4d125ab37e19cb428b089f5"
+    },
+    {
+      "bytes": 17153961,
+      "file": "addresses/part-00027.parquet",
+      "sha256": "7b8df2e07b5cec703c2854e6314f3da79c9be58a1de472bac0cc9fa4afa3af56"
+    },
+    {
+      "bytes": 16822753,
+      "file": "addresses/part-00028.parquet",
+      "sha256": "53406093cd23136a84900c378dd87d76fab1e9414a74265d09b83c5ce09f4435"
+    },
+    {
+      "bytes": 17000596,
+      "file": "addresses/part-00029.parquet",
+      "sha256": "c9aef741a811e47c72637c89266ae78b51fa2315cf20b5a6a1c1ed236cdce7cd"
+    },
+    {
+      "bytes": 17309640,
+      "file": "addresses/part-00030.parquet",
+      "sha256": "df6cafd8e3167ce2709322ee754a939ae04973a4fad199374c1579a8152bfeaa"
+    },
+    {
+      "bytes": 17381362,
+      "file": "addresses/part-00031.parquet",
+      "sha256": "a3a133646efb47b341a198fe6cc563a98bdfc21a74af4ae4709aa6749a0a3e96"
+    },
+    {
+      "bytes": 17284096,
+      "file": "addresses/part-00032.parquet",
+      "sha256": "1b642718fdd4629e7f8bd222d18d8dfecbdff75c06c9b09151d15af7945e9037"
+    },
+    {
+      "bytes": 16920348,
+      "file": "addresses/part-00033.parquet",
+      "sha256": "4d05be3fecdeff641fd9c6bb719b6a95438fbcb14296e95c6395f345b9878a1d"
+    },
+    {
+      "bytes": 16706449,
+      "file": "addresses/part-00034.parquet",
+      "sha256": "59b9de9c827d41b8710b65d5c4946bce63dc71f26c197b4453f778c9efb70e44"
+    },
+    {
+      "bytes": 16841536,
+      "file": "addresses/part-00035.parquet",
+      "sha256": "667baf9a4df5a98d7fe228977002b1f2ac4ea892cf423f3f8517f4621b4cadab"
+    },
+    {
+      "bytes": 17127365,
+      "file": "addresses/part-00036.parquet",
+      "sha256": "6f73acb21356a4b72c0febb790a65ac86efb3a78fd72d5b3572b7b5cb865527d"
+    },
+    {
+      "bytes": 17257581,
+      "file": "addresses/part-00037.parquet",
+      "sha256": "9e55b6dadf1bdb8d096f458de6087aa6e1c02f7a870b0a4c794f34dde113125c"
+    },
+    {
+      "bytes": 16694447,
+      "file": "addresses/part-00038.parquet",
+      "sha256": "fe92d23787111bfa8e9e8bcccd103ac131c1be4aece0544a89e1c38b9bc91dd6"
+    },
+    {
+      "bytes": 16063012,
+      "file": "addresses/part-00039.parquet",
+      "sha256": "9a2b0c3cd82fd586d38e3c8f15e23e004c7f1d8e6d5fdef600affe4916b9671e"
+    },
+    {
+      "bytes": 15750960,
+      "file": "addresses/part-00040.parquet",
+      "sha256": "dee50ee652ca3c4ed79902ad4b3ba4efab476c42b1084640a5101e7b6d2e4030"
+    },
+    {
+      "bytes": 16749138,
+      "file": "addresses/part-00041.parquet",
+      "sha256": "c7865d1b5fea2238dad388097725f48c9d9db3bcb3f03168ece1a8fd51ee4b69"
+    },
+    {
+      "bytes": 16980337,
+      "file": "addresses/part-00042.parquet",
+      "sha256": "a92e7277d80df0a112e3f34d732a1f56f2815998cbb65b40ea6bb912872d965c"
+    },
+    {
+      "bytes": 17020208,
+      "file": "addresses/part-00043.parquet",
+      "sha256": "b46e07cb67e367a6e8a328c5dd18d1ae626d49ddcf7e02fcff6dd5f02376edcb"
+    },
+    {
+      "bytes": 16457937,
+      "file": "addresses/part-00044.parquet",
+      "sha256": "1e15bb8b2639a2e0b2bd476087247015f130e2213a7ad46c310b6ee0de2b96ac"
+    },
+    {
+      "bytes": 16331989,
+      "file": "addresses/part-00045.parquet",
+      "sha256": "c78e460c46fe02669d2aae58f594ecf7a2c612677a79cceb74bbee364a3c2e0a"
+    },
+    {
+      "bytes": 17210004,
+      "file": "addresses/part-00046.parquet",
+      "sha256": "f2fade96d6e83724945dd785a79e3ab852d39e3dd12615815c4e42f375fecbc0"
+    },
+    {
+      "bytes": 17391251,
+      "file": "addresses/part-00047.parquet",
+      "sha256": "895c95a97c3cfa00fd479146a9617470a1be2496b6e4f221a81f9a1940c12242"
+    },
+    {
+      "bytes": 17533824,
+      "file": "addresses/part-00048.parquet",
+      "sha256": "91213094720e05129631e6733a99209c4ba234e0d48ce838e216fb25dc0f1964"
+    },
+    {
+      "bytes": 17355566,
+      "file": "addresses/part-00049.parquet",
+      "sha256": "683cf53424603ee7170954aefaa25569a38c510ab781a606b99a45dea2dc3cbb"
+    },
+    {
+      "bytes": 16568153,
+      "file": "addresses/part-00050.parquet",
+      "sha256": "cc61d46399d9a935432f606a4d20c36a52288c91a35ea928155f3a2817768d5f"
+    },
+    {
+      "bytes": 16491281,
+      "file": "addresses/part-00051.parquet",
+      "sha256": "cb1450aeab49ee633ca7bc43bbb560c76ed9ac778775d7687e4e8cb88271d53f"
+    },
+    {
+      "bytes": 16339600,
+      "file": "addresses/part-00052.parquet",
+      "sha256": "c3f2bda69f35edee1ccef09e9cab17c6b896c61bee1313003223d95ffd9b71d5"
+    },
+    {
+      "bytes": 17033413,
+      "file": "addresses/part-00053.parquet",
+      "sha256": "4b66fa2c88563058e207e49e7ee2888a64432632b512ffe37bfcf11900da39b1"
+    },
+    {
+      "bytes": 17208452,
+      "file": "addresses/part-00054.parquet",
+      "sha256": "234ebdb2f98e7022e84e33cf84ba7b0e3d0b2fe0df71eb8ee0f3aa35e580f688"
+    },
+    {
+      "bytes": 17069519,
+      "file": "addresses/part-00055.parquet",
+      "sha256": "914a40cab0e670b348b672bdb6b86a1d8c755783971548886e10546b8108d8f3"
+    },
+    {
+      "bytes": 16931271,
+      "file": "addresses/part-00056.parquet",
+      "sha256": "0d2e931dd23e8bbfc86a8513c4f2950574968f25b926fae161408ac084d8a866"
+    },
+    {
+      "bytes": 17154883,
+      "file": "addresses/part-00057.parquet",
+      "sha256": "8f5ab5cbd6638f7446f2266e04e49be276fa1454680f562beb2a0dfcad12ff7c"
+    },
+    {
+      "bytes": 17092225,
+      "file": "addresses/part-00058.parquet",
+      "sha256": "2605d26e7ed20b96f0df8ad12619d0ab425d60787fbb67e04965ae6f3b2cd508"
+    },
+    {
+      "bytes": 17102266,
+      "file": "addresses/part-00059.parquet",
+      "sha256": "0b137658c48ee4d885aa3ad825f0defe3187b08fd8b6e8c6c0b3243aa04056a6"
+    },
+    {
+      "bytes": 17206729,
+      "file": "addresses/part-00060.parquet",
+      "sha256": "0df82ee485390dcaa16398b04c626cc223fec108e5c65802f08bb38ecf2de6c6"
+    },
+    {
+      "bytes": 17026016,
+      "file": "addresses/part-00061.parquet",
+      "sha256": "3c50f308e2a28bafe3e7d296a8cd357a9b4048a4e181efa5f70103b41b9e008d"
+    },
+    {
+      "bytes": 16954463,
+      "file": "addresses/part-00062.parquet",
+      "sha256": "aa70a5c619e66b2e40666b79a393218d998f1d5d522c781eb39ba85186379f37"
+    },
+    {
+      "bytes": 9871172,
+      "file": "addresses/part-00063.parquet",
+      "sha256": "0353b2b7edc2a622cd44e6e94c78f52b15a2357b64a4c158b851324b8b8418b9"
+    },
+    {
+      "bytes": 30098049,
+      "file": "building_parts/part-00000.parquet",
+      "sha256": "d2989333d40603089704e411f9a9d89eb8b0fba700fdc7a35f61df2724fd44e6"
+    },
+    {
+      "bytes": 31631178,
+      "file": "building_parts/part-00001.parquet",
+      "sha256": "9cf1647f83c60c7302c9dabcd393ff5f54815e5a9cf921297fd49344a2019700"
+    },
+    {
+      "bytes": 34873694,
+      "file": "building_parts/part-00002.parquet",
+      "sha256": "469442bc8d89acb27bdb0c70bad823541e122dd6d834a63216b098e3f7f7f698"
+    },
+    {
+      "bytes": 33824215,
+      "file": "building_parts/part-00003.parquet",
+      "sha256": "d417ff49313fa749318adab68412c28bb66ead92bb34e815c472cc8fee260535"
+    },
+    {
+      "bytes": 32220886,
+      "file": "building_parts/part-00004.parquet",
+      "sha256": "26e8f9e912c9c83ff45655ed7fa2ed8a5141594b2f6b1b7569af0c1faf1f98a4"
+    },
+    {
+      "bytes": 32864487,
+      "file": "building_parts/part-00005.parquet",
+      "sha256": "25f70939b47b88838d034ec48c1034708d84f17c4da01f5389e87270fb40b121"
+    },
+    {
+      "bytes": 34771134,
+      "file": "building_parts/part-00006.parquet",
+      "sha256": "72f56c1410d915baab6e904bd7804ec32fd978950da69620cc04e353f3048dce"
+    },
+    {
+      "bytes": 33439443,
+      "file": "building_parts/part-00007.parquet",
+      "sha256": "734694617acbc5cb10d63345e7b20ac13bc93460b8cacfade4a8cd1bd44e8c46"
+    },
+    {
+      "bytes": 31207940,
+      "file": "building_parts/part-00008.parquet",
+      "sha256": "fc7982e1e559a2e5240c3c4f3d2f33bbcf4e1c1eaa4969277df5a3e1902e0125"
+    },
+    {
+      "bytes": 32115048,
+      "file": "building_parts/part-00009.parquet",
+      "sha256": "3d50862737f00a35593cf9361a3fa168294a5864b7a8d289d6ef6aa46ad62a77"
+    },
+    {
+      "bytes": 32061558,
+      "file": "building_parts/part-00010.parquet",
+      "sha256": "0e2ec19e4944b9515ce3cf68c0c6154fc5a52574a5448952182a5b23e05bf7f9"
+    },
+    {
+      "bytes": 30453270,
+      "file": "building_parts/part-00011.parquet",
+      "sha256": "f0dc651ed7197a30ad83bc871ab66e008b9e08a22cfb114cb61dcec3c858ac73"
+    },
+    {
+      "bytes": 30792507,
+      "file": "building_parts/part-00012.parquet",
+      "sha256": "5cd1ba32521ddc005855a42d5dae0bebd4afa507da3fea14816f1ca9c5767054"
+    },
+    {
+      "bytes": 29639256,
+      "file": "building_parts/part-00013.parquet",
+      "sha256": "f6a20ab0bb5a2d9cde8fa295bf5714d702c726a94aee31538f7449b50b465a4b"
+    },
+    {
+      "bytes": 30503157,
+      "file": "building_parts/part-00014.parquet",
+      "sha256": "10b968b2f892218e5991271f19f21b5c0cfd6722ba9884a1cc9706c2c0938ba0"
+    },
+    {
+      "bytes": 30182529,
+      "file": "building_parts/part-00015.parquet",
+      "sha256": "de9039544a066b5ff95a3194cbfe9fdc7df12faa4bc9f2970118341360a170c6"
+    },
+    {
+      "bytes": 32343579,
+      "file": "building_parts/part-00016.parquet",
+      "sha256": "db5247bfb69b6632c7be914f30b17f654fc2c685b3fa424b9d9fcce048653b44"
+    },
+    {
+      "bytes": 32378576,
+      "file": "building_parts/part-00017.parquet",
+      "sha256": "5152e1cd0be17795417fe68a47665553f220dca843c222fd4e026f06692ea9fe"
+    },
+    {
+      "bytes": 30634272,
+      "file": "building_parts/part-00018.parquet",
+      "sha256": "f247716b4abf12c0b441e2bdee99fd5cc7b3649dd825091b328eb5dccd08d4b6"
+    },
+    {
+      "bytes": 29728352,
+      "file": "building_parts/part-00019.parquet",
+      "sha256": "3e269855d932e87e26a92ad327ae17abe36d2eec3dda5423c7165cbbf3c74262"
+    },
+    {
+      "bytes": 32818142,
+      "file": "building_parts/part-00020.parquet",
+      "sha256": "ceefccb830d010f4cf5bc75b26e0332c6620c17ecf4c55806c12e7a6e5ff0343"
+    },
+    {
+      "bytes": 30447730,
+      "file": "building_parts/part-00021.parquet",
+      "sha256": "e13e1e6e57b978d6a7daa73cad273c2507201604197dd1a82fb2eb0de55ba128"
+    },
+    {
+      "bytes": 29395116,
+      "file": "building_parts/part-00022.parquet",
+      "sha256": "9f3b3fd09fe462903941cac57ca8fddc8dc7c6e178652f310efa5165b68d7bba"
+    },
+    {
+      "bytes": 29544009,
+      "file": "building_parts/part-00023.parquet",
+      "sha256": "994537e329b0cf5fe3d392530377560cb1a85aad4c85a232d5d6d17b56c7b130"
+    },
+    {
+      "bytes": 29865576,
+      "file": "building_parts/part-00024.parquet",
+      "sha256": "e1cca95dc34c08de469cb580cffe28c1c68f60d8bd5ac87b15a5d7df0bf81d53"
+    },
+    {
+      "bytes": 29725727,
+      "file": "building_parts/part-00025.parquet",
+      "sha256": "4bc557ba59902926a9d79d9787cd1865df98551fe36a696a20023eb7847a59bb"
+    },
+    {
+      "bytes": 28017710,
+      "file": "building_parts/part-00026.parquet",
+      "sha256": "60e1b471ee70998f52a921bf990800c59bddba54a4441fa1b4a5a66111e63621"
+    },
+    {
+      "bytes": 29876130,
+      "file": "building_parts/part-00027.parquet",
+      "sha256": "7d911790393c7efc2d5e9526688425e41380fffd150f7379a83655f1c56a3057"
+    },
+    {
+      "bytes": 28926854,
+      "file": "building_parts/part-00028.parquet",
+      "sha256": "0ba98bec007a24f5b5f9f0f0bd3688cbea2ce402685560b70017666540ee4ba5"
+    },
+    {
+      "bytes": 29687390,
+      "file": "building_parts/part-00029.parquet",
+      "sha256": "125da71bac56fe55e25c0b4d730867aaab444d0eec6d409776215d17b1ae9a76"
+    },
+    {
+      "bytes": 30484242,
+      "file": "building_parts/part-00030.parquet",
+      "sha256": "e6a405aa12fae60fb21cc66a73551e1d7b0a485628acfb807855e93b0f36260a"
+    },
+    {
+      "bytes": 30768021,
+      "file": "building_parts/part-00031.parquet",
+      "sha256": "103b91117885255c57b7b2ca894fad838cce3d804b7f5aea0b34bf0883c73f64"
+    },
+    {
+      "bytes": 30543939,
+      "file": "building_parts/part-00032.parquet",
+      "sha256": "6af946700776d2b9d09840318cc35591d9f31dde1518e41c99b614c4dc50ef59"
+    },
+    {
+      "bytes": 30296498,
+      "file": "building_parts/part-00033.parquet",
+      "sha256": "027e9b08227d232deefe85ff5626e18c4a43fee8b958e634ee7527866b5368b4"
+    },
+    {
+      "bytes": 29618155,
+      "file": "building_parts/part-00034.parquet",
+      "sha256": "39f47289238f59a821793170c9ecf86f60fe5b0fa10b18922d1a8875521d6916"
+    },
+    {
+      "bytes": 30315787,
+      "file": "building_parts/part-00035.parquet",
+      "sha256": "2a31925add2f4ee8faea0a59d158baedc62c25f215d23c27ed7583fd84c68aa8"
+    },
+    {
+      "bytes": 28671428,
+      "file": "building_parts/part-00036.parquet",
+      "sha256": "f9f8a0d900d34a1b90ccee0dac6771753530e05b49efb1b26270e0290ec9b0c5"
+    },
+    {
+      "bytes": 31588677,
+      "file": "building_parts/part-00037.parquet",
+      "sha256": "9400e7ba22c2f4073a09dc068b9627ef9ce2c36111fb2886429b77058d23d40c"
+    },
+    {
+      "bytes": 31970176,
+      "file": "building_parts/part-00038.parquet",
+      "sha256": "678e9afff0606dc485297cb7fa9c95bc4093c367a9979b9f6107e361be1fad88"
+    },
+    {
+      "bytes": 29976394,
+      "file": "building_parts/part-00039.parquet",
+      "sha256": "8fe84f4bc9363ff3ab1b6e9af11e8a8ebd2b4321a889ad3b4d8db0cc0c227529"
+    },
+    {
+      "bytes": 29931304,
+      "file": "building_parts/part-00040.parquet",
+      "sha256": "69cd82398a21c053b38705c6dfc8106e8fdb59645c050170b40fd0563002d871"
+    },
+    {
+      "bytes": 30857366,
+      "file": "building_parts/part-00041.parquet",
+      "sha256": "1d0d02c8ac04dea790e8240cfe5deaa1ba6617ba32f81a3a29a753a926ab52b8"
+    },
+    {
+      "bytes": 31018214,
+      "file": "building_parts/part-00042.parquet",
+      "sha256": "ecd5f184870adfe15bb76965c165d93196a0eb11d28d7fd250d5e411862b0172"
+    },
+    {
+      "bytes": 31033570,
+      "file": "building_parts/part-00043.parquet",
+      "sha256": "3480fd953c237fa2b3f5738f18bb2d81be7f059969f3038e444c8a441548fd5d"
+    },
+    {
+      "bytes": 30641047,
+      "file": "building_parts/part-00044.parquet",
+      "sha256": "871cf73ec862ef9d9035dde7027de22a11ec98291b2a0c6a7b40799a818f383c"
+    },
+    {
+      "bytes": 30063671,
+      "file": "building_parts/part-00045.parquet",
+      "sha256": "9f37efde44a3840eacf669d01e86caf4c4c5eb16793404923d7fa19f299b3590"
+    },
+    {
+      "bytes": 30095593,
+      "file": "building_parts/part-00046.parquet",
+      "sha256": "9ae18d525238b3214094e7d00f9c356c13feeeb3b7df18024b1c0cae7cd8d15e"
+    },
+    {
+      "bytes": 29234798,
+      "file": "building_parts/part-00047.parquet",
+      "sha256": "e5d5d6e2625dd9af5213c6d2db46fd13a04bf5e7fd20e7b6eb3d2ea27ec5b4e5"
+    },
+    {
+      "bytes": 29479313,
+      "file": "building_parts/part-00048.parquet",
+      "sha256": "2a8c07d97c80d4e3f25bc09e3ac128fb29ddd9a1032bcb918a98e51a1808c350"
+    },
+    {
+      "bytes": 29190116,
+      "file": "building_parts/part-00049.parquet",
+      "sha256": "3cbf1770f07becbd055b8ba560ff133bc2e68770bf9c71f6d99efab16a669ceb"
+    },
+    {
+      "bytes": 28904849,
+      "file": "building_parts/part-00050.parquet",
+      "sha256": "ec20d9bbf6999b88208bf542ae1266b8d5a34d43d7f98ceca98eff14ff23dafc"
+    },
+    {
+      "bytes": 29991254,
+      "file": "building_parts/part-00051.parquet",
+      "sha256": "b6224a9754ffc27a399e45272873352431895766eddc868086117ca9fdd5241e"
+    },
+    {
+      "bytes": 30280699,
+      "file": "building_parts/part-00052.parquet",
+      "sha256": "f0988a16dd358748f54abbd2b51b9fc77ab8f9d1950006b7cbfdc51d9e47d2ab"
+    },
+    {
+      "bytes": 31651336,
+      "file": "building_parts/part-00053.parquet",
+      "sha256": "d34c5627d5ecfa813ffc0a2ba57ee22d20ed68d0736660ffd6948b8e49efae4a"
+    },
+    {
+      "bytes": 32642767,
+      "file": "building_parts/part-00054.parquet",
+      "sha256": "50f270bb140da4a240273785f541cd1d70c52472656dfd728ada4f5b0e4aff23"
+    },
+    {
+      "bytes": 31003811,
+      "file": "building_parts/part-00055.parquet",
+      "sha256": "4621d571c97b6c6ff19b6c41107255d20a67b64dec4e5fa0ae8ee468e56eefc8"
+    },
+    {
+      "bytes": 31058086,
+      "file": "building_parts/part-00056.parquet",
+      "sha256": "595fd7723eb24e9fe394974548a9734b3c98098f50204e6558039eba067e8102"
+    },
+    {
+      "bytes": 31941974,
+      "file": "building_parts/part-00057.parquet",
+      "sha256": "58fb314fbeb7c5148ed551522c00730e12e744bbe6499bd7b0e3a8c90e0423c5"
+    },
+    {
+      "bytes": 32504444,
+      "file": "building_parts/part-00058.parquet",
+      "sha256": "2a94f6bade6c5f68b1c9034cb7e718b17bfc27f9c50b102f39e716b08aad6737"
+    },
+    {
+      "bytes": 31789276,
+      "file": "building_parts/part-00059.parquet",
+      "sha256": "9d79cee4eaa3eba360b5c8a6a45fbb74aa0ddcd352bd584f59ebb0412529f933"
+    },
+    {
+      "bytes": 28842743,
+      "file": "building_parts/part-00060.parquet",
+      "sha256": "5b231f3eb4413195b22a96c42f2e2a1590cb41aa073ce897aa444d28311c3fd1"
+    },
+    {
+      "bytes": 28363019,
+      "file": "building_parts/part-00061.parquet",
+      "sha256": "b12f0575a0da4a0e3fa42aa9337a2e47b08bf648743ca6e85c06a986088f868f"
+    },
+    {
+      "bytes": 31920000,
+      "file": "building_parts/part-00062.parquet",
+      "sha256": "f5dcaf445bb3096046f9e54ae02ee310ca1bd0072158ddc32922fac9819fcdcf"
+    },
+    {
+      "bytes": 32096852,
+      "file": "building_parts/part-00063.parquet",
+      "sha256": "d809902d66238919bdf1899c80dacfa3cf0da287835feb67ac6663cd47553a13"
+    },
+    {
+      "bytes": 29849907,
+      "file": "building_parts/part-00064.parquet",
+      "sha256": "f53ad016072ce0e508a889d372b3636fec0cbd56aed4839a2f4740d0765d733d"
+    },
+    {
+      "bytes": 30654877,
+      "file": "building_parts/part-00065.parquet",
+      "sha256": "fd423ae420826537c49df5d6169444a11fd082cafcc43a340b265fe56b49d265"
+    },
+    {
+      "bytes": 31240337,
+      "file": "building_parts/part-00066.parquet",
+      "sha256": "55e5299d8be38a41eb8ec14da48cbfaf5c04d326482ca71413d085f79dae1f29"
+    },
+    {
+      "bytes": 31491461,
+      "file": "building_parts/part-00067.parquet",
+      "sha256": "2375950183189ec05d12c6168ac0aa299b721ac0b72298137844fca8ddef3313"
+    },
+    {
+      "bytes": 30984449,
+      "file": "building_parts/part-00068.parquet",
+      "sha256": "311cbdd66abaf9999a92b0825f6b97b6548e321b69d2dda3472e8a145a4ed06b"
+    },
+    {
+      "bytes": 30616247,
+      "file": "building_parts/part-00069.parquet",
+      "sha256": "5b6e29cffa5aae964d174e7636c9fbaf65bb2a09ee5480ad581af944f024b47a"
+    },
+    {
+      "bytes": 31248591,
+      "file": "building_parts/part-00070.parquet",
+      "sha256": "7b863dcc36d865c05bb4d23a7b13b7793c494e0a94e715b090ee10ead9c24c83"
+    },
+    {
+      "bytes": 31376966,
+      "file": "building_parts/part-00071.parquet",
+      "sha256": "e3a92d0f2898493dd07217235cc684975848de7ade103e5f3823003b04e0b854"
+    },
+    {
+      "bytes": 30567275,
+      "file": "building_parts/part-00072.parquet",
+      "sha256": "bed8192cdff3ea8a26bd50b392d2682c883bc3794c2900e4352bb8b4c38ed191"
+    },
+    {
+      "bytes": 31344517,
+      "file": "building_parts/part-00073.parquet",
+      "sha256": "bcf4753682b3f7e3c0f362749638720baa767a10f19f918f88ac846f1d007580"
+    },
+    {
+      "bytes": 31957336,
+      "file": "building_parts/part-00074.parquet",
+      "sha256": "821de2444520c791de08844d9773645399416ffb88fbe7a0cd449b131aa436d7"
+    },
+    {
+      "bytes": 31442966,
+      "file": "building_parts/part-00075.parquet",
+      "sha256": "8b275b4e44115ea03591530cc02f840a43a6bc7b78cc9c3811d1f8377f74374d"
+    },
+    {
+      "bytes": 27793470,
+      "file": "building_parts/part-00076.parquet",
+      "sha256": "b4c36fb69bba8c2283053408d69375f2d69d794be7af1c8fa104a01d3e93a185"
+    },
+    {
+      "bytes": 26834519,
+      "file": "building_parts/part-00077.parquet",
+      "sha256": "7368c8ddad095cf463d88be719c66bc9ef26a2695f6dfa3b18fc589e0354a499"
+    },
+    {
+      "bytes": 27077271,
+      "file": "building_parts/part-00078.parquet",
+      "sha256": "f9ac432fa0c5abb0b519d1a9a440330fb0ba0bb393a40646c14b2f89d6e6cd0b"
+    },
+    {
+      "bytes": 27710830,
+      "file": "building_parts/part-00079.parquet",
+      "sha256": "785e52047e3efb149821811f77dc6a2316842a9022e6841082df8cc5a87da293"
+    },
+    {
+      "bytes": 27446336,
+      "file": "building_parts/part-00080.parquet",
+      "sha256": "02c574827a72c9db9784b1d57de571ea8484039acb0e0e32efec6d19590f550f"
+    },
+    {
+      "bytes": 27628632,
+      "file": "building_parts/part-00081.parquet",
+      "sha256": "3635ec7c56b38642d1843727d1e1711082209835992c965d53341850135ffbc2"
+    },
+    {
+      "bytes": 26470716,
+      "file": "building_parts/part-00082.parquet",
+      "sha256": "95a8ab88a41e2cf0cc54089df35919125d94f87b93f961735d4fab0382d2e9ae"
+    },
+    {
+      "bytes": 27971135,
+      "file": "building_parts/part-00083.parquet",
+      "sha256": "a4459b33764142bbca99a6fd806ae13f47706bbd2b3ffe0222073d038f79c1bd"
+    },
+    {
+      "bytes": 26484314,
+      "file": "building_parts/part-00084.parquet",
+      "sha256": "9f67b44a01e1e46864a413da1cbde2d3ba5e50313a469324ee8f3279cb90b504"
+    },
+    {
+      "bytes": 30185554,
+      "file": "building_parts/part-00085.parquet",
+      "sha256": "757f01758466d287619ab250a0cae7cbafa2d0919b23b6adff0a70d4add41872"
+    },
+    {
+      "bytes": 31536557,
+      "file": "building_parts/part-00086.parquet",
+      "sha256": "1c3206fb91236ba541a2814d9ccea9a67292735b11f7e338a9670ba80e105134"
+    },
+    {
+      "bytes": 30935376,
+      "file": "building_parts/part-00087.parquet",
+      "sha256": "27452864d422a869a239b63e4e82cab466b8e0b5481c9d6efcc3cbf5cace7720"
+    },
+    {
+      "bytes": 31063229,
+      "file": "building_parts/part-00088.parquet",
+      "sha256": "aa5c3efafaf5bc1b649d7d17ec63dbd9e60ec4b23ca4c981234ee88ac08cab0d"
+    },
+    {
+      "bytes": 31589273,
+      "file": "building_parts/part-00089.parquet",
+      "sha256": "a1849c1ed063911c41def540d8a15ca8d3149e0de0c70054dffd40b8cc2619cc"
+    },
+    {
+      "bytes": 32867181,
+      "file": "building_parts/part-00090.parquet",
+      "sha256": "29c29b127ea05c0e48b42c44d4c071d6d8ba2d15b87f476a1e98da896b81a71c"
+    },
+    {
+      "bytes": 33992384,
+      "file": "building_parts/part-00091.parquet",
+      "sha256": "363e0336330444ef32a2894d15edcdd6beacc68a9e4351503fe4589e7948d7c1"
+    },
+    {
+      "bytes": 32126916,
+      "file": "building_parts/part-00092.parquet",
+      "sha256": "8f4817784d120895bffb26285ad0a8bb2646bad8d77092903210dc9a49ce731d"
+    },
+    {
+      "bytes": 31456412,
+      "file": "building_parts/part-00093.parquet",
+      "sha256": "442954517adfdf998b57605aab7a521f2e20ded4e98892f36fd86f26127974e3"
+    },
+    {
+      "bytes": 30573741,
+      "file": "building_parts/part-00094.parquet",
+      "sha256": "9888a6ef7611d2c4f55bedd77697513638b6f0862675ca45d16425a155170f47"
+    },
+    {
+      "bytes": 30970752,
+      "file": "building_parts/part-00095.parquet",
+      "sha256": "dc08702386cc484c401600677988c86ab2a8ece5a2b675a50070f202aab98c7d"
+    },
+    {
+      "bytes": 33253535,
+      "file": "building_parts/part-00096.parquet",
+      "sha256": "2856e6b618357323a202a98686b721468d97065db180bd074b9419e0d7aaaf9c"
+    },
+    {
+      "bytes": 32627369,
+      "file": "building_parts/part-00097.parquet",
+      "sha256": "f1291f37ed8e126d99a48b0ac824db3ad3d4f6a0ea17c24e7746e14f5df12f69"
+    },
+    {
+      "bytes": 29407492,
+      "file": "building_parts/part-00098.parquet",
+      "sha256": "2406d76dfd38a154b9aacca7de39d8bdd63babbe4821f322a2ce01dd28c70d41"
+    },
+    {
+      "bytes": 29240905,
+      "file": "building_parts/part-00099.parquet",
+      "sha256": "91e28e9e90aa6fe278272a6ef951549cb294bbd4439602cc0c0d6022a305aaa9"
+    },
+    {
+      "bytes": 29181821,
+      "file": "building_parts/part-00100.parquet",
+      "sha256": "099cabb87126f0e42b3605d7a2eb34a5a685e09eb2c263c2c7198e3b86693889"
+    },
+    {
+      "bytes": 29809396,
+      "file": "building_parts/part-00101.parquet",
+      "sha256": "b361d16ab84b68f56f3d266d334049dd29454c17e3861ddd9ee1d683f38512a2"
+    },
+    {
+      "bytes": 29018019,
+      "file": "building_parts/part-00102.parquet",
+      "sha256": "bbb7294ad551772354e09237a3febd1fbf811b6d504effca84a79c30aa2b3a2d"
+    },
+    {
+      "bytes": 29451626,
+      "file": "building_parts/part-00103.parquet",
+      "sha256": "b048e7d040ba8037b91391ce4f24a5a86bbcbfec3675d597366ed1a2c444669b"
+    },
+    {
+      "bytes": 32207094,
+      "file": "building_parts/part-00104.parquet",
+      "sha256": "6d25973c648f93b77a60947eccac27a181ca7fbd617576e34a59282f8b8ac0ff"
+    },
+    {
+      "bytes": 35208592,
+      "file": "building_parts/part-00105.parquet",
+      "sha256": "448141480cedde83d2051274de3ab2890b63d04810247efde0a754d634868ec6"
+    },
+    {
+      "bytes": 34700559,
+      "file": "building_parts/part-00106.parquet",
+      "sha256": "f8b1ff60ab86ee233dec18f916a0450b742a3742b37aaa34a20cee30a50fd06c"
+    },
+    {
+      "bytes": 38017059,
+      "file": "building_parts/part-00107.parquet",
+      "sha256": "bbcbb177ce475d116dadf08ebdab0cd83a3ce434ac7fab95de76bd418a2de1f8"
+    },
+    {
+      "bytes": 29323142,
+      "file": "building_parts/part-00108.parquet",
+      "sha256": "f837ad0791c7f15d7b74aa9a88002ce6587f32adc1fd480caf7a8d6158b7f344"
+    },
+    {
+      "bytes": 28040853,
+      "file": "building_parts/part-00109.parquet",
+      "sha256": "b7262e79eec4d2bc65fe66f91b4d758c5eeec005100ffad77b57f0817a7bf25f"
+    },
+    {
+      "bytes": 28456025,
+      "file": "building_parts/part-00110.parquet",
+      "sha256": "d5a6fa11920c3e7c1590651b2ed6cb4eca045a76ca63200295cec989fd11eccb"
+    },
+    {
+      "bytes": 29746305,
+      "file": "building_parts/part-00111.parquet",
+      "sha256": "13e0d0b0eea916696d13770ec7c2947d94ca7ad34306bee9fcfdb3d0ec6358a5"
+    },
+    {
+      "bytes": 31341624,
+      "file": "building_parts/part-00112.parquet",
+      "sha256": "3bb7c5fca043cbb8102d64a8f48e536c9037c1453c0d753dc8aea1aafce9b492"
+    },
+    {
+      "bytes": 34848530,
+      "file": "building_parts/part-00113.parquet",
+      "sha256": "1de376cb3f21010a4b4fc46d85b39f72ba0ff18e705c126526404000f08c23ac"
+    },
+    {
+      "bytes": 33789652,
+      "file": "building_parts/part-00114.parquet",
+      "sha256": "53dc118fc37b625364af9162bb7f23f66106ec90f4ebde63f5c88bf0e9302210"
+    },
+    {
+      "bytes": 35538957,
+      "file": "building_parts/part-00115.parquet",
+      "sha256": "d576b9958aa8da30dfa03aec0d7aae53e8af8d4e95cf6d06f5d4df3772b0d0cd"
+    },
+    {
+      "bytes": 30786855,
+      "file": "building_parts/part-00116.parquet",
+      "sha256": "eadfbe7281c89f876c04dc933b7b06496bd83a8b4fdab9441c0e7ffa90442db7"
+    },
+    {
+      "bytes": 29821363,
+      "file": "building_parts/part-00117.parquet",
+      "sha256": "c28e51adac9445799a187512a3d1eddd3160fefea3c4a49b1d2ba0c3ccfc14f5"
+    },
+    {
+      "bytes": 29971480,
+      "file": "building_parts/part-00118.parquet",
+      "sha256": "c75cdc9750cf1cf703d764aab9c01e75201480a7af5de0b79178a4c34c3c4f14"
+    },
+    {
+      "bytes": 29535082,
+      "file": "building_parts/part-00119.parquet",
+      "sha256": "b9828cd3b071b058ae44f0ea1af6012ebf18500230e9f232f1552c83c0542219"
+    },
+    {
+      "bytes": 28080499,
+      "file": "building_parts/part-00120.parquet",
+      "sha256": "4cc91eeddf5b4c8fa1b9000b06ff25683be6f7838edfe921bc307fc3c375f300"
+    },
+    {
+      "bytes": 27785275,
+      "file": "building_parts/part-00121.parquet",
+      "sha256": "90d239e0872da505b01579842410a0afeebc9f8f58e1d3307f6a8ea0decc8e86"
+    },
+    {
+      "bytes": 29358357,
+      "file": "building_parts/part-00122.parquet",
+      "sha256": "1a516b9064f1b4788cb7dfcf4489e906385ef8bd011954ceaddcd2fc0e380134"
+    },
+    {
+      "bytes": 28187842,
+      "file": "building_parts/part-00123.parquet",
+      "sha256": "96c3b539d7c4922ce5d31d5d55345679616611809fd601f285e7190eee4495d7"
+    },
+    {
+      "bytes": 28211047,
+      "file": "building_parts/part-00124.parquet",
+      "sha256": "42d2661e14a1693184748cdf0b9d81741c8e494c9b8a49ce8e78d33a30ff8403"
+    },
+    {
+      "bytes": 28655367,
+      "file": "building_parts/part-00125.parquet",
+      "sha256": "192a4a3f08bf573e0624033d8caf0e02a7c342125e658a0907fbcd23c8d1f0d0"
+    },
+    {
+      "bytes": 31775337,
+      "file": "building_parts/part-00126.parquet",
+      "sha256": "9f039581328d5a986ae984e1689a81506ba8cedff0f59dca35053abaf280bf2a"
+    },
+    {
+      "bytes": 30500476,
+      "file": "building_parts/part-00127.parquet",
+      "sha256": "d576c0e2a8957a4bbc247ebb18aa561da54dd937024d42fdc6f17d804abcbdc9"
+    },
+    {
+      "bytes": 31915876,
+      "file": "building_parts/part-00128.parquet",
+      "sha256": "498211c49eb7e5094d7315feb780e93cea920eebbd81d1fa4e2e878b42bf142c"
+    },
+    {
+      "bytes": 29563010,
+      "file": "building_parts/part-00129.parquet",
+      "sha256": "1184ab3f45bab903aaa1d50db9f659995cc73409ad9d9bd3fdac5cf5759adf0d"
+    },
+    {
+      "bytes": 31362582,
+      "file": "building_parts/part-00130.parquet",
+      "sha256": "6069b727d7bfa1a50cb607053be48d801906642325c90166f50e44327d6a09dd"
+    },
+    {
+      "bytes": 29768002,
+      "file": "building_parts/part-00131.parquet",
+      "sha256": "cd016e6bac5ab2b6591874554fa767b392e748d475694803491dc0e84337e13e"
+    },
+    {
+      "bytes": 28589129,
+      "file": "building_parts/part-00132.parquet",
+      "sha256": "874060bb6cad057d728b31fbd2084ff900895ad43f77f70d4b8dc8a99256cf77"
+    },
+    {
+      "bytes": 28579248,
+      "file": "building_parts/part-00133.parquet",
+      "sha256": "c13c881a2696543236c0ebcb38b4706fec102dadf7f36ac848fb52a1428de218"
+    },
+    {
+      "bytes": 28574389,
+      "file": "building_parts/part-00134.parquet",
+      "sha256": "56ceb4f6bbfded0240720331f0f198ef7d45ab0315f2d112d1f41086e1f9cafe"
+    },
+    {
+      "bytes": 28500143,
+      "file": "building_parts/part-00135.parquet",
+      "sha256": "98c2a54f3fd19c52d8fa4b1cfa7414f02459193aa36cb987207075db94eeb61c"
+    },
+    {
+      "bytes": 29943956,
+      "file": "building_parts/part-00136.parquet",
+      "sha256": "b78b387cbf1fcc1e5e573c73fcc8aaac181d5876f4d5873c4cdb05627262e4e7"
+    },
+    {
+      "bytes": 30729300,
+      "file": "building_parts/part-00137.parquet",
+      "sha256": "c41b571f975c15de55316e788981d0f5ff568f207269c7b3094310473107dfd0"
+    },
+    {
+      "bytes": 31036174,
+      "file": "building_parts/part-00138.parquet",
+      "sha256": "b97809e946dc1a9445ff4dffbda728d8be2d03c5c556084115937435bdd1ba3b"
+    },
+    {
+      "bytes": 31439678,
+      "file": "building_parts/part-00139.parquet",
+      "sha256": "0378d1a380dafa8451e7ed79b6798f2cf5dabc1c03893639e45ef1703c9de352"
+    },
+    {
+      "bytes": 31312374,
+      "file": "building_parts/part-00140.parquet",
+      "sha256": "6fa4dddf99410ad838796c9b890ad889a31ad6632b02a47cdd28c9457fdeb1cb"
+    },
+    {
+      "bytes": 29925734,
+      "file": "building_parts/part-00141.parquet",
+      "sha256": "8ec8b5cf7418a7fa39b77e107d853c81a2257629b81569db2e7096c306c9e319"
+    },
+    {
+      "bytes": 30747222,
+      "file": "building_parts/part-00142.parquet",
+      "sha256": "6d4f46c5253bf3aad9becf9639f05ea6b862184f74fa496b12a02b161a4ee625"
+    },
+    {
+      "bytes": 33937416,
+      "file": "building_parts/part-00143.parquet",
+      "sha256": "1c0323bffce1c3ec38bc5f31ed3898b7ec7edc6a63d5747b01b39a043715934c"
+    },
+    {
+      "bytes": 32254952,
+      "file": "building_parts/part-00144.parquet",
+      "sha256": "f47ae713a72dc607af2352f678e25940315fee93814f8b5426d05d8061423788"
+    },
+    {
+      "bytes": 31911717,
+      "file": "building_parts/part-00145.parquet",
+      "sha256": "2e6f62f0c25d45afaca2bc85f3fcabf6af04784168d8e79fe7cb6fc272dd147c"
+    },
+    {
+      "bytes": 31106425,
+      "file": "building_parts/part-00146.parquet",
+      "sha256": "335c8cdf58050aa2f7367fdf090aa81c75aa235543226a7f1b928c907e2bc701"
+    },
+    {
+      "bytes": 28631148,
+      "file": "building_parts/part-00147.parquet",
+      "sha256": "3e5053bc2be0c9e55acd6eed277f6081bd3101da07d29e262d3d86684d524dcb"
+    },
+    {
+      "bytes": 28046707,
+      "file": "building_parts/part-00148.parquet",
+      "sha256": "de54d01a4fe62d9fe75185c21446fb4f5b25fc3d8c7c4982193c3cddc9f71434"
+    },
+    {
+      "bytes": 30300120,
+      "file": "building_parts/part-00149.parquet",
+      "sha256": "1dda5bc21515dab6a45bf76e0440a77babfad391b67cbc9c16042fff9d4a762c"
+    },
+    {
+      "bytes": 31584656,
+      "file": "building_parts/part-00150.parquet",
+      "sha256": "ccd7ca563dd94c8f2174ff33e69f9109216f4cb52c810ffd834f6370d01fda9a"
+    },
+    {
+      "bytes": 30378572,
+      "file": "building_parts/part-00151.parquet",
+      "sha256": "ead0d1d67257eab6d05216a3e8f12bc112de71967d3fadedb204f20f98aaae1e"
+    },
+    {
+      "bytes": 30876504,
+      "file": "building_parts/part-00152.parquet",
+      "sha256": "d5eed693484fe68324321ccba2f36196aa857f634bfff03b41a407bdcd890499"
+    },
+    {
+      "bytes": 25491402,
+      "file": "building_parts/part-00153.parquet",
+      "sha256": "5663a3cc5125212e23c60674e5feaee8eb6623f40115aa89029e545e2ce9a55a"
+    },
+    {
+      "bytes": 68337406,
+      "file": "buildings/part-00000.parquet",
+      "sha256": "492cea9d6e239f85d33e1a80fd944f8d68f4acc267e0ad9f2f2277b8707399cf"
+    },
+    {
+      "bytes": 83444332,
+      "file": "buildings/part-00001.parquet",
+      "sha256": "94e8d600c3da5686317c9c12ce785a4d00255f6a735eb40a4349e5f0433352eb"
+    },
+    {
+      "bytes": 72555179,
+      "file": "buildings/part-00002.parquet",
+      "sha256": "2bbaa7d3f52df962304a88b45b99380836ad2aa79e5581ae716e8f2830be0d6d"
+    },
+    {
+      "bytes": 59105895,
+      "file": "buildings/part-00003.parquet",
+      "sha256": "0bc4fff14cde4156b150c0196267b5141bffd840b21fca45b51adf7e8368d43c"
+    },
+    {
+      "bytes": 61677503,
+      "file": "buildings/part-00004.parquet",
+      "sha256": "89eaa0ef366cfe27ea90d2c1585a4728cb3cd09150b37dbcd1986752cccc1235"
+    },
+    {
+      "bytes": 74337869,
+      "file": "buildings/part-00005.parquet",
+      "sha256": "e9573856ba677569c4161e71a6c46dfb9b12f31d3f56ad36dc43418e72244c09"
+    },
+    {
+      "bytes": 82211832,
+      "file": "buildings/part-00006.parquet",
+      "sha256": "ff1ec56b150a28f7b7d6dc401328c01ce1efae26e5b99f27eba3c40d1661c5f2"
+    },
+    {
+      "bytes": 71335387,
+      "file": "buildings/part-00007.parquet",
+      "sha256": "204189a8a1ec60bbd7f440e3768f1ac78f6bee12119d392b5d4bea7e42c1b942"
+    },
+    {
+      "bytes": 72494094,
+      "file": "buildings/part-00008.parquet",
+      "sha256": "6abf5266193b1b8f1714e4c422da2a6f395d92cc3cfdfbe7dc61201a19ab1936"
+    },
+    {
+      "bytes": 64541613,
+      "file": "buildings/part-00009.parquet",
+      "sha256": "b1a1e7609cc84a99daee106bf3ac95f3d40608adf45efbeccd096b6f492b0369"
+    },
+    {
+      "bytes": 52240797,
+      "file": "buildings/part-00010.parquet",
+      "sha256": "edb1e7ee3ce65228d4055ad3e6f4c15939e6c7b7344d8c6f8c07c6ed16e43318"
+    },
+    {
+      "bytes": 62556291,
+      "file": "buildings/part-00011.parquet",
+      "sha256": "08a3d2b2918f152a79a3faf4e7455ac33d40c8798feca43b00f6921179fb36d6"
+    },
+    {
+      "bytes": 68372843,
+      "file": "buildings/part-00012.parquet",
+      "sha256": "7d0b3a10b0815dec34b038a7d51ba7bb1a1cb70386499012619fe103b5bf94a7"
+    },
+    {
+      "bytes": 62740687,
+      "file": "buildings/part-00013.parquet",
+      "sha256": "c5f442e0924c4f2d8b459534421bbf1c595e3339e5271a92a7ac5505c246436e"
+    },
+    {
+      "bytes": 63898572,
+      "file": "buildings/part-00014.parquet",
+      "sha256": "0f68055fe441b0945f7b8fc450936ae458e349d3f67441aba292ff297b620c7e"
+    },
+    {
+      "bytes": 68235224,
+      "file": "buildings/part-00015.parquet",
+      "sha256": "066d64cd7dd0346c961ea18cbd375a2c841b329723cf73b90b16908df801e1e9"
+    },
+    {
+      "bytes": 66740291,
+      "file": "buildings/part-00016.parquet",
+      "sha256": "703fbd2ff7652fdb68289ffd4c44405394b120aeb5c05edf6073a89502113fd6"
+    },
+    {
+      "bytes": 63184164,
+      "file": "buildings/part-00017.parquet",
+      "sha256": "ccb9776667f7e73bdcfd5f4ba378d19f81f84f05f1958f1d6d544662c13feda5"
+    },
+    {
+      "bytes": 66726798,
+      "file": "buildings/part-00018.parquet",
+      "sha256": "a1dddf923fa3ea3fd5873438dac1aaeecfe4314c8fdf80c242a1f56bffbf0fa6"
+    },
+    {
+      "bytes": 61347445,
+      "file": "buildings/part-00019.parquet",
+      "sha256": "ea54d6fdee67038b7c1c80e52f2e94830fd77252922c7d3c30c312d9dbfc5b93"
+    },
+    {
+      "bytes": 58803017,
+      "file": "buildings/part-00020.parquet",
+      "sha256": "22dd2bbe6e09edb678fcaaa2f8a16023167615ad512b744b618198cba5f10118"
+    },
+    {
+      "bytes": 63346758,
+      "file": "buildings/part-00021.parquet",
+      "sha256": "4cfa5a1d7951d76a7ffbd33744e401c829e12c1393313b6784eb3221d0cae4af"
+    },
+    {
+      "bytes": 59216337,
+      "file": "buildings/part-00022.parquet",
+      "sha256": "54066746dc681a4734ee22c70ed9325e72b197501106f3c30532f8b0cc266e44"
+    },
+    {
+      "bytes": 56056033,
+      "file": "buildings/part-00023.parquet",
+      "sha256": "3e7d1ad39005196806aa1e4827fcd8ec0d57237441880f39ce99e57463ebb049"
+    },
+    {
+      "bytes": 62363701,
+      "file": "buildings/part-00024.parquet",
+      "sha256": "a7432bd686c992b1c3c6c9915a0629e2f29a7bc3c9365d16e8d68078e525387c"
+    },
+    {
+      "bytes": 61678614,
+      "file": "buildings/part-00025.parquet",
+      "sha256": "34a9791803ca59c6ad603102ce240c06b027ca5a92ffcd5e0fb76ce53f6b0f5e"
+    },
+    {
+      "bytes": 71615981,
+      "file": "buildings/part-00026.parquet",
+      "sha256": "503105e46efe5f7d30efe15d20824cef1482afdfc1ed6c17ccbee8b6de55bd97"
+    },
+    {
+      "bytes": 76985489,
+      "file": "buildings/part-00027.parquet",
+      "sha256": "719d00fe2cc8d70a29805d90b3e83d86b0a181039c33c54abe220db51568fc42"
+    },
+    {
+      "bytes": 86337499,
+      "file": "buildings/part-00028.parquet",
+      "sha256": "42f7b505472628e51951acf7a27d7deb9f067bf30bb4073556ef795d725d5002"
+    },
+    {
+      "bytes": 78397467,
+      "file": "buildings/part-00029.parquet",
+      "sha256": "5c118733129618f68b1fbee562cde799983479a83aa1ea967ad319cfd4a866fd"
+    },
+    {
+      "bytes": 69549879,
+      "file": "buildings/part-00030.parquet",
+      "sha256": "1bfff733060c41695425f64572f79b07f081d15bb7259709cd6ef4c729eb0273"
+    },
+    {
+      "bytes": 69752809,
+      "file": "buildings/part-00031.parquet",
+      "sha256": "bb78ae9f2f8f693b18acc660e71458c0479d58b0a9c8da75a1f87ada3c285998"
+    },
+    {
+      "bytes": 59094636,
+      "file": "buildings/part-00032.parquet",
+      "sha256": "19fd46db42417b2f4ff566338aeb648dc948b5583317607b495365f7d2c79019"
+    },
+    {
+      "bytes": 56186576,
+      "file": "buildings/part-00033.parquet",
+      "sha256": "2e4fc88f72813a8002420b52fe6bee2f767a006beffb5c8ec7df55ef96a01a97"
+    },
+    {
+      "bytes": 81459801,
+      "file": "buildings/part-00034.parquet",
+      "sha256": "6f0d98153bad00ccf8520050f475cce4ad0376b8d5a2e094754e13c6d1ff7c86"
+    },
+    {
+      "bytes": 73526649,
+      "file": "buildings/part-00035.parquet",
+      "sha256": "9f40377a6524daae8e3e8b0bf62ca54d8a528ff8baeaab5eb8183c8a66cd49b8"
+    },
+    {
+      "bytes": 63207936,
+      "file": "buildings/part-00036.parquet",
+      "sha256": "ebbe6a6b128c6d03c33cabc998b36a292ebf39024ea22b18be00c512117a1bb6"
+    },
+    {
+      "bytes": 74014158,
+      "file": "buildings/part-00037.parquet",
+      "sha256": "8b800fcc7b97ff792879599a3961f06068f514560b170f52ddfb9d7b2a07d7ac"
+    },
+    {
+      "bytes": 68025559,
+      "file": "buildings/part-00038.parquet",
+      "sha256": "a8788894994d8173de4ddb4ffc2369ac6f7eff9fb09a440faffbf0b6e0624f90"
+    },
+    {
+      "bytes": 65814802,
+      "file": "buildings/part-00039.parquet",
+      "sha256": "d588b93c2beae79e40376de8f93d343016ff89126552d4d333579d57f386d7ee"
+    },
+    {
+      "bytes": 65861582,
+      "file": "buildings/part-00040.parquet",
+      "sha256": "1fd5b550fe9f0d0a9e84a66d5a9c0d09c4a355ea1d80f4bd2d850fb88a471ec9"
+    },
+    {
+      "bytes": 61302627,
+      "file": "buildings/part-00041.parquet",
+      "sha256": "fd36ff6486c43c268d2625c1c245213030a1c360883e965321b1c86fdf279528"
+    },
+    {
+      "bytes": 59615221,
+      "file": "buildings/part-00042.parquet",
+      "sha256": "64c54b86174618a06b2c0663e4f9d2954c8c859564c0c88f0532d7a9602b2302"
+    },
+    {
+      "bytes": 62474810,
+      "file": "buildings/part-00043.parquet",
+      "sha256": "192f40283c2171a2c5334c03c5d808cfd7a7f80b32c4e3836b1b6dd611f8390c"
+    },
+    {
+      "bytes": 65191352,
+      "file": "buildings/part-00044.parquet",
+      "sha256": "29c68483f7a2ec65f82cbdce29408c47ff4553c22ba12157481de8a5d2e75c54"
+    },
+    {
+      "bytes": 68982980,
+      "file": "buildings/part-00045.parquet",
+      "sha256": "ca54e212e22df27e1f226e14ff6f10fccf73e3ad285b8075aab429cf0ee661e1"
+    },
+    {
+      "bytes": 72283946,
+      "file": "buildings/part-00046.parquet",
+      "sha256": "9dcca38307d2ab3ccd2204add1ff107b6e977ae447d152ee18955c9d5bd1668d"
+    },
+    {
+      "bytes": 65182510,
+      "file": "buildings/part-00047.parquet",
+      "sha256": "bdd82273fb718ee58cf8d45271b5ef753cbda03b475fea4680fe61abc542b36d"
+    },
+    {
+      "bytes": 65066885,
+      "file": "buildings/part-00048.parquet",
+      "sha256": "50d3064aee7ce6f8c6d4d135264006fc302421d3f4d3417aa5206b9dfc174268"
+    },
+    {
+      "bytes": 72409716,
+      "file": "buildings/part-00049.parquet",
+      "sha256": "1e6f0b4a5b972b846833845e56f4093b6f18f92d500dcd6c728661902c75ef78"
+    },
+    {
+      "bytes": 120785369,
+      "file": "cadastral_parcels/part-00000.parquet",
+      "sha256": "e9f30bdc47c3590849358746c57bca4975b235e538e2d74db54ca2d253570ca3"
+    },
+    {
+      "bytes": 107723314,
+      "file": "cadastral_parcels/part-00001.parquet",
+      "sha256": "1559c9a00b452963f118eca50315b07e3dbd1c7f48a08bbd94312d9ee35c3ec0"
+    },
+    {
+      "bytes": 91850290,
+      "file": "cadastral_parcels/part-00002.parquet",
+      "sha256": "ba85e5d8feb58dfe490005438238ece1f3691661076c5559524b39be66a75b33"
+    },
+    {
+      "bytes": 96215121,
+      "file": "cadastral_parcels/part-00003.parquet",
+      "sha256": "fafdcfd08d32ba9fe8541625348123d5406e934da371d34907f66733c6cba184"
+    },
+    {
+      "bytes": 84375356,
+      "file": "cadastral_parcels/part-00004.parquet",
+      "sha256": "8e82d5921eefc5fd7ef38c5f0cd060622b55df36e8040dce762870368c2983bc"
+    },
+    {
+      "bytes": 83520904,
+      "file": "cadastral_parcels/part-00005.parquet",
+      "sha256": "45365697300d3f5882bc6665ac27f4c9ce60f144573fbe3f264d525c4740d908"
+    },
+    {
+      "bytes": 103749748,
+      "file": "cadastral_parcels/part-00006.parquet",
+      "sha256": "9e83df23875f1ad529c9c8a5b88ab3a82464b39d5c79f8cde56262195429a0f0"
+    },
+    {
+      "bytes": 137492531,
+      "file": "cadastral_parcels/part-00007.parquet",
+      "sha256": "6b3dc899a338d880344c214e125babf0b61897f6dd3e657aefa6aedc1c07d0a1"
+    },
+    {
+      "bytes": 145707989,
+      "file": "cadastral_parcels/part-00008.parquet",
+      "sha256": "081568d4c3616b47f7da1d9ca8da5ca880eb525b22e64eb268284b2d3e0a7f86"
+    },
+    {
+      "bytes": 95292628,
+      "file": "cadastral_parcels/part-00009.parquet",
+      "sha256": "b39e6e66124be01bfe3590846ac3d63ef37c4028ce2eb60033d7ed27dc98bd5c"
+    },
+    {
+      "bytes": 80345361,
+      "file": "cadastral_parcels/part-00010.parquet",
+      "sha256": "34473ebfb5204be03c12ed0191cf09d01b7ae2cf2cd6c13d1ba16b29ad12d9c3"
+    },
+    {
+      "bytes": 87303331,
+      "file": "cadastral_parcels/part-00011.parquet",
+      "sha256": "0805060aa70f9bd701eb647d2d6f02708a8e48816d9d7f7f0ec3140c9b9fbe10"
+    },
+    {
+      "bytes": 83456826,
+      "file": "cadastral_parcels/part-00012.parquet",
+      "sha256": "1fcabe6e27d15c16ad1be94b26be098b06501f719898295cda42dd84989ed165"
+    },
+    {
+      "bytes": 108176174,
+      "file": "cadastral_parcels/part-00013.parquet",
+      "sha256": "3e8d0f26ddb7a509d24c5d570069c161e06d66faee7d9c7afb38ac4099501a92"
+    },
+    {
+      "bytes": 110045147,
+      "file": "cadastral_parcels/part-00014.parquet",
+      "sha256": "e94b7f6ed52cd44b090ec5eff7946251023e6536b3cc98d58ba72e1e482be9ec"
+    },
+    {
+      "bytes": 97258806,
+      "file": "cadastral_parcels/part-00015.parquet",
+      "sha256": "d2d84dffbb4718133efdbeda14cb300b013d20350424083b43622221a0cf7598"
+    },
+    {
+      "bytes": 95752249,
+      "file": "cadastral_parcels/part-00016.parquet",
+      "sha256": "6478c6a76a44b09e6192f3e83aa35128fa83ae296f1c9024c30a591eacc41b1c"
+    },
+    {
+      "bytes": 73639087,
+      "file": "cadastral_parcels/part-00017.parquet",
+      "sha256": "0afa1065e1bc84750d6cbfde369865a320d019e2a51f4914eb21d0651def9072"
+    },
+    {
+      "bytes": 97880280,
+      "file": "cadastral_parcels/part-00018.parquet",
+      "sha256": "af5ce4e16da6e65508dac3d39ceb03dfc7dedba9089a0c1263db7883b7586bf6"
+    },
+    {
+      "bytes": 121782791,
+      "file": "cadastral_parcels/part-00019.parquet",
+      "sha256": "23ac50a965f8360fa680f4384b35da772a7132b2f8cd1eaba2ee44856cbac0fa"
+    },
+    {
+      "bytes": 117146424,
+      "file": "cadastral_parcels/part-00020.parquet",
+      "sha256": "66f6616cba527420d661a07b69932c622b4591a9c096f445750b10480a3c37f1"
+    },
+    {
+      "bytes": 108220814,
+      "file": "cadastral_parcels/part-00021.parquet",
+      "sha256": "236af72836418ae5d7610bce6010a49a0a1d6cb5580cbe8181f70e3a89a82ab9"
+    },
+    {
+      "bytes": 81618121,
+      "file": "cadastral_parcels/part-00022.parquet",
+      "sha256": "024e4bcff105f6475718d0107bfce36a875a147e8ce23bf236b89e9be541ba1c"
+    },
+    {
+      "bytes": 85405303,
+      "file": "cadastral_parcels/part-00023.parquet",
+      "sha256": "abbfcdc084491201f34926e0c0367e3cb825d397f67897f7a6fa44a4adb10078"
+    },
+    {
+      "bytes": 83567714,
+      "file": "cadastral_parcels/part-00024.parquet",
+      "sha256": "88aa8a7d907e8774d9478881f23a4a9b96dd4d5dc740f6df6d04dc3a0505fdfb"
+    },
+    {
+      "bytes": 80900251,
+      "file": "cadastral_parcels/part-00025.parquet",
+      "sha256": "0f2faeea9b2554e06e1a376d1790c15e87c6d19c59209f5189dbca46598045cb"
+    },
+    {
+      "bytes": 75128421,
+      "file": "cadastral_parcels/part-00026.parquet",
+      "sha256": "bfed34a975d6fd8433d841972034d35a5ed7a03dadf912e4304859a2a723822d"
+    },
+    {
+      "bytes": 81981100,
+      "file": "cadastral_parcels/part-00027.parquet",
+      "sha256": "aa87b6aec588e38f10ef893a66c5fe9a094261d2ef8e5c1da484a7d94eb3dcf3"
+    },
+    {
+      "bytes": 90708381,
+      "file": "cadastral_parcels/part-00028.parquet",
+      "sha256": "26530bc2fa8522a7b2336aa7474cc228544c34dcf16f10c680da171ab6edd2d4"
+    },
+    {
+      "bytes": 75147976,
+      "file": "cadastral_parcels/part-00029.parquet",
+      "sha256": "75f1d412d78955aae5ac7d4281b18681955407d849a581bdfc074d7211c7a5f7"
+    },
+    {
+      "bytes": 115354111,
+      "file": "cadastral_parcels/part-00030.parquet",
+      "sha256": "06b2d53cec19ab5e60e501c509a0424f12cbcbe415e046438e1a8eee697f3f40"
+    },
+    {
+      "bytes": 113645008,
+      "file": "cadastral_parcels/part-00031.parquet",
+      "sha256": "7b39d63a33f7a54b16da38606b543e9e8f03864217e635c98a6dc7568bf181f0"
+    },
+    {
+      "bytes": 109113721,
+      "file": "cadastral_parcels/part-00032.parquet",
+      "sha256": "e7b50372d6aaaaf9e0eba96dcaaa6200d3bdbfe4c28728958a15ba3f0ad9ed9e"
+    },
+    {
+      "bytes": 122827613,
+      "file": "cadastral_parcels/part-00033.parquet",
+      "sha256": "553525157fdae3d34f618e14a0449ca4b8aef3f82ad84138eac3207d06326eb6"
+    },
+    {
+      "bytes": 78018894,
+      "file": "cadastral_parcels/part-00034.parquet",
+      "sha256": "98e82464c2ade2fb3eeb033b85857ea8c67e9dea5cdd087f2bfe8a7bc8753b14"
+    },
+    {
+      "bytes": 78407253,
+      "file": "cadastral_parcels/part-00035.parquet",
+      "sha256": "e2c9acf02aecea66d901da0345d62da6230fc574fbb1e91b38a38edea4aeb049"
+    },
+    {
+      "bytes": 100769564,
+      "file": "cadastral_parcels/part-00036.parquet",
+      "sha256": "704611421937490b35c37c158f6e135dcf80e5f04f19a5a6828ca63991641631"
+    },
+    {
+      "bytes": 91286062,
+      "file": "cadastral_parcels/part-00037.parquet",
+      "sha256": "97101ea8c698fbf2e9e2b06b091d4610b792355a23c62f19b8a083da6c5630a7"
+    },
+    {
+      "bytes": 82216309,
+      "file": "cadastral_parcels/part-00038.parquet",
+      "sha256": "0d56e9e165f4635ea78207959a678a15cf6f41bf8f1099c82d04388f85d9d2a2"
+    },
+    {
+      "bytes": 105378652,
+      "file": "cadastral_parcels/part-00039.parquet",
+      "sha256": "0f1280845063e4d28e29fd1dc6d3fb1e6f459d44dab62d5d156bf29aa680f2b7"
+    },
+    {
+      "bytes": 86295942,
+      "file": "cadastral_parcels/part-00040.parquet",
+      "sha256": "efb565ea75ce38e959692f69e4f6d16489df10a10085810009b72504dc58c50c"
+    },
+    {
+      "bytes": 94259795,
+      "file": "cadastral_parcels/part-00041.parquet",
+      "sha256": "82211ec24d105ae773e4409e535716598551de6dcc5ce46c4517c32f104905ad"
+    },
+    {
+      "bytes": 100259453,
+      "file": "cadastral_parcels/part-00042.parquet",
+      "sha256": "5cb46ba5c958678f5fe2ab21ab8ddf33665c95899866046c1482db64f2b76227"
+    },
+    {
+      "bytes": 99874894,
+      "file": "cadastral_parcels/part-00043.parquet",
+      "sha256": "0223f5650ccf5bcc9773c50a642dd100b8eaf57e1ee8ffbc9ef074834a6c96cc"
+    },
+    {
+      "bytes": 81972270,
+      "file": "cadastral_parcels/part-00044.parquet",
+      "sha256": "bbcd99251412e2e31d8000ba8c8ad90e63968c2e820f09e811ec1835469bd45b"
+    },
+    {
+      "bytes": 64569831,
+      "file": "cadastral_parcels/part-00045.parquet",
+      "sha256": "f0fde8638f5323e9634980106a28e51c2f2e356e2dba1bb32a73fc149313a56f"
+    },
+    {
+      "bytes": 81981366,
+      "file": "cadastral_parcels/part-00046.parquet",
+      "sha256": "8f46fb88c7b37f94f138a005ae956f0b6dd28e1553e1a8008e1d1a654d856b20"
+    },
+    {
+      "bytes": 73614102,
+      "file": "cadastral_parcels/part-00047.parquet",
+      "sha256": "3ff246b805e53b5eb24f634955d8084253e3e6d7a8c84859d561da4910f6ea83"
+    },
+    {
+      "bytes": 71390908,
+      "file": "cadastral_parcels/part-00048.parquet",
+      "sha256": "5565bcefcf5cce24087a1f120eff45d71d7e12185003d9807668760760ca2cac"
+    },
+    {
+      "bytes": 71760829,
+      "file": "cadastral_parcels/part-00049.parquet",
+      "sha256": "520bfe3d0e99611b077790f9713e5cba2dbfbff47d9f7e4d5236463e41a0fa14"
+    },
+    {
+      "bytes": 49939479,
+      "file": "cadastral_parcels/part-00050.parquet",
+      "sha256": "d575aba9a7e99b8bd0382d4082998a2113cb584e5fe935aa77b623d444bce5df"
+    },
+    {
+      "bytes": 64079183,
+      "file": "cadastral_parcels/part-00051.parquet",
+      "sha256": "acfe6a75087716b8fbe6f38fc97388ebadee030a196e9f5c9bcb6ea57dcebc91"
+    },
+    {
+      "bytes": 64663735,
+      "file": "cadastral_parcels/part-00052.parquet",
+      "sha256": "3045114760a3c3c8f98d75dca8048c24bd1d9767a285d3d95559b7638d0c4440"
+    },
+    {
+      "bytes": 68757837,
+      "file": "cadastral_parcels/part-00053.parquet",
+      "sha256": "d00a6e5ccc1e0e7dfecd1f503d439a6b4415896ad4d8f31ccc8e052616108b91"
+    },
+    {
+      "bytes": 59545363,
+      "file": "cadastral_parcels/part-00054.parquet",
+      "sha256": "02a81f816d3965d5bdedabaf234982a7670d0e2cb9e6deef6acbecaa782d7cdc"
+    },
+    {
+      "bytes": 75472731,
+      "file": "cadastral_parcels/part-00055.parquet",
+      "sha256": "70167a607b6f6799bbeea7a9bc3310c889b5f69457904006c849ac51f2eaa317"
+    },
+    {
+      "bytes": 68046624,
+      "file": "cadastral_parcels/part-00056.parquet",
+      "sha256": "a8f55e80dc05bc4c215d63648672275afd4494c252539016dc627637c6eff08a"
+    },
+    {
+      "bytes": 89970623,
+      "file": "cadastral_parcels/part-00057.parquet",
+      "sha256": "2aa4e218c81ec2953e237998178b909e4af5d528ef6ac60dea5f57ec04f686a8"
+    },
+    {
+      "bytes": 88317709,
+      "file": "cadastral_parcels/part-00058.parquet",
+      "sha256": "7203dda1d204350a4a77eae738b37e61449159aba41ea341f3a3a434fbc8ad93"
+    },
+    {
+      "bytes": 88078930,
+      "file": "cadastral_parcels/part-00059.parquet",
+      "sha256": "88a6196a11668bc6330b15927b8b13380d310c1bcf4adf885cec08d50315c6b9"
+    },
+    {
+      "bytes": 77070035,
+      "file": "cadastral_parcels/part-00060.parquet",
+      "sha256": "19a58e5489bc1919989a77bde0742662d0ddd3cac03cc900d0e483f85ff2ec3d"
+    },
+    {
+      "bytes": 85920963,
+      "file": "cadastral_parcels/part-00061.parquet",
+      "sha256": "8cae7774d58656f4c8834e44d362965fe8c420be1b48c5b02aa6d2def333343c"
+    },
+    {
+      "bytes": 103453958,
+      "file": "cadastral_parcels/part-00062.parquet",
+      "sha256": "c40294f7b6fbb254e66cd3181eab0254ddc368c52e22b84cbcf46d2b6573c56e"
+    },
+    {
+      "bytes": 109699019,
+      "file": "cadastral_parcels/part-00063.parquet",
+      "sha256": "e241e6dd47710737bd0107b5566977333250c0bf599adf41c5a2a6ecce71a72a"
+    },
+    {
+      "bytes": 101239000,
+      "file": "cadastral_parcels/part-00064.parquet",
+      "sha256": "3ab2cd41f9cd26a21f4cd8157a2f6166b165192eeb002481131d541518545977"
+    },
+    {
+      "bytes": 142849476,
+      "file": "cadastral_parcels/part-00065.parquet",
+      "sha256": "184022444d10e454b19f0cb9ba58dc4b742bcd9d736957fb4bd42cb4ab2db389"
+    },
+    {
+      "bytes": 111522656,
+      "file": "cadastral_parcels/part-00066.parquet",
+      "sha256": "10983ea557afa49878589c767e4f8350ec79a5f53f0d524fbfb0c8de20f6915b"
+    },
+    {
+      "bytes": 103663999,
+      "file": "cadastral_parcels/part-00067.parquet",
+      "sha256": "4ca3cd2cb5921378e7feb58dfc69a4000b5ec18dc2a415d640595009d666a7e4"
+    },
+    {
+      "bytes": 90472588,
+      "file": "cadastral_parcels/part-00068.parquet",
+      "sha256": "bd075e7c56d8aa0b2d3358f94abfdef0b43cce1dfb6db6706b37fa1ac5d204b3"
+    },
+    {
+      "bytes": 77961311,
+      "file": "cadastral_parcels/part-00069.parquet",
+      "sha256": "888a5aa92bc2d922812fea971104d6562234dfda3b15a4c4ec4625d50b493b64"
+    },
+    {
+      "bytes": 84011699,
+      "file": "cadastral_parcels/part-00070.parquet",
+      "sha256": "2856c883971b8cbb4797c8841969b73a0276ca55a5f80b26f74d332bb2438bef"
+    },
+    {
+      "bytes": 81563402,
+      "file": "cadastral_parcels/part-00071.parquet",
+      "sha256": "f91086a814b5c9f4b096cafee0dca2f7ae0142b53de33c5bb6b7dbe05558fcaa"
+    },
+    {
+      "bytes": 72359925,
+      "file": "cadastral_parcels/part-00072.parquet",
+      "sha256": "65a72c1062faa957ab5b072622af8f0c8ddf29290f2878461148f37c60684519"
+    },
+    {
+      "bytes": 80060938,
+      "file": "cadastral_parcels/part-00073.parquet",
+      "sha256": "d3b4364a419902847917fdafb5a57d46773903499e6a21a55e08796234d173c8"
+    },
+    {
+      "bytes": 114665929,
+      "file": "cadastral_parcels/part-00074.parquet",
+      "sha256": "271b9f5fd6505d3077bb7d8130bf2b6228c7ceeccc1d594da73af6b1164eb910"
+    },
+    {
+      "bytes": 138055669,
+      "file": "cadastral_parcels/part-00075.parquet",
+      "sha256": "12f63d35568b5da9ba91de598384fc4cf421f087c401355084d9a72dcd7bf3b7"
+    },
+    {
+      "bytes": 153091436,
+      "file": "cadastral_parcels/part-00076.parquet",
+      "sha256": "a1af6c1d4d2801f0535e57f6bccf9da39e986f97b7f8f93f750faeb58dc5127b"
+    },
+    {
+      "bytes": 133856421,
+      "file": "cadastral_parcels/part-00077.parquet",
+      "sha256": "fc0f7898fb5be76911773b2634f83ab555afd36e40e5b0d32535432220f5e5cd"
+    },
+    {
+      "bytes": 80002756,
+      "file": "cadastral_parcels/part-00078.parquet",
+      "sha256": "daf9eb7bf39d546e0e099ff6901604a62de4abc4dee0aac37daca5fe78869383"
+    },
+    {
+      "bytes": 81449492,
+      "file": "cadastral_parcels/part-00079.parquet",
+      "sha256": "984c2a5a90909879aa3e2e1a84a8d1a4a0cd088d881c3c7e03d916795c80e9e7"
+    },
+    {
+      "bytes": 85505516,
+      "file": "cadastral_parcels/part-00080.parquet",
+      "sha256": "246243103b141a43228182d468156584bf723dbbcb69689ac5fc8291b0ca2e87"
+    },
+    {
+      "bytes": 72710224,
+      "file": "cadastral_parcels/part-00081.parquet",
+      "sha256": "c411bb6f77fa5ef244f6aab6a02b0f8b572132aab9cef8ce3c1729412e0bb51e"
+    },
+    {
+      "bytes": 60414830,
+      "file": "cadastral_parcels/part-00082.parquet",
+      "sha256": "312b0d939938238bfb0ea2181133e2f42988c4ffa6cd69c83e43f149ca80d5cf"
+    },
+    {
+      "bytes": 51348123,
+      "file": "cadastral_parcels/part-00083.parquet",
+      "sha256": "dc6bc7231e7177a671cc3b4c4298bf77ffdc512207ef3f866d47fb17d391e8e2"
+    },
+    {
+      "bytes": 52088789,
+      "file": "cadastral_parcels/part-00084.parquet",
+      "sha256": "a7fb93d231f5c9687ac1a175141c3d8ef7b76eb5d9caf75b9a2047debfdd9d79"
+    },
+    {
+      "bytes": 60556704,
+      "file": "cadastral_parcels/part-00085.parquet",
+      "sha256": "1ecf45cfb22e01d1f19c765f9c3482316acef42fc8b5fc2d94009d4a3ec84f9e"
+    },
+    {
+      "bytes": 55856299,
+      "file": "cadastral_parcels/part-00086.parquet",
+      "sha256": "b12f3bdbde4c4d3c66215014cdba57a102cfb3fa4cede90f131545c2912ab611"
+    },
+    {
+      "bytes": 61173816,
+      "file": "cadastral_parcels/part-00087.parquet",
+      "sha256": "4f84f96796ad63bafda9643a79975e04fe29aebc03b40d6097019ec9f76eafc5"
+    },
+    {
+      "bytes": 60579281,
+      "file": "cadastral_parcels/part-00088.parquet",
+      "sha256": "fd74ef58005558bb346969df6d650ee686eb8757993983214c0eeffc91f4d0b1"
+    },
+    {
+      "bytes": 50482923,
+      "file": "cadastral_parcels/part-00089.parquet",
+      "sha256": "10e210a26d892c4720e5fa66123710ae3ec9bce4078a72d2b298ce854f728d68"
+    },
+    {
+      "bytes": 54765384,
+      "file": "cadastral_parcels/part-00090.parquet",
+      "sha256": "e7f4df76d5a36151d0b14247da4814c680ace3a9a566d37bf8ff7d4dff2933fe"
+    },
+    {
+      "bytes": 55806660,
+      "file": "cadastral_parcels/part-00091.parquet",
+      "sha256": "ab220b6808f9d562b53d41ba0257babdb908391fd7cbf7474ef8badaedf2f823"
+    },
+    {
+      "bytes": 113396234,
+      "file": "cadastral_parcels/part-00092.parquet",
+      "sha256": "176a56fbec6de92192f44d659d2c2974e789aba6121b7441cc043b0a6a439c6c"
+    },
+    {
+      "bytes": 146153917,
+      "file": "cadastral_parcels/part-00093.parquet",
+      "sha256": "3e9ec9c356b08b58e20c78eb279bfcae0277397248befebc21153a84167173e0"
+    },
+    {
+      "bytes": 133282478,
+      "file": "cadastral_parcels/part-00094.parquet",
+      "sha256": "daec8eb86065ea75f164f669bfcb4491932b574393cf60a90e5a59c409ea1884"
+    },
+    {
+      "bytes": 77615480,
+      "file": "cadastral_parcels/part-00095.parquet",
+      "sha256": "bf42ef0afb8a3a7cc27823d8165c4c4e731d2026d8f0bba81de5878d7777c323"
+    },
+    {
+      "bytes": 88712051,
+      "file": "cadastral_parcels/part-00096.parquet",
+      "sha256": "94e880af8082450e4281b021661f4848ab3216287c6d17cb3ba3cc96fa29b917"
+    },
+    {
+      "bytes": 86718588,
+      "file": "cadastral_parcels/part-00097.parquet",
+      "sha256": "a771559fcb8c3db381672ac3e30afd36a3b3335fdce7a875cbabfe6bc71bad47"
+    },
+    {
+      "bytes": 79107092,
+      "file": "cadastral_parcels/part-00098.parquet",
+      "sha256": "44c342b4540cd51fad675ae7a6ef9f0aceaca79967fbd09ad95f6dd0f15da5c4"
+    },
+    {
+      "bytes": 75225541,
+      "file": "cadastral_parcels/part-00099.parquet",
+      "sha256": "c4a11a29a4e826fe2b4fbbccb2b43b227049218dac78b29a6920cab95083bcb3"
+    },
+    {
+      "bytes": 76624481,
+      "file": "cadastral_parcels/part-00100.parquet",
+      "sha256": "8ab9a01d311439cef0af585d43cb6f3cf6f53d78960d88405968b6f9b16bcf91"
+    },
+    {
+      "bytes": 77788832,
+      "file": "cadastral_parcels/part-00101.parquet",
+      "sha256": "e31366226741e8f3f6220d80266c13360457aa773cd9117c3146d90534fbbde0"
+    },
+    {
+      "bytes": 71399811,
+      "file": "cadastral_parcels/part-00102.parquet",
+      "sha256": "487fd2e4e111c2b92797994a49bc51af7e4918ffbc49da22ee85d74bc51b3676"
+    },
+    {
+      "bytes": 70426369,
+      "file": "cadastral_parcels/part-00103.parquet",
+      "sha256": "76abceb81abac33991fc63446cdfe32421e5a0cfe1fc8df0689ca1d29073a06b"
+    },
+    {
+      "bytes": 72972873,
+      "file": "cadastral_parcels/part-00104.parquet",
+      "sha256": "aa7ab6937c9a4151a993ff9ab7c44fc71cfa2b9e8b13277f23d63a086c4fe700"
+    },
+    {
+      "bytes": 83787510,
+      "file": "cadastral_parcels/part-00105.parquet",
+      "sha256": "38454be173b86c17618dd2f96f59856b39bd2a14681e00dcebd405e2f3ca349d"
+    },
+    {
+      "bytes": 62844146,
+      "file": "cadastral_parcels/part-00106.parquet",
+      "sha256": "e9593dff4e960e4d5d74717eba611ab78d578a3c544cfedfb56094bf591d70a4"
+    },
+    {
+      "bytes": 60991724,
+      "file": "cadastral_parcels/part-00107.parquet",
+      "sha256": "f5e9e9d8def6c2b5bcf50f362a04aa1fc5ef290b74a138ea9c4e259b149ea945"
+    },
+    {
+      "bytes": 79301021,
+      "file": "cadastral_parcels/part-00108.parquet",
+      "sha256": "b121aa980ba46f414cf4d8d0678f11bf832e973fc317f749a42c48be3c8dea5b"
+    },
+    {
+      "bytes": 82453735,
+      "file": "cadastral_parcels/part-00109.parquet",
+      "sha256": "fd40c07f911a299815105f01694481a5677b5bcc001dfc957679bf3a3ae04550"
+    },
+    {
+      "bytes": 85343697,
+      "file": "cadastral_parcels/part-00110.parquet",
+      "sha256": "e70f5c8d9d68fbaed1350f282b7f5f810630fb37231009cbc73a8ba6e4511486"
+    },
+    {
+      "bytes": 88139815,
+      "file": "cadastral_parcels/part-00111.parquet",
+      "sha256": "79cb60fa6c05162cea8b9af661b821f0a44c0303bce2928c0840b6e4f51ae153"
+    },
+    {
+      "bytes": 81127020,
+      "file": "cadastral_parcels/part-00112.parquet",
+      "sha256": "b12a4c4906474bd8111b8ac2b03a1f2d3e427626e1d673d8b027531f2d838ac0"
+    },
+    {
+      "bytes": 112379158,
+      "file": "cadastral_parcels/part-00113.parquet",
+      "sha256": "0661c8eadb8ac4b06bec309a4a433fa9714f3d1395c3db50e1447f7f47971018"
+    },
+    {
+      "bytes": 105734731,
+      "file": "cadastral_parcels/part-00114.parquet",
+      "sha256": "fd3126d9217a5f4a684d1ab7011471f915d10d92e7002bfdb3569a8668706021"
+    },
+    {
+      "bytes": 101196006,
+      "file": "cadastral_parcels/part-00115.parquet",
+      "sha256": "969968ad7a2b20f9f821d181089bbc64a67b9724e942316077be0c326a8d8aa1"
+    },
+    {
+      "bytes": 131924600,
+      "file": "cadastral_parcels/part-00116.parquet",
+      "sha256": "157f7db48b26806bfbeed902155ea30568f6336fe696ec1d978a1c6aa1e221ea"
+    },
+    {
+      "bytes": 99390536,
+      "file": "cadastral_parcels/part-00117.parquet",
+      "sha256": "cf963b54886321f0e86f74ccba40f6a219df50ced2cc0e6c9e02d8c7bb632451"
+    },
+    {
+      "bytes": 72004101,
+      "file": "cadastral_parcels/part-00118.parquet",
+      "sha256": "5ecfa0f66d9f49939252cbb2b20a5a272f08873af11abae8801f8d1d9a3e3266"
+    },
+    {
+      "bytes": 39311429,
+      "file": "cadastral_parcels/part-00119.parquet",
+      "sha256": "f7e5d9eb8470ca385bbf726eb91193d94b95ee19ff648bb15e4dd9fe11830f8a"
+    },
+    {
+      "bytes": 51271056,
+      "file": "cadastral_parcels/part-00120.parquet",
+      "sha256": "fc273afd4670002a54ec6eaa721a046834b35b9544d8f13914d71e80e867a937"
+    },
+    {
+      "bytes": 45391048,
+      "file": "cadastral_parcels/part-00121.parquet",
+      "sha256": "ad2236ba60af919dbfd2fc00966153fcafca4c96196352a1f62a41b613ad5434"
+    },
+    {
+      "bytes": 40536639,
+      "file": "cadastral_parcels/part-00122.parquet",
+      "sha256": "0b80f43623cf13fd3e7ba0083d4adcd907583afd39a621fd4cc761fad04bd1fc"
+    },
+    {
+      "bytes": 54142318,
+      "file": "cadastral_parcels/part-00123.parquet",
+      "sha256": "5aa96d9fd64fce8d054ea57380cff3f32be6dc9e64cde204f616c81da1eb96ca"
+    },
+    {
+      "bytes": 51589852,
+      "file": "cadastral_parcels/part-00124.parquet",
+      "sha256": "87f85c247bde290460cb68ced889b86de9f439f14e760507239bb6e519cb85a8"
+    },
+    {
+      "bytes": 49184522,
+      "file": "cadastral_parcels/part-00125.parquet",
+      "sha256": "d7ca08de8bac90c01ae121a9bfafa667c056562ee72f524be8f6ac55fc56b6c3"
+    },
+    {
+      "bytes": 52483891,
+      "file": "cadastral_parcels/part-00126.parquet",
+      "sha256": "afe60ae5cfa32880868668f4316d4c7e4526fa04491dc677a0058dfa4624a08e"
+    },
+    {
+      "bytes": 48596038,
+      "file": "cadastral_parcels/part-00127.parquet",
+      "sha256": "2cc7b36ee6c0bf93df8d24ee3fbb3fc572f1e10bba91a6d3b4b705c0652f16d8"
+    },
+    {
+      "bytes": 49288668,
+      "file": "cadastral_parcels/part-00128.parquet",
+      "sha256": "7e9babfc2ecba3b07d8cb315ab67b0537909b1913d5225d3aad7eb50caadeaa5"
+    },
+    {
+      "bytes": 45072791,
+      "file": "cadastral_parcels/part-00129.parquet",
+      "sha256": "b1381292c4bed67749baa29442bb138feb48f0893c8a88704889175b7dcfadf9"
+    },
+    {
+      "bytes": 43197995,
+      "file": "cadastral_parcels/part-00130.parquet",
+      "sha256": "4679d8dacbc9610a27d46a6397d7464ee2fd1ddfcf456129050cd1c3245db659"
+    },
+    {
+      "bytes": 53735852,
+      "file": "cadastral_parcels/part-00131.parquet",
+      "sha256": "9a53e7cb0208ea28e0645649899ddd869f4c4e47445ccca21c29825fb664969f"
+    },
+    {
+      "bytes": 57703960,
+      "file": "cadastral_parcels/part-00132.parquet",
+      "sha256": "9a3b277dfe6d490ae3f9e4b977741b512b8c8bd72a5310e46f0ca7aaeccf618e"
+    },
+    {
+      "bytes": 59941811,
+      "file": "cadastral_parcels/part-00133.parquet",
+      "sha256": "24c201fc4035aebd6f4c63029b555f3b40ca9e34f39a8788e91ab7e06acc7bf3"
+    },
+    {
+      "bytes": 99017250,
+      "file": "cadastral_parcels/part-00134.parquet",
+      "sha256": "c56a03ebb5daf5d564bc582a7f27d1e42a7fc0b48d50abd107c24f21b1b2cd04"
+    },
+    {
+      "bytes": 113115144,
+      "file": "cadastral_parcels/part-00135.parquet",
+      "sha256": "6af06fb312a73001e3ac3d3302354a7da1ee32e12af205638e659a6a7fdf5512"
+    },
+    {
+      "bytes": 102338202,
+      "file": "cadastral_parcels/part-00136.parquet",
+      "sha256": "2ede3817a09857b598754c8e38963b7f6bf2ac1dbd8955059148ea7a576b105d"
+    },
+    {
+      "bytes": 115160850,
+      "file": "cadastral_parcels/part-00137.parquet",
+      "sha256": "6a43fa9b0860bef645bd65099e236b654948148f817e88760f030fdacd0f3bcc"
+    },
+    {
+      "bytes": 104424003,
+      "file": "cadastral_parcels/part-00138.parquet",
+      "sha256": "a9f11e560ac9491a6ce7887fb700889c7081ffaae91ddb1422d27bb24f987f69"
+    },
+    {
+      "bytes": 116593694,
+      "file": "cadastral_parcels/part-00139.parquet",
+      "sha256": "f11c2e7d294a79e3e949421d9aa5dbc0cd1cffe88def4648a78f2aba3d4915c0"
+    },
+    {
+      "bytes": 117794405,
+      "file": "cadastral_parcels/part-00140.parquet",
+      "sha256": "26f9dedf6f7e8d462ebea5baf29f6999e6840186abc215cc0c2f97fa75e8e310"
+    },
+    {
+      "bytes": 92137001,
+      "file": "cadastral_parcels/part-00141.parquet",
+      "sha256": "6b5cb89c2192ed07a50955497ffd890502d878f712e6805f6655186a8e96177f"
+    },
+    {
+      "bytes": 98023456,
+      "file": "cadastral_parcels/part-00142.parquet",
+      "sha256": "a43461d4537d20799905144b39a6789f367c2f5ceb1df95a844ac7ecb2a2221a"
+    },
+    {
+      "bytes": 100769862,
+      "file": "cadastral_parcels/part-00143.parquet",
+      "sha256": "8c4e5f3f3044c499bdee3c2dc4b260123e74e3c2994c72de00367dcafa712f52"
+    },
+    {
+      "bytes": 89356374,
+      "file": "cadastral_parcels/part-00144.parquet",
+      "sha256": "7b540bc3476a0305701b7e71827386ac55f1d68cfa385e4e9639d405705d9a60"
+    },
+    {
+      "bytes": 50819187,
+      "file": "cadastral_parcels/part-00145.parquet",
+      "sha256": "bf7ec894c353201cceb75e15a90f298e0d5c8644155cc3671a146c841d0adcbd"
+    },
+    {
+      "bytes": 55235541,
+      "file": "cadastral_parcels/part-00146.parquet",
+      "sha256": "6baec023bcca87fe15535caf34007913f366261af48c20f19ad5b68fafde7cb7"
+    },
+    {
+      "bytes": 52785272,
+      "file": "cadastral_parcels/part-00147.parquet",
+      "sha256": "ab98507f6f945b2c6602519e502210a3b5d223f341276a9a4d5a0bfc4e1feb08"
+    },
+    {
+      "bytes": 49105312,
+      "file": "cadastral_parcels/part-00148.parquet",
+      "sha256": "2b4e2fc902dfe9b7681457b17084cb7dfab1087678857f37bb5f6a104504c967"
+    },
+    {
+      "bytes": 58465970,
+      "file": "cadastral_parcels/part-00149.parquet",
+      "sha256": "650460308de660b052ace9134895ad8043592150b6288f52f4a9cc80de8b0d12"
+    },
+    {
+      "bytes": 54448277,
+      "file": "cadastral_parcels/part-00150.parquet",
+      "sha256": "4f76e28bfc59b5637a5a4c73be88ae1abc5937e57306b4a5e50179c00ee12a85"
+    },
+    {
+      "bytes": 52698534,
+      "file": "cadastral_parcels/part-00151.parquet",
+      "sha256": "eb5a48fb0b9bc84a51308207bc75a2100da27f59910bac99678b09470de4748e"
+    },
+    {
+      "bytes": 48585247,
+      "file": "cadastral_parcels/part-00152.parquet",
+      "sha256": "d7798d8d320c217c67a2e4ac82c0a250dfcd332af05f01b7346d3c4a09bd40e8"
+    },
+    {
+      "bytes": 59336083,
+      "file": "cadastral_parcels/part-00153.parquet",
+      "sha256": "5f4fc61aece4ded760240c6947d783ff99850f61b7ca3c09f9f1143ee23dde10"
+    },
+    {
+      "bytes": 50029321,
+      "file": "cadastral_parcels/part-00154.parquet",
+      "sha256": "f7f1c0a6c69ac1b67f15bd4ae46376972e413f286d2d9edb131155293669aa37"
+    },
+    {
+      "bytes": 92041951,
+      "file": "cadastral_parcels/part-00155.parquet",
+      "sha256": "91f8bc04f20b830e6a5ecfe04c2f1ef8a3704d5f56a4b7b25668c18dbb48438e"
+    },
+    {
+      "bytes": 109629933,
+      "file": "cadastral_parcels/part-00156.parquet",
+      "sha256": "770be78feb965eadd322922721ad7751a7391f058e52cec0f1eebb31e840aee0"
+    },
+    {
+      "bytes": 103138256,
+      "file": "cadastral_parcels/part-00157.parquet",
+      "sha256": "3fa881f497b48abcb5ada0acda5f822551e26a49d356299c931f1cc47cff5f7b"
+    },
+    {
+      "bytes": 106515016,
+      "file": "cadastral_parcels/part-00158.parquet",
+      "sha256": "1d955fcf0224d1c044f7d4d3885259ab19b7030aff0aa5497ecfedb850acd576"
+    },
+    {
+      "bytes": 79414559,
+      "file": "cadastral_parcels/part-00159.parquet",
+      "sha256": "8e01ac3f69c452f357847e19662a7db9076ad672e0276859945a6b86c36562c7"
+    },
+    {
+      "bytes": 86982169,
+      "file": "cadastral_parcels/part-00160.parquet",
+      "sha256": "0588d24f67eadbcc59d38e1130317a349e7e765e49439b11f95b70c6f4ed758c"
+    },
+    {
+      "bytes": 86543152,
+      "file": "cadastral_parcels/part-00161.parquet",
+      "sha256": "f11ba6d8db6329225f2cd31202480179688c7ab5cb328f1a284e3bc66ab3f1a2"
+    },
+    {
+      "bytes": 100648953,
+      "file": "cadastral_parcels/part-00162.parquet",
+      "sha256": "307347e07f523ca2d489cb4fbd92c7bab4377e29c6e949daac312d6e77e97382"
+    },
+    {
+      "bytes": 93770474,
+      "file": "cadastral_parcels/part-00163.parquet",
+      "sha256": "e1e3572629661690c8fb109166383bc0ec0f5921ec5e25e1474ba91f20a3cbc1"
+    },
+    {
+      "bytes": 75383721,
+      "file": "cadastral_parcels/part-00164.parquet",
+      "sha256": "a202f936b9a607f8a459cce8b93655bf624ae7bd885f5abaff0822b42a484558"
+    },
+    {
+      "bytes": 69367285,
+      "file": "cadastral_parcels/part-00165.parquet",
+      "sha256": "d043f8512c116cf7bf513eccf07d1702ccb14d6cbadc46f694e90361db298c1a"
+    },
+    {
+      "bytes": 75652198,
+      "file": "cadastral_parcels/part-00166.parquet",
+      "sha256": "cf262aa92255ce2473160e2256394398c3b07184c6ed63a80911943e9cd0d736"
+    },
+    {
+      "bytes": 82196215,
+      "file": "cadastral_parcels/part-00167.parquet",
+      "sha256": "1972439ef7081e33e9b0b2d9a65c09940682530ddafd8a4432146358dffdd772"
+    },
+    {
+      "bytes": 85529526,
+      "file": "cadastral_parcels/part-00168.parquet",
+      "sha256": "06e9773e4827c3f9ba2b65da96d42e05a9d4536b4fc0c4140bd80df6d8796429"
+    },
+    {
+      "bytes": 74679774,
+      "file": "cadastral_parcels/part-00169.parquet",
+      "sha256": "d8b4722c796c85d6028ff0847902050565e898317fff6dd4b68ceab90a76b768"
+    },
+    {
+      "bytes": 91947777,
+      "file": "cadastral_parcels/part-00170.parquet",
+      "sha256": "7f1a9834fc719f12e5039d318f980ea3f167ca2016eae0c3ccedff9528ee069a"
+    },
+    {
+      "bytes": 99344351,
+      "file": "cadastral_parcels/part-00171.parquet",
+      "sha256": "3bc07ab4169697b5152fbbce3612572de7496541faf3e4348ff429bddf377da7"
+    },
+    {
+      "bytes": 95092875,
+      "file": "cadastral_parcels/part-00172.parquet",
+      "sha256": "9c2244e4e5ff9471005be245dbadfb7de99532d54d639bc518d6d7e4344509a1"
+    },
+    {
+      "bytes": 104284078,
+      "file": "cadastral_parcels/part-00173.parquet",
+      "sha256": "1c29c6b25ad6701da3c8d8cdb8637e16151c5635cbd329bb4f0729d53d835b13"
+    },
+    {
+      "bytes": 112968373,
+      "file": "cadastral_parcels/part-00174.parquet",
+      "sha256": "0fe3b1d6ef7a94629e7a7a9247e2676ccd536baa78678e86d78fd8f8b97bfa8e"
+    },
+    {
+      "bytes": 102712391,
+      "file": "cadastral_parcels/part-00175.parquet",
+      "sha256": "444405d8a09dcc7fd02f9f10c1287bbd25c3fbba922468cd8b6cd324908581b3"
+    },
+    {
+      "bytes": 117846998,
+      "file": "cadastral_parcels/part-00176.parquet",
+      "sha256": "407e72d657e717de1d8e112c2a3392c3bdceb34aa9780ac61a0b4e8bb3f58330"
+    },
+    {
+      "bytes": 99208370,
+      "file": "cadastral_parcels/part-00177.parquet",
+      "sha256": "03aff4538b81d842d83beb4fd19a8ac120b74708df5bcb36663627f5938c2638"
+    },
+    {
+      "bytes": 108920051,
+      "file": "cadastral_parcels/part-00178.parquet",
+      "sha256": "1d252a8f2ca7718d64788cd46646d7f3d0e705ea08b51c7dc22e11b5e5d0ca1e"
+    },
+    {
+      "bytes": 105131432,
+      "file": "cadastral_parcels/part-00179.parquet",
+      "sha256": "12a109ba797204183b1fd4bdabe788d0a018b5c03b6278ec47134e7a5eb299a9"
+    },
+    {
+      "bytes": 89638940,
+      "file": "cadastral_parcels/part-00180.parquet",
+      "sha256": "5e69cdbabb1269015a38ddfd3071e353b6e299740f5180c7a23c5cdee335a1cf"
+    },
+    {
+      "bytes": 75978873,
+      "file": "cadastral_parcels/part-00181.parquet",
+      "sha256": "723304dec1c91ddb4e3fc0add2b56ef15846f489b20eab8c60ceae409b912391"
+    },
+    {
+      "bytes": 79583460,
+      "file": "cadastral_parcels/part-00182.parquet",
+      "sha256": "260d088515e2db564896185f43926cf3de7db03fa3692f22c04e46af9412c893"
+    },
+    {
+      "bytes": 75317129,
+      "file": "cadastral_parcels/part-00183.parquet",
+      "sha256": "19a60ba13a31a681a5728232aa2519c4ae4d517469963985d725fdd3ea2209ee"
+    },
+    {
+      "bytes": 71559316,
+      "file": "cadastral_parcels/part-00184.parquet",
+      "sha256": "8faa6d466e9010732977465c0a3f778d871497157ed5e1de0100caa8980fec4c"
+    },
+    {
+      "bytes": 75008431,
+      "file": "cadastral_parcels/part-00185.parquet",
+      "sha256": "2037f1291030ea77dabb9ad04cd352f6122231cdc99a57a5597fb9475f6149cb"
+    },
+    {
+      "bytes": 109126461,
+      "file": "cadastral_parcels/part-00186.parquet",
+      "sha256": "3b83cf766f9ce940b03ea7c30e1a0810d9c2a4f09e7daa6d61c6b7fec8ea229b"
+    },
+    {
+      "bytes": 102477893,
+      "file": "cadastral_parcels/part-00187.parquet",
+      "sha256": "7d7e95829db28b32b0e6effbd1d251b81f629546e0f53c1c6dd939cc3a3401d2"
+    },
+    {
+      "bytes": 94230923,
+      "file": "cadastral_parcels/part-00188.parquet",
+      "sha256": "4025589d94f4386b0e554a5e36e11d0d989c9945eb316a7b308d1c3b35ec5bca"
+    },
+    {
+      "bytes": 84222200,
+      "file": "cadastral_parcels/part-00189.parquet",
+      "sha256": "5eeb44b8c9468066cf5403728d253e8509ddbf18e22ca0de6dee634c7ff9bb42"
+    },
+    {
+      "bytes": 89625331,
+      "file": "cadastral_parcels/part-00190.parquet",
+      "sha256": "7dcb30b53b4968cd2444d7bc5a4bc2c837dcfce04b34104a37bcddd50a1c9f76"
+    },
+    {
+      "bytes": 86009864,
+      "file": "cadastral_parcels/part-00191.parquet",
+      "sha256": "dfb50d5ee12e743676eb84f5549e880223df75d35f192b48cbc041d0ef8f2f08"
+    },
+    {
+      "bytes": 82869223,
+      "file": "cadastral_parcels/part-00192.parquet",
+      "sha256": "1499398bdd30c1d106e0aa19503f15961d6266ba8c24ec5bd93177e1b2581eb6"
+    },
+    {
+      "bytes": 80389365,
+      "file": "cadastral_parcels/part-00193.parquet",
+      "sha256": "ad34f3af01d57c3c3cb5dbca47882da26a4fd893c4dc360adea9e6758b159132"
+    },
+    {
+      "bytes": 55030267,
+      "file": "cadastral_parcels/part-00194.parquet",
+      "sha256": "c67fca93866446ea3a9a220952e0d018e5b081639d7799b940c8a435f05589d9"
+    },
+    {
+      "bytes": 49636405,
+      "file": "cadastral_parcels/part-00195.parquet",
+      "sha256": "aa91940920e8ad0423b6cca1f5c7443699e3756a6e7ee556280e88ee3035765c"
+    },
+    {
+      "bytes": 44964730,
+      "file": "cadastral_parcels/part-00196.parquet",
+      "sha256": "a9f37d798f0b200d1cf002d0db98a3cef09f2250dc0b6c4a863038be4245ca0d"
+    },
+    {
+      "bytes": 53280252,
+      "file": "cadastral_parcels/part-00197.parquet",
+      "sha256": "d714fb2f0996def2a973be4d6ff55fe038ec923df5a97698c8bb6762c2ebc0f0"
+    },
+    {
+      "bytes": 40461740,
+      "file": "cadastral_parcels/part-00198.parquet",
+      "sha256": "d096c458ab44dd5e375f75c934bd9f0d62a1add7df481819ecab04ecd0331b8a"
+    },
+    {
+      "bytes": 46862760,
+      "file": "cadastral_parcels/part-00199.parquet",
+      "sha256": "600ac0ec108065b458575897a38df7176c39d61c8279bc00cfc741247bde03ab"
+    },
+    {
+      "bytes": 81791120,
+      "file": "cadastral_parcels/part-00200.parquet",
+      "sha256": "d0d9fedbe700be9fe05d99b67e855eb474c4903945dbadfa4456bd06c951bab2"
+    },
+    {
+      "bytes": 122831906,
+      "file": "cadastral_parcels/part-00201.parquet",
+      "sha256": "df03e1f7748e3475ab1657180b76f8aecf5a41a11446ba654cc002a300b5ddb5"
+    },
+    {
+      "bytes": 112946642,
+      "file": "cadastral_parcels/part-00202.parquet",
+      "sha256": "4994b8b0a685701c62facb05abdbe8006a732e1a7b03e9db14ef59e48cefac74"
+    },
+    {
+      "bytes": 137407910,
+      "file": "cadastral_parcels/part-00203.parquet",
+      "sha256": "8fe9537d3f3dbc62325e8af1ecc8627ee6facf9c95b49ee3d464058395302b4d"
+    },
+    {
+      "bytes": 142896387,
+      "file": "cadastral_parcels/part-00204.parquet",
+      "sha256": "b34073605b835cdfb1af425328a33e16563f36b1e08e47a9a36b561e1221b347"
+    },
+    {
+      "bytes": 90904662,
+      "file": "cadastral_parcels/part-00205.parquet",
+      "sha256": "be7de3d66b995449fb858476fb4767f5e02049119d2255f49c53f4b19422df15"
+    },
+    {
+      "bytes": 100900168,
+      "file": "cadastral_parcels/part-00206.parquet",
+      "sha256": "a47debdadeb8e300459c9b94f64d58ee02cbde5cb493ffd90dda2652809dd40d"
+    },
+    {
+      "bytes": 56053496,
+      "file": "cadastral_parcels/part-00207.parquet",
+      "sha256": "80cbbb0f66193dd8fc6aaf8a9c60f106320047528673f9f3a6e77a940066f8fc"
+    },
+    {
+      "bytes": 460136313,
+      "file": "cadastral_zonings/part-00000.parquet",
+      "sha256": "0dd2fff750f4c237d50fda032962565c0485dc845d6f17a8fd6c7f7fb3fd33e1"
+    },
+    {
+      "bytes": 538762818,
+      "file": "cadastral_zonings/part-00001.parquet",
+      "sha256": "c7a85143984859258023e19c53c2eb410f8b49a351947611d53c2cbc9fbedb85"
+    },
+    {
+      "bytes": 515463712,
+      "file": "cadastral_zonings/part-00002.parquet",
+      "sha256": "0239587524fade4764d0669e21521dbfe908c6309a2419a34ece63c12a115a3a"
+    },
+    {
+      "bytes": 527014801,
+      "file": "cadastral_zonings/part-00003.parquet",
+      "sha256": "c4a3af72969c4a582fe7795bf1236c6b2564b57a5d0997fd05adb44fbc542284"
+    },
+    {
+      "bytes": 431560273,
+      "file": "cadastral_zonings/part-00004.parquet",
+      "sha256": "90ea4d82dd1a5d5975c744ecc86f3892b852ea22f54a8b1a7fb62466d52c07ac"
+    },
+    {
+      "bytes": 142369907,
+      "file": "cadastral_zonings/part-00005.parquet",
+      "sha256": "0b2e0204a09b6ad620c5a6d6e3840ca2991bc2bbaf17bd9e9b35698a4c3702e6"
+    },
+    {
+      "bytes": 479362,
+      "file": "municipalities/part-00000.parquet",
+      "sha256": "5086cf884eab256f14cec8b009e0e0a6a5849265ac837f87afe47708d86a621d"
+    },
+    {
+      "bytes": 64220671,
+      "file": "other_constructions/part-00000.parquet",
+      "sha256": "23d7e78018fc21aef9f3046d637b463eff0f64a3fbd65648c19831b59de9febd"
+    },
+    {
+      "bytes": 55148208,
+      "file": "other_constructions/part-00001.parquet",
+      "sha256": "9efce26fe2981ceb0d8670629b49365ceff65a15a653c71a8d1b7640d9375df9"
+    },
+    {
+      "bytes": 51863511,
+      "file": "other_constructions/part-00002.parquet",
+      "sha256": "79a0555ce006173f2904a6fad593427a6554e61d8e229f33ca6d4cda9fb3c785"
+    },
+    {
+      "bytes": 59451221,
+      "file": "other_constructions/part-00003.parquet",
+      "sha256": "97a2bd546f0b5925a11f75530b1c73238b58307ebe685cfe4cd80291fca66739"
+    },
+    {
+      "bytes": 54633665,
+      "file": "other_constructions/part-00004.parquet",
+      "sha256": "378fccdfad249df5f20ec40dbe8fea4c47b9210206c59a321acb0b30f1f7a2b3"
+    },
+    {
+      "bytes": 24640992,
+      "file": "other_constructions/part-00005.parquet",
+      "sha256": "4152759fbe4aabeb8c65378bcfbc5a263529169bcc71b7c14ca9d7ecbb1770e9"
+    }
+  ]
+}
