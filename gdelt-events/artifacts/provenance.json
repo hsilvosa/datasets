@@ -1,0 +1,8 @@
+{
+  "publisher": "The GDELT Project",
+  "product": "GDELT 1.0 Event Database",
+  "snapshot_date": "2026-08-14",
+  "source_archives": 4974,
+  "source_manifest_sha256": "d86777abbc59e8c4393e84270f2b23a11798b4e5e25bf2e57f987d1491951918",
+  "processing_config_sha256": "0621e5f7d834e8a032fe3438f889bdec7aa9803f8777bf2d79495813d1e667c6"
+}

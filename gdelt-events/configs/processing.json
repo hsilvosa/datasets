@@ -1,0 +1,15 @@
+{
+  "raw_dir": "data/full/raw",
+  "processed_dir": "data/full/processed",
+  "artifacts_dir": "artifacts",
+  "staging_dir": "hf_staging",
+  "csv_block_size": 33554432,
+  "parquet_rows_per_file": 1000000,
+  "unavailable_files": [
+    "20221110.export.CSV.zip",
+    "20230323.export.CSV.zip"
+  ],
+  "md5_overrides": {
+    "20230322.export.CSV.zip": "a246cae99ab87a045c231a61808b25fb"
+  }
+}

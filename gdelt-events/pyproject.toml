@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gdelt-events-historical-pipeline"
+version = "0.1.0"
+description = "Reproducible acquisition pipeline for the GDELT 1.0 Event Database"
+readme = "README.md"
+requires-python = ">=3.11"
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.8"]
+
+[project.scripts]
+gdelt-events = "gdelt_events.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/gdelt_events"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

@@ -1,0 +1,12 @@
+{
+  "raw_dir": "data/full/raw",
+  "artifacts_dir": "artifacts",
+  "base_url": "http://data.gdeltproject.org/events",
+  "snapshot_date": "2026-08-14",
+  "workers": 8,
+  "timeout_seconds": 120,
+  "max_retries": 8,
+  "chunk_size": 1048576,
+  "user_agent": "public-data-research-gdelt-events/0.1",
+  "max_files": null
+}

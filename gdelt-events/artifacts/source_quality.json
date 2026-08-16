@@ -1,0 +1,16 @@
+{
+  "verified_at_utc": "2026-08-16T10:17:45.947537+00:00",
+  "snapshot_date": "2026-08-14",
+  "manifest_archives": 4976,
+  "available_archives": 4974,
+  "valid_archives": 4974,
+  "compressed_bytes": 52296915548,
+  "source_unavailable": [
+    "20221110.export.CSV.zip",
+    "20230323.export.CSV.zip"
+  ],
+  "source_checksum_overrides": {
+    "20230322.export.CSV.zip": "a246cae99ab87a045c231a61808b25fb"
+  },
+  "invalid": []
+}

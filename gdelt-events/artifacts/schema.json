@@ -1,0 +1,299 @@
+{
+  "fields": [
+    {
+      "name": "global_event_id",
+      "type": "int64",
+      "nullable": true
+    },
+    {
+      "name": "event_date",
+      "type": "date32[day]",
+      "nullable": true
+    },
+    {
+      "name": "month_year",
+      "type": "int32",
+      "nullable": true
+    },
+    {
+      "name": "year",
+      "type": "int16",
+      "nullable": true
+    },
+    {
+      "name": "fraction_date",
+      "type": "double",
+      "nullable": true
+    },
+    {
+      "name": "actor1_code",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "actor1_name",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "actor1_country_code",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "actor1_known_group_code",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "actor1_ethnic_code",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "actor1_religion1_code",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "actor1_religion2_code",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "actor1_type1_code",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "actor1_type2_code",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "actor1_type3_code",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "actor2_code",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "actor2_name",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "actor2_country_code",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "actor2_known_group_code",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "actor2_ethnic_code",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "actor2_religion1_code",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "actor2_religion2_code",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "actor2_type1_code",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "actor2_type2_code",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "actor2_type3_code",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "is_root_event",
+      "type": "int8",
+      "nullable": true
+    },
+    {
+      "name": "event_code",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "event_base_code",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "event_root_code",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "quad_class",
+      "type": "int8",
+      "nullable": true
+    },
+    {
+      "name": "goldstein_scale",
+      "type": "float",
+      "nullable": true
+    },
+    {
+      "name": "num_mentions",
+      "type": "int32",
+      "nullable": true
+    },
+    {
+      "name": "num_sources",
+      "type": "int32",
+      "nullable": true
+    },
+    {
+      "name": "num_articles",
+      "type": "int32",
+      "nullable": true
+    },
+    {
+      "name": "avg_tone",
+      "type": "float",
+      "nullable": true
+    },
+    {
+      "name": "actor1_geo_type",
+      "type": "int8",
+      "nullable": true
+    },
+    {
+      "name": "actor1_geo_full_name",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "actor1_geo_country_code",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "actor1_geo_adm1_code",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "actor1_geo_latitude",
+      "type": "double",
+      "nullable": true
+    },
+    {
+      "name": "actor1_geo_longitude",
+      "type": "double",
+      "nullable": true
+    },
+    {
+      "name": "actor1_geo_feature_id",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "actor2_geo_type",
+      "type": "int8",
+      "nullable": true
+    },
+    {
+      "name": "actor2_geo_full_name",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "actor2_geo_country_code",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "actor2_geo_adm1_code",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "actor2_geo_latitude",
+      "type": "double",
+      "nullable": true
+    },
+    {
+      "name": "actor2_geo_longitude",
+      "type": "double",
+      "nullable": true
+    },
+    {
+      "name": "actor2_geo_feature_id",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "action_geo_type",
+      "type": "int8",
+      "nullable": true
+    },
+    {
+      "name": "action_geo_full_name",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "action_geo_country_code",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "action_geo_adm1_code",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "action_geo_latitude",
+      "type": "double",
+      "nullable": true
+    },
+    {
+      "name": "action_geo_longitude",
+      "type": "double",
+      "nullable": true
+    },
+    {
+      "name": "action_geo_feature_id",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "date_added",
+      "type": "timestamp[ms]",
+      "nullable": true
+    },
+    {
+      "name": "source_url",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "source_archive",
+      "type": "string",
+      "nullable": false
+    }
+  ]
+}

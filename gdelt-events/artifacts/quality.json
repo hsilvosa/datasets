@@ -1,0 +1,11 @@
+{
+  "rows": 889592605,
+  "files": 929,
+  "null_global_event_id": 0,
+  "invalid_action_coordinates": 0,
+  "schema_consistent": true,
+  "source_unavailable": [
+    "20221110.export.CSV.zip",
+    "20230323.export.CSV.zip"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "raw_dir": "data/sample/raw",
+  "processed_dir": "data/sample/processed",
+  "artifacts_dir": "artifacts/sample",
+  "staging_dir": "hf_staging_sample",
+  "csv_block_size": 1048576,
+  "parquet_rows_per_file": 10000,
+  "unavailable_files": [],
+  "md5_overrides": {}
+}
