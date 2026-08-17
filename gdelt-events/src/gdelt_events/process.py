@@ -5,6 +5,7 @@ import hashlib
 import json
 import shutil
 import zipfile
+from collections import Counter
 from collections.abc import Iterator
 from dataclasses import dataclass
 from datetime import UTC, datetime
@@ -234,12 +235,52 @@ def analyze(config: ProcessingConfig) -> dict[str, Any]:
     maximum_date = None
     null_ids = 0
     invalid_coordinates = 0
+    null_counts: Counter[str] = Counter()
+    year_counts: Counter[int] = Counter()
+    quad_class_counts: Counter[int] = Counter()
+    root_code_counts: Counter[str] = Counter()
+    country_counts: Counter[str] = Counter()
+    numeric_totals = {
+        "goldstein_scale": {"count": 0, "sum": 0.0, "min": None, "max": None},
+        "num_mentions": {"count": 0, "sum": 0.0, "min": None, "max": None},
+        "avg_tone": {"count": 0, "sum": 0.0, "min": None, "max": None},
+    }
+
+    def update_counts(counter: Counter[Any], values: pa.Array) -> None:
+        counts = pc.value_counts(values)
+        for item in counts.to_pylist():
+            if item["values"] is not None:
+                counter[item["values"]] += item["counts"]
+
+    def update_numeric(name: str, values: pa.Array) -> None:
+        valid_count = len(values) - values.null_count
+        if not valid_count:
+            return
+        summary = numeric_totals[name]
+        bounds = pc.min_max(values).as_py()
+        summary["count"] += valid_count
+        summary["sum"] += float(pc.sum(values).as_py())
+        summary["min"] = (
+            bounds["min"] if summary["min"] is None else min(summary["min"], bounds["min"])
+        )
+        summary["max"] = (
+            bounds["max"] if summary["max"] is None else max(summary["max"], bounds["max"])
+        )
     scanner = dataset.scanner(
         columns=[
             "global_event_id",
             "event_date",
+            "actor1_code",
+            "actor2_code",
+            "event_root_code",
+            "quad_class",
+            "goldstein_scale",
+            "num_mentions",
+            "avg_tone",
+            "action_geo_country_code",
             "action_geo_latitude",
             "action_geo_longitude",
+            "source_url",
         ],
         batch_size=1_000_000,
     )
@@ -254,6 +295,22 @@ def analyze(config: ProcessingConfig) -> dict[str, Any]:
         bad = pc.or_(pc.less(latitude, -90), pc.greater(latitude, 90))
         bad = pc.or_(bad, pc.or_(pc.less(longitude, -180), pc.greater(longitude, 180)))
         invalid_coordinates += pc.sum(pc.fill_null(bad, False)).as_py()
+        for name in (
+            "event_date",
+            "actor1_code",
+            "actor2_code",
+            "action_geo_country_code",
+            "action_geo_latitude",
+            "action_geo_longitude",
+            "source_url",
+        ):
+            null_counts[name] += batch.column(name).null_count
+        update_counts(year_counts, pc.year(batch.column("event_date")))
+        update_counts(quad_class_counts, batch.column("quad_class"))
+        update_counts(root_code_counts, batch.column("event_root_code"))
+        update_counts(country_counts, batch.column("action_geo_country_code"))
+        for name in numeric_totals:
+            update_numeric(name, batch.column(name))
     profile = {
         "generated_at_utc": datetime.now(UTC).isoformat(),
         "rows": rows,
@@ -299,25 +356,73 @@ def analyze(config: ProcessingConfig) -> dict[str, Any]:
             ).encode()
         ).hexdigest(),
     }
+    quad_labels = {
+        1: "verbal cooperation",
+        2: "material cooperation",
+        3: "verbal conflict",
+        4: "material conflict",
+    }
+    analysis = {
+        "generated_at_utc": datetime.now(UTC).isoformat(),
+        "rows": rows,
+        "events_by_year": {str(key): value for key, value in sorted(year_counts.items())},
+        "quad_class": {
+            str(key): {
+                "label": quad_labels.get(key, "unknown"),
+                "rows": value,
+                "percent": round(value * 100 / rows, 4),
+            }
+            for key, value in sorted(quad_class_counts.items())
+        },
+        "top_event_root_codes": [
+            {"code": key, "rows": value, "percent": round(value * 100 / rows, 4)}
+            for key, value in root_code_counts.most_common(20)
+        ],
+        "top_action_geo_country_codes": [
+            {"code": key, "rows": value, "percent": round(value * 100 / rows, 4)}
+            for key, value in country_counts.most_common(20)
+        ],
+        "field_coverage": {
+            name: {
+                "non_null": rows - value,
+                "percent": round((rows - value) * 100 / rows, 4),
+            }
+            for name, value in sorted(null_counts.items())
+        },
+        "numeric_summary": {
+            name: {
+                "count": summary["count"],
+                "mean": round(summary["sum"] / summary["count"], 6),
+                "min": summary["min"],
+                "max": summary["max"],
+            }
+            for name, summary in numeric_totals.items()
+        },
+    }
     atomic_json(config.artifacts_dir / "profile.json", profile)
     atomic_json(config.artifacts_dir / "schema.json", schema)
     atomic_json(config.artifacts_dir / "quality.json", quality)
     atomic_json(config.artifacts_dir / "checksums.json", checksums)
     atomic_json(config.artifacts_dir / "provenance.json", provenance)
+    atomic_json(config.artifacts_dir / "analysis.json", analysis)
     return profile
 
 
 CARD_HEADER = """---
 license: other
-language:
-- en
+license_name: gdelt-terms-of-use
+license_link: https://www.gdeltproject.org/about.html#termsofuse
 pretty_name: GDELT 1.0 Events Historical Snapshot
+size_categories:
+- 100M<n<1B
 tags:
 - events
 - geopolitics
 - news
 - time-series
 - geospatial
+- cameo
+- multilingual
 configs:
 - config_name: events
   data_files:

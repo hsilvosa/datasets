@@ -1,0 +1,6 @@
+{
+  "snapshot_date": "2026-08-16",
+  "base_url": "https://www.ncei.noaa.gov/pub/data/ghcn/daily",
+  "archive": {"name": "ghcnd_all.tar.gz", "bytes": 3710978683},
+  "metadata": ["ghcnd-stations.txt", "ghcnd-inventory.txt", "ghcnd-countries.txt", "ghcnd-states.txt", "ghcnd-version.txt", "readme.txt"]
+}
