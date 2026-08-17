@@ -1,0 +1,8 @@
+data/
+artifacts/
+hf_staging/data/
+*.log
+*.part
+.pytest_cache/
+.ruff_cache/
+__pycache__/
