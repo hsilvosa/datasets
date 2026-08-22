@@ -1,0 +1,7 @@
+{
+  "source_name": "OMIE - Operador del Mercado Ib\u00e9rico de Energ\u00eda",
+  "source_url": "https://www.omie.es/es/file-download?parents[0]=curva_pbc",
+  "license": "Public market data with mandatory attribution to OMIE",
+  "extracted_at": "2026-08-22T12:18:17.462137+00:00",
+  "pipeline_version": "0.2.0"
+}

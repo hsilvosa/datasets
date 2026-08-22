@@ -1,0 +1,81 @@
+{
+  "marginal_prices_schema": [
+    {
+      "name": "date",
+      "type": "date32[day]",
+      "nullable": true
+    },
+    {
+      "name": "year",
+      "type": "int16",
+      "nullable": true
+    },
+    {
+      "name": "month",
+      "type": "int8",
+      "nullable": true
+    },
+    {
+      "name": "day",
+      "type": "int8",
+      "nullable": true
+    },
+    {
+      "name": "hour",
+      "type": "int8",
+      "nullable": true
+    },
+    {
+      "name": "price_es",
+      "type": "double",
+      "nullable": true
+    },
+    {
+      "name": "price_pt",
+      "type": "double",
+      "nullable": true
+    }
+  ],
+  "bidding_curves_schema": [
+    {
+      "name": "date",
+      "type": "date32[day]",
+      "nullable": true
+    },
+    {
+      "name": "year",
+      "type": "int16",
+      "nullable": true
+    },
+    {
+      "name": "hour",
+      "type": "int8",
+      "nullable": true
+    },
+    {
+      "name": "country",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "offer_type",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "energy_mwh",
+      "type": "double",
+      "nullable": true
+    },
+    {
+      "name": "price_eur_mwh",
+      "type": "double",
+      "nullable": true
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "nullable": true
+    }
+  ]
+}

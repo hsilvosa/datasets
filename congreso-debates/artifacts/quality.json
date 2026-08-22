@@ -1,0 +1,8 @@
+{
+  "passed_checks": [
+    "valid_utf8_encoding",
+    "non_null_initiatives",
+    "complete_deputy_rosters_across_15_legislatures",
+    "inlined_verbatim_speech_texts_from_diarios_de_sesiones"
+  ]
+}

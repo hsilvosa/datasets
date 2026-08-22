@@ -21,3 +21,6 @@ __pycache__/
 .env
 .idea/
 .vscode/
+
+wuxia-webnovel/
+wtrlab-scraper/

@@ -1,0 +1,12 @@
+{
+  "legislature": 15,
+  "max_sessions": 5,
+  "raw_dir": "data/raw",
+  "processed_dir": "data/processed",
+  "artifacts_dir": "artifacts",
+  "staging_dir": "hf_staging",
+  "request_delay_seconds": 0.1,
+  "timeout_seconds": 30,
+  "max_retries": 3,
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+}

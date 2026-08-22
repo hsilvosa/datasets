@@ -1,0 +1,14 @@
+{
+  "legislatures": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+  "max_sessions_per_leg": null,
+  "raw_dir": "data/raw",
+  "processed_dir": "data/processed",
+  "artifacts_dir": "artifacts",
+  "staging_dir": "hf_staging",
+  "download_speech_pdfs": true,
+  "max_speech_pdfs": 1200,
+  "request_delay_seconds": 0.01,
+  "timeout_seconds": 45,
+  "max_retries": 3,
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+}

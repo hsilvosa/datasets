@@ -1,0 +1,213 @@
+{
+  "initiatives_fields": [
+    {
+      "name": "legislature",
+      "type": "int16",
+      "nullable": true
+    },
+    {
+      "name": "session_number",
+      "type": "int32",
+      "nullable": true
+    },
+    {
+      "name": "vote_number",
+      "type": "int32",
+      "nullable": true
+    },
+    {
+      "name": "date",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "expediente",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "subgroup_title",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "subgroup_text",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "asentimiento",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "presentes",
+      "type": "int32",
+      "nullable": true
+    },
+    {
+      "name": "afavor",
+      "type": "int32",
+      "nullable": true
+    },
+    {
+      "name": "en_contra",
+      "type": "int32",
+      "nullable": true
+    },
+    {
+      "name": "abstenciones",
+      "type": "int32",
+      "nullable": true
+    },
+    {
+      "name": "no_votan",
+      "type": "int32",
+      "nullable": true
+    }
+  ],
+  "deputy_votes_fields": [
+    {
+      "name": "legislature",
+      "type": "int16",
+      "nullable": true
+    },
+    {
+      "name": "session_number",
+      "type": "int32",
+      "nullable": true
+    },
+    {
+      "name": "vote_number",
+      "type": "int32",
+      "nullable": true
+    },
+    {
+      "name": "date",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "deputy_name",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "parliamentary_group",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "seat",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "vote",
+      "type": "string",
+      "nullable": true
+    }
+  ],
+  "intervenciones_fields": [
+    {
+      "name": "legislature",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "super_tipo_iniciativa",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "tipo_iniciativa",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "objeto_iniciativa",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "num_expediente",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "autor",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "sesion_date",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "organo",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "fase",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "tipo_intervencion",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "orador",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "cargo_orador",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "inicio_intervencion",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "fin_intervencion",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "speech_text",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "speech_char_count",
+      "type": "int32",
+      "nullable": true
+    },
+    {
+      "name": "enlace_texto_integro",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "enlace_pdf",
+      "type": "string",
+      "nullable": true
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start_date": "2024-01-01",
+  "end_date": "2024-06-30",
+  "raw_dir": "data/raw",
+  "processed_dir": "data/processed",
+  "artifacts_dir": "artifacts",
+  "staging_dir": "hf_staging",
+  "include_curves": true,
+  "request_delay_seconds": 0.02,
+  "timeout_seconds": 30,
+  "max_retries": 3,
+  "user_agent": "public-data-research-omie-electricity/0.2"
+}

@@ -1,0 +1,7 @@
+{
+  "passed_checks": [
+    "valid_date_ranges",
+    "complete_hourly_sequences",
+    "valid_offer_types_C_V"
+  ]
+}

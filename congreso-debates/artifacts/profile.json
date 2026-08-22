@@ -1,0 +1,43 @@
+{
+  "total_initiatives": 300,
+  "total_deputy_votes": 105000,
+  "total_intervenciones_speeches": 41125,
+  "speeches_with_inlined_verbatim_text": 41109,
+  "total_speech_characters": 188679518,
+  "average_speech_length_chars": 4589,
+  "unique_deputies_count": 350,
+  "unique_oradores_count": 1191,
+  "legislatures_processed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "parliamentary_groups": [
+    "GEH Bildu",
+    "GJxCAT",
+    "GMx",
+    "GP",
+    "GR",
+    "GS",
+    "GSUMAR",
+    "GV (EAJ-PNV)",
+    "GVOX"
+  ],
+  "tables": {
+    "congreso_initiatives_all": 300,
+    "congreso_deputy_votes_all": 105000,
+    "congreso_intervenciones": 41125
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "marginal_prices_total_rows": 54983,
+  "bidding_curves_total_rows": 17093765,
+  "total_rows": 17148748,
+  "files_count": 5,
+  "dataset_tables": {
+    "marginal_prices": {
+      "files": [
+        "omie_marginal_prices_2023.parquet",
+        "omie_marginal_prices_2024.parquet",
+        "omie_marginal_prices_2025.parquet",
+        "omie_marginal_prices_2026.parquet"
+      ],
+      "row_count": 54983
+    },
+    "bidding_curves": {
+      "files": [
+        "omie_bidding_curves_2024.parquet"
+      ],
+      "row_count": 17093765
+    }
+  }
+}
