@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status><code>200</code><text>ok</text></status>
+  <data>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-1978-31229" fecha_publicacion="19781229">
+          <p class="parrafo_2">La Nacion espanola, en uso de su soberania, proclama su voluntad.</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="articulo">
+        <version id_norma="BOE-A-1978-31229" fecha_publicacion="19781229">
+          <p class="parrafo_2">Espana se constituye en un Estado social y democratico de Derecho.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

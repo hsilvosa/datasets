@@ -1,0 +1,29 @@
+{
+  "status": {"code": "200", "text": "ok"},
+  "data": [
+    {
+      "materias": {
+        "materia": [
+          {"codigo": "1616", "texto": "Constitucion Espanola"},
+          {"codigo": "1617", "texto": "Derecho constitucional"}
+        ]
+      },
+      "referencias": {
+        "anteriores": [
+          {
+            "anterior": [
+              {"id_norma": "BOE-A-1977-165", "relacion": {"codigo": "210", "texto": "DEROGA"}, "texto": "Ley 1/1977"}
+            ]
+          }
+        ],
+        "posteriores": [
+          {
+            "posterior": [
+              {"id_norma": "BOE-A-2011-1", "relacion": {"codigo": "211", "texto": "MODIFICA"}, "texto": "Ley 2/2011"}
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

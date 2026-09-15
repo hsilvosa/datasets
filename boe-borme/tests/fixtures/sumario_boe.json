@@ -1,0 +1,70 @@
+{
+  "status": {"code": "200", "text": "ok"},
+  "data": {
+    "sumario": {
+      "metadatos": {"publicacion": "BOE", "fecha_publicacion": "20240115"},
+      "diario": [
+        {
+          "numero": "13",
+          "sumario_diario": {
+            "identificador": "BOE-S-2024-13",
+            "url_pdf": {"szBytes": "382117", "szKBytes": "373", "texto": "https://www.boe.es/boe/dias/2024/01/15/pdfs/BOE-S-2024-13.pdf"}
+          },
+          "seccion": [
+            {
+              "codigo": "1",
+              "nombre": "I. Disposiciones generales",
+              "departamento": [
+                {
+                  "codigo": "100",
+                  "nombre": "MINISTERIO A",
+                  "epigrafe": [
+                    {
+                      "nombre": "Epigrafe Uno",
+                      "item": [
+                        {
+                          "identificador": "BOE-A-2024-1",
+                          "control": "2024/1",
+                          "titulo": "Titulo uno",
+                          "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1",
+                          "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2024-1",
+                          "url_pdf": {"texto": "https://www.boe.es/boe/dias/2024/01/15/pdfs/BOE-A-2024-1.pdf", "pagina_inicial": "1", "pagina_final": "3", "szBytes": "1000", "szKBytes": "1"}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "codigo": "200",
+                  "nombre": "MINISTERIO B",
+                  "texto": {
+                    "epigrafe": {
+                      "nombre": "Epigrafe Dos",
+                      "item": {
+                        "identificador": "BOE-A-2024-2",
+                        "titulo": "Titulo dos",
+                        "url_pdf": {"texto": "https://www.boe.es/boe/dias/2024/01/15/pdfs/BOE-A-2024-2.pdf"}
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "3",
+              "nombre": "III. Otras disposiciones",
+              "departamento": {
+                "codigo": "300",
+                "nombre": "MINISTERIO C",
+                "item": [
+                  {"identificador": "BOE-B-2024-3", "titulo": "Titulo tres", "url_pdf": {"texto": "p3"}},
+                  {"identificador": "BOE-B-2024-4", "titulo": "Titulo cuatro", "url_pdf": {"texto": "p4"}}
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

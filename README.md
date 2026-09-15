@@ -27,6 +27,7 @@ All datasets listed below have completed acquisition, schema validation, and Par
 |     9 | [GDELT Events 1.0](gdelt-events/) | Global database of events, language, and tone (1979–2026 historical archive) | 889,592,605 events across 929 shards | 43.13 GB compressed Parquet | CAMEO Event codes, QuadClass (1: Verbal Coop, 2: Material Coop, 3: Verbal Conflict, 4: Material Conflict), Goldstein scale (-10 to +10) | 100% / 0% / 0% in temporal shards |
 |    10 | [Wuxia Webnovel](wuxia-webnovel/) | Parallel Chinese-English literary corpus (GuoFeng sentence pairs + 6 curated full novels) | 1,918,602 translation rows across 2 configs | 225.86 MB compressed Parquet | Parallel text pairs (Chinese source -> English target) | Official corpus splits (train/val/test) + 100% chapters |
 |    11 | [Congreso Debates & Voting](congreso-debates/) | Spanish Congress of Deputies: 41k verbatim speech transcripts (188M chars), 105k deputy votes, and initiatives (L1–L15) | 146,425 total records across 33 Parquet files | 51.02 MB compressed Parquet | Nominal vote stance (`Sí`, `No`, `Abstención`, `No vota`), initiative types | 100% / 0% / 0% per table; temporal splits downstream |
+|    12 | [BOE + BORME](boe-borme/) | Spanish official gazette and commercial registry: BOE/BORME sumario documents, consolidated legislation, subjects, relations, and full consolidated texts | 3,651,007 rows across 7 tables | 768.80 MB compressed Parquet | N/A; BOE/BORME section codes, document types, consolidation statuses, legislative rank | 100% / 0% / 0% per table; temporal splits downstream |
 
 ## Original Source Credits
 
@@ -45,6 +46,7 @@ All datasets are credited to their original publishing institutions and data com
 | GDELT Events | [GDELT Project](https://www.gdeltproject.org/) |
 | Wuxia Webnovel | [GuoFeng Webnovel Corpus & WuxiaWorld Community](https://github.com/hsilvosa/datasets) |
 | Congreso Debates & Votes | [Congreso de los Diputados de España (Datos Abiertos y Diarios de Sesiones)](https://www.congreso.es/datos-abiertos) |
+| BOE + BORME | [Agencia Estatal Boletín Oficial del Estado (AEBOE)](https://www.boe.es/datosabiertos/api/api.php) |
 
 ## Repository Conventions
 

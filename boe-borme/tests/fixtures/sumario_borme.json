@@ -1,0 +1,38 @@
+{
+  "status": {"code": "200", "text": "ok"},
+  "data": {
+    "sumario": {
+      "metadatos": {"publicacion": "BORME", "fecha_publicacion": "20240117"},
+      "diario": [
+        {
+          "numero": "12",
+          "sumario_diario": {
+            "identificador": "BORME-S-2024-12",
+            "url_pdf": {"texto": "https://www.boe.es/borme/dias/2024/01/17/pdfs/BORME-S-2024-12.pdf"}
+          },
+          "seccion": [
+            {
+              "codigo": "A",
+              "nombre": "SECCION PRIMERA. Empresarios. Actos inscritos",
+              "apartado": {
+                "codigo": "001",
+                "nombre": "BALANCES",
+                "item": [
+                  {"identificador": "BORME-C-2024-147", "titulo": "ASOLA TWIN, S.A.", "url_pdf": {"texto": "b1"}},
+                  {"identificador": "BORME-C-2024-148", "titulo": "ASPADERO", "url_pdf": {"texto": "b2"}}
+                ]
+              }
+            },
+            {
+              "codigo": "B",
+              "nombre": "SECCION SEGUNDA. Anuncios",
+              "item": [
+                {"identificador": "BORME-B-2024-1", "titulo": "ANUNCIO", "url_pdf": {"texto": "b3"}}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

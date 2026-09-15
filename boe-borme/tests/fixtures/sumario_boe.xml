@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status><code>200</code><text>ok</text></status>
+  <data>
+    <sumario>
+      <metadatos>
+        <publicacion>BOE</publicacion>
+        <fecha_publicacion>19700102</fecha_publicacion>
+      </metadatos>
+      <diario numero="2">
+        <sumario_diario>
+          <identificador>BOE-S-1970-2</identificador>
+          <url_pdf szBytes="100" szKBytes="1">https://www.boe.es/boe/dias/1970/01/02/pdfs/BOE-S-1970-2.pdf</url_pdf>
+        </sumario_diario>
+        <seccion codigo="1" nombre="I. Disposiciones generales">
+          <departamento codigo="100" nombre="MINISTERIO A">
+            <epigrafe nombre="Epigrafe Uno">
+              <item>
+                <identificador>BOE-A-1970-1</identificador>
+                <control>1970/1</control>
+                <titulo>Titulo uno</titulo>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1970-1</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1970-1</url_xml>
+                <url_pdf pagina_inicial="1" pagina_final="3" szBytes="500" szKBytes="0">https://www.boe.es/boe/dias/1970/01/02/pdfs/BOE-A-1970-1.pdf</url_pdf>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+      </diario>
+    </sumario>
+  </data>
+</response>

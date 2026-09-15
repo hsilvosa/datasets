@@ -1,0 +1,18 @@
+{
+  "fecha_actualizacion": "20260914T125535Z",
+  "identificador": "BOE-A-1978-31229",
+  "ambito": {"codigo": "1", "texto": "Estatal"},
+  "departamento": {"codigo": "5140", "texto": "Ministerio de Hacienda"},
+  "rango": {"codigo": "1370", "texto": "Resolucion"},
+  "fecha_disposicion": "19781227",
+  "fecha_publicacion": "19781229",
+  "fecha_vigencia": "19781229",
+  "titulo": "Constitucion Espanola.",
+  "diario": "Boletin Oficial del Estado",
+  "diario_numero": "311",
+  "numero_oficial": "311",
+  "vigencia_agotada": "N",
+  "estado_consolidacion": {"codigo": "3", "texto": "Finalizado"},
+  "url_eli": "https://www.boe.es/eli/es/c/1978/12/27/(1)",
+  "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+}
