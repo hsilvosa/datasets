@@ -1,0 +1,11 @@
+{
+  "base_processed_dir": "../boe-borme/data/processed",
+  "processed_dir": "data/processed",
+  "artifacts_dir": "artifacts",
+  "state_dir": "state",
+  "staging_dir": "hf_staging",
+  "base_dataset": "hsilvosa/boe-borme",
+  "shard_objects": 250,
+  "expected_min_rows": null,
+  "user_agent": "public-data-research-boe-borme-detailed/0.1"
+}

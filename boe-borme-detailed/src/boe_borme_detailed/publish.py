@@ -5,13 +5,14 @@ import shutil
 from pathlib import Path
 
 from .config import Config
+from .derive import ALL_TABLES
 from .io_utils import sha256
 
 CARD_TEMPLATE = """---
 license: other
 language:
 - es
-pretty_name: "BOE and BORME Open Data (Spanish Official Gazette and Commercial Registry)"
+pretty_name: "BOE and BORME Detailed: Article-Level Consolidated Legislation"
 tags:
 - boe
 - borme
@@ -20,6 +21,7 @@ tags:
 - public-data
 - spain
 - spanish
+- legal-nlp
 configs:
 {configs}---
 """
@@ -34,35 +36,14 @@ def card_body(text: str) -> str:
     return "\n".join(lines).strip("\n") + "\n"
 
 
-def _tables(config: Config) -> list[str]:
-    tables: list[str] = []
-    if config.include_boe_sumario:
-        tables.append("boe_sumario")
-    if config.include_borme_sumario:
-        tables.append("borme_sumario")
-    if config.include_legislacion:
-        tables.extend(
-            ["boe_legislacion", "boe_legislacion_materias", "boe_legislacion_referencias"]
-        )
-        if config.include_legislacion_texto:
-            tables.append("boe_legislacion_texto")
-    if config.include_aux:
-        tables.append("boe_aux")
-    return tables
-
-
-def _card_header(config: Config) -> str:
+def _card_header() -> str:
     lines = []
-    for table in _tables(config):
+    for table in ALL_TABLES:
         lines.append(f"- config_name: {table}")
         lines.append("  data_files:")
         lines.append("  - split: train")
         lines.append(f"    path: data/{table}/*.parquet")
     return CARD_TEMPLATE.format(configs="\n".join(lines) + "\n")
-
-
-def _sha256(path: Path) -> str:
-    return sha256(path)
 
 
 def stage(config: Config) -> Path:
@@ -81,7 +62,7 @@ def stage(config: Config) -> Path:
     artifacts_target.mkdir(parents=True)
 
     included: list[dict[str, object]] = []
-    for table in _tables(config):
+    for table in ALL_TABLES:
         source_dir = config.processed_dir / table
         if not source_dir.exists():
             continue
@@ -94,7 +75,7 @@ def stage(config: Config) -> Path:
                 {
                     "path": str(target.relative_to(config.staging_dir)).replace("\\", "/"),
                     "bytes": target.stat().st_size,
-                    "sha256": _sha256(target),
+                    "sha256": sha256(target),
                 }
             )
     for source in sorted(config.artifacts_dir.glob("*.json")):
@@ -104,33 +85,20 @@ def stage(config: Config) -> Path:
             {
                 "path": str(target.relative_to(config.staging_dir)).replace("\\", "/"),
                 "bytes": target.stat().st_size,
-                "sha256": _sha256(target),
+                "sha256": sha256(target),
             }
         )
     project_readme = Path(__file__).resolve().parents[2] / "Readme.md"
     body = card_body(project_readme.read_text(encoding="utf-8"))
-    (config.staging_dir / "README.md").write_text(
-        _card_header(config) + "\n" + body, encoding="utf-8"
-    )
+    (config.staging_dir / "README.md").write_text(_card_header() + "\n" + body, encoding="utf-8")
     manifest = {
-        "dataset": "BOE and BORME open data",
-        "end_date": config.resolved_end_date,
-        "tables": _tables(config),
+        "dataset": "BOE and BORME detailed (derived)",
+        "base_dataset": config.base_dataset,
+        "tables": list(ALL_TABLES),
         "files": included,
-        "excluded": ["data/raw", "state", "credentials", "local caches", "virtualenv"],
+        "excluded": ["base release", "state", "credentials", "local caches", "virtualenv"],
     }
     (config.staging_dir / "UPLOAD_MANIFEST.json").write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     return config.staging_dir
-
-
-def source_credits() -> dict[str, str]:
-    return {
-        "publisher": "Agencia Estatal Boletin Oficial del Estado (AEBOE)",
-        "url": "https://www.boe.es/datosabiertos/api/api.php",
-        "note": "BOE and BORME sumarios and consolidated legislation; reuse subject to the AEBOE legal notice.",
-    }
-
-
-__all__ = ["source_credits", "stage"]

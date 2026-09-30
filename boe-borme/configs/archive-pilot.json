@@ -1,0 +1,17 @@
+{
+  "root": "data/archive",
+  "legacy_raw": "data/raw",
+  "start_date": "2023-01-01",
+  "end_date": "2025-12-31",
+  "include_legislation": true,
+  "request_delay_seconds": 0.3,
+  "max_workers": 4,
+  "timeout_seconds": 120,
+  "max_retries": 5,
+  "refresh_days": 7,
+  "recheck_after_days": 30,
+  "chunk_chars": 4000,
+  "chunk_overlap": 400,
+  "ocr_min_confidence": 0.9,
+  "ocr_dpi": 200
+}

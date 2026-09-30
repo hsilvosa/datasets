@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status><code>200</code><text>ok</text></status>
+  <data>
+    <texto>
+      <bloque id="a1" tipo="precepto" titulo="Articulo 1">
+        <version id_norma="BOE-A-2000-1" fecha_publicacion="20000101" fecha_vigencia="20000102">
+          <p class="parrafo_2">Primera version del articulo uno.</p>
+        </version>
+        <version id_norma="BOE-A-2010-1" fecha_publicacion="20100101" fecha_vigencia="20100102">
+          <p>Segunda version del articulo uno.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Articulo 2" fecha_caducidad="20200101">
+        <version id_norma="BOE-A-2000-1" fecha_publicacion="20000101" fecha_vigencia="20000102">
+          <p>Articulo dos.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

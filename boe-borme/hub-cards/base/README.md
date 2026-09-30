@@ -1,3 +1,47 @@
+---
+license: other
+language:
+- es
+pretty_name: "BOE and BORME Open Data (Spanish Official Gazette and Commercial Registry)"
+tags:
+- boe
+- borme
+- legislation
+- legal
+- public-data
+- spain
+- spanish
+configs:
+- config_name: boe_sumario
+  data_files:
+  - split: train
+    path: data/boe_sumario/*.parquet
+- config_name: borme_sumario
+  data_files:
+  - split: train
+    path: data/borme_sumario/*.parquet
+- config_name: boe_legislacion
+  data_files:
+  - split: train
+    path: data/boe_legislacion/*.parquet
+- config_name: boe_legislacion_materias
+  data_files:
+  - split: train
+    path: data/boe_legislacion_materias/*.parquet
+- config_name: boe_legislacion_referencias
+  data_files:
+  - split: train
+    path: data/boe_legislacion_referencias/*.parquet
+- config_name: boe_legislacion_texto
+  data_files:
+  - split: train
+    path: data/boe_legislacion_texto/*.parquet
+- config_name: boe_aux
+  data_files:
+  - split: train
+    path: data/boe_aux/*.parquet
+---
+
 # BOE and BORME Open Data
 
 This dataset contains BOE and BORME daily summaries (sumarios), a consolidated legislation catalogue with consolidated texts, and auxiliary reference tables, collected through the Spanish Agencia Estatal Boletin Oficial del Estado (AEBOE) Open Data API. The pipeline is reproducible, resumable and append-only.
@@ -6,7 +50,6 @@ This dataset contains BOE and BORME daily summaries (sumarios), a consolidated l
 
 This is not a complete documentary archive of the BOE or BORME. Gazette sumario rows contain index metadata and document URLs, not the full body of every gazette document or commercial registry announcement. Full-text content is provided for consolidated legislation in `boe_legislacion_texto`; this does not cover all published gazette documents. Historical coverage is limited to the sources and dates acquired for this release, not every year or every AEBOE collection. The separate 2023–2025 archival pilot is incomplete and is not included in this published dataset.
 
-Published dataset: [hsilvosa/boe-borme on Hugging Face](https://huggingface.co/datasets/hsilvosa/boe-borme)
 
 The data is observational and legal in nature and has no target label or predefined classes. Every configuration is provided as a single `train` split containing the complete table. Artificial train, validation and test partitions would imply a prediction task that the source does not define.
 

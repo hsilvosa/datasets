@@ -1,0 +1,12 @@
+{
+  "root": "data/archive-smoke",
+  "legacy_raw": "data/raw",
+  "start_date": "2024-01-15",
+  "end_date": "2024-01-15",
+  "include_legislation": false,
+  "request_delay_seconds": 0.3,
+  "max_workers": 4,
+  "timeout_seconds": 60,
+  "max_retries": 2,
+  "refresh_days": 0
+}

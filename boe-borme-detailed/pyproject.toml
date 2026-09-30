@@ -3,23 +3,21 @@ requires = ["hatchling>=1.25"]
 build-backend = "hatchling.build"
 
 [project]
-name = "boe-borme-pipeline"
+name = "boe-borme-detailed-pipeline"
 version = "0.1.0"
-description = "Reproducible, resumable and append-only pipeline for the Spanish BOE and BORME open data"
+description = "Derived, block- and version-level detailed tables from the BOE/BORME open data release"
 readme = "Readme.md"
 requires-python = ">=3.11"
 dependencies = ["pyarrow>=16"]
 
 [project.optional-dependencies]
 dev = ["pytest>=8", "ruff>=0.8"]
-archive = ["beautifulsoup4>=4.12", "pypdf>=6", "pymupdf>=1.24", "rapidocr-onnxruntime>=1.4,<2", "charset-normalizer>=3", "openpyxl>=3.1"]
 
 [project.scripts]
-boe-borme = "boe_borme.cli:main"
-boe-borme-archive = "boe_borme.archive:main"
+boe-borme-detailed = "boe_borme_detailed.cli:main"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/boe_borme"]
+packages = ["src/boe_borme_detailed"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
